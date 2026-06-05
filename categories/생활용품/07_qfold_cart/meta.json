@@ -1,0 +1,302 @@
+{
+  "product": "큐폴드 접이식 카트 맥스(폴딩 손수레)",
+  "category": "생활용품",
+  "slug": "07_qfold_cart",
+  "channel": "네이버 스마트스토어",
+  "url": "https://smartstore.naver.com/qfold/products/12427993945",
+  "captured": "2026-06-04",
+  "total_images": 36,
+  "excluded": [
+    "상단 제품 영상(blob)"
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.png",
+      "thumb": "01.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "공식판매처/오늘출발/리뷰이벤트 배너"
+    },
+    {
+      "idx": 2,
+      "file": "02.png",
+      "thumb": "02.jpg",
+      "group": "store",
+      "element": "이벤트·혜택",
+      "desc": "6월 리뷰 이벤트 — 네이버포인트 2만원"
+    },
+    {
+      "idx": 3,
+      "file": "03.png",
+      "thumb": "03.jpg",
+      "group": "hook",
+      "element": "제품 인트로(메인)",
+      "desc": "Max Compact·Max Strong, 큐폴드 카트 MAX"
+    },
+    {
+      "idx": 4,
+      "file": "04.gif",
+      "thumb": "04.jpg",
+      "group": "proof",
+      "element": "사용 연출",
+      "desc": "차 트렁크에서 꺼내는 장면"
+    },
+    {
+      "idx": 5,
+      "file": "05.png",
+      "thumb": "05.jpg",
+      "group": "feature",
+      "element": "접이·수납",
+      "desc": "반으로 접혀 어디든 쏙(셀프 스탠딩/바퀴 수납)"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "proof",
+      "element": "수납 연출",
+      "desc": "접어 세워둔 모습"
+    },
+    {
+      "idx": 7,
+      "file": "07.png",
+      "thumb": "07.jpg",
+      "group": "feature",
+      "element": "변형·활용",
+      "desc": "달리/웨건으로 변형"
+    },
+    {
+      "idx": 8,
+      "file": "08.gif",
+      "thumb": "08.jpg",
+      "group": "feature",
+      "element": "바퀴 구조",
+      "desc": "바퀴 디테일"
+    },
+    {
+      "idx": 9,
+      "file": "09.png",
+      "thumb": "09.jpg",
+      "group": "feature",
+      "element": "바퀴·주행",
+      "desc": "고급 베어링+우레탄 바퀴(조용/부드럽게)"
+    },
+    {
+      "idx": 10,
+      "file": "10.png",
+      "thumb": "10.jpg",
+      "group": "value",
+      "element": "핵심가치 USP 요약",
+      "desc": "보관성·확장성·내구성 다 갖춤"
+    },
+    {
+      "idx": 11,
+      "file": "11.png",
+      "thumb": "11.jpg",
+      "group": "trust",
+      "element": "국산·특허",
+      "desc": "메이드 인 코리아 / 특허·디자인·상표 30건+"
+    },
+    {
+      "idx": 12,
+      "file": "12.png",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "폴딩 인트로",
+      "desc": "POINT01 반으로 접히는 진짜 폴딩"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "폴딩 시연",
+      "desc": "반으로 접힌 모습"
+    },
+    {
+      "idx": 14,
+      "file": "14.png",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "원터치 폴딩",
+      "desc": "버튼 하나로 원터치 폴딩"
+    },
+    {
+      "idx": 15,
+      "file": "15.png",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "활용 시나리오",
+      "desc": "분리수거/큰짐/장보기/캠핑"
+    },
+    {
+      "idx": 16,
+      "file": "16.png",
+      "thumb": "16.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "큐폴드 박스 장착 방법 TIP"
+    },
+    {
+      "idx": 17,
+      "file": "17.gif",
+      "thumb": "17.jpg",
+      "group": "feature",
+      "element": "박스 고정 시연",
+      "desc": "박스 장착 카트"
+    },
+    {
+      "idx": 18,
+      "file": "18.png",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "박스 고정",
+      "desc": "브라켓 박스 고리 고정(연결고리 별매)"
+    },
+    {
+      "idx": 19,
+      "file": "19.gif",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "연결고리·안정",
+      "desc": "연결고리 장착, 노면 안정"
+    },
+    {
+      "idx": 20,
+      "file": "20.png",
+      "thumb": "20.jpg",
+      "group": "feature",
+      "element": "프리미엄 로프",
+      "desc": "POINT03 프리미엄 로프 포함(2.6m)"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "feature",
+      "element": "로프 고정 시연",
+      "desc": "박스 싣고 로프 고정"
+    },
+    {
+      "idx": 22,
+      "file": "22.png",
+      "thumb": "22.jpg",
+      "group": "guide",
+      "element": "로프 사용법",
+      "desc": "로프 사용 방법(벨크로 업그레이드)"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "guide",
+      "element": "로프 보관",
+      "desc": "로프 보관 연출"
+    },
+    {
+      "idx": 24,
+      "file": "24.png",
+      "thumb": "24.jpg",
+      "group": "guide",
+      "element": "로프 보관법",
+      "desc": "로프 보관 방법"
+    },
+    {
+      "idx": 25,
+      "file": "25.png",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "바퀴",
+      "desc": "POINT04 고급 우레탄 바퀴"
+    },
+    {
+      "idx": 26,
+      "file": "26.gif",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "바퀴 디테일",
+      "desc": "바퀴 클로즈업"
+    },
+    {
+      "idx": 27,
+      "file": "27.png",
+      "thumb": "27.jpg",
+      "group": "feature",
+      "element": "바퀴",
+      "desc": "4인치 폴리우레탄 바퀴 핸들링"
+    },
+    {
+      "idx": 28,
+      "file": "28.gif",
+      "thumb": "28.jpg",
+      "group": "proof",
+      "element": "사용 연출",
+      "desc": "생수 싣고 끌고 가는 모습"
+    },
+    {
+      "idx": 29,
+      "file": "29.png",
+      "thumb": "29.jpg",
+      "group": "feature",
+      "element": "적재·주행 구조",
+      "desc": "최대적재 150kg, 끌차, 고정/방향회전 바퀴"
+    },
+    {
+      "idx": 30,
+      "file": "30.gif",
+      "thumb": "30.jpg",
+      "group": "feature",
+      "element": "내구성 시연",
+      "desc": "발로 밟고 서있는 모습"
+    },
+    {
+      "idx": 31,
+      "file": "31.png",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "내구·손잡이",
+      "desc": "금속 부품 튼튼 / POINT07 기능성 손잡이"
+    },
+    {
+      "idx": 32,
+      "file": "32.png",
+      "thumb": "32.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "큐폴드 박스 45L 보러가기"
+    },
+    {
+      "idx": 33,
+      "file": "33.png",
+      "thumb": "33.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "큐폴드 박스 뚜껑 보러가기"
+    },
+    {
+      "idx": 34,
+      "file": "34.png",
+      "thumb": "34.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "박스 연결 고리 보러가기"
+    },
+    {
+      "idx": 35,
+      "file": "35.png",
+      "thumb": "35.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 36,
+      "file": "36.png",
+      "thumb": "36.jpg",
+      "group": "info",
+      "element": "구매정보·지재권",
+      "desc": "지재권/배송/교환·반품 안내"
+    }
+  ]
+}

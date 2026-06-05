@@ -1,0 +1,293 @@
+{
+  "product": "바리바디 손목 마사지기 (EMS/TENS/온열)",
+  "category": "바리바디",
+  "slug": "17_barybody_wrist",
+  "channel": "바리바디 자사몰",
+  "url": "https://barybody.com/product/바리바디-손목-마사지기/983/",
+  "captured": "2026-06-04",
+  "total_images": 35,
+  "excluded": [],
+  "note": "우리 자사 제품. 손목 TENS+EMS 공통 포맷(물리치료사 검증/신경·근육·혈류 3중/Check 넘버링) — 바로랩 손목과 동일 골격",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "정품·사칭주의",
+      "desc": "사칭채널 주의"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "정품·공식판매",
+      "desc": "본사 공식 판매점"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "자사몰 구매 혜택"
+    },
+    {
+      "idx": 4,
+      "file": "04.gif",
+      "thumb": "04.jpg",
+      "group": "trust",
+      "element": "실적",
+      "desc": "출시 2개월 만에 3차 리오더"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "당신의 손목은 안녕하신가요?(손목피로 만성)"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "trust",
+      "element": "전문가",
+      "desc": "물리치료사가 직접 검증한 손목 관리템"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "trust",
+      "element": "전문가",
+      "desc": "다각적 케어 필요(물리치료사 정수진)"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "trust",
+      "element": "전문가",
+      "desc": "인터뷰 — 신경+근육+혈류 동시 케어"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "value",
+      "element": "핵심가치·USP",
+      "desc": "관리의 핵심은 3중 설계(신경·근육·혈류 동시 케어) — 사실상 USP. 단 기능 설명조로 묻혀 한 줄로 안 박힘"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "3중 작동 — TENS/EMS/온열"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "바리바디 EMS 손목 마사지기"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "Check01 TENS·EMS·온열 3중 자극 시너지"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "손 EMS 비주얼"
+    },
+    {
+      "idx": 14,
+      "file": "14.gif",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "EMS 근육 긴장 이완"
+    },
+    {
+      "idx": 15,
+      "file": "15.gif",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "신경 자극 완화"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "HEAT 혈류 순환 촉진"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "proof",
+      "element": "연구 검증",
+      "desc": "과학으로 검증한 3중 케어 시너지(해외 저널)"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "온열",
+      "desc": "Check02 3단계 온열 모드"
+    },
+    {
+      "idx": 19,
+      "file": "19.gif",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "1단계 부드러운 이완"
+    },
+    {
+      "idx": 20,
+      "file": "20.gif",
+      "thumb": "20.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "2단계 순환 활성"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "3단계 집중 안정"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "디자인",
+      "desc": "Check03 손목 인체공학 디자인"
+    },
+    {
+      "idx": 23,
+      "file": "23.jpg",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "모드",
+      "desc": "Check04 8가지 모드·15단계 강도"
+    },
+    {
+      "idx": 24,
+      "file": "24.gif",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "모드 상세",
+      "desc": "TENS/EMS 모드(이완/완화/활력/유연/회복/리듬)"
+    },
+    {
+      "idx": 25,
+      "file": "25.jpg",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "강도",
+      "desc": "15단계 강도 조절"
+    },
+    {
+      "idx": 26,
+      "file": "26.jpg",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "휴대",
+      "desc": "Check05 초슬림·초경량 컴팩트"
+    },
+    {
+      "idx": 27,
+      "file": "27.jpg",
+      "thumb": "27.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "들고 있는 연출"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "인증받은 품질·기술력 KC 인증"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "베개 안고 사용"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "손목 착용/사용"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "제품 사용 방법 STEP1/2"
+    },
+    {
+      "idx": 32,
+      "file": "32.gif",
+      "thumb": "32.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "손목 착용"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "guide",
+      "element": "충전법",
+      "desc": "충전 안내(C타입)"
+    },
+    {
+      "idx": 34,
+      "file": "34.jpg",
+      "thumb": "34.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 35,
+      "file": "35.jpg",
+      "thumb": "35.jpg",
+      "group": "trust",
+      "element": "신뢰·AS",
+      "desc": "바리바디 1년 무상 A/S"
+    }
+  ]
+}

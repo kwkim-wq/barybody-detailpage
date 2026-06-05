@@ -1,0 +1,276 @@
+{
+  "product": "바로랩 텐스온 손목 마사지기 (TENS+EMS)",
+  "category": "마사지기",
+  "slug": "06_barolab_wrist",
+  "channel": "네이버 스마트스토어",
+  "url": "https://smartstore.naver.com/lady_lab/products/13142554101",
+  "captured": "2026-06-04",
+  "total_images": 33,
+  "excluded": [],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.png",
+      "thumb": "01.jpg",
+      "group": "store",
+      "element": "쿠폰·혜택 고지",
+      "desc": "네이버 단독 혜택(알림 1000원/포토리뷰 1000원)"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "검색 랭킹 1위",
+      "desc": "네이버쇼핑 손목마사지기 검색어 랭킹 1위"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "trust",
+      "element": "유사품 주의·특허",
+      "desc": "유사품 주의 / 특허기술·인증 차별"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "feature",
+      "element": "기술 설명",
+      "desc": "검증된 주파수·파형, 국내 유일 특허 TENS"
+    },
+    {
+      "idx": 5,
+      "file": "05.gif",
+      "thumb": "05.jpg",
+      "group": "trust",
+      "element": "판매 실적",
+      "desc": "‘판매량으로 증명’ 누적 판매량"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "trust",
+      "element": "수상·평점",
+      "desc": "Forbes 고객신뢰도 1위 / 만족 4.9·리뷰 11,500"
+    },
+    {
+      "idx": 7,
+      "file": "07.gif",
+      "thumb": "07.jpg",
+      "group": "feature",
+      "element": "활용성",
+      "desc": "손목&발목 겸용 TENS-ON"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "problem",
+      "element": "문제제기·타겟",
+      "desc": "하루 1만회 혹사되는 손목(스마트폰/사무직/육아)"
+    },
+    {
+      "idx": 9,
+      "file": "09.gif",
+      "thumb": "09.jpg",
+      "group": "trust",
+      "element": "전문가 보증",
+      "desc": "전문가 인터뷰 — 꾸준한 관리가 핵심"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "trust",
+      "element": "전문가 보증",
+      "desc": "물리치료사 추천, TENS+EMS"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "problem",
+      "element": "경쟁대안 비교",
+      "desc": "기존 관리법 만족? 공기압/젤패드/EMS/물리치료"
+    },
+    {
+      "idx": 12,
+      "file": "12.gif",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "신경+근육 동시 관리(골격 Point)"
+    },
+    {
+      "idx": 13,
+      "file": "13.jpg",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "TENS(신경) vs EMS(근육) 전류 자극"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "trust",
+      "element": "전문가·연구",
+      "desc": "Development Consulting + 해외 저널 연구결과"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "trust",
+      "element": "특허·인증",
+      "desc": "국내 유일 TENS-ON 특허 기술"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "proof",
+      "element": "임상 수치",
+      "desc": "손목 탄력 피로도 64.223% 개선"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "trust",
+      "element": "품질·KC 인증",
+      "desc": "품질기준 충족 인증서 + KC 인증"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "proof",
+      "element": "임상 설문",
+      "desc": "대상자 100% 개선 응답(임상센터 설문)"
+    },
+    {
+      "idx": 19,
+      "file": "19.gif",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "제품 비주얼",
+      "desc": "TENS-ON MASSAGE 착용"
+    },
+    {
+      "idx": 20,
+      "file": "20.jpg",
+      "thumb": "20.jpg",
+      "group": "feature",
+      "element": "테이핑·고정",
+      "desc": "드퀘르뱅 테이핑 방식 보호대"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "feature",
+      "element": "밀착·비교",
+      "desc": "손목 밀착 테이핑(자사 vs 바로랩)"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "두께·밀착",
+      "desc": "0.5mm 초밀착 스킨핏"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "자석 탈착",
+      "desc": "디바이스 자석 부착 1초"
+    },
+    {
+      "idx": 24,
+      "file": "24.jpg",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "활용·전환",
+      "desc": "집에선 마사지기로"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "타겟 자극",
+      "desc": "문제 지점 정확히 TENS-ON 마사지"
+    },
+    {
+      "idx": 26,
+      "file": "26.gif",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "모드",
+      "desc": "8가지 마사지 모드(TENS4/EMS2)"
+    },
+    {
+      "idx": 27,
+      "file": "27.gif",
+      "thumb": "27.jpg",
+      "group": "feature",
+      "element": "강도 조절",
+      "desc": "맞춤 강도 8단계"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "feature",
+      "element": "보호대·활용",
+      "desc": "테이핑 보호대 — 평소 보호대/집에선 마사지기"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "feature",
+      "element": "휴대성",
+      "desc": "컴팩트 사이즈, 가방에 쏙"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "info",
+      "element": "사이즈 가이드",
+      "desc": "손목 보호대 사이즈 S/L"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "사용 방법 1~4"
+    },
+    {
+      "idx": 32,
+      "file": "32.jpg",
+      "thumb": "32.jpg",
+      "group": "info",
+      "element": "구성품",
+      "desc": "제품 구성(TENS+EMS Massager)"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "trust",
+      "element": "제약사 협업·구성",
+      "desc": "KM제약 협업 — 24년 제약사 개발 마사지겔"
+    }
+  ]
+}

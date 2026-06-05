@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>바리바디 제품별 상세페이지 진단 — 릴렉스틱 · EMS손목 · EMS허리</title>
+<style>
+  :root{
+    --bg:#f7f7f5; --card:#ffffff; --ink:#1c1c1e; --sub:#6b7280; --line:#e5e7eb;
+    --accent:#2f6fed; --accent2:#10b981; --warn:#ef4444; --gold:#b8860b;
+    --store:#94a3b8; --hook:#ef4444; --problem:#f59e0b; --value:#8b5cf6; --feature:#3b82f6;
+    --proof:#10b981; --design:#ec4899; --trust:#14b8a6; --guide:#64748b; --info:#0ea5e9;
+    font-family:-apple-system,'Apple SD Gothic Neo','Pretendard',sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;font-size:16px}
+  .wrap{max-width:900px;margin:0 auto;padding:48px 22px 120px}
+  h1{font-size:29px;line-height:1.3;margin:0 0 8px;letter-spacing:-.5px}
+  h2{font-size:23px;margin:18px 0 14px;letter-spacing:-.3px;display:flex;align-items:center;gap:10px}
+  h3{font-size:17px;margin:22px 0 8px}
+  p{margin:10px 0}
+  .lead{color:var(--sub);font-size:15px}
+  .kicker{font-size:13px;font-weight:800;letter-spacing:1px;color:var(--accent);text-transform:uppercase}
+  .tag{display:inline-block;font-size:12px;font-weight:700;color:#fff;border-radius:6px;padding:2px 9px;vertical-align:middle}
+  .muted{color:var(--sub)}
+  .hr{height:1px;background:var(--line);margin:18px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+  .prod{border-top:5px solid var(--ink);border-radius:16px;padding:6px 24px 24px;margin:30px 0;background:#fff;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+  .prod.r{border-top-color:var(--accent2)} .prod.w{border-top-color:var(--warn)} .prod.b{border-top-color:var(--feature)}
+  .grade{font-size:13px;font-weight:800;border-radius:8px;padding:4px 12px;color:#fff}
+  .callout{border-left:4px solid var(--accent);background:#eef4ff;border-radius:0 10px 10px 0;padding:13px 18px;margin:14px 0}
+  .callout.warn{border-color:var(--warn);background:#fef2f2}
+  .callout.ok{border-color:var(--accent2);background:#ecfdf5}
+  .callout.gold{border-color:var(--gold);background:#fdf6e3}
+  .callout.copy{border-color:var(--value);background:#f5f3ff}
+  .callout b{font-weight:800}
+  .copy-ex{background:#fff;border:1px dashed #c4b5fd;border-radius:8px;padding:10px 13px;margin:8px 0;font-size:14.5px}
+  .copy-ex .q{font-size:12px;font-weight:800;color:#7c3aed;letter-spacing:.3px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin:14px 0;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+  th{background:#fafafa;font-weight:700;font-size:12.5px;color:#374151}
+  td.num,th.num{text-align:center;white-space:nowrap}
+  tr:last-child td{border-bottom:none}
+  .barwrap{display:flex;align-items:center;gap:8px}
+  .bar{height:9px;border-radius:5px;background:#eef0f3;overflow:hidden;display:inline-block;width:90px}
+  .bar>i{display:block;height:100%}
+  .dist{margin:14px 0}
+  .dist .row{display:grid;grid-template-columns:92px 1fr 96px;align-items:center;gap:10px;margin:5px 0;font-size:13px}
+  .dist .nm{color:#374151;font-weight:600}
+  .dist .track{height:18px;background:#eef0f3;border-radius:5px;position:relative;overflow:hidden}
+  .dist .fill{height:100%;border-radius:5px;display:flex;align-items:center;justify-content:flex-end;padding-right:6px;color:#fff;font-size:11px;font-weight:700;min-width:24px}
+  .dist .vs{font-size:11.5px;color:var(--sub);text-align:right;white-space:nowrap}
+  .dist .vs b{color:#374151}
+  ul,ol{margin:8px 0 8px 2px;padding-left:20px}
+  li{margin:6px 0}
+  .pri{font-size:11px;font-weight:800;border-radius:5px;padding:1px 7px;color:#fff;margin-right:6px;vertical-align:middle}
+  .pri.p1{background:var(--warn)} .pri.p2{background:var(--gold)} .pri.p3{background:#64748b}
+  .dot{width:10px;height:10px;border-radius:50%;display:inline-block;vertical-align:middle;margin-right:5px}
+  .refstrip{background:#f7f8fa;border:1px solid #e2e5ea;border-radius:12px;padding:14px 14px 12px;margin-top:14px}
+  .refstrip::before{content:"📌 우리 페이지 실제 화면";display:block;font-size:12px;font-weight:800;color:#64748b;letter-spacing:.3px;margin-bottom:12px}
+  .refstrip .strip-imgs{display:flex;gap:14px;flex-wrap:wrap}
+  .refstrip figure{width:180px;margin:0}
+  .refstrip img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block;background:#fff}
+  .refstrip figcaption{font-size:12px;color:var(--sub);margin-top:7px;text-align:center;line-height:1.4}
+  .refstrip figcaption b.good{color:var(--accent2)} .refstrip figcaption b.bad{color:var(--warn)}
+  .toc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+  .toc a{color:var(--ink);text-decoration:none}
+  .toc ol{margin:6px 0 0;padding-left:22px}
+  .badge{font-size:11px;font-weight:700;border-radius:5px;padding:1px 7px;background:#eef2ff;color:#3949ab}
+  .footer{margin-top:50px;color:var(--sub);font-size:13px;text-align:center}
+  @media(max-width:680px){ .refstrip figure{width:46%;min-width:140px} .dist .row{grid-template-columns:78px 1fr 86px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">BARYBODY · DETAIL PAGE DIAGNOSIS</div>
+<h1>바리바디 제품별 상세페이지 진단</h1>
+<p class="lead">우리 3개 제품(릴렉스틱 · EMS 손목 · EMS 허리) 상세페이지를 <b>요소 단위로 전수 분류</b>하고, 잘 팔리는 벤치마크 18개 평균과 대조해 <b>제품별 강점·문제·개선</b>을 진단했습니다.<br>판단 기준은 <a href="playbook.html">좋은 상세페이지 공식</a>(10대 요소 / 골든 플로우 / 감정 곡선). · 2026-06-04</p>
+
+<div class="toc">
+  <b>목차</b>
+  <ol>
+    <li><a href="#snap">한눈에 보기 — 3개 제품 vs 벤치마크</a></li>
+    <li><a href="#relex">릴렉스틱 — 우리 중 가장 균형 잡힌 페이지</a></li>
+    <li><a href="#wrist">EMS 손목 — 신뢰는 최강, USP(3중 설계)가 기능에 묻혀있다 <span class="muted">(vs 바로랩 텐스온 비교)</span></a></li>
+    <li><a href="#waist">EMS 허리 — 설계 설명 최강, 감정 곡선 붕괴</a></li>
+    <li><a href="#common">3개 관통 공통 약점 &amp; 우선 액션</a></li>
+  </ol>
+</div>
+
+<h2 id="snap">1. 한눈에 보기</h2>
+<p class="lead">각 요소를 페이지의 몇 %나 쓰는가. 벤치마크(18개 평균) 대비 <span style="color:var(--accent2);font-weight:700">강한 곳</span>·<span style="color:var(--warn);font-weight:700">빈 곳</span>이 한눈에 드러납니다.</p>
+<table>
+  <thead><tr><th>요소</th><th class="num">릴렉스틱</th><th class="num">EMS 손목</th><th class="num">EMS 허리</th><th class="num">벤치 평균</th></tr></thead>
+  <tbody>
+    <tr><td><span class="dot" style="background:var(--feature)"></span>기능/구조</td><td class="num">39%</td><td class="num">46% ↑</td><td class="num"><b style="color:var(--warn)">59% ↑↑</b></td><td class="num muted">37%</td></tr>
+    <tr><td><span class="dot" style="background:var(--proof)"></span>효과/연출</td><td class="num">20% ↑</td><td class="num">14% ↑</td><td class="num">16% ↑</td><td class="num muted">6.6%</td></tr>
+    <tr><td><span class="dot" style="background:var(--trust)"></span>신뢰</td><td class="num">14%</td><td class="num"><b style="color:var(--accent2)">23% ↑</b></td><td class="num">12%</td><td class="num muted">13.6%</td></tr>
+    <tr><td><span class="dot" style="background:var(--value)"></span>핵심가치/USP</td><td class="num">9%</td><td class="num"><b style="color:var(--warn)">3% ⚠</b></td><td class="num"><b style="color:var(--warn)">2% ⚠</b></td><td class="num muted">6.5%</td></tr>
+    <tr><td><span class="dot" style="background:var(--hook)"></span>후킹</td><td class="num">4%</td><td class="num">3%</td><td class="num"><b style="color:var(--warn)">2% ⚠</b></td><td class="num muted">5.7%</td></tr>
+    <tr><td><span class="dot" style="background:var(--problem)"></span>문제제기</td><td class="num">3%</td><td class="num">3%</td><td class="num"><b style="color:var(--warn)">2% ⚠</b></td><td class="num muted">5.1%</td></tr>
+    <tr><td><span class="dot" style="background:var(--guide)"></span>사용가이드</td><td class="num">7%</td><td class="num">6%</td><td class="num">2%</td><td class="num muted">4.7%</td></tr>
+    <tr><td><span class="dot" style="background:var(--info)"></span>구매정보/스펙</td><td class="num"><b style="color:var(--warn)">3% ⚠</b></td><td class="num"><b style="color:var(--warn)">3% ⚠</b></td><td class="num"><b style="color:var(--warn)">4% ⚠</b></td><td class="num muted">10.6%</td></tr>
+    <tr><td><span class="dot" style="background:var(--design)"></span>디자인</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num muted">1.5%</td></tr>
+    <tr style="background:#fafafa"><td><b>총 이미지</b></td><td class="num"><b>71장</b></td><td class="num"><b>35장</b></td><td class="num"><b>51장</b></td><td class="num muted">—</td></tr>
+  </tbody>
+</table>
+<div class="callout gold">
+  <b>한 줄 요약:</b> 우리 3개는 <b>신뢰(셀럽·백화점·전문가·1년 A/S)와 기능 설계</b>는 충분하거나 과할 정도인데, <b>상단의 감정 설계(USP·문제제기)가 약하고</b>(USP는 있어도 기능에 묻히거나 한 줄로 안 박힘), <b>효과는 양이 많아도 "안 보이거나 흘러가"</b> 증명이 약하다. "좋은 제품을 잘 설명"은 하지만 "왜 지금 나에게 필요한지 + 진짜 효과 있는지"를 덜 박는다.
+</div>
+
+<!-- ===================== 릴렉스틱 ===================== -->
+<div class="prod r" id="relex">
+  <h2><span class="dot" style="background:var(--accent2)"></span>2. 릴렉스틱 <span class="grade" style="background:var(--accent2)">A− · 가장 잘 만든 페이지</span></h2>
+  <p class="muted" style="margin-top:0">마사지 롤러 · 71장 · 스펙과시형(A) + 신뢰 하이브리드. 우리 3개 중 유일하게 <b>USP가 한 줄로 또렷이 살아있는</b> 페이지.</p>
+
+  <div class="dist">
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--feature)"></span>기능</span><div class="track"><div class="fill" style="width:79%;background:var(--feature)">39%</div></div><span class="vs">벤치 <b>37%</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--proof)"></span>효과/연출</span><div class="track"><div class="fill" style="width:40%;background:var(--proof)">20%</div></div><span class="vs">벤치 6.6% · <b style="color:var(--accent2)">많음</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--trust)"></span>신뢰</span><div class="track"><div class="fill" style="width:29%;background:var(--trust)">14%</div></div><span class="vs">벤치 14% · 적정</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--value)"></span>USP</span><div class="track"><div class="fill" style="width:18%;background:var(--value)">9%</div></div><span class="vs">벤치 6.5% · <b style="color:var(--accent2)">좋음</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--guide)"></span>가이드</span><div class="track"><div class="fill" style="width:15%;background:var(--guide)">7%</div></div><span class="vs">벤치 4.7% · 좋음</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--problem)"></span>문제제기</span><div class="track"><div class="fill" style="width:6%;background:var(--problem)">3%</div></div><span class="vs">벤치 5.1% · 약간 얇음</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--info)"></span>구매정보</span><div class="track"><div class="fill" style="width:6%;background:var(--info)">3%</div></div><span class="vs">벤치 10.6% · <b style="color:var(--warn)">얇음</b></span></div>
+  </div>
+
+  <h3>✅ 잘된 점</h3>
+  <ul>
+    <li><b>USP가 한 줄로 살아있다.</b> "1초면 충분한 짜릿한 시원함"이 명확하고, 페이지 전체에서 6번(#06·13·19·27·43·67) 변주된다. 우리 3개 중 유일하게 "그래서 뭐가 다른가"에 답한다.</li>
+    <li><b>신뢰 골격이 탄탄하다.</b> 셀럽 PICK(나은·소유·지혜) → 대한민국 1등 → 현대·AK·롯데백화점·올리브영 입점 → 국대 트레이너 검증 → 1년 A/S. <b>스펙과시형에 신뢰를 얹은 하이브리드</b>로 벤치마크 상위 골격.</li>
+    <li><b>가이드가 충실하다.</b> 초보자 가이드 + 3테크닉(압박·플러싱·롤링) + 포인트 링 STEP. 마사지기는 "활용도 = 만족도 = 재구매·후기"라 결정적.</li>
+    <li><b>Check 01~07 넘버링</b>으로 본문을 묶고, 문제→USP→연출을 교차 반복해 71장의 지루함을 막았다.</li>
+  </ul>
+
+  <h3>⚠️ 문제점</h3>
+  <ul>
+    <li><b>효과 20%가 거의 다 "연출컷", 수치 증명이 약하다.</b> #19에 <b>"라인이 바뀐다(승모근 변화)"</b> 전·후가 <b>있긴 한데 GIF라 변화가 스쳐 지나가</b> 대비가 약하고, 가동범위·근경도 같은 수치 증명은 없다. 양은 많은데 "예쁜 연출"에 치우쳐 설득의 무게가 약하다.</li>
+    <li><b>연출 GIF가 너무 멀리서 대충 찍혔다. <span class="tag" style="background:var(--warn)">현장 지적</span></b> 모델이 "쓰는 상황"은 보이는데, 정작 롤러가 지나갈 때 <b>근육·살이 밀리고 눌리는 핵심 순간</b>이 안 보인다. 그래서 "시원해 보이는 그림"은 되지만 <b>"이거 효과 있겠다"는 확신</b>을 못 준다. 같은 연출컷이라도 거리·앵글만 바꾸면 설득력이 달라지는 지점.</li>
+    <li><b>상단 문제제기가 얇다(3%).</b> "피곤하고 뻐근했던 하루"(#14) 정도로 공감 강도가 약하고, 타겟 호명(#20)이 본문 중반에 묻혔다.</li>
+    <li><b>FAQ가 없다.</b> 구매 직전 의심("아프지 않나? 매일 써도 되나? 폼롤러랑 진짜 다른가?")을 받아주는 장치 부재.</li>
+  </ul>
+
+  <h3>🔧 개선 처방</h3>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p1">1순위</span><b>연출 GIF를 "근육이 밀리는 게 보이는" 근접컷으로 다시 찍는다.</b> <span class="muted">— 가장 눈에 띌 개선</span></p>
+    <div class="copy-ex"><span class="q">촬영 디렉션</span><br>· 카메라를 <b>피부 가까이</b> — 롤러가 종아리·허벅지·승모근을 지날 때 <b>근육이 눌렸다 펴지는(밀리는) 순간</b>을 클로즈업 + 슬로우로<br>· 부위 <b>1~2개(종아리·목/어깨)만 골라 디테일 GIF</b> — "압력이 진짜 들어간다"가 눈에 보이게<br>· 멀리서 찍은 '상황컷'은 1~2장으로 줄이고, 핵심 자리는 근접 효과컷에 양보<br><span class="muted">→ "시원해 보이는" 컷보다 "효과 있어 보이는" 컷이 장바구니 전환을 만든다.</span></div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p1">1순위</span><b>효과를 "연출"에서 "증명"으로 한 단계 올린다.</b></p>
+    <div class="copy-ex"><span class="q">추가할 증명 컷 예시</span><br>· <b>#19 "라인이 바뀐다"는 지금 GIF라 변화가 흘러가 버린다 → 왼쪽=전 / 오른쪽=후 정지 대칭컷</b>으로 나란히 놓아 대비를 크게 (같은 자세·같은 앵글·같은 조명이 핵심)<br>· 폼롤러 평균 압력 대비 릴렉스틱 스틸봉 압력 <b>○○% ↑</b> — "같은 시간, 더 깊은 자극" (#31 비교를 수치로)<br>· 10분 사용 전·후 <b>목/어깨 가동범위(ROM)</b> 또는 근경도 측정 1컷</div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p2">2순위</span><b>상단 문제제기를 구체적 타겟으로 강화</b> (#20을 앞으로 + 1장 보강)</p>
+    <div class="copy-ex"><span class="q">문제제기 카피 예시</span><br>"하루 종일 모니터 앞 → 굳은 목·어깨 / 운동 뒤 뭉친 종아리 / <b>폼롤러는 크고 무거워 결국 안 꺼내게 되는</b> 당신께"</div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p3">3순위</span><b>하단 FAQ 신설</b> (3~5문항)</p>
+    <div class="copy-ex"><span class="q">FAQ 예시</span> 아프지 않나요? / 매일 써도 되나요? / 폼롤러와 뭐가 다른가요? / 며칠이면 효과를 느끼나요? / 임산부도 사용 가능한가요?</div>
+  </div>
+
+  <div class="refstrip"><div class="strip-imgs">
+    <figure><img src="categories/바리바디/15_barybody_relexstic/thumbs/13.jpg" alt="릴렉스틱 USP"><figcaption><b class="good">강점</b> — "1초면 충분" 명확한 USP 카피</figcaption></figure>
+    <figure><img src="categories/바리바디/15_barybody_relexstic/thumbs/07.jpg" alt="릴렉스틱 셀럽"><figcaption><b class="good">강점</b> — 셀럽 PICK 신뢰</figcaption></figure>
+    <figure><img src="categories/바리바디/15_barybody_relexstic/thumbs/19.jpg" alt="릴렉스틱 라인 변화"><figcaption><b class="bad">개선</b> — "라인 변화"가 GIF라 흘러감 → 좌(전)/우(후) 대칭컷으로</figcaption></figure>
+  </div></div>
+</div>
+
+<!-- ===================== 손목 ===================== -->
+<div class="prod w" id="wrist">
+  <h2><span class="dot" style="background:var(--warn)"></span>3. EMS 손목 마사지기 <span class="grade" style="background:var(--warn)">C+ · USP가 기능에 묻혀 약함</span></h2>
+  <p class="muted" style="margin-top:0">TENS+EMS+온열 · 35장 · 신뢰 폭격형. 신뢰는 22개 제품 중 최상위급. <b>USP(3중 설계)는 있지만 기능 설명에 묻혀</b> 한 줄로 안 박혀, "비슷한 또 하나의 손목 EMS"로 보인다.</p>
+
+  <div class="dist">
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--feature)"></span>기능</span><div class="track"><div class="fill" style="width:92%;background:var(--feature)">46%</div></div><span class="vs">벤치 37% · 많음</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--trust)"></span>신뢰</span><div class="track"><div class="fill" style="width:46%;background:var(--trust)">23%</div></div><span class="vs">벤치 14% · <b style="color:var(--accent2)">최강</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--proof)"></span>효과/연출</span><div class="track"><div class="fill" style="width:29%;background:var(--proof)">14%</div></div><span class="vs">벤치 6.6% · 연출뿐</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--guide)"></span>가이드</span><div class="track"><div class="fill" style="width:11%;background:var(--guide)">6%</div></div><span class="vs">벤치 4.7% · 적정</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--problem)"></span>문제제기</span><div class="track"><div class="fill" style="width:6%;background:var(--problem)">3%</div></div><span class="vs">벤치 5.1% · 얇음</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--info)"></span>구매정보</span><div class="track"><div class="fill" style="width:6%;background:var(--info)">3%</div></div><span class="vs">벤치 10.6% · <b style="color:var(--warn)">얇음</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--value)"></span>USP</span><div class="track"><div class="fill" style="width:6%;background:var(--value)">3%</div></div><span class="vs"><b style="color:var(--warn)">1장 · 기능에 묻힘</b></span></div>
+  </div>
+
+  <h3>✅ 잘된 점</h3>
+  <ul>
+    <li><b>신뢰가 매우 강하다(23%).</b> 물리치료사 정수진 검증·인터뷰, 출시 2개월 만에 3차 리오더, KC 인증, 해외 저널 연구 검증, 1년 A/S. <b>몸에 닿는 의료성 제품</b>에 맞는 신뢰 폭격.</li>
+    <li><b>"신경 + 근육 + 혈류 3중 케어" 메커니즘</b>이 논리적이다. TENS/EMS/온열 3중 작동 + 3단계 온열 + 8모드·15단계로 기능 본문이 충실하다.</li>
+  </ul>
+
+  <h3>⚠️ 문제점</h3>
+  <ul>
+    <li><b style="color:var(--warn)">USP가 있는데 기능에 묻혔다 — 가장 아까운 지점.</b> "3중 설계(신경·근육·혈류 동시 케어)"(#09)가 <b>사실상 이 제품의 USP</b>인데, 별도의 차별 카피가 아니라 <b>기능 설명조로 흘러가</b> 한 줄로 안 박힌다. ① 기능 본문에 묻혀있고 ② "3중"이라는 <b>메커니즘(스펙)</b>으로만 말해 "그래서 나한테 뭐가 좋은데"라는 <b>효용</b>으로 번역되지 않았다. 바로랩 손목과 골격이 똑같은 만큼, 한 줄로 못 박으면 차별점이 안 보인다.</li>
+    <li><b>문제제기·후킹이 각 1장.</b> "당신의 손목은 안녕하신가요"(#05)뿐. 손목 통증 타겟(마우스·스마트폰·육아)을 강하게 호명하지 못한다.</li>
+    <li><b>효과 14%가 전부 연출컷.</b> 의료성 제품인데 효과 증명이 연구 저널 1장(#17)에 그친다.</li>
+    <li><b>구매정보 빈약</b> — FAQ 1장뿐, 스펙표·고시정보 없음.</li>
+  </ul>
+
+  <h3>🔧 개선 처방</h3>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p1">1순위</span><b>묻혀있는 "3중 설계" USP를 끌어올려 한 줄로 박고, 효용으로 번역한다.</b> <span class="muted">— 새로 만드는 게 아니라 있는 걸 승격</span></p>
+    <div class="copy-ex"><span class="q">USP 카피 후보 (#09를 인트로 직후 전환점으로 승격)</span><br>· "<b>붙이는 게 아니라 풀어주는 손목</b> — 신경·근육·혈류를 한 번에(TENS·EMS·온열 3중)"<br>· "파스 한 장으로 안 되는 이유 — <b>손목만을 위한 3중 케어</b>"<br>· "겉이 아니라 속을 푸는 손목 관리 — <b>온열까지 더한 3중 손목 EMS</b>"<br><span class="muted">핵심: "3중 설계"(스펙)를 "그래서 시큰한 손목이 풀린다"(효용)로 한 줄 번역.</span></div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p2">2순위</span><b>문제제기를 구체적 타겟으로</b> (1~2장 추가)</p>
+    <div class="copy-ex"><span class="q">문제제기 카피 예시</span><br>"마우스 잡을 때 시큰, 아이 안을 때 욱신, 자고 일어나도 그대로인 손목 — <b>파스·손목보호대는 '겉'만 잡습니다.</b>"</div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p3">3순위</span><b>효과 증명 + 스펙표·FAQ 보강</b></p>
+    <div class="copy-ex"><span class="q">보강 예시</span> EMS 10분 전·후 손목 뻐근함 자가설문(○○명 중 △% 개선) · 혈류 써모그래피 1컷 · 모드/강도/배터리/충전 스펙표 · 안전 고시 · FAQ 확장</div>
+  </div>
+
+  <h3>🆚 같은 카테고리 경쟁 비교 — 바로랩 텐스온 손목 (벤치마크 33장)</h3>
+  <p class="muted" style="margin-top:0">손목 TENS+EMS 카테고리의 대표 강자. <b>골격은 거의 동일</b>(신뢰 폭격 + 전문가 + Check 기능)하지만, 결정적인 곳에서 갈린다.</p>
+  <table>
+    <thead><tr><th>항목</th><th>바리바디 손목 (35장)</th><th>바로랩 텐스온 (33장)</th><th class="num">판정</th></tr></thead>
+    <tbody>
+      <tr><td><b>효과 증명</b></td><td>연출컷 위주 + 해외 저널 1장</td><td><b style="color:var(--accent2)">임상 수치 — 피로도 64% 개선 · 대상자 100% 개선 응답</b></td><td class="num"><b style="color:var(--warn)">바로랩 압승</b></td></tr>
+      <tr><td><b>차별 USP</b></td><td>3중(온열 포함)인데 <b style="color:var(--warn)">한 줄로 안 박음</b></td><td>"국내 유일 특허 TENS-ON" + 보호대 겸 마사지기 폼팩터로 또렷</td><td class="num" style="color:var(--warn)">바로랩 우세</td></tr>
+      <tr><td><b>문제제기</b></td><td>1장 "손목 안녕하신가요"(약함)</td><td>"<b>하루 1만 회 혹사</b>" + 기존 관리법(공기압·젤패드·물리치료) 한계 비교</td><td class="num" style="color:var(--warn)">바로랩 우세</td></tr>
+      <tr><td><b>신뢰 무기</b></td><td>물치 검증·3차 리오더·저널·KC·1년 A/S</td><td>Forbes 1위·검색 1위·누적판매·리뷰 11,500·KM제약 협업·특허·KC</td><td class="num" style="color:var(--warn)">바로랩 다양</td></tr>
+      <tr style="background:#ecfdf5"><td><b>기능 폭</b></td><td><b style="color:var(--accent2)">TENS+EMS+온열 3중</b> · 온열 3단계 · 15단계</td><td>TENS+EMS 2중 · 8모드 · 8단계</td><td class="num"><b style="color:var(--accent2)">우리 우세</b></td></tr>
+      <tr style="background:#ecfdf5"><td><b>A/S</b></td><td><b style="color:var(--accent2)">1년 무상 A/S 명시</b></td><td>미표기</td><td class="num"><b style="color:var(--accent2)">우리 우세</b></td></tr>
+    </tbody>
+  </table>
+  <div class="callout warn">
+    <b>뼈아픈 지점:</b> 바로랩은 <b>TENS+EMS 2중</b>인데도 "<b>특허 + 임상 수치 + 강한 문제제기</b>"로 이긴다. 우리는 <b>온열까지 더한 3중 + 1년 무상 A/S</b>라는 더 좋은 패를 쥐고도, 그걸 USP·증명으로 안 박아서 "비슷한 또 하나의 손목 EMS"로 보인다.
+  </div>
+  <div class="callout ok">
+    <b>바로랩에서 가져올 것 3가지</b>
+    <ol style="margin:6px 0 0">
+      <li><b>효과를 임상 수치로</b> — 바로랩의 "피로도 64% 개선·100% 개선 응답"처럼, 자가설문·실측 수치 1개라도.</li>
+      <li><b>강한 문제제기</b> — "하루 1만 회 혹사" 급의 구체적 타겟 호명 + 기존 관리법(파스·보호대)의 한계.</li>
+      <li><b>한 줄 차별 선언</b> — 바로랩은 "특허 TENS-ON"으로 또렷. 우리는 <b>"온열까지 더한 유일한 3중 손목 케어"</b>를 USP로.</li>
+    </ol>
+    <b style="display:block;margin-top:8px">우리가 이미 쥐고도 안 살린 무기:</b> ① <b>온열 추가(바로랩엔 없는 3중)</b> ② <b>1년 무상 A/S</b> ③ 출시 2개월 3차 리오더. → 이 셋을 USP·신뢰로 전면 배치하면 바로랩과 명확히 차별화된다.
+  </div>
+
+  <div class="refstrip"><div class="strip-imgs">
+    <figure><img src="categories/바리바디/17_barybody_wrist/thumbs/06.jpg" alt="손목 물치 검증"><figcaption><b class="good">우리 강점</b> — 물리치료사 직접 검증</figcaption></figure>
+    <figure><img src="categories/바리바디/17_barybody_wrist/thumbs/11.jpg" alt="손목 인트로"><figcaption><b class="bad">우리 문제</b> — 3중 설계(USP)가 한 줄로 안 박히고 기능에 묻힘</figcaption></figure>
+    <figure><img src="categories/마사지기/06_barolab_wrist/thumbs/16.jpg" alt="바로랩 임상 수치"><figcaption><b class="good">바로랩</b> — 임상 수치(피로도 64% 개선)로 증명</figcaption></figure>
+    <figure><img src="categories/마사지기/06_barolab_wrist/thumbs/08.jpg" alt="바로랩 문제제기"><figcaption><b class="good">바로랩</b> — "하루 1만 회 혹사" 강한 문제제기</figcaption></figure>
+  </div></div>
+</div>
+
+<!-- ===================== 허리 ===================== -->
+<div class="prod b" id="waist">
+  <h2><span class="dot" style="background:var(--feature)"></span>4. EMS 허리 마사지기 <span class="grade" style="background:var(--feature)">B− · 스펙 과적재, 상단 붕괴</span></h2>
+  <p class="muted" style="margin-top:0">EMS+온열+지지 벨트 · 51장 · 하드웨어 설계 디테일은 <b>22개 제품 중 최고</b>. 그러나 기능이 59%로 과적재되고 상단 감정 퍼널이 붕괴.</p>
+
+  <div class="dist">
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--feature)"></span>기능</span><div class="track"><div class="fill" style="width:100%;background:var(--feature)">59%</div></div><span class="vs">벤치 37% · <b style="color:var(--warn)">과적재</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--proof)"></span>효과/연출</span><div class="track"><div class="fill" style="width:31%;background:var(--proof)">16%</div></div><span class="vs">벤치 6.6% · 연출뿐</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--trust)"></span>신뢰</span><div class="track"><div class="fill" style="width:24%;background:var(--trust)">12%</div></div><span class="vs">벤치 14% · 적정</span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--info)"></span>구매정보</span><div class="track"><div class="fill" style="width:8%;background:var(--info)">4%</div></div><span class="vs">벤치 10.6% · <b style="color:var(--warn)">얇음</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--hook)"></span>후킹</span><div class="track"><div class="fill" style="width:4%;background:var(--hook)">2%</div></div><span class="vs">벤치 5.7% · <b style="color:var(--warn)">1장</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--problem)"></span>문제제기</span><div class="track"><div class="fill" style="width:4%;background:var(--problem)">2%</div></div><span class="vs">벤치 5.1% · <b style="color:var(--warn)">1장</b></span></div>
+    <div class="row"><span class="nm"><span class="dot" style="background:var(--value)"></span>USP</span><div class="track"><div class="fill" style="width:4%;background:var(--value)">2%</div></div><span class="vs">벤치 6.5% · <b style="color:var(--warn)">1장</b></span></div>
+  </div>
+
+  <h3>✅ 잘된 점</h3>
+  <ul>
+    <li><b>기능/구조 설계 디테일이 22개 제품 중 최고 수준.</b> 듀얼 스테인리스 지지대 26°커브, ABS 스파인 패널, 요추 전만 서포트, 온열 3단계(38/42/45℃), 6모드·16단계, 2500mAh, 과열 차단 안전. 엔지니어링 설득력은 압도적.</li>
+    <li><b>전문가 2명 검증</b>(물리치료사 신승용 + 국가대표 의무트레이너)과 "온열 전 EMS 권장·저온화상 주의" 같은 사용 디테일.</li>
+  </ul>
+
+  <h3>⚠️ 문제점</h3>
+  <ul>
+    <li><b style="color:var(--warn)">기능 59% — 과적재.</b> 22개 중 기능 비중 1위(미락·한일보다 높다). "스펙은 압도적인데 <b>왜 사야 하는지 감정이 안 따라오는</b>" 전형.</li>
+    <li><b>상단 퍼널이 사실상 붕괴.</b> 51장 중 후킹·문제·USP가 <b>각 1장(합 3장)</b>. #04 문제제기 후 곧바로 기능 본문 30장으로 직행한다.</li>
+    <li><b>진짜 USP가 한 줄로 안 박힌다.</b> "EMS로 풀고 + 스테인리스 서포트로 잡아준다(케어 + 자세 지지 동시)"가 이 제품의 차별점인데 #11 "이런 점이 다릅니다"로 약하게 흘려보낸다.</li>
+    <li>효과 16%도 전부 착용 연출컷, 가이드·구매정보 빈약.</li>
+  </ul>
+
+  <h3>🔧 개선 처방</h3>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p1">1순위</span><b>상단 퍼널 재건</b> — 문제제기(2~3장) → USP 한 줄 → 그 다음 기능.</p>
+    <div class="copy-ex"><span class="q">문제제기 카피 예시</span><br>"오래 앉으면 뻐근한 허리 / 굽은 자세로 굳은 등 / 무거운 것 든 뒤 욱신 — <b>파스도 하루뿐, 안마의자는 집에만</b>"</div>
+    <div class="copy-ex"><span class="q">USP 카피 후보</span><br>· "<b>푸는 EMS + 잡아주는 스테인리스 서포트</b> — 통증 케어와 자세 지지를 한 번에"<br>· "하루 20분, <b>풀어주고(EMS·온열) 받쳐주는(요추 서포트)</b> 허리 벨트"</div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p2">2순위</span><b>기능 30장을 재배치</b> — POINT를 4개로 압축하고, 각 POINT 끝에 "효용 한 줄".</p>
+    <div class="copy-ex"><span class="q">압축 구조 예시</span> ① 어디서나 EMS 테라피 → ② 3단계 온열 → ③ <b>스테인리스 요추 서포트(차별)</b> → ④ 쉬운 사용·안전. <br><span class="muted">각 POINT 끝에 "그래서 당신에게: ○○" 한 줄을 끼워 감정 곡선 회복.</span></div>
+  </div>
+  <div class="callout copy">
+    <p style="margin:2px 0 8px"><span class="pri p3">3순위</span><b>효과 증명 + 구매정보 보강</b></p>
+    <div class="copy-ex"><span class="q">보강 예시</span> 착용 전·후 자세 비교(굽은등→펴짐) · 온열 침투 써모그래피 1컷 · 사용 STEP · 스펙표 · FAQ 확장 · 고시정보</div>
+  </div>
+
+  <div class="refstrip"><div class="strip-imgs">
+    <figure><img src="categories/바리바디/18_barybody_waist/thumbs/31.jpg" alt="허리 스테인리스 지지대"><figcaption><b class="good">강점</b> — 듀얼 스테인리스 서포트(=진짜 USP 소재)</figcaption></figure>
+    <figure><img src="categories/바리바디/18_barybody_waist/thumbs/19.jpg" alt="허리 온열 3단계"><figcaption><b class="good">강점</b> — 온열 3단계 설계 디테일</figcaption></figure>
+    <figure><img src="categories/바리바디/18_barybody_waist/thumbs/04.jpg" alt="허리 문제제기"><figcaption><b class="bad">문제</b> — 문제제기 단 1장 뒤 곧장 기능 30장</figcaption></figure>
+  </div></div>
+</div>
+
+<!-- ===================== 공통 ===================== -->
+<h2 id="common">5. 3개 관통 공통 약점 &amp; 우선 액션</h2>
+
+<div class="card">
+  <h3 style="margin-top:4px"><span class="tag" style="background:var(--proof)">공통①</span> 효과 = 양은 많은데 "안 보이거나 흘러간다" <span class="badge">임팩트 최대</span></h3>
+  <p>셋 다 효과 비중은 벤치(6.6%)보다 높은데(14~20%) <b>"증명"으로 안 박힌다.</b> ① <b>멀리서 찍혀</b> 근육이 밀리는 게 안 보이고(릴렉스틱 연출 GIF), ② <b>전·후가 GIF라</b> 변화가 스쳐 지나가고(릴렉스틱 라인 변화), ③ <b>수치 증명이 없다</b>(전부 연출컷). 벤치 강자(리칼지메디 126cc 감소·열화상)는 수치·실험으로 증명한다.</p>
+  <p style="margin-bottom:0"><b>해법은 "추가"가 아니라 "촬영·배치"다 —</b> ① 연출컷을 <b>근접·근육 밀림이 보이게</b> 재촬영 ② 전·후는 <b>왼쪽(전)/오른쪽(후) 정지 대칭컷</b>으로 대비를 크게 ③ 수치 1개(가동범위·자가설문 등).</p>
+</div>
+<div class="card">
+  <h3 style="margin-top:4px"><span class="tag" style="background:var(--value)">공통②</span> 상단 감정 퍼널(USP·문제제기)이 약하다</h3>
+  <p><b>손목은 USP(3중 설계)가 있는데 기능에 묻혔고</b>, <b>허리는 후킹·문제·USP가 각 1장</b>. 신뢰·기능은 충분한데 "내 얘기네 → 그래서 이게 답" 단계가 약해 스펙이 붕 뜬다. 손질은 제품마다 다르다 — <b>손목은 묻힌 USP를 한 줄로 "승격"</b>, <b>허리는 USP를 한 줄로 "신설"</b>, 셋 다 <b>문제제기 1~2장 보강</b>. 가장 싸고 효과 큰 손질.</p>
+</div>
+<div class="card">
+  <h3 style="margin-top:4px"><span class="tag" style="background:var(--info)">공통③</span> 구매정보·FAQ·고시·디자인이 빈약</h3>
+  <p>자사몰이라 가볍게 갔지만 <b>구매 직전 의심 해소(FAQ)와 스펙표·고시</b>가 부족하고, 디자인 소구는 3개 모두 0. 릴렉스틱엔 FAQ 자체가 없다.</p>
+</div>
+
+<div class="callout ok">
+  <b>우선 액션 체크리스트 (싼 것부터)</b>
+  <ul style="margin-bottom:0">
+    <li>☐ <b>USP를 한 줄로</b> — 손목: 묻힌 "3중 설계"를 인트로 직후로 <b>승격 + 효용 번역</b> / 허리: "EMS로 풀고 서포트로 잡는" USP <b>신설</b> (즉시·저비용·효과 최대)</li>
+    <li>☐ <b>연출컷 촬영·배치 손질</b> — 근육이 밀리는 <b>근접컷</b>으로, 전·후는 <b>좌(전)/우(후) 정지 대칭컷</b>으로 (특히 릴렉스틱)</li>
+    <li>☐ <b>3개 모두 문제제기 1~2장 보강</b> — 구체적 타겟 호명("하루 1만 회 혹사" 급)</li>
+    <li>☐ <b>3개 모두 효과 수치 1개</b> — 가동범위·자가설문·써모그래피 중 1개</li>
+    <li>☐ <b>허리 기능 30장 → POINT 4개로 압축</b> + 각 POINT 끝에 효용 한 줄</li>
+    <li>☐ <b>FAQ·스펙표·고시 보강</b> (특히 릴렉스틱 FAQ 신설)</li>
+  </ul>
+</div>
+
+<div class="footer">
+  바리바디 상세페이지 디벨롭 · 릴렉스틱 71장 + EMS손목 35장 + EMS허리 51장 요소 분류 기반 · 2026-06-04<br>
+  같이 보기 — <a href="playbook.html">좋은 상세페이지 공식</a> · <a href="index.html">요소 라이브러리</a> · <a href="compare.html">제품 간 비교표</a>
+</div>
+
+</div>
+</body>
+</html>

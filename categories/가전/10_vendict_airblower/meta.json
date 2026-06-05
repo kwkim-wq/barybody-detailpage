@@ -1,0 +1,517 @@
+{
+  "product": "벤딕트 무선 에어건 마하1 (송풍기)",
+  "category": "가전",
+  "slug": "10_vendict_airblower",
+  "channel": "네이버 브랜드스토어",
+  "url": "https://brand.naver.com/vendict/products/10185674981",
+  "captured": "2026-06-04",
+  "total_images": 63,
+  "excluded": [],
+  "note": "풀리오와 동일 템플릿 추정(6061알루미늄/RPM/2IN1 구조)",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "store",
+      "element": "프로모션·혜택",
+      "desc": "N+ 6월 라이프위크 쿠폰"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "store",
+      "element": "프로모션·혜택",
+      "desc": "디지털/가전 페스타 쿠폰"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "배송 안내",
+      "desc": "주말에도 빠른 N배송"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "store",
+      "element": "리뷰 이벤트",
+      "desc": "SNS REVIEW EVENT 사은품"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "store",
+      "element": "특가·혜택",
+      "desc": "한정특가 47% + 청소기 노즐"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "hook",
+      "element": "라인업·모델 선택 가이드",
+      "desc": "MACH1/MACH2/SURGE 선택 가이드"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "trust",
+      "element": "신뢰·AS+혜택",
+      "desc": "VENDICT BENEFIT(당일발송/100%환불/1년AS)+1만P"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "PREMIUM AIR GUN MACH1"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "trust",
+      "element": "신뢰·보증",
+      "desc": "VENDICT CARE+ 워런티카드/AS"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "guide",
+      "element": "사용가이드",
+      "desc": "E-MANUAL 사용설명서"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "trust",
+      "element": "실적·1위",
+      "desc": "압도적 1위 / 리뷰 12,000개"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "WIRELESS AIR GUN MACH 마하1"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "성능",
+      "desc": "출력·안정성 160W 4셀"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "배터리",
+      "desc": "4셀 배터리 시스템"
+    },
+    {
+      "idx": 15,
+      "file": "15.gif",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "경량 설계",
+      "desc": "180g 고전압 설계"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "feature",
+      "element": "성능",
+      "desc": "거리별 성능"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "feature",
+      "element": "성능 비교",
+      "desc": "거리별 바람 힘(400/250/180/150g)"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "경쟁 비교",
+      "desc": "마스크 제품 vs 벤딕트 비교표"
+    },
+    {
+      "idx": 19,
+      "file": "19.jpg",
+      "thumb": "19.jpg",
+      "group": "value",
+      "element": "USP",
+      "desc": "MACH1 lightest in class(타이틀+태그라인)"
+    },
+    {
+      "idx": 20,
+      "file": "20.gif",
+      "thumb": "20.jpg",
+      "group": "feature",
+      "element": "소재",
+      "desc": "항공우주 6061 알루미늄 바디"
+    },
+    {
+      "idx": 21,
+      "file": "21.jpg",
+      "thumb": "21.jpg",
+      "group": "feature",
+      "element": "소재",
+      "desc": "Aerospace-grade 6061 Signature body"
+    },
+    {
+      "idx": 22,
+      "file": "22.gif",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "성능",
+      "desc": "130,000RPM·160W 흔들림 없는 퍼포먼스"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "경량",
+      "desc": "초경량 밸런스 약 400g"
+    },
+    {
+      "idx": 24,
+      "file": "24.jpg",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "2IN1",
+      "desc": "송풍·흡입 양방향 2IN1 설계"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "proof",
+      "element": "사용 연출",
+      "desc": "캠핑 불씨 송풍"
+    },
+    {
+      "idx": 26,
+      "file": "26.gif",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "모터",
+      "desc": "자체 BLDC 항공 모터 160W"
+    },
+    {
+      "idx": 27,
+      "file": "27.gif",
+      "thumb": "27.jpg",
+      "group": "feature",
+      "element": "저소음",
+      "desc": "FOC 저소음 퍼포먼스"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "feature",
+      "element": "안정성",
+      "desc": "발열 최소화 MCU FULL BMS"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "feature",
+      "element": "전력제어",
+      "desc": "대형 카패시터 정밀 전력 제어"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "feature",
+      "element": "전력",
+      "desc": "차폐형 인버터 + FULL BMS 배터리 수명"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "방열",
+      "desc": "단열 하우징 발열 제어"
+    },
+    {
+      "idx": 32,
+      "file": "32.jpg",
+      "thumb": "32.jpg",
+      "group": "hook",
+      "element": "제품 비주얼",
+      "desc": "VENDICT MACH 비주얼"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "feature",
+      "element": "노즐 구성",
+      "desc": "7종 노즐 활용성"
+    },
+    {
+      "idx": 34,
+      "file": "34.gif",
+      "thumb": "34.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "기본 노즐"
+    },
+    {
+      "idx": 35,
+      "file": "35.gif",
+      "thumb": "35.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "솔 브러시 노즐"
+    },
+    {
+      "idx": 36,
+      "file": "36.gif",
+      "thumb": "36.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "실리콘 노즐"
+    },
+    {
+      "idx": 37,
+      "file": "37.gif",
+      "thumb": "37.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "튜브 전용 노즐"
+    },
+    {
+      "idx": 38,
+      "file": "38.gif",
+      "thumb": "38.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "연장 노즐"
+    },
+    {
+      "idx": 39,
+      "file": "39.jpg",
+      "thumb": "39.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "비상 망치 노즐"
+    },
+    {
+      "idx": 40,
+      "file": "40.gif",
+      "thumb": "40.jpg",
+      "group": "feature",
+      "element": "노즐",
+      "desc": "청소 노즐"
+    },
+    {
+      "idx": 41,
+      "file": "41.jpg",
+      "thumb": "41.jpg",
+      "group": "feature",
+      "element": "충전",
+      "desc": "PD 25W 충전"
+    },
+    {
+      "idx": 42,
+      "file": "42.gif",
+      "thumb": "42.jpg",
+      "group": "feature",
+      "element": "보조배터리",
+      "desc": "보조배터리 활용"
+    },
+    {
+      "idx": 43,
+      "file": "43.gif",
+      "thumb": "43.jpg",
+      "group": "feature",
+      "element": "제어",
+      "desc": "바람세기 컨트롤"
+    },
+    {
+      "idx": 44,
+      "file": "44.gif",
+      "thumb": "44.jpg",
+      "group": "feature",
+      "element": "세기 단계",
+      "desc": "바람세기 단계"
+    },
+    {
+      "idx": 45,
+      "file": "45.jpg",
+      "thumb": "45.jpg",
+      "group": "feature",
+      "element": "배터리",
+      "desc": "14V 전용 배터리(발열 최소화)"
+    },
+    {
+      "idx": 46,
+      "file": "46.gif",
+      "thumb": "46.jpg",
+      "group": "store",
+      "element": "증정",
+      "desc": "한정수량 하드케이스 무료증정"
+    },
+    {
+      "idx": 47,
+      "file": "47.jpg",
+      "thumb": "47.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "KC 인증 + 생산물 배상책임보험"
+    },
+    {
+      "idx": 48,
+      "file": "48.jpg",
+      "thumb": "48.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "사용방법 STEP"
+    },
+    {
+      "idx": 49,
+      "file": "49.jpg",
+      "thumb": "49.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "QNA"
+    },
+    {
+      "idx": 50,
+      "file": "50.jpg",
+      "thumb": "50.jpg",
+      "group": "info",
+      "element": "주의사항",
+      "desc": "CAUTIONS"
+    },
+    {
+      "idx": 51,
+      "file": "51.jpg",
+      "thumb": "51.jpg",
+      "group": "info",
+      "element": "제품정보",
+      "desc": "PRODUCT INFO(80x190mm)"
+    },
+    {
+      "idx": 52,
+      "file": "52.jpg",
+      "thumb": "52.jpg",
+      "group": "info",
+      "element": "구성품",
+      "desc": "COMPONENT 목록"
+    },
+    {
+      "idx": 53,
+      "file": "53.jpg",
+      "thumb": "53.jpg",
+      "group": "info",
+      "element": "제품 스펙",
+      "desc": "제품정보 사양표"
+    },
+    {
+      "idx": 54,
+      "file": "54.jpg",
+      "thumb": "54.jpg",
+      "group": "info",
+      "element": "제조 정보",
+      "desc": "Designed in Korea / Made in China"
+    },
+    {
+      "idx": 55,
+      "file": "55.png",
+      "thumb": "55.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "EXCLUSIVE EVA CASE"
+    },
+    {
+      "idx": 56,
+      "file": "56.png",
+      "thumb": "56.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "고밀도 옥스포드 원단"
+    },
+    {
+      "idx": 57,
+      "file": "57.png",
+      "thumb": "57.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "더 가볍고 편리한 케이스"
+    },
+    {
+      "idx": 58,
+      "file": "58.gif",
+      "thumb": "58.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "케이스 내부"
+    },
+    {
+      "idx": 59,
+      "file": "59.png",
+      "thumb": "59.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "청소기 노즐 파우치"
+    },
+    {
+      "idx": 60,
+      "file": "60.png",
+      "thumb": "60.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "케이스 사이즈"
+    },
+    {
+      "idx": 61,
+      "file": "61.png",
+      "thumb": "61.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "케이스 COMPONENTS"
+    },
+    {
+      "idx": 62,
+      "file": "62.png",
+      "thumb": "62.jpg",
+      "group": "info",
+      "element": "구성품(케이스)",
+      "desc": "케이스 제품정보"
+    },
+    {
+      "idx": 63,
+      "file": "63.jpg",
+      "thumb": "63.jpg",
+      "group": "store",
+      "element": "공지",
+      "desc": "카카오채널 공식 인증 / 사칭 주의"
+    }
+  ]
+}

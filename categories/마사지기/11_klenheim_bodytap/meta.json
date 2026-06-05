@@ -1,0 +1,919 @@
+{
+  "product": "클렌하임 바디탭 라인 마사지기",
+  "category": "마사지기",
+  "slug": "11_klenheim_bodytap",
+  "channel": "네이버 스마트스토어",
+  "url": "https://smartstore.naver.com/klenheim/products/10588075764",
+  "captured": "2026-06-04",
+  "total_images": 113,
+  "excluded": [
+    "상단 제품 영상(blob)"
+  ],
+  "note": "풀리오/벤딕트와 동일 템플릿 계열(POINT 넘버링/원형회전/인체공학 카피). 113장 초장문 슬라이스",
+  "items": [
+    {
+      "idx": 1,
+      "file": "001.jpg",
+      "thumb": "001.jpg",
+      "group": "trust",
+      "element": "정품·공식판매처",
+      "desc": "클렌하임 온라인 공식 판매처"
+    },
+    {
+      "idx": 2,
+      "file": "002.jpg",
+      "thumb": "002.jpg",
+      "group": "store",
+      "element": "품절·배송 공지",
+      "desc": "3차 품절 + 추가주문 배송 안내"
+    },
+    {
+      "idx": 3,
+      "file": "003.jpg",
+      "thumb": "003.jpg",
+      "group": "hook",
+      "element": "화제성 후킹",
+      "desc": "연예인 유튜브 내돈내산 / 유사품 주의"
+    },
+    {
+      "idx": 4,
+      "file": "004.jpg",
+      "thumb": "004.jpg",
+      "group": "trust",
+      "element": "유통 신뢰",
+      "desc": "홈쇼핑·백화점·코스트코 인정"
+    },
+    {
+      "idx": 5,
+      "file": "005.jpg",
+      "thumb": "005.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "공식몰 혜택 모아보기(당일발송/AS/전화주문)"
+    },
+    {
+      "idx": 6,
+      "file": "006.jpg",
+      "thumb": "006.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "왜 겨드랑이·부유방 케어가 중요할까"
+    },
+    {
+      "idx": 7,
+      "file": "007.gif",
+      "thumb": "007.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "팔뚝 마사지 연출"
+    },
+    {
+      "idx": 8,
+      "file": "008.jpg",
+      "thumb": "008.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "상체 붓기·뭉침 쌓이는 부위"
+    },
+    {
+      "idx": 9,
+      "file": "009.gif",
+      "thumb": "009.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "겨드랑이 마사지 연출"
+    },
+    {
+      "idx": 10,
+      "file": "010.jpg",
+      "thumb": "010.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "꾸준히 마사지 → 매끈한 바디라인"
+    },
+    {
+      "idx": 11,
+      "file": "011.jpg",
+      "thumb": "011.jpg",
+      "group": "hook",
+      "element": "후킹 카피",
+      "desc": "완벽한 바디라인? 그녀들의 비밀템"
+    },
+    {
+      "idx": 12,
+      "file": "012.gif",
+      "thumb": "012.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "쇄골 마사지 연출"
+    },
+    {
+      "idx": 13,
+      "file": "013.jpg",
+      "thumb": "013.jpg",
+      "group": "value",
+      "element": "USP·인트로",
+      "desc": "프리미엄 라인 케어 솔루션 BODY TAP"
+    },
+    {
+      "idx": 14,
+      "file": "014.gif",
+      "thumb": "014.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "팔뚝/허벅지/복부"
+    },
+    {
+      "idx": 15,
+      "file": "015.jpg",
+      "thumb": "015.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "복부 연출"
+    },
+    {
+      "idx": 16,
+      "file": "016.jpg",
+      "thumb": "016.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "아직도 힘들게 다이어트?"
+    },
+    {
+      "idx": 17,
+      "file": "017.jpg",
+      "thumb": "017.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "연출"
+    },
+    {
+      "idx": 18,
+      "file": "018.gif",
+      "thumb": "018.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "뱃살"
+    },
+    {
+      "idx": 19,
+      "file": "019.jpg",
+      "thumb": "019.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "연출"
+    },
+    {
+      "idx": 20,
+      "file": "020.jpg",
+      "thumb": "020.jpg",
+      "group": "problem",
+      "element": "문제제기·원리",
+      "desc": "운동·식단만으론 살 빼기 힘든 이유(피부 단면)"
+    },
+    {
+      "idx": 21,
+      "file": "021.gif",
+      "thumb": "021.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "어깨 마사지 연출"
+    },
+    {
+      "idx": 22,
+      "file": "022.jpg",
+      "thumb": "022.jpg",
+      "group": "problem",
+      "element": "문제제기·원리",
+      "desc": "혈액순환과 다이어트 관계(불균형 라인/유착)"
+    },
+    {
+      "idx": 23,
+      "file": "023.gif",
+      "thumb": "023.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "다리 연출"
+    },
+    {
+      "idx": 24,
+      "file": "024.jpg",
+      "thumb": "024.jpg",
+      "group": "feature",
+      "element": "원리·효과",
+      "desc": "밸런스 라인 생기는 이유(셀룰라이트)"
+    },
+    {
+      "idx": 25,
+      "file": "025.gif",
+      "thumb": "025.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "혈관·셀룰라이트 비주얼"
+    },
+    {
+      "idx": 26,
+      "file": "026.jpg",
+      "thumb": "026.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "더블롤링 회전 시스템 — 전신 바디케어"
+    },
+    {
+      "idx": 27,
+      "file": "027.gif",
+      "thumb": "027.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "허리 마사지 연출"
+    },
+    {
+      "idx": 28,
+      "file": "028.jpg",
+      "thumb": "028.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "아름다움을 두드리다 — 클렌하임 바디탭"
+    },
+    {
+      "idx": 29,
+      "file": "029.jpg",
+      "thumb": "029.jpg",
+      "group": "trust",
+      "element": "인플루언서 리뷰",
+      "desc": "인스타 소문난 필수템"
+    },
+    {
+      "idx": 30,
+      "file": "030.jpg",
+      "thumb": "030.jpg",
+      "group": "proof",
+      "element": "효과·체험",
+      "desc": "일주일 사용 Before/After"
+    },
+    {
+      "idx": 31,
+      "file": "031.jpg",
+      "thumb": "031.jpg",
+      "group": "value",
+      "element": "스펙 요약 인트로",
+      "desc": "당신을 바꿔줄 8가지 스펙"
+    },
+    {
+      "idx": 32,
+      "file": "032.jpg",
+      "thumb": "032.jpg",
+      "group": "value",
+      "element": "핵심 스펙 요약",
+      "desc": "8가지 스펙 아이콘"
+    },
+    {
+      "idx": 33,
+      "file": "033.jpg",
+      "thumb": "033.jpg",
+      "group": "trust",
+      "element": "리얼 리뷰",
+      "desc": "거짓없는 리얼 리뷰"
+    },
+    {
+      "idx": 34,
+      "file": "034.jpg",
+      "thumb": "034.jpg",
+      "group": "value",
+      "element": "USP·POINT01",
+      "desc": "프리미엄 라인 마사지기"
+    },
+    {
+      "idx": 35,
+      "file": "035.jpg",
+      "thumb": "035.jpg",
+      "group": "feature",
+      "element": "차별",
+      "desc": "왜 바디탭일까?"
+    },
+    {
+      "idx": 36,
+      "file": "036.gif",
+      "thumb": "036.jpg",
+      "group": "feature",
+      "element": "비교",
+      "desc": "일반 마사지건 비교"
+    },
+    {
+      "idx": 37,
+      "file": "037.jpg",
+      "thumb": "037.jpg",
+      "group": "feature",
+      "element": "차별",
+      "desc": "라인 관리 위해 탄생"
+    },
+    {
+      "idx": 38,
+      "file": "038.gif",
+      "thumb": "038.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "목/머리 마사지 연출"
+    },
+    {
+      "idx": 39,
+      "file": "039.jpg",
+      "thumb": "039.jpg",
+      "group": "feature",
+      "element": "설계·비교",
+      "desc": "곡선형 인체공학 / 완벽한 차이"
+    },
+    {
+      "idx": 40,
+      "file": "040.gif",
+      "thumb": "040.jpg",
+      "group": "feature",
+      "element": "원리 비교",
+      "desc": "수직 자극 vs 원형 회전 자극"
+    },
+    {
+      "idx": 41,
+      "file": "041.jpg",
+      "thumb": "041.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "원형 회전 자극"
+    },
+    {
+      "idx": 42,
+      "file": "042.gif",
+      "thumb": "042.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "팔뚝 연출"
+    },
+    {
+      "idx": 43,
+      "file": "043.jpg",
+      "thumb": "043.jpg",
+      "group": "feature",
+      "element": "파장",
+      "desc": "좁은 vs 넓은 파장"
+    },
+    {
+      "idx": 44,
+      "file": "044.gif",
+      "thumb": "044.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "머리/팔 연출"
+    },
+    {
+      "idx": 45,
+      "file": "045.jpg",
+      "thumb": "045.jpg",
+      "group": "feature",
+      "element": "디자인",
+      "desc": "손목 무리없는 곡선형"
+    },
+    {
+      "idx": 46,
+      "file": "046.jpg",
+      "thumb": "046.jpg",
+      "group": "feature",
+      "element": "활용 인트로",
+      "desc": "POINT02 올인원 전신 관리템"
+    },
+    {
+      "idx": 47,
+      "file": "047.jpg",
+      "thumb": "047.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "원하는 곳 어디든 활용도"
+    },
+    {
+      "idx": 48,
+      "file": "048.gif",
+      "thumb": "048.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "어깨/겨드랑이 연출"
+    },
+    {
+      "idx": 49,
+      "file": "049.jpg",
+      "thumb": "049.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "승모근/겨드랑이"
+    },
+    {
+      "idx": 50,
+      "file": "050.gif",
+      "thumb": "050.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "무릎/허벅지 연출"
+    },
+    {
+      "idx": 51,
+      "file": "051.jpg",
+      "thumb": "051.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "오금/서혜부"
+    },
+    {
+      "idx": 52,
+      "file": "052.gif",
+      "thumb": "052.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "복부 연출"
+    },
+    {
+      "idx": 53,
+      "file": "053.jpg",
+      "thumb": "053.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "허벅지/복부"
+    },
+    {
+      "idx": 54,
+      "file": "054.gif",
+      "thumb": "054.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "팔뚝 연출"
+    },
+    {
+      "idx": 55,
+      "file": "055.jpg",
+      "thumb": "055.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "팔뚝/종아리"
+    },
+    {
+      "idx": 56,
+      "file": "056.gif",
+      "thumb": "056.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "겨드랑이/엉덩이 연출"
+    },
+    {
+      "idx": 57,
+      "file": "057.jpg",
+      "thumb": "057.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "어깨/엉덩이"
+    },
+    {
+      "idx": 58,
+      "file": "058.jpg",
+      "thumb": "058.jpg",
+      "group": "feature",
+      "element": "관리 컨셉",
+      "desc": "POINT03 트라이앵글 멀티 케어"
+    },
+    {
+      "idx": 59,
+      "file": "059.jpg",
+      "thumb": "059.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "바디라인+마사지+순환"
+    },
+    {
+      "idx": 60,
+      "file": "060.jpg",
+      "thumb": "060.jpg",
+      "group": "feature",
+      "element": "핵심기술",
+      "desc": "POINT04 더블 롤링 테크닉(인체공학)"
+    },
+    {
+      "idx": 61,
+      "file": "061.gif",
+      "thumb": "061.jpg",
+      "group": "feature",
+      "element": "스펙",
+      "desc": "회전수(173회)"
+    },
+    {
+      "idx": 62,
+      "file": "062.jpg",
+      "thumb": "062.jpg",
+      "group": "feature",
+      "element": "스펙",
+      "desc": "1분 4,500번 회전"
+    },
+    {
+      "idx": 63,
+      "file": "063.gif",
+      "thumb": "063.jpg",
+      "group": "proof",
+      "element": "제품컷",
+      "desc": "제품 비주얼"
+    },
+    {
+      "idx": 64,
+      "file": "064.jpg",
+      "thumb": "064.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "이중 회전 — 원형 회전 자극"
+    },
+    {
+      "idx": 65,
+      "file": "065.gif",
+      "thumb": "065.jpg",
+      "group": "feature",
+      "element": "원리 비교",
+      "desc": "수직 vs 원형 회전 단면"
+    },
+    {
+      "idx": 66,
+      "file": "066.jpg",
+      "thumb": "066.jpg",
+      "group": "feature",
+      "element": "비교",
+      "desc": "타사 수직 vs 바디탭 원형(조직 손상)"
+    },
+    {
+      "idx": 67,
+      "file": "067.gif",
+      "thumb": "067.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "피하지방 단면"
+    },
+    {
+      "idx": 68,
+      "file": "068.jpg",
+      "thumb": "068.jpg",
+      "group": "feature",
+      "element": "파워모드",
+      "desc": "POINT05 6단계 파워모드"
+    },
+    {
+      "idx": 69,
+      "file": "069.gif",
+      "thumb": "069.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "복부 연출"
+    },
+    {
+      "idx": 70,
+      "file": "070.jpg",
+      "thumb": "070.jpg",
+      "group": "feature",
+      "element": "강도",
+      "desc": "파워 1단/6단"
+    },
+    {
+      "idx": 71,
+      "file": "071.gif",
+      "thumb": "071.jpg",
+      "group": "feature",
+      "element": "파워 데모",
+      "desc": "물잔 진동 데모"
+    },
+    {
+      "idx": 72,
+      "file": "072.jpg",
+      "thumb": "072.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "피하지방 정확한 타격"
+    },
+    {
+      "idx": 73,
+      "file": "073.jpg",
+      "thumb": "073.jpg",
+      "group": "feature",
+      "element": "헤드",
+      "desc": "POINT06 4종 마사지 헤드"
+    },
+    {
+      "idx": 74,
+      "file": "074.gif",
+      "thumb": "074.jpg",
+      "group": "feature",
+      "element": "헤드",
+      "desc": "Type1 베이직 타입"
+    },
+    {
+      "idx": 75,
+      "file": "075.gif",
+      "thumb": "075.jpg",
+      "group": "feature",
+      "element": "헤드",
+      "desc": "Type2 라운드 타입"
+    },
+    {
+      "idx": 76,
+      "file": "076.gif",
+      "thumb": "076.jpg",
+      "group": "feature",
+      "element": "헤드",
+      "desc": "Type3 웨이브 타입"
+    },
+    {
+      "idx": 77,
+      "file": "077.gif",
+      "thumb": "077.jpg",
+      "group": "feature",
+      "element": "헤드",
+      "desc": "Type4 핑거 타입"
+    },
+    {
+      "idx": 78,
+      "file": "078.jpg",
+      "thumb": "078.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "메쉬 커버"
+    },
+    {
+      "idx": 79,
+      "file": "079.jpg",
+      "thumb": "079.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "연출"
+    },
+    {
+      "idx": 80,
+      "file": "080.gif",
+      "thumb": "080.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "메쉬커버 결합"
+    },
+    {
+      "idx": 81,
+      "file": "081.jpg",
+      "thumb": "081.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "결합으로 피부자극 감소"
+    },
+    {
+      "idx": 82,
+      "file": "082.gif",
+      "thumb": "082.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "복부 연출"
+    },
+    {
+      "idx": 83,
+      "file": "083.jpg",
+      "thumb": "083.jpg",
+      "group": "feature",
+      "element": "사용 팁",
+      "desc": "사용시간 늘려 빠른 효과"
+    },
+    {
+      "idx": 84,
+      "file": "084.jpg",
+      "thumb": "084.jpg",
+      "group": "feature",
+      "element": "LED",
+      "desc": "POINT07 LED 디스플레이"
+    },
+    {
+      "idx": 85,
+      "file": "085.gif",
+      "thumb": "085.jpg",
+      "group": "feature",
+      "element": "LED",
+      "desc": "LED 버튼"
+    },
+    {
+      "idx": 86,
+      "file": "086.jpg",
+      "thumb": "086.jpg",
+      "group": "feature",
+      "element": "LED",
+      "desc": "강도/배터리 확인"
+    },
+    {
+      "idx": 87,
+      "file": "087.jpg",
+      "thumb": "087.jpg",
+      "group": "feature",
+      "element": "배터리",
+      "desc": "POINT08 대용량 무선 작동"
+    },
+    {
+      "idx": 88,
+      "file": "088.gif",
+      "thumb": "088.jpg",
+      "group": "feature",
+      "element": "충전",
+      "desc": "충전부 디테일"
+    },
+    {
+      "idx": 89,
+      "file": "089.jpg",
+      "thumb": "089.jpg",
+      "group": "feature",
+      "element": "배터리",
+      "desc": "C타입 충전 최대 90분"
+    },
+    {
+      "idx": 90,
+      "file": "090.gif",
+      "thumb": "090.jpg",
+      "group": "feature",
+      "element": "휴대성",
+      "desc": "가방에 쏙"
+    },
+    {
+      "idx": 91,
+      "file": "091.jpg",
+      "thumb": "091.jpg",
+      "group": "feature",
+      "element": "휴대성",
+      "desc": "무선 사무실/야외 이동"
+    },
+    {
+      "idx": 92,
+      "file": "092.jpg",
+      "thumb": "092.jpg",
+      "group": "design",
+      "element": "디테일 인트로",
+      "desc": "작은 곳까지 섬세한 디테일"
+    },
+    {
+      "idx": 93,
+      "file": "093.gif",
+      "thumb": "093.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "노트북 옆 사용 연출"
+    },
+    {
+      "idx": 94,
+      "file": "094.jpg",
+      "thumb": "094.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "방치하는 마사지기 / 깔끔한 보관"
+    },
+    {
+      "idx": 95,
+      "file": "095.gif",
+      "thumb": "095.jpg",
+      "group": "design",
+      "element": "보관·거치",
+      "desc": "책상 위 거치"
+    },
+    {
+      "idx": 96,
+      "file": "096.jpg",
+      "thumb": "096.jpg",
+      "group": "feature",
+      "element": "편의",
+      "desc": "손 가는 위치에 신속한 사용"
+    },
+    {
+      "idx": 97,
+      "file": "097.gif",
+      "thumb": "097.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "노트북 옆 거치 연출"
+    },
+    {
+      "idx": 98,
+      "file": "098.jpg",
+      "thumb": "098.jpg",
+      "group": "feature",
+      "element": "세척",
+      "desc": "워셔블 분리 세척 구조"
+    },
+    {
+      "idx": 99,
+      "file": "099.jpg",
+      "thumb": "099.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "연출"
+    },
+    {
+      "idx": 100,
+      "file": "100.gif",
+      "thumb": "100.jpg",
+      "group": "feature",
+      "element": "세척",
+      "desc": "크림/오일 펌핑"
+    },
+    {
+      "idx": 101,
+      "file": "101.jpg",
+      "thumb": "101.jpg",
+      "group": "feature",
+      "element": "세척",
+      "desc": "물세척 — 부드러운 마사지"
+    },
+    {
+      "idx": 102,
+      "file": "102.gif",
+      "thumb": "102.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "무릎 크림 연출"
+    },
+    {
+      "idx": 103,
+      "file": "103.jpg",
+      "thumb": "103.jpg",
+      "group": "value",
+      "element": "감성",
+      "desc": "좋은 향기·촉감 릴렉싱"
+    },
+    {
+      "idx": 104,
+      "file": "104.jpg",
+      "thumb": "104.jpg",
+      "group": "feature",
+      "element": "저소음",
+      "desc": "저소음 설계 45-50dB"
+    },
+    {
+      "idx": 105,
+      "file": "105.jpg",
+      "thumb": "105.jpg",
+      "group": "feature",
+      "element": "그립",
+      "desc": "미끄러짐 없는 논슬립 핸들 그립"
+    },
+    {
+      "idx": 106,
+      "file": "106.jpg",
+      "thumb": "106.jpg",
+      "group": "store",
+      "element": "증정",
+      "desc": "구매자 전원 전용 파우치 무료증정"
+    },
+    {
+      "idx": 107,
+      "file": "107.jpg",
+      "thumb": "107.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "KC 안전 테스트 통과(인증서)"
+    },
+    {
+      "idx": 108,
+      "file": "108.jpg",
+      "thumb": "108.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "헤드 교체 방법"
+    },
+    {
+      "idx": 109,
+      "file": "109.jpg",
+      "thumb": "109.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "바디탭 작동 방법"
+    },
+    {
+      "idx": 110,
+      "file": "110.jpg",
+      "thumb": "110.jpg",
+      "group": "info",
+      "element": "구성품",
+      "desc": "제품 구성(본품/헤드4종/메쉬커버)"
+    },
+    {
+      "idx": 111,
+      "file": "111.jpg",
+      "thumb": "111.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 112,
+      "file": "112.jpg",
+      "thumb": "112.jpg",
+      "group": "info",
+      "element": "제품 스펙",
+      "desc": "제품 정보 사양표"
+    },
+    {
+      "idx": 113,
+      "file": "113.jpg",
+      "thumb": "113.jpg",
+      "group": "info",
+      "element": "구매정보·AS",
+      "desc": "WARRANTY/CS/교환·반품"
+    }
+  ]
+}

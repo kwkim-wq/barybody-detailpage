@@ -1,0 +1,478 @@
+{
+  "product": "미락 진공쌀통 (3세대, 집들이선물)",
+  "category": "주방용품",
+  "slug": "02_mirak_ricebin",
+  "channel": "네이버 스마트스토어",
+  "url": "https://smartstore.naver.com/like3651/products/5176706639",
+  "captured": "2026-06-04",
+  "total_images": 58,
+  "excluded": [
+    "상단 제품 영상(blob)"
+  ],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "브랜드·방송 협찬",
+      "desc": "SBS·KBS·MBC 방송사 공식협찬사 위드웰"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "store",
+      "element": "쿠폰·혜택 고지",
+      "desc": "슈퍼적립 멤버십 10% 적립"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "배송·리뷰 이벤트 고지",
+      "desc": "물량비상 배송안내 + 포토/동영상 리뷰 이벤트"
+    },
+    {
+      "idx": 4,
+      "file": "04.gif",
+      "thumb": "04.jpg",
+      "group": "trust",
+      "element": "브랜드·방송 협찬",
+      "desc": "SBS·KBS 공식협찬 ‘TV에서 봤던 그 진공쌀통’"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "hook",
+      "element": "제품 인트로(신제품)",
+      "desc": "미락바이오 항균기능 추가 3세대"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "trust",
+      "element": "판매 실적",
+      "desc": "30만대 판매돌파"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "trust",
+      "element": "수상·랭킹 1위",
+      "desc": "6년연속 브랜드파워·소비자만족 1위"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "창가 인테리어 연출"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "trust",
+      "element": "검색·랭킹 1위",
+      "desc": "N사 포털 인기 브랜드 1위"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "trust",
+      "element": "외부몰 평점·리뷰",
+      "desc": "쇼핑몰별 구매고객 평점&리뷰(H몰/GS/SSG)"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "trust",
+      "element": "실사용 후기",
+      "desc": "구매자 리뷰 캡처"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "value",
+      "element": "핵심가치 USP",
+      "desc": "4계절 쌀 지킴이 — 4대 차단 요약"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "기능·원리",
+      "desc": "Vacuum 원천기술, 습한공기 배출"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "기능·항균",
+      "desc": "원적외선 항균기능 내피"
+    },
+    {
+      "idx": 15,
+      "file": "15.gif",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "기능·항균(비주얼)",
+      "desc": "항균 비주얼 연출"
+    },
+    {
+      "idx": 16,
+      "file": "16.jpg",
+      "thumb": "16.jpg",
+      "group": "trust",
+      "element": "인증·시험성적",
+      "desc": "원적외선 항균기능 시험성적서"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "trust",
+      "element": "인증·시험성적",
+      "desc": "식품용기 안심소재 중금속·환경호르몬 불검출"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "신/구 비교·개선점",
+      "desc": "1세대 vs 3세대 업그레이드"
+    },
+    {
+      "idx": 19,
+      "file": "19.jpg",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "기능·스펙 비교",
+      "desc": "진공능력/용기방식 비교표"
+    },
+    {
+      "idx": 20,
+      "file": "20.jpg",
+      "thumb": "20.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "‘밥이 맛이 없나요?’ 푸석한 밥"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "문제는 쌀 보관방법 — 쌀벌레/습기/곰팡이"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "problem",
+      "element": "문제→해결 전환",
+      "desc": "여기저기 보관 말고 쌀통을 바꿔보세요"
+    },
+    {
+      "idx": 23,
+      "file": "23.jpg",
+      "thumb": "23.jpg",
+      "group": "value",
+      "element": "해결책 제시(제품 등장)",
+      "desc": "미락 진공쌀통 20kg, 오래 신선하게"
+    },
+    {
+      "idx": 24,
+      "file": "24.gif",
+      "thumb": "24.jpg",
+      "group": "problem",
+      "element": "문제제기(상황 연출)",
+      "desc": "으! 쌀벌레!"
+    },
+    {
+      "idx": 25,
+      "file": "25.jpg",
+      "thumb": "25.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "우리집은 어디? 잘못된 보관 사례"
+    },
+    {
+      "idx": 26,
+      "file": "26.jpg",
+      "thumb": "26.jpg",
+      "group": "value",
+      "element": "해결책 제시",
+      "desc": "쌀 보관 혁명, 미락의 기술로"
+    },
+    {
+      "idx": 27,
+      "file": "27.jpg",
+      "thumb": "27.jpg",
+      "group": "feature",
+      "element": "기능·진공력 인트로",
+      "desc": "공기 쫙 뺀 진공보관, 강력한 진공력"
+    },
+    {
+      "idx": 28,
+      "file": "28.gif",
+      "thumb": "28.jpg",
+      "group": "feature",
+      "element": "구조 디테일",
+      "desc": "진공밸브 작동 구조"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "feature",
+      "element": "실험 데모",
+      "desc": "자동 진공압 체크 + 생수통 진공테스트"
+    },
+    {
+      "idx": 30,
+      "file": "30.gif",
+      "thumb": "30.jpg",
+      "group": "feature",
+      "element": "실험 데모",
+      "desc": "35배속 생수통 흡입 데모"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "진공력 시연",
+      "desc": "들어올리기 시연"
+    },
+    {
+      "idx": 32,
+      "file": "32.gif",
+      "thumb": "32.jpg",
+      "group": "feature",
+      "element": "기능·진공력",
+      "desc": "20kg 쌀 넣어도 강력한 진공"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "feature",
+      "element": "기능·보관성능",
+      "desc": "최적 온도/습도, 수분함량 유지"
+    },
+    {
+      "idx": 34,
+      "file": "34.jpg",
+      "thumb": "34.jpg",
+      "group": "feature",
+      "element": "실험 데모",
+      "desc": "바나나 20일 진공보관 전후 비교"
+    },
+    {
+      "idx": 35,
+      "file": "35.gif",
+      "thumb": "35.jpg",
+      "group": "feature",
+      "element": "실험 데모",
+      "desc": "바나나 진공보관 테스트"
+    },
+    {
+      "idx": 36,
+      "file": "36.jpg",
+      "thumb": "36.jpg",
+      "group": "value",
+      "element": "효과 강조 USP",
+      "desc": "쌀곰팡이·쌀벌레 Out!"
+    },
+    {
+      "idx": 37,
+      "file": "37.gif",
+      "thumb": "37.jpg",
+      "group": "feature",
+      "element": "기능·편의",
+      "desc": "스마트 진공, 쌀 퍼내기 20초"
+    },
+    {
+      "idx": 38,
+      "file": "38.jpg",
+      "thumb": "38.jpg",
+      "group": "feature",
+      "element": "구조 비교",
+      "desc": "하부진공 시스템 1세대 vs 3세대"
+    },
+    {
+      "idx": 39,
+      "file": "39.gif",
+      "thumb": "39.jpg",
+      "group": "feature",
+      "element": "기능·편의",
+      "desc": "완전 분리형 뚜껑"
+    },
+    {
+      "idx": 40,
+      "file": "40.jpg",
+      "thumb": "40.jpg",
+      "group": "feature",
+      "element": "기능·편의",
+      "desc": "뚜껑 전기장치 없어 가벼움"
+    },
+    {
+      "idx": 41,
+      "file": "41.jpg",
+      "thumb": "41.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "2중 용기(외피/내피)"
+    },
+    {
+      "idx": 42,
+      "file": "42.jpg",
+      "thumb": "42.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "2중 날개 패킹"
+    },
+    {
+      "idx": 43,
+      "file": "43.gif",
+      "thumb": "43.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "손쉬운 작동방법 — 처음 작동"
+    },
+    {
+      "idx": 44,
+      "file": "44.jpg",
+      "thumb": "44.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "설치/진공해제 방법"
+    },
+    {
+      "idx": 45,
+      "file": "45.jpg",
+      "thumb": "45.jpg",
+      "group": "feature",
+      "element": "차별점",
+      "desc": "유선 선택 이유 — 보조배터리 충전 NO"
+    },
+    {
+      "idx": 46,
+      "file": "46.jpg",
+      "thumb": "46.jpg",
+      "group": "feature",
+      "element": "유지비·차별점",
+      "desc": "배터리 교체 NO, 전기요금 걱정 NO"
+    },
+    {
+      "idx": 47,
+      "file": "47.jpg",
+      "thumb": "47.jpg",
+      "group": "feature",
+      "element": "기능·저소음",
+      "desc": "40dB 이하(37.9dB) 저소음"
+    },
+    {
+      "idx": 48,
+      "file": "48.jpg",
+      "thumb": "48.jpg",
+      "group": "feature",
+      "element": "기능·자외선 차단",
+      "desc": "외·내피 2중 자외선 차단(+성적서)"
+    },
+    {
+      "idx": 49,
+      "file": "49.jpg",
+      "thumb": "49.jpg",
+      "group": "feature",
+      "element": "기능·활용성",
+      "desc": "다목적 보관(잡곡/시리얼/빵)"
+    },
+    {
+      "idx": 50,
+      "file": "50.jpg",
+      "thumb": "50.jpg",
+      "group": "feature",
+      "element": "기능·제습",
+      "desc": "제습 기능 추가"
+    },
+    {
+      "idx": 51,
+      "file": "51.jpg",
+      "thumb": "51.jpg",
+      "group": "feature",
+      "element": "기능·편의",
+      "desc": "하부 이동바퀴"
+    },
+    {
+      "idx": 52,
+      "file": "52.jpg",
+      "thumb": "52.jpg",
+      "group": "feature",
+      "element": "기능·용량",
+      "desc": "넉넉한 대용량"
+    },
+    {
+      "idx": 53,
+      "file": "53.jpg",
+      "thumb": "53.jpg",
+      "group": "design",
+      "element": "디자인",
+      "desc": "심플 깔끔한 화이트 디자인"
+    },
+    {
+      "idx": 54,
+      "file": "54.jpg",
+      "thumb": "54.jpg",
+      "group": "design",
+      "element": "디자인 연출컷",
+      "desc": "디자인 연출"
+    },
+    {
+      "idx": 55,
+      "file": "55.jpg",
+      "thumb": "55.jpg",
+      "group": "info",
+      "element": "제품 스펙(사이즈)",
+      "desc": "사이즈 도면 20/15Kg"
+    },
+    {
+      "idx": 56,
+      "file": "56.jpg",
+      "thumb": "56.jpg",
+      "group": "info",
+      "element": "제품 스펙표",
+      "desc": "제품 정보 사양표"
+    },
+    {
+      "idx": 57,
+      "file": "57.jpg",
+      "thumb": "57.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주하는 질문"
+    },
+    {
+      "idx": 58,
+      "file": "58.jpg",
+      "thumb": "58.jpg",
+      "group": "trust",
+      "element": "브랜드 가치·사회공헌",
+      "desc": "위드웰 사회공헌 프로젝트"
+    }
+  ]
+}

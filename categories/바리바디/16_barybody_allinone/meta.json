@@ -1,0 +1,349 @@
+{
+  "product": "바리바디 올인원 마사지기",
+  "category": "바리바디",
+  "slug": "16_barybody_allinone",
+  "channel": "바리바디 자사몰",
+  "url": "https://barybody.com/product/바리바디-올인원-마사지기/852/",
+  "captured": "2026-06-04",
+  "total_images": 42,
+  "excluded": [],
+  "note": "우리 자사 제품(자체 제작)",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "정품·사칭주의",
+      "desc": "사칭채널 주의"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "정품·공식판매",
+      "desc": "본사 공식 판매점"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "자사몰 구매 혜택"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "hook",
+      "element": "셀럽 PICK",
+      "desc": "트렌드쇼퍼 조권 PICK — 누워서 푸는 피로회복"
+    },
+    {
+      "idx": 5,
+      "file": "05.gif",
+      "thumb": "05.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "누워서 사용"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "누워서 사용"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "목/어깨/등/허리/골반 — 올인원 10분"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "guide",
+      "element": "사용가이드",
+      "desc": "올인원 사용 가이드"
+    },
+    {
+      "idx": 9,
+      "file": "09.gif",
+      "thumb": "09.jpg",
+      "group": "trust",
+      "element": "실적·입점",
+      "desc": "현장 증명 — 현대/스타필드/IPARK/AK"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "trust",
+      "element": "실적·입점",
+      "desc": "올리브영 입점"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "hook",
+      "element": "후킹 카피",
+      "desc": "누워만 있어도 시원합니다"
+    },
+    {
+      "idx": 12,
+      "file": "12.gif",
+      "thumb": "12.jpg",
+      "group": "value",
+      "element": "제품 인트로·USP",
+      "desc": "하루 10분 올인원 바디케어"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "동작",
+      "desc": "대표동작01 A타입 경추 마사지"
+    },
+    {
+      "idx": 14,
+      "file": "14.gif",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "동작",
+      "desc": "대표동작02 B타입 요추 마사지"
+    },
+    {
+      "idx": 15,
+      "file": "15.gif",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "동작",
+      "desc": "대표동작03 C타입 림프절 마사지"
+    },
+    {
+      "idx": 16,
+      "file": "16.jpg",
+      "thumb": "16.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "왜 필요할까 — 묵직한 피로감"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "누워서 딱 10분 근막/자세 교정"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "trust",
+      "element": "리뷰",
+      "desc": "리얼 후기 4.9/5"
+    },
+    {
+      "idx": 19,
+      "file": "19.jpg",
+      "thumb": "19.jpg",
+      "group": "value",
+      "element": "제품 인트로",
+      "desc": "뭉친 피로 이거 하나로 끝"
+    },
+    {
+      "idx": 20,
+      "file": "20.gif",
+      "thumb": "20.jpg",
+      "group": "problem",
+      "element": "타겟 페르소나",
+      "desc": "이런 분들이라면 꼭 필요"
+    },
+    {
+      "idx": 21,
+      "file": "21.jpg",
+      "thumb": "21.jpg",
+      "group": "feature",
+      "element": "모드",
+      "desc": "POINT01 부위/강도 3WAY 마사지"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "모드",
+      "desc": "POINT02 온몸 구석구석 3쉐입 돌기"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "누워서 사용"
+    },
+    {
+      "idx": 24,
+      "file": "24.gif",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "관자놀이 괄사 마사지"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "5분 종아리 마사지(붓기)"
+    },
+    {
+      "idx": 26,
+      "file": "26.jpg",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "눕기만 해도 경추~요추 집중"
+    },
+    {
+      "idx": 27,
+      "file": "27.gif",
+      "thumb": "27.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "흉추"
+    },
+    {
+      "idx": 28,
+      "file": "28.gif",
+      "thumb": "28.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "경추"
+    },
+    {
+      "idx": 29,
+      "file": "29.gif",
+      "thumb": "29.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "요추"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "guide",
+      "element": "사용가이드",
+      "desc": "사용 가이드"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "휴대",
+      "desc": "POINT03 포켓 사이즈 언제 어디서나"
+    },
+    {
+      "idx": 32,
+      "file": "32.gif",
+      "thumb": "32.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "200% 활용 — 회사에서 틈틈이"
+    },
+    {
+      "idx": 33,
+      "file": "33.gif",
+      "thumb": "33.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "벽 활용"
+    },
+    {
+      "idx": 34,
+      "file": "34.gif",
+      "thumb": "34.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "헬스장 운동 후"
+    },
+    {
+      "idx": 35,
+      "file": "35.jpg",
+      "thumb": "35.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "POINT04 무해한 친환경 실리콘(안전성 테스트)"
+    },
+    {
+      "idx": 36,
+      "file": "36.jpg",
+      "thumb": "36.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "머리 위 사용"
+    },
+    {
+      "idx": 37,
+      "file": "37.jpg",
+      "thumb": "37.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "어깨/겨드랑이"
+    },
+    {
+      "idx": 38,
+      "file": "38.jpg",
+      "thumb": "38.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "연출"
+    },
+    {
+      "idx": 39,
+      "file": "39.jpg",
+      "thumb": "39.jpg",
+      "group": "trust",
+      "element": "보증",
+      "desc": "불만족 시 100% 환불"
+    },
+    {
+      "idx": 40,
+      "file": "40.jpg",
+      "thumb": "40.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 41,
+      "file": "41.jpg",
+      "thumb": "41.jpg",
+      "group": "info",
+      "element": "제품 스펙",
+      "desc": "제품 상세 정보(사이즈/무게/소재)"
+    },
+    {
+      "idx": 42,
+      "file": "42.jpg",
+      "thumb": "42.jpg",
+      "group": "trust",
+      "element": "신뢰·AS",
+      "desc": "바리바디 1년 무상 A/S"
+    }
+  ]
+}

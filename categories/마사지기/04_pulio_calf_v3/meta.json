@@ -1,0 +1,380 @@
+{
+  "product": "풀리오 종아리 마사지기 V3",
+  "category": "마사지기",
+  "slug": "04_pulio_calf_v3",
+  "channel": "네이버 브랜드스토어",
+  "url": "https://brand.naver.com/pulio_official/products/10408470157",
+  "captured": "2026-06-04",
+  "total_images": 46,
+  "excluded": [],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.png",
+      "thumb": "01.jpg",
+      "group": "store",
+      "element": "프로모션·이벤트 배너",
+      "desc": "디지털/가전 페스타 행사 배너"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "store",
+      "element": "행사 링크 배너",
+      "desc": "풀리오 행사상품 보러가기"
+    },
+    {
+      "idx": 3,
+      "file": "03.png",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "쿠폰·혜택 고지",
+      "desc": "5% 할인쿠폰 발급"
+    },
+    {
+      "idx": 4,
+      "file": "04.png",
+      "thumb": "04.jpg",
+      "group": "store",
+      "element": "배송 안내",
+      "desc": "네이버 오늘/내일배송 안내"
+    },
+    {
+      "idx": 5,
+      "file": "05.png",
+      "thumb": "05.jpg",
+      "group": "store",
+      "element": "구매 전 공지",
+      "desc": "출고·구성 변동 안내"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "trust",
+      "element": "브랜드·정품 인증",
+      "desc": "풀리오 공식 스토어 정품 인증"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "hook",
+      "element": "제품 인트로(메인+모델)",
+      "desc": "‘풀자, 기술적으로’ 종아리마사지기 V3"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "value",
+      "element": "브랜드 가치",
+      "desc": "본질에 집중, 압도적인 기술력"
+    },
+    {
+      "idx": 9,
+      "file": "09.gif",
+      "thumb": "09.jpg",
+      "group": "trust",
+      "element": "판매 실적",
+      "desc": "총 누적 판매량"
+    },
+    {
+      "idx": 10,
+      "file": "10.webp",
+      "thumb": "10.jpg",
+      "group": "value",
+      "element": "차별 포지셔닝",
+      "desc": "‘종아리 마사지기의 기준’ 일반 vs V3"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "value",
+      "element": "핵심가치 USP",
+      "desc": "차원이 다른 마사지"
+    },
+    {
+      "idx": 12,
+      "file": "12.webp",
+      "thumb": "12.jpg",
+      "group": "proof",
+      "element": "제품 비주얼",
+      "desc": "종아리 착용 비주얼"
+    },
+    {
+      "idx": 13,
+      "file": "13.jpg",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "기능 인트로",
+      "desc": "근육 물결치듯 자극, 다이나믹"
+    },
+    {
+      "idx": 14,
+      "file": "14.webp",
+      "thumb": "14.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "침대 착용 연출"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "store",
+      "element": "착용 안내",
+      "desc": "긴옷 착용 안내(참고)"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "feature",
+      "element": "기능·에어셀 인트로",
+      "desc": "AirCell 3중 에어셀, 3개의 손"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "feature",
+      "element": "기능·에어셀",
+      "desc": "자체개발 3중 에어셀"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "기능·에어셀 시연",
+      "desc": "에어셀 작동(이어짐)"
+    },
+    {
+      "idx": 19,
+      "file": "19.webp",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "제품 구조·내부",
+      "desc": "내부 기판 구조"
+    },
+    {
+      "idx": 20,
+      "file": "20.jpg",
+      "thumb": "20.jpg",
+      "group": "feature",
+      "element": "기능·에어펌프",
+      "desc": "3.0L Airpump"
+    },
+    {
+      "idx": 21,
+      "file": "21.jpg",
+      "thumb": "21.jpg",
+      "group": "value",
+      "element": "브랜드 스토리",
+      "desc": "PULIO STORY — 마사지의 기준 완성"
+    },
+    {
+      "idx": 22,
+      "file": "22.webp",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "제품 구조·내부",
+      "desc": "내부 모터/펌프 구조"
+    },
+    {
+      "idx": 23,
+      "file": "23.jpg",
+      "thumb": "23.jpg",
+      "group": "trust",
+      "element": "실적·브랜드(+모델)",
+      "desc": "사랑받는 이유 100만 고객 / 3중 에어셀 패턴"
+    },
+    {
+      "idx": 24,
+      "file": "24.jpg",
+      "thumb": "24.jpg",
+      "group": "value",
+      "element": "가성비·비용 비교",
+      "desc": "1년 140만원 절약, 마사지샵 vs 풀리오"
+    },
+    {
+      "idx": 25,
+      "file": "25.jpg",
+      "thumb": "25.jpg",
+      "group": "value",
+      "element": "브랜드 USP",
+      "desc": "종아리 관리의 시작은 오직 풀리오"
+    },
+    {
+      "idx": 26,
+      "file": "26.webp",
+      "thumb": "26.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "종아리 붓기·혈류 비주얼"
+    },
+    {
+      "idx": 27,
+      "file": "27.jpg",
+      "thumb": "27.jpg",
+      "group": "feature",
+      "element": "기능·비교",
+      "desc": "3개 에어셀 밸브 입체 마사지(기존 vs 풀리오)"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "problem",
+      "element": "문제제기·필요성",
+      "desc": "퉁퉁한 종아리, 선택 아닌 필수(+연출)"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "trust",
+      "element": "1위·국민 브랜드",
+      "desc": "1위 국민 마사지기, 압도적 풀리오"
+    },
+    {
+      "idx": 30,
+      "file": "30.webp",
+      "thumb": "30.jpg",
+      "group": "feature",
+      "element": "작동 비주얼",
+      "desc": "종아리 에어셀 작동"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "핵심 스펙 요약",
+      "desc": "Calf Massager V3 스펙 요약"
+    },
+    {
+      "idx": 32,
+      "file": "32.webp",
+      "thumb": "32.jpg",
+      "group": "feature",
+      "element": "기능·에어셀 작동",
+      "desc": "01 Aircell 근육 자극"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "feature",
+      "element": "기능·에어셀",
+      "desc": "3중 에어셀 기술"
+    },
+    {
+      "idx": 34,
+      "file": "34.webp",
+      "thumb": "34.jpg",
+      "group": "feature",
+      "element": "기능·에어펌프",
+      "desc": "02 Airpump 작동"
+    },
+    {
+      "idx": 35,
+      "file": "35.jpg",
+      "thumb": "35.jpg",
+      "group": "feature",
+      "element": "기능·에어펌프",
+      "desc": "3.0L 에어펌프"
+    },
+    {
+      "idx": 36,
+      "file": "36.jpg",
+      "thumb": "36.jpg",
+      "group": "feature",
+      "element": "기능·모드/강도",
+      "desc": "03 Mode/Intensity 5모드 5강도"
+    },
+    {
+      "idx": 37,
+      "file": "37.jpg",
+      "thumb": "37.jpg",
+      "group": "feature",
+      "element": "기능·모드(이어짐)",
+      "desc": "모드/강도 이어짐"
+    },
+    {
+      "idx": 38,
+      "file": "38.webp",
+      "thumb": "38.jpg",
+      "group": "feature",
+      "element": "기능·배터리",
+      "desc": "05 Battery 5,000mAh 최대 220분"
+    },
+    {
+      "idx": 39,
+      "file": "39.jpg",
+      "thumb": "39.jpg",
+      "group": "feature",
+      "element": "기능·스마트 메모리",
+      "desc": "04 Smart memory"
+    },
+    {
+      "idx": 40,
+      "file": "40.jpg",
+      "thumb": "40.jpg",
+      "group": "feature",
+      "element": "기능·편의(착용)",
+      "desc": "양방향 지퍼 탈착"
+    },
+    {
+      "idx": 41,
+      "file": "41.jpg",
+      "thumb": "41.jpg",
+      "group": "problem",
+      "element": "타겟 페르소나",
+      "desc": "이런 분께 추천(직장인/여성/관리)"
+    },
+    {
+      "idx": 42,
+      "file": "42.jpg",
+      "thumb": "42.jpg",
+      "group": "trust",
+      "element": "신뢰·A/S+인증",
+      "desc": "품질보증 365일 무상 A/S + KC 인증"
+    },
+    {
+      "idx": 43,
+      "file": "43.jpg",
+      "thumb": "43.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "컨트롤러 버튼 안내"
+    },
+    {
+      "idx": 44,
+      "file": "44.jpg",
+      "thumb": "44.jpg",
+      "group": "trust",
+      "element": "브랜드 신뢰",
+      "desc": "제조부터 품질까지 직접 관리"
+    },
+    {
+      "idx": 45,
+      "file": "45.jpg",
+      "thumb": "45.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 46,
+      "file": "46.jpg",
+      "thumb": "46.jpg",
+      "group": "info",
+      "element": "제품 스펙표",
+      "desc": "제품 상세 정보"
+    }
+  ]
+}

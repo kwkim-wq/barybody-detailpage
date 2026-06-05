@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>좋은 상세페이지 공식 — 22개 제품 1,033장 분류 기반</title>
+<style>
+  :root{
+    --bg:#f7f7f5; --card:#ffffff; --ink:#1c1c1e; --sub:#6b7280; --line:#e5e7eb;
+    --accent:#2f6fed; --accent2:#10b981; --warn:#ef4444; --gold:#b8860b;
+    --store:#94a3b8; --hook:#ef4444; --problem:#f59e0b; --value:#8b5cf6; --feature:#3b82f6;
+    --proof:#10b981; --design:#ec4899; --trust:#14b8a6; --guide:#64748b; --info:#0ea5e9;
+    font-family:-apple-system,'Apple SD Gothic Neo','Pretendard',sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;font-size:16px}
+  .wrap{max-width:880px;margin:0 auto;padding:48px 22px 120px}
+  h1{font-size:30px;line-height:1.3;margin:0 0 8px;letter-spacing:-.5px}
+  h2{font-size:23px;margin:56px 0 14px;padding-top:18px;border-top:3px solid var(--ink);letter-spacing:-.3px}
+  h3{font-size:18px;margin:28px 0 8px}
+  p{margin:10px 0}
+  .lead{color:var(--sub);font-size:15px}
+  .tag{display:inline-block;font-size:12px;font-weight:700;color:#fff;border-radius:6px;padding:2px 9px;vertical-align:middle}
+  .muted{color:var(--sub)}
+  .hr{height:1px;background:var(--line);margin:18px 0}
+  .kicker{font-size:13px;font-weight:800;letter-spacing:1px;color:var(--accent);text-transform:uppercase}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+  .callout{border-left:4px solid var(--accent);background:#eef4ff;border-radius:0 10px 10px 0;padding:14px 18px;margin:16px 0}
+  .callout.warn{border-color:var(--warn);background:#fef2f2}
+  .callout.ok{border-color:var(--accent2);background:#ecfdf5}
+  .callout.gold{border-color:var(--gold);background:#fdf6e3}
+  .callout b{font-weight:800}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:14px 0;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{padding:9px 11px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{background:#fafafa;font-weight:700;font-size:13px;color:#374151}
+  td.num,th.num{text-align:center;white-space:nowrap}
+  tr:last-child td{border-bottom:none}
+  .bar{height:9px;border-radius:5px;background:#eef0f3;overflow:hidden;display:inline-block;width:120px;vertical-align:middle}
+  .bar > i{display:block;height:100%}
+  ul,ol{margin:8px 0 8px 2px;padding-left:20px}
+  li{margin:5px 0}
+  .flow{counter-reset:step;margin:18px 0}
+  .flow .step{position:relative;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px 14px 60px;margin:10px 0}
+  .flow .step::before{counter-increment:step;content:counter(step);position:absolute;left:14px;top:50%;transform:translateY(-50%);
+    width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+  .flow .step h4{margin:0 0 3px;font-size:16px}
+  .flow .step .el{font-size:13px;color:var(--sub)}
+  .pillrow{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+  .pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:3px 11px;background:#fff;color:#374151}
+  .ex{font-size:13.5px;color:#374151;background:#f3f4f6;border-radius:8px;padding:9px 12px;margin-top:8px}
+  .ex b{color:#111}
+  /* 레퍼런스: 설명(왼쪽) + 전용 패널(오른쪽) 2단 */
+  .refrow{display:flex;gap:18px;align-items:stretch;margin-top:12px;flex-wrap:wrap}
+  .refrow .ex{flex:1 1 260px;min-width:240px;margin-top:0;align-self:flex-start}
+  /* 레퍼런스 전용 패널 */
+  .reffig{flex:0 0 auto;width:340px;margin:0;background:#f7f8fa;border:1px solid #e2e5ea;border-radius:12px;padding:14px 14px 12px}
+  .reffig::before{content:"📌 레퍼런스";display:block;font-size:12px;font-weight:800;color:#64748b;letter-spacing:.3px;margin-bottom:10px}
+  .reffig img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block;background:#fff}
+  .reffig figcaption{font-size:12px;color:var(--sub);margin-top:8px;text-align:center;line-height:1.45}
+  /* 다중 이미지 레퍼런스 패널 */
+  .refstrip{background:#f7f8fa;border:1px solid #e2e5ea;border-radius:12px;padding:14px 14px 12px;margin-top:12px}
+  .refstrip::before{content:"📌 레퍼런스";display:block;font-size:12px;font-weight:800;color:#64748b;letter-spacing:.3px;margin-bottom:12px}
+  .refstrip .strip-imgs{display:flex;gap:14px;flex-wrap:wrap}
+  .refstrip figure{width:190px;margin:0}
+  .refstrip img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block;background:#fff}
+  .refstrip figcaption{font-size:12px;color:var(--sub);margin-top:7px;text-align:center;line-height:1.4}
+  @media(max-width:720px){
+    .refrow{flex-direction:column}
+    .reffig{width:100%;flex:1 1 auto}
+    .reffig img{max-width:340px;margin:0 auto}
+    .refstrip figure{width:46%;min-width:150px}
+  }
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:680px){.two{grid-template-columns:1fr}}
+  .toc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+  .toc a{color:var(--ink);text-decoration:none}
+  .toc ol{margin:6px 0 0;padding-left:22px}
+  .toc li{margin:3px 0}
+  .badge{font-size:11px;font-weight:700;border-radius:5px;padding:1px 7px;background:#eef2ff;color:#3949ab}
+  code{background:#eef0f3;padding:1px 6px;border-radius:5px;font-size:13px}
+  .footer{margin-top:60px;color:var(--sub);font-size:13px;text-align:center}
+  .dot{width:10px;height:10px;border-radius:50%;display:inline-block;vertical-align:middle;margin-right:5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">BARYBODY · DETAIL PAGE PLAYBOOK</div>
+<h1>좋은 상세페이지 공식</h1>
+<p class="lead">잘 팔리는 상세페이지 22개(벤치마크 18 + 바리바디 4)·이미지 1,033장을 10대 요소로 전수 분류해 도출한 "먹히는 구성 공식".<br>특정 제작사의 것이 아니라, 시장에서 검증되어 모두가 수렴한 <b>공통 문법</b>입니다. · 정리 2026-06-04</p>
+
+<div class="toc">
+  <b>목차</b>
+  <ol>
+    <li><a href="#m">이 문서를 읽는 법 / 방법론</a></li>
+    <li><a href="#p">3가지 대원칙</a></li>
+    <li><a href="#flow">골든 플로우 — 위에서 아래로의 7단 구조</a></li>
+    <li><a href="#dict">10대 구성요소 사전 (요소별 상세)</a></li>
+    <li><a href="#tpl">2대 포맷 계열 — 스펙과시형 vs 스토리증명형</a></li>
+    <li><a href="#cat">카테고리별 권장 레시피</a></li>
+    <li><a href="#data">데이터 근거 (벤치마크 18개 평균)</a></li>
+    <li><a href="#check">발행 전 체크리스트</a></li>
+  </ol>
+</div>
+
+<h2 id="m">1. 이 문서를 읽는 법 / 방법론</h2>
+<p>네이버 브랜드스토어·스마트스토어·자사몰에서 <b>잘 만든 상세페이지 22개</b>를 수집해, 페이지를 구성하는 모든 이미지(총 1,033장)를 위→아래 순서대로 <b>10개 요소</b> 중 하나로 라벨링했습니다. 그 결과 "어떤 요소가 항상 들어가는가(필수)", "어떤 순서로 배치되는가(흐름)", "카테고리/제품 성격에 따라 무엇이 달라지는가(변주)"를 정량적으로 도출했습니다.</p>
+
+<div class="card">
+  <h3 style="margin-top:4px">10대 구성요소 (이 문서의 공통 언어)</h3>
+  <div class="pillrow">
+    <span class="pill"><span class="dot" style="background:var(--store)"></span>매장공통/고지</span>
+    <span class="pill"><span class="dot" style="background:var(--hook)"></span>후킹/인트로</span>
+    <span class="pill"><span class="dot" style="background:var(--problem)"></span>문제제기/타겟</span>
+    <span class="pill"><span class="dot" style="background:var(--value)"></span>핵심가치/USP</span>
+    <span class="pill"><span class="dot" style="background:var(--feature)"></span>기능/구조</span>
+    <span class="pill"><span class="dot" style="background:var(--proof)"></span>효과/연출컷</span>
+    <span class="pill"><span class="dot" style="background:var(--design)"></span>디자인</span>
+    <span class="pill"><span class="dot" style="background:var(--trust)"></span>신뢰(인증/AS)</span>
+    <span class="pill"><span class="dot" style="background:var(--guide)"></span>사용가이드</span>
+    <span class="pill"><span class="dot" style="background:var(--info)"></span>구매정보/스펙</span>
+  </div>
+  <p class="muted" style="font-size:13px;margin-bottom:0">※ 각 요소의 정의·역할·작성법은 <a href="#dict">4장 사전</a>에서 상세히 다룹니다.</p>
+</div>
+
+<h2 id="p">2. 3가지 대원칙</h2>
+
+<div class="card">
+  <h3 style="margin-top:4px">원칙 1 — 본체는 언제나 "기능/구조"다</h3>
+  <p>18개 벤치마크에서 <b>기능/구조 설명이 페이지의 평균 36.8%</b>, 전 제품 예외 없이(18/18) 가장 큰 비중을 차지했습니다. 마사지기는 13~30장, 진공쌀통 28장, 더티린넨 23장, 한일 전기모기채는 17장(POINT 01~07). <b>"어떻게 작동하는가 / 무엇으로 만들었는가 / 어떤 모드가 있는가"를 충분히 보여주지 않으면 상세페이지가 아니다</b>가 첫 번째 법칙입니다.</p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:4px">원칙 2 — 신뢰는 "구매 결정의 마지막 빗장"을 푼다</h3>
+  <p>신뢰(인증/AS/실적/전문가/후기)는 평균 <b>13.6%</b>로 기능 다음 2위이며, <b>전 제품(18/18) 빠짐없이</b> 등장했습니다. 객단가가 높거나(요소수·세탁조), 몸에 닿거나(마사지기·탈취제), 의료성이 강할수록 신뢰 비중이 폭증합니다(더티린넨 28장, 넥가드닥터 목견인기는 20장 중 7장이 신뢰 — 공식총판·배상보험·기부 CSR·백지영 유튜브 히스토리). <b>"좋아 보이는데 믿어도 되나?"에 답하지 못하면 장바구니에서 멈춘다.</b></p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:4px">원칙 3 — "공감 → 욕망 → 확신 → 안심"의 감정 곡선을 탄다</h3>
+  <p>좋은 상세페이지는 정보의 나열이 아니라 <b>감정의 설계</b>입니다.
+  상단에서 <span class="tag" style="background:var(--problem)">문제제기</span>로 "내 얘기네" 공감을 만들고,
+  <span class="tag" style="background:var(--value)">USP</span>로 "그래서 이게 답"이라는 욕망을 키우고,
+  <span class="tag" style="background:var(--feature)">기능</span>·<span class="tag" style="background:var(--proof)">효과</span>·<span class="tag" style="background:var(--trust)">신뢰</span>로 "진짜네" 확신을 주고,
+  <span class="tag" style="background:var(--guide)">가이드</span>·<span class="tag" style="background:var(--info)">구매정보</span>로 "사도 되겠다" 안심을 줍니다.</p>
+</div>
+
+<h2 id="flow">3. 골든 플로우 — 위에서 아래로의 7단 구조</h2>
+<p>분류한 1,033장을 위치순으로 보면, 잘 만든 페이지는 거의 예외 없이 아래 <b>7단계 흐름</b>을 따릅니다. (각 단계에서 쓰는 요소를 색칩으로 표기)</p>
+
+<div class="flow">
+  <div class="step">
+    <h4>고지·혜택 배너 <span class="muted" style="font-weight:400;font-size:13px">— 첫인상 전 "운영 신호"</span></h4>
+    <div class="el">쿠폰/적립 · 배송 안내(오늘출발) · 리뷰 이벤트 · 공식판매처/정품 인증 · 크로스셀</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--store)"></span>매장공통</span><span class="pill"><span class="dot" style="background:var(--trust)"></span>정품</span></div>
+    <div class="ex">저관여·저가 상품일수록 이 구간이 두껍다(살림백서 14장). 자사몰은 보통 1~3장으로 가볍게.</div>
+  </div>
+  <div class="step">
+    <h4>후킹 · 제품 인트로 <span class="muted" style="font-weight:400;font-size:13px">— 스크롤을 멈추는 첫 카피/비주얼</span></h4>
+    <div class="el">메인 슬로건 · 모델/셀럽컷 · "왜 1위인지" · 화제성("연예인 내돈내산")</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--hook)"></span>후킹</span><span class="pill"><span class="dot" style="background:var(--trust)"></span>실적</span></div>
+  </div>
+  <div class="step">
+    <h4>문제제기 · 타겟 공감 <span class="muted" style="font-weight:400;font-size:13px">— "내 얘기네"</span></h4>
+    <div class="el">불편 상황 나열 · "이런 분께" 체크리스트 · 잘못된 대안의 한계 · (강하게는) 브랜드 서사</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--problem)"></span>문제제기</span></div>
+  </div>
+  <div class="step">
+    <h4>핵심가치(USP) <span class="muted" style="font-weight:400;font-size:13px">— "그래서 이게 답"</span></h4>
+    <div class="el">한 줄 차별 카피 · N가지 핵심 포인트 요약 · 경쟁 대안 대비 우위</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--value)"></span>USP</span></div>
+  </div>
+  <div class="step">
+    <h4>기능 · 구조 (본문) <span class="muted" style="font-weight:400;font-size:13px">— 페이지의 심장, 가장 길다</span></h4>
+    <div class="el">작동 원리 · 모드/강도 · 소재/구조 · POINT/Check 넘버링 · 신·구 비교 · 스펙 강조</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--feature)"></span>기능/구조</span><span class="pill"><span class="dot" style="background:var(--proof)"></span>연출/실험</span></div>
+  </div>
+  <div class="step">
+    <h4>효과 증명 · 신뢰 <span class="muted" style="font-weight:400;font-size:13px">— "진짜네"</span></h4>
+    <div class="el">before/after · 수치·임상 · 시험성적서 · 특허·KC인증 · 수상·판매량 · 전문가·후기 · A/S 보증</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--proof)"></span>효과</span><span class="pill"><span class="dot" style="background:var(--trust)"></span>신뢰</span></div>
+  </div>
+  <div class="step">
+    <h4>사용가이드 · 구매정보 <span class="muted" style="font-weight:400;font-size:13px">— "사도 되겠다"</span></h4>
+    <div class="el">사용법 STEP · 구성품 · FAQ · 스펙표 · 주의사항 · 배송/교환·반품 · (선물 제안)</div>
+    <div class="pillrow"><span class="pill"><span class="dot" style="background:var(--guide)"></span>가이드</span><span class="pill"><span class="dot" style="background:var(--info)"></span>구매정보</span></div>
+  </div>
+</div>
+
+<div class="callout">
+  <b>흐름의 핵심:</b> 단계는 "칼같이 분리"되기보다 <b>3·4·5단계(문제→USP→기능)가 서로 맞물려 반복</b>됩니다. 긴 페이지(100장+)는 "문제 한 조각 → 그에 답하는 기능 한 조각"을 여러 번 교차시키며 지루함을 막습니다.
+</div>
+
+<h2 id="dict">4. 10대 구성요소 사전</h2>
+<p class="lead">각 요소: 정의 · 역할 · 권장 위치 · 벤치마크 평균 비중 · 작성 팁 · 실제 예시.</p>
+
+<!-- 매장공통 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--store)"></span>① 매장공통 / 고지 <span class="badge">평균 8.9% · 17/18</span></h3>
+  <p><b>정의·역할:</b> 상품 본질과 무관한 매장 운영 정보. 쿠폰·적립, 배송(오늘출발), 리뷰 이벤트, 공지, 그리고 함께 파는 상품(크로스셀).</p>
+  <p><b>위치:</b> 최상단(스크롤 시작 전). <b>팁:</b> 저가·저관여 상품은 두껍게(특가·1+1·크로스셀 도배), 프리미엄·자사몰은 1~3장으로 절제. 너무 많으면 "할인에만 의존하는 브랜드"로 보임.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 살림백서 — 무적 초특가 / 1+1 / BEST특가 / 임박특가 900원 … 상단 14장. 풀리오 — 디지털·가전 페스타 + 쿠폰 5% + 오늘배송 5장.</div>
+    <figure class="reffig"><img src="categories/생활용품/14_salimbaekseo_washer/thumbs/01.jpg" alt="살림백서 특가 배너"><figcaption>살림백서 — 상단 특가 배너</figcaption></figure></div>
+</div>
+
+<!-- 후킹 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--hook)"></span>② 후킹 / 인트로 <span class="badge">평균 5.7% · 17/18</span></h3>
+  <p><b>정의·역할:</b> 스크롤을 멈추게 하고 "이거 뭐지?" 기대를 만드는 첫인상. 정보 전달이 아니라 <b>주목·욕망 점화</b>. 메인 슬로건, 키비주얼, 모델/셀럽컷, 브랜드 무드.</p>
+  <p><b>위치:</b> 고지 배너 직후 도입부. <b>팁:</b> "제품명 + 형용사"가 아니라 <b>고객이 얻을 상태</b>를 한 문장으로. 짧고 강하게.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> "풀자, 기술적으로"(풀리오) · "이거 진짜 시원한데?"(바리바디) · "PREMIUM AIR GUN MACH"(벤딕트) · "연예인 유튜브 내돈내산"(클렌하임).</div>
+    <figure class="reffig"><img src="categories/마사지기/04_pulio_calf_v3/thumbs/07.jpg" alt="풀리오 후킹"><figcaption>풀리오 — '풀자, 기술적으로' + 모델</figcaption></figure></div>
+</div>
+
+<!-- 문제제기 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--problem)"></span>③ 문제제기 / 타겟 <span class="badge">평균 5.1% · 14/18</span></h3>
+  <p><b>정의·역할:</b> 고객이 겪는 불편·결핍을 먼저 꺼내 "내 얘기네" 공감을 만든다. 기존 대안(디퓨저·폼롤러·세제)의 한계를 짚어 우리 제품의 필요성을 세운다. "이런 분께" 체크리스트로 타겟을 호명.</p>
+  <p><b>위치:</b> 후킹 직후. <b>팁:</b> 구체적 상황일수록 강하다("냄새 때문에 이별 통보"). 강하게 가면 <b>브랜드 서사</b>로 확장(더티린넨 18장).</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 미락 — 쌀벌레/곰팡이/푸석한 밥. 바로랩 — 하루 1만회 혹사되는 손목(스마트폰/사무직/육아). 더티린넨 — 홀애비 가족 냄새 서사.</div>
+    <figure class="reffig"><img src="categories/마사지기/06_barolab_wrist/thumbs/08.jpg" alt="바로랩 문제제기"><figcaption>바로랩 — 혹사되는 손목 타겟 호명</figcaption></figure></div>
+</div>
+
+<!-- USP -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--value)"></span>④ 핵심가치 / USP <span class="badge">평균 6.5% · 16/18</span></h3>
+  <p><b>정의·역할:</b> "그래서 뭐가 다른가"를 한 방에 박는 차별 메시지. 한 줄 카피 + N가지 핵심 포인트 요약. 경쟁 대안 대비 우위, 가성비, 브랜드 포지셔닝.</p>
+  <p><b>위치:</b> 문제제기와 기능 본문 사이의 "전환점". <b>팁:</b> 기능 나열로 바로 들어가지 말고, <b>한 문장으로 정의</b>한 뒤 본문으로. USP가 없으면 "기능은 많은데 왜 사야 하는지 모르는" 페이지가 된다.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> "국내 유일 X-TENS 10.0"(리칼지메디) · "차원이 다른 마사지"(풀리오) · "향이 아닌 탈취력 본질에 집중"(더티린넨) · "월 천원대 압도적 가성비"(살림백서).</div>
+    <figure class="reffig"><img src="categories/마사지기/05_cozyma_calf/thumbs/09.jpg" alt="코지마 핵심 포인트 USP"><figcaption>코지마 — '3가지 핵심 포인트' 요약 (밀착·온열·대용량)</figcaption></figure></div>
+</div>
+
+<!-- 기능 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--feature)"></span>⑤ 기능 / 구조 <span class="badge">평균 36.8% · 18/18 · 본체</span></h3>
+  <p><b>정의·역할:</b> 작동 원리, 모드/강도, 소재/구조, 핵심 기술, 신·구 비교, 적용 부위/시나리오. 페이지에서 가장 길고 가장 중요하다.</p>
+  <p><b>위치:</b> 본문 전체. <b>팁:</b> ① <b>POINT/Check 01~08 넘버링</b>으로 묶으면 가독성·신뢰가 올라간다(업계 공통 문법). ② 글보다 <b>GIF·단면도·실험 데모</b>로 "보여주기". ③ 모드·강도·온열 단계는 표/아이콘으로 일목요연하게.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 6061 알루미늄·130,000RPM·2IN1(벤딕트) · 더블롤링/원형회전 단면 비교(클렌하임) · EM효소·산소버블 메커니즘(살림백서) · 진공력 생수통 흡입 데모(미락).</div>
+    <figure class="reffig"><img src="categories/가전/10_vendict_airblower/thumbs/22.jpg" alt="벤딕트 기능"><figcaption>벤딕트 — 130,000RPM 퍼포먼스(POINT)</figcaption></figure></div>
+</div>
+
+<!-- 효과 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--proof)"></span>⑥ 효과 / 연출컷 <span class="badge">평균 6.6% · 15/18</span></h3>
+  <p><b>정의·역할:</b> 두 갈래다. ⑴ <b>효과 증명</b> — before/after, 수치·임상, 실험 결과. ⑵ <b>사용 연출컷</b> — 모델이 실제 쓰는 장면(상황 이입·스케일감).</p>
+  <p><b>위치:</b> 기능 본문에 섞이거나 직후. <b>팁:</b> 미용·바디·의료성 제품은 <b>증명형(데이터)</b>이 결정적(리칼지메디 16장). 도구·생활용품은 <b>연출컷</b>으로 "이렇게 편하다"를 보여준다. 연출컷만 많고 증명이 없으면 "예쁜데 효과는 모르겠는" 페이지가 된다.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 리칼지메디 — 허벅지 탄력 69.8%·종아리 126.4cc 감소·열화상. 큐폴드 — 150kg 싣고 끌고 가는 연출. 미락 — 바나나 20일 진공보관 전후.</div>
+    <figure class="reffig"><img src="categories/마사지기/03_ricalzmedi_footmassager/thumbs/32.jpg" alt="리칼지메디 효과 수치"><figcaption>리칼지메디 — 종아리 17.2%·126.4cc 감소(수치 증명)</figcaption></figure></div>
+</div>
+
+<!-- 디자인 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--design)"></span>⑦ 디자인 <span class="badge">평균 1.5% · 8/18 · 선택</span></h3>
+  <p><b>정의·역할:</b> 컬러·외관·인테리어 어울림을 별도 소구. 필수는 아니지만, <b>"보이는 곳에 두는" 제품</b>(체중계·종아리마사지기·쌀통)이나 디자인이 구매 이유인 카테고리에서 차별점이 된다.</p>
+  <p><b>팁:</b> 매일 눈에 보이는 제품·선물용이면 "매일 쓰니까 보기 좋게"를 한 컷 넣어라.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 코지마 — 모던 그레이 색상. 앳플리 — "디자인 포기하지 마세요". 미락 — 다크퍼플 고급스러움.</div>
+    <figure class="reffig"><img src="categories/마사지기/05_cozyma_calf/thumbs/26.jpg" alt="코지마 디자인"><figcaption>코지마 — 모던 그레이 디자인 소구</figcaption></figure></div>
+</div>
+
+<!-- 신뢰 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--trust)"></span>⑧ 신뢰 (인증/AS/실적) <span class="badge">평균 13.6% · 18/18 · 2순위</span></h3>
+  <p><b>정의·역할:</b> 구매의 마지막 불안을 푼다. 시험성적서·특허·KC인증, 수상·판매량·검색 1위, 전문가 검증, 실사용 후기·외부몰 평점, 공식판매처/정품, A/S·환불 보증.</p>
+  <p><b>위치:</b> 본문 곳곳 + 하단. <b>팁:</b> 의료·식품·고가일수록 두껍게. <b>구체적 숫자·기관명·문서 이미지</b>가 핵심("KC인증" 글자보다 인증서 사진).</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 더티린넨 — 포브스 1위·102주 1위·경구독성 PASS·특허(28장). 바로랩 — Forbes·물리치료사·제약사 협업. 공통 — 1년 무상 A/S, 100% 환불.</div>
+    <figure class="reffig"><img src="categories/생활용품/13_dirtylinen_deodorizer/thumbs/005.jpg" alt="더티린넨 신뢰"><figcaption>더티린넨 — 포브스 선정 1위 브랜드</figcaption></figure></div>
+</div>
+
+<!-- 가이드 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--guide)"></span>⑨ 사용가이드 <span class="badge">평균 4.7% · 16/18</span></h3>
+  <p><b>정의·역할:</b> 사용법 STEP, 조작·충전·세척법, 부위별 활용 가이드, 사용 팁/테크닉. "쉽게 쓸 수 있다"는 안심과 "이렇게 활용하면 더 좋다"는 활용도 확장.</p>
+  <p><b>팁:</b> 손이 가는 동작은 STEP 1·2·3 + 손 사진으로. 마사지기는 <b>부위별/테크닉별 가이드</b>가 활용도(=만족도)를 높인다.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 릴렉스틱 — 압박/플러싱/롤링 3테크닉 + 초보자 가이드. 클렌하임 — 헤드 교체·작동법.</div>
+    <figure class="reffig"><img src="categories/바리바디/15_barybody_relexstic/thumbs/45.jpg" alt="릴렉스틱 가이드"><figcaption>바리바디 릴렉스틱 — 초보자 마사지 가이드</figcaption></figure></div>
+</div>
+
+<!-- 구매정보 -->
+<div class="card">
+  <h3><span class="dot" style="background:var(--info)"></span>⑩ 구매정보 / 스펙 <span class="badge">평균 10.6% · 17/18</span></h3>
+  <p><b>정의·역할:</b> 제품 상세 사양표, 구성품, FAQ, 주의사항, 제품 고시정보, 배송/교환·반품. 신뢰의 "디테일" 버전이자 법적 고지.</p>
+  <p><b>팁:</b> FAQ는 <b>실제 구매 직전 의심</b>(아프지 않나? 얼마나 써야 하나? 효과 안 보이는데?)을 미리 해소. 스펙표·고시정보는 빠짐없이.</p>
+  <div class="refrow"><div class="ex"><b>예:</b> 공통 — 자주 묻는 질문 Q&A, 제품 상세 정보(사이즈/무게/소재), 안전확인대상 생활화학제품 표시사항.</div>
+    <figure class="reffig"><img src="categories/주방용품/02_mirak_ricebin/thumbs/56.jpg" alt="미락 스펙표"><figcaption>미락 — 제품 정보 사양표</figcaption></figure></div>
+</div>
+
+<h2 id="tpl">5. 2대 포맷 계열 — 스펙과시형 vs 스토리증명형</h2>
+<p>잘 만든 페이지는 크게 두 골격으로 수렴합니다. <b>어느 게 옳다기보다 제품 성격에 맞춰 고른다.</b></p>
+
+<div class="two">
+  <div class="card">
+    <div class="kicker" style="color:var(--feature)">TYPE A</div>
+    <h3 style="margin-top:2px">스펙 과시형</h3>
+    <p class="muted" style="font-size:14px;margin-top:2px">기능·기술이 곧 경쟁력인 제품 (전자제품·마사지기·도구)</p>
+    <div class="hr"></div>
+    <b>골격</b>
+    <ol style="font-size:14px">
+      <li>고지·혜택 배너</li>
+      <li>후킹(모델/셀럽) + "왜 1위인지"</li>
+      <li>라인업/선택 가이드</li>
+      <li><b>POINT/Check 01~08</b> 기능 연속</li>
+      <li>소재·구조·신구 비교 (6061 알루미늄, RPM, 원형회전…)</li>
+      <li>3가지 사이즈/옵션 · BPA-free 안전</li>
+      <li>구성품·증정·A/S·FAQ</li>
+    </ol>
+    <div class="ex">풀리오 · 벤딕트 · 클렌하임 · 한일(전기모기채) · 닥터웰(공기압 다리) · 밸롭(지압슬리퍼) · <b>바리바디(릴렉스틱·올인원·손목·허리)</b></div>
+    <div class="refstrip"><div class="strip-imgs"><figure><img src="categories/마사지기/11_klenheim_bodytap/thumbs/018.jpg" alt="클렌하임 모드"><figcaption>클렌하임 — MODE/POINT 넘버링</figcaption></figure></div></div>
+  </div>
+
+  <div class="card">
+    <div class="kicker" style="color:var(--problem)">TYPE B</div>
+    <h3 style="margin-top:2px">스토리·증명형</h3>
+    <p class="muted" style="font-size:14px;margin-top:2px">효능·안전을 "믿게" 만들어야 하는 제품 (소비재·생활화학·식품)</p>
+    <div class="hr"></div>
+    <b>골격</b>
+    <ol style="font-size:14px">
+      <li>압도적 1위·수상·판매량</li>
+      <li><b>긴 브랜드 스토리</b>(개발 동기·공감 서사)</li>
+      <li>문제제기 + 기존 대안의 한계 + 원리</li>
+      <li>성분·메커니즘 (EM·산소·SCR…)</li>
+      <li>"이유 01·02·03" 차별 / "POINT 01~04"</li>
+      <li><b>인증·특허·시험성적서 폭격</b></li>
+      <li>사용법·FAQ·고시</li>
+    </ol>
+    <div class="ex">더티린넨 · 살림백서 · 미락 · 유로블루(요소수) · 넥가드닥터(목견인 의료기기 — 단종·재출시 히스토리 + 백지영 유튜브 + 기부·특허)</div>
+    <div class="refstrip"><div class="strip-imgs"><figure><img src="categories/생활용품/13_dirtylinen_deodorizer/thumbs/037.jpg" alt="더티린넨 스토리"><figcaption>더티린넨 — 브랜드 서사</figcaption></figure></div></div>
+  </div>
+</div>
+
+<div class="callout gold">
+  <b>선택 기준:</b> 효과를 "눈으로 보여줄 수 있나?" → 예(작동·편의)면 <b>A형(보여주기)</b>, 아니오(체감·믿음 영역)면 <b>B형(증명·서사)</b>. 마사지기는 기본 A형이되, <b>임상·후기 데이터를 얹으면 B형의 설득력</b>까지 가져올 수 있다(리칼지메디가 그 하이브리드).
+</div>
+
+<h2 id="cat">6. 카테고리별 권장 레시피</h2>
+<table>
+  <thead><tr><th>카테고리</th><th>주력 무게중심</th><th>꼭 챙길 요소</th><th>흔한 실수</th></tr></thead>
+  <tbody>
+    <tr><td><b>마사지기</b></td><td>기능(모드·원리) + 신뢰(전문가·인증)</td><td>POINT 넘버링, 부위별 가이드, 전문가 검증, before/after</td><td>기능 나열만 하고 USP·문제제기 생략</td></tr>
+    <tr><td><b>생활용품(소비재)</b></td><td>문제제기·스토리 + 인증/특허</td><td>공감 서사, 성분·원리, 시험성적서, 사용처</td><td>"향/효과"를 마스킹으로만 주장(증명 부족)</td></tr>
+    <tr><td><b>가전/IoT</b></td><td>기능 + 앱 경험 + 디자인</td><td>앱 화면·연동, 정확도(BIA 등), 디자인 한 컷</td><td>하드웨어만 설명, 앱·UX 누락</td></tr>
+    <tr><td><b>도구/생활(카트 등)</b></td><td>기능 시연(GIF) + 활용 시나리오</td><td>접힘·적재 GIF, 다용도 활용, 크로스셀</td><td>증명 없이 스펙만 — 시연 영상/GIF 필수</td></tr>
+    <tr><td><b>식품/화학</b></td><td>신뢰 폭격 + 실험 데모</td><td>시험성적서, 무첨가, 전후 실험, 고시정보</td><td>법적 고시·안전 정보 소홀</td></tr>
+  </tbody>
+</table>
+
+<h2 id="data">7. 데이터 근거 — 벤치마크 18개 평균</h2>
+<p class="lead">"잘 만든 페이지는 각 요소를 페이지의 몇 %나 쓰는가"와 "몇 개 제품이 채택했는가". 비중이 큰 순.</p>
+<table>
+  <thead><tr><th>요소</th><th class="num">평균 비중</th><th>비중 막대</th><th class="num">채택률</th></tr></thead>
+  <tbody>
+    <tr><td><span class="dot" style="background:var(--feature)"></span>기능/구조</td><td class="num"><b>36.8%</b></td><td><span class="bar"><i style="width:100%;background:var(--feature)"></i></span></td><td class="num">18/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--trust)"></span>신뢰(인증/AS)</td><td class="num"><b>13.6%</b></td><td><span class="bar"><i style="width:37%;background:var(--trust)"></i></span></td><td class="num">18/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--info)"></span>구매정보/스펙</td><td class="num">10.6%</td><td><span class="bar"><i style="width:29%;background:var(--info)"></i></span></td><td class="num">17/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--store)"></span>매장공통/고지</td><td class="num">8.9%</td><td><span class="bar"><i style="width:24%;background:var(--store)"></i></span></td><td class="num">17/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--proof)"></span>효과/연출컷</td><td class="num">6.6%</td><td><span class="bar"><i style="width:18%;background:var(--proof)"></i></span></td><td class="num">15/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--value)"></span>핵심가치/USP</td><td class="num">6.5%</td><td><span class="bar"><i style="width:18%;background:var(--value)"></i></span></td><td class="num">16/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--hook)"></span>후킹/인트로</td><td class="num">5.7%</td><td><span class="bar"><i style="width:15%;background:var(--hook)"></i></span></td><td class="num">17/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--problem)"></span>문제제기/타겟</td><td class="num">5.1%</td><td><span class="bar"><i style="width:14%;background:var(--problem)"></i></span></td><td class="num">14/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--guide)"></span>사용가이드</td><td class="num">4.7%</td><td><span class="bar"><i style="width:13%;background:var(--guide)"></i></span></td><td class="num">16/18</td></tr>
+    <tr><td><span class="dot" style="background:var(--design)"></span>디자인</td><td class="num">1.5%</td><td><span class="bar"><i style="width:4%;background:var(--design)"></i></span></td><td class="num">8/18</td></tr>
+  </tbody>
+</table>
+<p class="muted" style="font-size:13px">읽는 법 — 채택률 18/18(기능·신뢰)은 <b>"넣지 않으면 어색한" 필수</b>이고, 구매정보·매장공통·후킹도 17/18로 사실상 필수. 디자인 8/18은 <b>제품에 따라 선택</b>. 후킹·문제·USP는 비중은 작아도(5~6% 안팎) 14~17/18로 "감정 곡선의 방아쇠"라 대부분 챙긴다.</p>
+
+<h2 id="check">8. 발행 전 체크리스트</h2>
+<div class="card">
+  <ul>
+    <li>☐ <b>기능/구조</b>가 전체의 1/3 이상인가? 원리·모드·소재를 <b>GIF/단면/실험</b>으로 보여줬나?</li>
+    <li>☐ <b>한 줄 USP</b>가 있나? "그래서 뭐가 다른가"에 카피 하나로 답하나?</li>
+    <li>☐ 상단에서 <b>문제제기/타겟 호명</b>으로 공감을 만들었나?("이런 분께")</li>
+    <li>☐ 후킹 카피가 "제품명+형용사"가 아니라 <b>고객이 얻을 상태</b>인가?</li>
+    <li>☐ <b>신뢰</b> — 인증서/특허/수상/후기/전문가/AS를 <b>구체적 숫자·문서 이미지</b>로 넣었나?</li>
+    <li>☐ <b>효과 증명</b>이 연출컷에만 의존하지 않나? (before/after·수치·실험 1개 이상)</li>
+    <li>☐ 사용법 STEP·FAQ·주의사항·고시정보·배송/교환 정보가 하단에 있나?</li>
+    <li>☐ 본문이 길다면 <b>문제→기능을 교차 반복</b>해 지루함을 막았나?</li>
+    <li>☐ (해당 시) 보이는 곳에 두는 제품이면 <b>디자인 한 컷</b>을 넣었나?</li>
+    <li>☐ 저가/저관여면 상단 혜택을, 프리미엄이면 절제를 — <b>매장공통 두께</b>가 제품 톤과 맞나?</li>
+  </ul>
+</div>
+
+<div class="footer">
+  바리바디 상세페이지 디벨롭 · 22개 제품 1,033장 요소 분류 기반 · 2026-06-04<br>
+  같이 보기 — <a href="index.html">요소 라이브러리(index.html)</a> · <a href="compare.html">제품 간 비교표(compare.html)</a> · <a href="prescription.html">바리바디 개선 처방</a>
+</div>
+
+</div>
+</body>
+</html>

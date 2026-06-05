@@ -1,0 +1,293 @@
+{
+  "product": "살림백서 세탁조클리너",
+  "category": "생활용품",
+  "slug": "14_salimbaekseo_washer",
+  "channel": "네이버 브랜드스토어",
+  "url": "https://brand.naver.com/homekeeping/products/3058787155",
+  "captured": "2026-06-04",
+  "total_images": 35,
+  "excluded": [],
+  "note": "상단 매장공통·크로스셀 배너 14장(저가 생활용품 특징) + 더티린넨 계열 템플릿(Real Review/POINT/EM/산소버블) 본문",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "store",
+      "element": "프로모션·혜택",
+      "desc": "살림 필수템 무적 초특가"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "BEST 특가"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "NEW 런칭특가"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "1+1 주방세제 4L"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "오브제 퍼퓸 트래블키트"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "1+1 차량용 디퓨저"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "BAEKSEO ZERO 스킨케어"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "유통기한 임박특가 900원"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "store",
+      "element": "리뷰 이벤트",
+      "desc": "6월 리뷰 이벤트 2만원"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "store",
+      "element": "공지",
+      "desc": "제품 혼용 출고 안내(신고번호)"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "store",
+      "element": "혜택",
+      "desc": "멤버십 10% 적립"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "1+1 세탁조클리너 35%"
+    },
+    {
+      "idx": 13,
+      "file": "13.jpg",
+      "thumb": "13.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "짝꿍특가 이염방지시트"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "추가 상품 더블 혜택"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "proof",
+      "element": "제품·연출",
+      "desc": "세탁기 연출"
+    },
+    {
+      "idx": 16,
+      "file": "16.jpg",
+      "thumb": "16.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "세탁기 곰팡이 — 애꿎은 세제 탓?(언론)"
+    },
+    {
+      "idx": 17,
+      "file": "17.gif",
+      "thumb": "17.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "대부분 모르는 세탁기의 두 얼굴"
+    },
+    {
+      "idx": 18,
+      "file": "18.gif",
+      "thumb": "18.jpg",
+      "group": "trust",
+      "element": "실적",
+      "desc": "누적 리뷰 10,000개 돌파"
+    },
+    {
+      "idx": 19,
+      "file": "19.jpg",
+      "thumb": "19.jpg",
+      "group": "trust",
+      "element": "1위",
+      "desc": "써본 사람이 인정한 진짜 만족도 1위"
+    },
+    {
+      "idx": 20,
+      "file": "20.jpg",
+      "thumb": "20.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "1봉지로 해결 — 살림백서 세탁조클리너"
+    },
+    {
+      "idx": 21,
+      "file": "21.jpg",
+      "thumb": "21.jpg",
+      "group": "trust",
+      "element": "리뷰·후기",
+      "desc": "Real Review 후기로 증명"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "value",
+      "element": "가성비·USP",
+      "desc": "POINT01 월 천원대 압도적 가성비"
+    },
+    {
+      "idx": 23,
+      "file": "23.jpg",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "성분",
+      "desc": "POINT02 오염에 강한 EM효소"
+    },
+    {
+      "idx": 24,
+      "file": "24.jpg",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "성분",
+      "desc": "POINT03 묵은때 제거 산소버블"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "산소계 세정, 기포 압력 오염물 제거"
+    },
+    {
+      "idx": 26,
+      "file": "26.jpg",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "실험",
+      "desc": "세탁조 거품 데모"
+    },
+    {
+      "idx": 27,
+      "file": "27.jpg",
+      "thumb": "27.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "1팩으로 전문 청소업체 효과"
+    },
+    {
+      "idx": 28,
+      "file": "28.gif",
+      "thumb": "28.jpg",
+      "group": "proof",
+      "element": "효과·연출",
+      "desc": "세탁조 내부 깨끗"
+    },
+    {
+      "idx": 29,
+      "file": "29.gif",
+      "thumb": "29.jpg",
+      "group": "proof",
+      "element": "효과·연출",
+      "desc": "통돌이 세탁조 깨끗"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "POINT04 화학물질 최소화(향료/색소 無)"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "사용방법 STEP01~04(드럼)"
+    },
+    {
+      "idx": 32,
+      "file": "32.jpg",
+      "thumb": "32.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "info",
+      "element": "제품 고시",
+      "desc": "생활화학제품 표시사항(GB20)"
+    },
+    {
+      "idx": 34,
+      "file": "34.jpg",
+      "thumb": "34.jpg",
+      "group": "info",
+      "element": "제품 고시",
+      "desc": "생활화학제품 표시사항(BB24)"
+    },
+    {
+      "idx": 35,
+      "file": "35.jpg",
+      "thumb": "35.jpg",
+      "group": "trust",
+      "element": "정품·공식판매처",
+      "desc": "공식판매처 제품 / 불법유통 주의"
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "product": "바리바디 릴렉스틱 (마사지 롤러)",
+  "category": "바리바디",
+  "slug": "15_barybody_relexstic",
+  "channel": "바리바디 자사몰",
+  "url": "https://barybody.com/product/바리바디-릴렉스틱/720/",
+  "captured": "2026-06-04",
+  "total_images": 71,
+  "excluded": [],
+  "note": "우리 자사 제품(자체 제작). 업계 공통 상페 포맷(Check 넘버링/3사이즈/BPA-free/포인트링/POWER UP) 사용. 정적 jpg+gif 오버레이 구조에서 위치별 1장으로 정리",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "정품·사칭주의",
+      "desc": "바리바디 사칭채널 주의"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "정품·공식판매",
+      "desc": "본사 공식 판매점"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "자사몰 구매 혜택(오늘출발/1년AS/쿠폰)"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "trust",
+      "element": "전문가",
+      "desc": "국대 트레이너가 직접 검증"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "feature",
+      "element": "소재",
+      "desc": "스틸 소재의 깊이가 다른 압력(트레이너)"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "피로&근육 뭉침 삭제 — 연예인 일상 관리템"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "hook",
+      "element": "셀럽 PICK",
+      "desc": "나은/소유/지혜 PICK"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "trust",
+      "element": "실적·1위",
+      "desc": "‘써보면 압니다 왜 1위인지’ 대한민국 1등"
+    },
+    {
+      "idx": 9,
+      "file": "09.gif",
+      "thumb": "09.jpg",
+      "group": "trust",
+      "element": "실적·입점",
+      "desc": "압도적 시원함 — 현대/AK/롯데백화점"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "trust",
+      "element": "실적",
+      "desc": "현대백화점 팝업 오픈"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "trust",
+      "element": "실적·입점",
+      "desc": "올리브영 입점"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "hook",
+      "element": "후킹 카피",
+      "desc": "이거 진짜 시원한데? 얕보지 마세요"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "짜릿한 시원함 1초면 충분(목/종아리/허벅지)"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "피곤하고 뻐근했던 하루"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "1초면 느껴지는 짜릿한 시원함 릴렉스틱"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "등 사용"
+    },
+    {
+      "idx": 17,
+      "file": "17.gif",
+      "thumb": "17.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "어깨 사용"
+    },
+    {
+      "idx": 18,
+      "file": "18.gif",
+      "thumb": "18.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "다리 사용"
+    },
+    {
+      "idx": 19,
+      "file": "19.gif",
+      "thumb": "19.jpg",
+      "group": "value",
+      "element": "효과",
+      "desc": "풀리는 순간 라인이 바뀜(승모근 변화)"
+    },
+    {
+      "idx": 20,
+      "file": "20.jpg",
+      "thumb": "20.jpg",
+      "group": "problem",
+      "element": "타겟 페르소나",
+      "desc": "직장인/반복업무/자세/운동부족"
+    },
+    {
+      "idx": 21,
+      "file": "21.jpg",
+      "thumb": "21.jpg",
+      "group": "trust",
+      "element": "전문가 인정",
+      "desc": "전문가들도 인정한 제품력"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "휴대·편의",
+      "desc": "작아도 짜릿, 언제 어디서나 간편"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "활용 시나리오",
+      "desc": "WHERE 집/회사/헬스장/여행지"
+    },
+    {
+      "idx": 24,
+      "file": "24.gif",
+      "thumb": "24.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "침대 사용"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "등 사용"
+    },
+    {
+      "idx": 26,
+      "file": "26.gif",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "휴대",
+      "desc": "캐리어에 쏙"
+    },
+    {
+      "idx": 27,
+      "file": "27.jpg",
+      "thumb": "27.jpg",
+      "group": "value",
+      "element": "선택 이유",
+      "desc": "릴렉스틱을 선택하는 이유"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "Check01 손으로 롤링 초간단 셀프 마사지"
+    },
+    {
+      "idx": 29,
+      "file": "29.gif",
+      "thumb": "29.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "손잡이 롤러 구조"
+    },
+    {
+      "idx": 30,
+      "file": "30.gif",
+      "thumb": "30.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "종아리 롤링"
+    },
+    {
+      "idx": 31,
+      "file": "31.gif",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "비교",
+      "desc": "폼롤러 vs 릴렉스틱 하나면"
+    },
+    {
+      "idx": 32,
+      "file": "32.jpg",
+      "thumb": "32.jpg",
+      "group": "feature",
+      "element": "소재",
+      "desc": "Check02 깊숙이 스며드는 묵직한 시원함(스틸)"
+    },
+    {
+      "idx": 33,
+      "file": "33.gif",
+      "thumb": "33.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "스틸 봉 구조"
+    },
+    {
+      "idx": 34,
+      "file": "34.jpg",
+      "thumb": "34.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "굳어진 근막도 빠르고 시원하게"
+    },
+    {
+      "idx": 35,
+      "file": "35.gif",
+      "thumb": "35.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "종아리 롤링 디테일"
+    },
+    {
+      "idx": 36,
+      "file": "36.jpg",
+      "thumb": "36.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "릴렉스틱 압력 확인"
+    },
+    {
+      "idx": 37,
+      "file": "37.gif",
+      "thumb": "37.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "무릎 롤링"
+    },
+    {
+      "idx": 38,
+      "file": "38.jpg",
+      "thumb": "38.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "운동으로 달아오른 근육 풀기"
+    },
+    {
+      "idx": 39,
+      "file": "39.jpg",
+      "thumb": "39.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "Check03 한 손에 담긴 전신 근막 케어"
+    },
+    {
+      "idx": 40,
+      "file": "40.gif",
+      "thumb": "40.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "목/어깨, 등"
+    },
+    {
+      "idx": 41,
+      "file": "41.gif",
+      "thumb": "41.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "허리, 종아리/정강이"
+    },
+    {
+      "idx": 42,
+      "file": "42.gif",
+      "thumb": "42.jpg",
+      "group": "feature",
+      "element": "활용 부위",
+      "desc": "허벅지, 발바닥"
+    },
+    {
+      "idx": 43,
+      "file": "43.gif",
+      "thumb": "43.jpg",
+      "group": "value",
+      "element": "효과·USP",
+      "desc": "고민있는 바디라인도 해결"
+    },
+    {
+      "idx": 44,
+      "file": "44.gif",
+      "thumb": "44.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "승모근 긴장 풀어 목/어깨라인"
+    },
+    {
+      "idx": 45,
+      "file": "45.jpg",
+      "thumb": "45.jpg",
+      "group": "guide",
+      "element": "사용가이드",
+      "desc": "초보자를 위한 마사지 가이드"
+    },
+    {
+      "idx": 46,
+      "file": "46.jpg",
+      "thumb": "46.jpg",
+      "group": "feature",
+      "element": "사용법",
+      "desc": "Check04 롤링&압력 조절 3가지 테크닉"
+    },
+    {
+      "idx": 47,
+      "file": "47.gif",
+      "thumb": "47.jpg",
+      "group": "guide",
+      "element": "테크닉",
+      "desc": "POINT RELEASE 압박 마사지"
+    },
+    {
+      "idx": 48,
+      "file": "48.gif",
+      "thumb": "48.jpg",
+      "group": "guide",
+      "element": "테크닉",
+      "desc": "FLUSHING 플러싱 마사지"
+    },
+    {
+      "idx": 49,
+      "file": "49.gif",
+      "thumb": "49.jpg",
+      "group": "guide",
+      "element": "테크닉",
+      "desc": "ROLLING 롤링 마사지"
+    },
+    {
+      "idx": 50,
+      "file": "50.jpg",
+      "thumb": "50.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "Check05 단순함 속 견고함(21.5mm)"
+    },
+    {
+      "idx": 51,
+      "file": "51.gif",
+      "thumb": "51.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "손잡이 디테일"
+    },
+    {
+      "idx": 52,
+      "file": "52.jpg",
+      "thumb": "52.jpg",
+      "group": "feature",
+      "element": "활용",
+      "desc": "소근육 부위도 OK"
+    },
+    {
+      "idx": 53,
+      "file": "53.gif",
+      "thumb": "53.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "팔 사용"
+    },
+    {
+      "idx": 54,
+      "file": "54.jpg",
+      "thumb": "54.jpg",
+      "group": "feature",
+      "element": "휴대",
+      "desc": "Check06 공간 안 가리는 셀프케어"
+    },
+    {
+      "idx": 55,
+      "file": "55.jpg",
+      "thumb": "55.jpg",
+      "group": "feature",
+      "element": "휴대·편의",
+      "desc": "컴팩트, 원하는 곳 어디든"
+    },
+    {
+      "idx": 56,
+      "file": "56.jpg",
+      "thumb": "56.jpg",
+      "group": "feature",
+      "element": "옵션",
+      "desc": "3가지 사이즈 635/535/435mm"
+    },
+    {
+      "idx": 57,
+      "file": "57.jpg",
+      "thumb": "57.jpg",
+      "group": "feature",
+      "element": "옵션",
+      "desc": "숏&롱 버전(SHORT)"
+    },
+    {
+      "idx": 58,
+      "file": "58.jpg",
+      "thumb": "58.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "Check07 BPA&LATEX FREE 실리콘"
+    },
+    {
+      "idx": 59,
+      "file": "59.jpg",
+      "thumb": "59.jpg",
+      "group": "feature",
+      "element": "부속",
+      "desc": "릴렉스틱 포인트 링(2중 돌출 스틸/실리콘)"
+    },
+    {
+      "idx": 60,
+      "file": "60.gif",
+      "thumb": "60.jpg",
+      "group": "feature",
+      "element": "부속",
+      "desc": "포인트 링 — 압력효과 POWER UP"
+    },
+    {
+      "idx": 61,
+      "file": "61.gif",
+      "thumb": "61.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "대퇴근 마사지"
+    },
+    {
+      "idx": 62,
+      "file": "62.gif",
+      "thumb": "62.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "종아리 마사지"
+    },
+    {
+      "idx": 63,
+      "file": "63.jpg",
+      "thumb": "63.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "포인트 링 사용법 STEP"
+    },
+    {
+      "idx": 64,
+      "file": "64.jpg",
+      "thumb": "64.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "목 마사지"
+    },
+    {
+      "idx": 65,
+      "file": "65.jpg",
+      "thumb": "65.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "소파 사용"
+    },
+    {
+      "idx": 66,
+      "file": "66.jpg",
+      "thumb": "66.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "책상에서 사용"
+    },
+    {
+      "idx": 67,
+      "file": "67.jpg",
+      "thumb": "67.jpg",
+      "group": "value",
+      "element": "선물 제안",
+      "desc": "소중한 분께 — 선물용"
+    },
+    {
+      "idx": 68,
+      "file": "68.jpg",
+      "thumb": "68.jpg",
+      "group": "trust",
+      "element": "유사품 주의",
+      "desc": "저가 유사품/도용 제품 유의"
+    },
+    {
+      "idx": 69,
+      "file": "69.jpg",
+      "thumb": "69.jpg",
+      "group": "info",
+      "element": "주의사항",
+      "desc": "제품 사용 시 주의사항"
+    },
+    {
+      "idx": 70,
+      "file": "70.jpg",
+      "thumb": "70.jpg",
+      "group": "trust",
+      "element": "신뢰·AS",
+      "desc": "바리바디 1년 무상 A/S"
+    },
+    {
+      "idx": 71,
+      "file": "71.jpg",
+      "thumb": "71.jpg",
+      "group": "info",
+      "element": "구매정보",
+      "desc": "배송/교환·반품 정보"
+    }
+  ]
+}

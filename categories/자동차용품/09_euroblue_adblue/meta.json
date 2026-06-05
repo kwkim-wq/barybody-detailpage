@@ -1,0 +1,567 @@
+{
+  "product": "유로블루플러스 차량용 요소수 10L (+워셔액 번들)",
+  "category": "자동차용품",
+  "slug": "09_euroblue_adblue",
+  "channel": "네이버 스마트스토어",
+  "url": "https://smartstore.naver.com/euroblueplus/products/10299892253",
+  "captured": "2026-06-04",
+  "total_images": 69,
+  "excluded": [
+    "상단 제품 영상(blob)"
+  ],
+  "note": "요소수(메인) + 레인플러스 워셔액 + 레인플러스 픽 워셔액 번들 — #33부터 워셔액 블록",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.gif",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "수상",
+      "desc": "KBS N 브랜드어워즈 2년 연속 수상"
+    },
+    {
+      "idx": 2,
+      "file": "02.gif",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "정품 인증",
+      "desc": "정품 인증 마크"
+    },
+    {
+      "idx": 3,
+      "file": "03.png",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "크로스셀",
+      "desc": "함께하면 좋은 상품"
+    },
+    {
+      "idx": 4,
+      "file": "04.png",
+      "thumb": "04.jpg",
+      "group": "store",
+      "element": "배송 안내",
+      "desc": "오늘출발 무료배송 + 주문 시 확인"
+    },
+    {
+      "idx": 5,
+      "file": "05.png",
+      "thumb": "05.jpg",
+      "group": "hook",
+      "element": "전환 배경",
+      "desc": "전환"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "trust",
+      "element": "품질 기준",
+      "desc": "AdBlue VDA ISO 22241 / 최신 제조"
+    },
+    {
+      "idx": 7,
+      "file": "07.png",
+      "thumb": "07.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "초순수 프리미엄 — 유로블루+플러스"
+    },
+    {
+      "idx": 8,
+      "file": "08.png",
+      "thumb": "08.jpg",
+      "group": "feature",
+      "element": "제조 공정 인트로",
+      "desc": "유로블루플러스 공정과정"
+    },
+    {
+      "idx": 9,
+      "file": "09.gif",
+      "thumb": "09.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "공정1-2 프리폼/자동충전"
+    },
+    {
+      "idx": 10,
+      "file": "10.gif",
+      "thumb": "10.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "공정3-4 캡체결/제함"
+    },
+    {
+      "idx": 11,
+      "file": "11.gif",
+      "thumb": "11.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "공정5-6 케이스팩커/파레타이즈"
+    },
+    {
+      "idx": 12,
+      "file": "12.gif",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "공정7-8 탑시트/랩핑"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "trust",
+      "element": "실사용 후기",
+      "desc": "고객 리얼 후기"
+    },
+    {
+      "idx": 14,
+      "file": "14.png",
+      "thumb": "14.jpg",
+      "group": "hook",
+      "element": "전환 배경",
+      "desc": "전환"
+    },
+    {
+      "idx": 15,
+      "file": "15.png",
+      "thumb": "15.jpg",
+      "group": "value",
+      "element": "USP",
+      "desc": "인증받은 고품질 요소수"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "proof",
+      "element": "제품 비주얼",
+      "desc": "세계지도 + 제품"
+    },
+    {
+      "idx": 17,
+      "file": "17.png",
+      "thumb": "17.jpg",
+      "group": "trust",
+      "element": "인증·보험",
+      "desc": "VDA 인증 / 제조물책임보험 3억"
+    },
+    {
+      "idx": 18,
+      "file": "18.gif",
+      "thumb": "18.jpg",
+      "group": "trust",
+      "element": "인증서",
+      "desc": "CERTIFICATE 인증서 4종"
+    },
+    {
+      "idx": 19,
+      "file": "19.gif",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "요소수란? SCR 작동원리"
+    },
+    {
+      "idx": 20,
+      "file": "20.gif",
+      "thumb": "20.jpg",
+      "group": "value",
+      "element": "브랜드 스토리",
+      "desc": "오랫동안 고민, 품질좋은 요소수 합리적 가격"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "value",
+      "element": "USP 카피",
+      "desc": "요소수 선택, 이제 고민하지 마세요"
+    },
+    {
+      "idx": 22,
+      "file": "22.gif",
+      "thumb": "22.jpg",
+      "group": "value",
+      "element": "USP 카피",
+      "desc": "고민말고 써야하는 특별한 이유"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "원료",
+      "desc": "01 고품질 요소 원료"
+    },
+    {
+      "idx": 24,
+      "file": "24.gif",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "원료",
+      "desc": "02 초순수 99.9% 사용"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "품질관리",
+      "desc": "03 엄격한 품질관리"
+    },
+    {
+      "idx": 26,
+      "file": "26.gif",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "생산시설",
+      "desc": "04 국내 생산시설"
+    },
+    {
+      "idx": 27,
+      "file": "27.gif",
+      "thumb": "27.jpg",
+      "group": "problem",
+      "element": "문제제기·리스크",
+      "desc": "불순물 요소수 → SCR 손상 고가 수리비"
+    },
+    {
+      "idx": 28,
+      "file": "28.gif",
+      "thumb": "28.jpg",
+      "group": "hook",
+      "element": "전환 배경",
+      "desc": "전환"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "feature",
+      "element": "적용 분야",
+      "desc": "저장용/선박/농기구/산업/건설기계"
+    },
+    {
+      "idx": 30,
+      "file": "30.png",
+      "thumb": "30.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "요소수 사용방법"
+    },
+    {
+      "idx": 31,
+      "file": "31.png",
+      "thumb": "31.jpg",
+      "group": "info",
+      "element": "주의사항",
+      "desc": "산업안전보건법 경고 / 사용상 주의사항"
+    },
+    {
+      "idx": 32,
+      "file": "32.png",
+      "thumb": "32.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문(Q&A)"
+    },
+    {
+      "idx": 33,
+      "file": "33.png",
+      "thumb": "33.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "[워셔액] 레인플러스 워셔액"
+    },
+    {
+      "idx": 34,
+      "file": "34.gif",
+      "thumb": "34.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "[워셔액] 뭘 사야할지 고민?"
+    },
+    {
+      "idx": 35,
+      "file": "35.png",
+      "thumb": "35.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "[워셔액] 안전인증 + 인증서"
+    },
+    {
+      "idx": 36,
+      "file": "36.jpg",
+      "thumb": "36.jpg",
+      "group": "feature",
+      "element": "제조 공정 인트로",
+      "desc": "[워셔액] 자동화 생산과정"
+    },
+    {
+      "idx": 37,
+      "file": "37.gif",
+      "thumb": "37.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[워셔액] 공정1-2"
+    },
+    {
+      "idx": 38,
+      "file": "38.png",
+      "thumb": "38.jpg",
+      "group": "hook",
+      "element": "전환 배경",
+      "desc": "전환"
+    },
+    {
+      "idx": 39,
+      "file": "39.gif",
+      "thumb": "39.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[워셔액] 공정3-4"
+    },
+    {
+      "idx": 40,
+      "file": "40.png",
+      "thumb": "40.jpg",
+      "group": "hook",
+      "element": "전환 배경",
+      "desc": "전환"
+    },
+    {
+      "idx": 41,
+      "file": "41.gif",
+      "thumb": "41.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[워셔액] 공정5-6"
+    },
+    {
+      "idx": 42,
+      "file": "42.gif",
+      "thumb": "42.jpg",
+      "group": "value",
+      "element": "USP",
+      "desc": "[워셔액] 워셔액의 특별함"
+    },
+    {
+      "idx": 43,
+      "file": "43.png",
+      "thumb": "43.jpg",
+      "group": "feature",
+      "element": "특징",
+      "desc": "[워셔액] POINT1 고급향 첨가"
+    },
+    {
+      "idx": 44,
+      "file": "44.png",
+      "thumb": "44.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "[워셔액] 냄새 Before/After"
+    },
+    {
+      "idx": 45,
+      "file": "45.png",
+      "thumb": "45.jpg",
+      "group": "feature",
+      "element": "향 상세",
+      "desc": "[워셔액] 향기노트(Fragrance Note)"
+    },
+    {
+      "idx": 46,
+      "file": "46.png",
+      "thumb": "46.jpg",
+      "group": "feature",
+      "element": "특징",
+      "desc": "[워셔액] POINT2 사계절 -25℃"
+    },
+    {
+      "idx": 47,
+      "file": "47.png",
+      "thumb": "47.jpg",
+      "group": "feature",
+      "element": "특징",
+      "desc": "[워셔액] POINT3 전차종 사용"
+    },
+    {
+      "idx": 48,
+      "file": "48.png",
+      "thumb": "48.jpg",
+      "group": "feature",
+      "element": "특징",
+      "desc": "[워셔액] POINT4 탁월한 세정력"
+    },
+    {
+      "idx": 49,
+      "file": "49.jpg",
+      "thumb": "49.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "[워셔액] 어린이 보호 포장 + 제품인증서"
+    },
+    {
+      "idx": 50,
+      "file": "50.gif",
+      "thumb": "50.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "[워셔액] 어린이 보호 안전캡"
+    },
+    {
+      "idx": 51,
+      "file": "51.png",
+      "thumb": "51.jpg",
+      "group": "proof",
+      "element": "제품 비주얼",
+      "desc": "[워셔액] 병/박스 비주얼"
+    },
+    {
+      "idx": 52,
+      "file": "52.png",
+      "thumb": "52.jpg",
+      "group": "info",
+      "element": "사용 가이드",
+      "desc": "[워셔액] 차종별 보충량"
+    },
+    {
+      "idx": 53,
+      "file": "53.png",
+      "thumb": "53.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "[워셔액] 워셔액 보충방법"
+    },
+    {
+      "idx": 54,
+      "file": "54.png",
+      "thumb": "54.jpg",
+      "group": "info",
+      "element": "제품 고시",
+      "desc": "[워셔액] 생활화학제품 표시사항"
+    },
+    {
+      "idx": 55,
+      "file": "55.png",
+      "thumb": "55.jpg",
+      "group": "info",
+      "element": "주의사항",
+      "desc": "[워셔액] 사용상 주의사항"
+    },
+    {
+      "idx": 56,
+      "file": "56.png",
+      "thumb": "56.jpg",
+      "group": "info",
+      "element": "구매정보",
+      "desc": "배송/교환·환불 안내"
+    },
+    {
+      "idx": 57,
+      "file": "57.gif",
+      "thumb": "57.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "[워셔액PICK] RAIN PLUS PICK"
+    },
+    {
+      "idx": 58,
+      "file": "58.png",
+      "thumb": "58.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "[픽] 안전인증 인증서"
+    },
+    {
+      "idx": 59,
+      "file": "59.gif",
+      "thumb": "59.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "[픽] 냄새 Before/After"
+    },
+    {
+      "idx": 60,
+      "file": "60.gif",
+      "thumb": "60.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "[픽] 이런 경험 있으신가요?"
+    },
+    {
+      "idx": 61,
+      "file": "61.gif",
+      "thumb": "61.jpg",
+      "group": "problem",
+      "element": "문제→해결",
+      "desc": "[픽] 봄 꽃가루/황사 Before/After"
+    },
+    {
+      "idx": 62,
+      "file": "62.jpg",
+      "thumb": "62.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "[픽] 가을/겨울 얼룩 Before/After"
+    },
+    {
+      "idx": 63,
+      "file": "63.png",
+      "thumb": "63.jpg",
+      "group": "feature",
+      "element": "제조 공정 인트로",
+      "desc": "[픽] 제조과정"
+    },
+    {
+      "idx": 64,
+      "file": "64.gif",
+      "thumb": "64.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[픽] 공정1-2"
+    },
+    {
+      "idx": 65,
+      "file": "65.gif",
+      "thumb": "65.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[픽] 공정3-4"
+    },
+    {
+      "idx": 66,
+      "file": "66.gif",
+      "thumb": "66.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[픽] 공정5-6"
+    },
+    {
+      "idx": 67,
+      "file": "67.gif",
+      "thumb": "67.jpg",
+      "group": "feature",
+      "element": "제조 공정",
+      "desc": "[픽] 공정7-8"
+    },
+    {
+      "idx": 68,
+      "file": "68.gif",
+      "thumb": "68.jpg",
+      "group": "value",
+      "element": "USP",
+      "desc": "[픽] 발수코팅제 무 — 국산/수입차 호환"
+    },
+    {
+      "idx": 69,
+      "file": "69.png",
+      "thumb": "69.jpg",
+      "group": "value",
+      "element": "USP 요약",
+      "desc": "[픽] 6대 강점(세정/와이퍼/시야/사계절/호환/국내생산)"
+    }
+  ]
+}

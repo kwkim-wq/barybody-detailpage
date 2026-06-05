@@ -1,0 +1,132 @@
+{
+  "product": "앳플리 T8 스마트 체성분 체중계",
+  "category": "가전",
+  "slug": "12_atflee_scale",
+  "channel": "네이버 브랜드스토어",
+  "url": "https://brand.naver.com/atflee/products/5367460054",
+  "captured": "2026-06-04",
+  "total_images": 15,
+  "excluded": [],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.png",
+      "thumb": "01.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "앳플리 특별 혜택(N페이/배송/무료교환/도서산간)"
+    },
+    {
+      "idx": 2,
+      "file": "02.png",
+      "thumb": "02.jpg",
+      "group": "store",
+      "element": "이벤트·콜라보",
+      "desc": "WHERE'S WALLY 월리 에디션 + 트래커 증정"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "hook",
+      "element": "브랜드 무드",
+      "desc": "atflee 에브리데이(컬러 라인업)"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "앳플리 T8 지금 만나보세요"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "value",
+      "element": "USP 인트로",
+      "desc": "체중계가 가진 놀라운 기록"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "몸무게보다 체성분 — 체지방/골격근 관리"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "trust",
+      "element": "국산·신뢰",
+      "desc": "Made in KOREA — 앱·데이터 국내 제작/운영"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "feature",
+      "element": "앱·기능",
+      "desc": "POINT01 앱으로 더 똑똑한 건강관리"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "feature",
+      "element": "앱·기록",
+      "desc": "변화의 시작 — 앱 기록 화면"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "feature",
+      "element": "앱·맞춤 추천",
+      "desc": "개인 맞춤형 활동 제안"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "feature",
+      "element": "앱·종합기록",
+      "desc": "POINT02 종합 기록 관리/운동 루틴"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "앱·습관",
+      "desc": "POINT03 건강 습관 만들기"
+    },
+    {
+      "idx": 13,
+      "file": "13.jpg",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "정확도",
+      "desc": "정확도 탐구 — BIA 기술"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "design",
+      "element": "디자인",
+      "desc": "체중계 디자인(매일 쓰니까)"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "배터리",
+      "desc": "초절전 AAA 3개 195일"
+    }
+  ]
+}

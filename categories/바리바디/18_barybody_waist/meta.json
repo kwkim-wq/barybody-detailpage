@@ -1,0 +1,421 @@
+{
+  "product": "바리바디 허리 마사지기 (EMS 벨트)",
+  "category": "바리바디",
+  "slug": "18_barybody_waist",
+  "channel": "바리바디 자사몰",
+  "url": "https://barybody.com/product/바리바디-허리-마사지기/1007/",
+  "captured": "2026-06-04",
+  "total_images": 51,
+  "excluded": [],
+  "note": "우리 자사 제품. EMS+온열+지지 3중 벨트형. 공통 포맷(Check 넘버링/전문가 검증/온열 3단계/인체공학)",
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "정품·사칭주의",
+      "desc": "사칭채널 주의"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "정품·공식판매",
+      "desc": "본사 공식 판매점"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "store",
+      "element": "매장 공통 고지",
+      "desc": "자사몰 구매 혜택"
+    },
+    {
+      "idx": 4,
+      "file": "04.gif",
+      "thumb": "04.jpg",
+      "group": "problem",
+      "element": "문제제기·타겟",
+      "desc": "이런 경험 있나요?(오래 앉으면 허리 뻐근)"
+    },
+    {
+      "idx": 5,
+      "file": "05.gif",
+      "thumb": "05.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "허리 착용"
+    },
+    {
+      "idx": 6,
+      "file": "06.jpg",
+      "thumb": "06.jpg",
+      "group": "feature",
+      "element": "설계",
+      "desc": "EMS+온열+지지 3중 케어 조합"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "trust",
+      "element": "전문가",
+      "desc": "허리 회복은 속근육 — 물리치료사 신승용"
+    },
+    {
+      "idx": 8,
+      "file": "08.jpg",
+      "thumb": "08.jpg",
+      "group": "trust",
+      "element": "전문가",
+      "desc": "국가대표 의무트레이너 인터뷰(온열+EMS)"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "하루 20분 — 바리바디 EMS 허리 마사지기"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "허리 통증 완화에 EMS가 효과적"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "feature",
+      "element": "차별",
+      "desc": "이런 점이 다릅니다"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "Check01 어디서나 쉽게 EMS 테라피"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "EMS 패드 비주얼"
+    },
+    {
+      "idx": 14,
+      "file": "14.gif",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "EMS 근육 긴장 이완(단면)"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "feature",
+      "element": "편의·비교",
+      "desc": "EMS 케어 더 쉽게(전문관리 vs 마사지기)"
+    },
+    {
+      "idx": 16,
+      "file": "16.jpg",
+      "thumb": "16.jpg",
+      "group": "feature",
+      "element": "기능",
+      "desc": "부위별 맞춤 타겟"
+    },
+    {
+      "idx": 17,
+      "file": "17.gif",
+      "thumb": "17.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "EMS 타겟 비주얼"
+    },
+    {
+      "idx": 18,
+      "file": "18.gif",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "모드",
+      "desc": "6가지 모드·16단계 강도(전문 테크닉)"
+    },
+    {
+      "idx": 19,
+      "file": "19.jpg",
+      "thumb": "19.jpg",
+      "group": "feature",
+      "element": "온열",
+      "desc": "Check02 최적 온열 온도 제어(3단계)"
+    },
+    {
+      "idx": 20,
+      "file": "20.gif",
+      "thumb": "20.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "온열 침투 단면"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "착용"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "온열",
+      "desc": "입체적 발열 — 온도 선택"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "1단계 38℃ 부드러운 워밍업"
+    },
+    {
+      "idx": 24,
+      "file": "24.gif",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "2단계 42℃ 본격 근육 이완"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "3단계 45℃ 깊은 뭉침 완화"
+    },
+    {
+      "idx": 26,
+      "file": "26.jpg",
+      "thumb": "26.jpg",
+      "group": "feature",
+      "element": "사용 팁",
+      "desc": "EMS 전 온열 권장 + 저온화상 주의"
+    },
+    {
+      "idx": 27,
+      "file": "27.gif",
+      "thumb": "27.jpg",
+      "group": "feature",
+      "element": "디자인",
+      "desc": "Check03 초밀착 인체공학 설계(3중 안정)"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "착용 뒷모습"
+    },
+    {
+      "idx": 29,
+      "file": "29.gif",
+      "thumb": "29.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "착용 앞모습"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "feature",
+      "element": "지지구조",
+      "desc": "고탄성 강화 서포트 밴딩(요추 전만)"
+    },
+    {
+      "idx": 31,
+      "file": "31.jpg",
+      "thumb": "31.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "듀얼 스테인리스 지지대"
+    },
+    {
+      "idx": 32,
+      "file": "32.jpg",
+      "thumb": "32.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "스테인리스 지지대 26°C커브"
+    },
+    {
+      "idx": 33,
+      "file": "33.gif",
+      "thumb": "33.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "착용 측면"
+    },
+    {
+      "idx": 34,
+      "file": "34.jpg",
+      "thumb": "34.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "ABS 스파인 패널"
+    },
+    {
+      "idx": 35,
+      "file": "35.jpg",
+      "thumb": "35.jpg",
+      "group": "feature",
+      "element": "디자인",
+      "desc": "‘딱 좋은 각도’ 인체공학 곡면 구조"
+    },
+    {
+      "idx": 36,
+      "file": "36.gif",
+      "thumb": "36.jpg",
+      "group": "feature",
+      "element": "구조",
+      "desc": "고탄력 서포트 밴드"
+    },
+    {
+      "idx": 37,
+      "file": "37.gif",
+      "thumb": "37.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "착용"
+    },
+    {
+      "idx": 38,
+      "file": "38.jpg",
+      "thumb": "38.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "안정된 착용감으로 효과 UP"
+    },
+    {
+      "idx": 39,
+      "file": "39.jpg",
+      "thumb": "39.jpg",
+      "group": "feature",
+      "element": "편의",
+      "desc": "Check04 누구나 쉽게 단순한 사용법"
+    },
+    {
+      "idx": 40,
+      "file": "40.jpg",
+      "thumb": "40.jpg",
+      "group": "feature",
+      "element": "편의",
+      "desc": "단순한 버튼 조작"
+    },
+    {
+      "idx": 41,
+      "file": "41.gif",
+      "thumb": "41.jpg",
+      "group": "feature",
+      "element": "조작",
+      "desc": "제품 + 전원/모드/강도 버튼"
+    },
+    {
+      "idx": 42,
+      "file": "42.jpg",
+      "thumb": "42.jpg",
+      "group": "feature",
+      "element": "배터리",
+      "desc": "Check05 고용량 배터리 2500mAh 90분"
+    },
+    {
+      "idx": 43,
+      "file": "43.jpg",
+      "thumb": "43.jpg",
+      "group": "feature",
+      "element": "안전",
+      "desc": "Check06 보호 설계(자동 모니터링/과열 차단)"
+    },
+    {
+      "idx": 44,
+      "file": "44.jpg",
+      "thumb": "44.jpg",
+      "group": "trust",
+      "element": "인증",
+      "desc": "인증받은 품질·기술력 KC 인증"
+    },
+    {
+      "idx": 45,
+      "file": "45.jpg",
+      "thumb": "45.jpg",
+      "group": "guide",
+      "element": "사용 팁",
+      "desc": "EMS 전극 패드 — 맨살 직접 착용"
+    },
+    {
+      "idx": 46,
+      "file": "46.jpg",
+      "thumb": "46.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "착용"
+    },
+    {
+      "idx": 47,
+      "file": "47.jpg",
+      "thumb": "47.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "거실 사용"
+    },
+    {
+      "idx": 48,
+      "file": "48.jpg",
+      "thumb": "48.jpg",
+      "group": "value",
+      "element": "선물 제안",
+      "desc": "소중한 분께 건강한 일상 선물(고급 패키지)"
+    },
+    {
+      "idx": 49,
+      "file": "49.jpg",
+      "thumb": "49.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "자주 묻는 질문"
+    },
+    {
+      "idx": 50,
+      "file": "50.jpg",
+      "thumb": "50.jpg",
+      "group": "trust",
+      "element": "신뢰·AS",
+      "desc": "바리바디 1년 무상 A/S"
+    },
+    {
+      "idx": 51,
+      "file": "51.jpg",
+      "thumb": "51.jpg",
+      "group": "info",
+      "element": "구매정보",
+      "desc": "배송/교환·반품 정보"
+    }
+  ]
+}

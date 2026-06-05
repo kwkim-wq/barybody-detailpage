@@ -1,0 +1,436 @@
+{
+  "product": "리칼지메디 써마드PLX 발 마사지기",
+  "category": "마사지기",
+  "slug": "03_ricalzmedi_footmassager",
+  "channel": "네이버 스마트스토어",
+  "url": "https://smartstore.naver.com/ricalzmedi/products/11876354120",
+  "captured": "2026-06-04",
+  "total_images": 53,
+  "excluded": [],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "hook",
+      "element": "제품 인트로(타이틀)",
+      "desc": "thermard PLX 제품 메인"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "실적·혜택",
+      "desc": "누적 방문자 1,000만 돌파 / 47% 공식몰 한정"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "value",
+      "element": "핵심가치 USP",
+      "desc": "2WEEKS 집중케어 — X-TENS 10.0"
+    },
+    {
+      "idx": 4,
+      "file": "04.jpg",
+      "thumb": "04.jpg",
+      "group": "trust",
+      "element": "보증·정품",
+      "desc": "GUARANTEE 100% 환불 / 정품 인증"
+    },
+    {
+      "idx": 5,
+      "file": "05.jpg",
+      "thumb": "05.jpg",
+      "group": "value",
+      "element": "핵심가치 USP",
+      "desc": "국내 유일 X-TENS 10.0 EMS 하체관리"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "hook",
+      "element": "브랜드 무드",
+      "desc": "thermard PLX 무드 비주얼"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "hook",
+      "element": "브랜드 카피",
+      "desc": "Revive energy, rediscover your true shape"
+    },
+    {
+      "idx": 8,
+      "file": "08.gif",
+      "thumb": "08.jpg",
+      "group": "hook",
+      "element": "제품 비주얼",
+      "desc": "제품 비주얼 컷"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "feature",
+      "element": "기술 설명",
+      "desc": "X-TENS 10.0 Technology, 1200Hz"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "feature",
+      "element": "원리 비주얼",
+      "desc": "다리 EMS 자극 + 파형"
+    },
+    {
+      "idx": 11,
+      "file": "11.gif",
+      "thumb": "11.jpg",
+      "group": "feature",
+      "element": "기술 설명",
+      "desc": "1200Hz Pulse Frequency, 속근육·지방 자극"
+    },
+    {
+      "idx": 12,
+      "file": "12.jpg",
+      "thumb": "12.jpg",
+      "group": "feature",
+      "element": "모드·온열",
+      "desc": "7 펄스 모드 + 3단계 온열"
+    },
+    {
+      "idx": 13,
+      "file": "13.gif",
+      "thumb": "13.jpg",
+      "group": "feature",
+      "element": "강도 조절",
+      "desc": "50 LEVEL 조절 주파수"
+    },
+    {
+      "idx": 14,
+      "file": "14.gif",
+      "thumb": "14.jpg",
+      "group": "feature",
+      "element": "원리(침투깊이)",
+      "desc": "주파수별 침투깊이 단면"
+    },
+    {
+      "idx": 15,
+      "file": "15.gif",
+      "thumb": "15.jpg",
+      "group": "proof",
+      "element": "효과 비주얼",
+      "desc": "다리 비교 비주얼"
+    },
+    {
+      "idx": 16,
+      "file": "16.gif",
+      "thumb": "16.jpg",
+      "group": "feature",
+      "element": "모드",
+      "desc": "7 Custom Pulse Modes — 하체 7가지 모드"
+    },
+    {
+      "idx": 17,
+      "file": "17.jpg",
+      "thumb": "17.jpg",
+      "group": "feature",
+      "element": "모드 상세",
+      "desc": "Custom Settings / MODE 01 순환모드"
+    },
+    {
+      "idx": 18,
+      "file": "18.jpg",
+      "thumb": "18.jpg",
+      "group": "feature",
+      "element": "모드 상세",
+      "desc": "MODE 02~07(주무름/두드림/괄사/지압/이완/고강도)"
+    },
+    {
+      "idx": 19,
+      "file": "19.gif",
+      "thumb": "19.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "7 Targeted Modes 모델 연출"
+    },
+    {
+      "idx": 20,
+      "file": "20.jpg",
+      "thumb": "20.jpg",
+      "group": "proof",
+      "element": "연출컷",
+      "desc": "모델 연출 이어짐"
+    },
+    {
+      "idx": 21,
+      "file": "21.gif",
+      "thumb": "21.jpg",
+      "group": "feature",
+      "element": "온열 인트로",
+      "desc": "Triple Heating System"
+    },
+    {
+      "idx": 22,
+      "file": "22.jpg",
+      "thumb": "22.jpg",
+      "group": "feature",
+      "element": "온열",
+      "desc": "Heating System 3단계 온열 탑재"
+    },
+    {
+      "idx": 23,
+      "file": "23.gif",
+      "thumb": "23.jpg",
+      "group": "feature",
+      "element": "온열 단계",
+      "desc": "1/2/3단계 45·50·55℃"
+    },
+    {
+      "idx": 24,
+      "file": "24.jpg",
+      "thumb": "24.jpg",
+      "group": "feature",
+      "element": "온열 효과",
+      "desc": "숨겨진 지방층까지 도달"
+    },
+    {
+      "idx": 25,
+      "file": "25.gif",
+      "thumb": "25.jpg",
+      "group": "proof",
+      "element": "임상·열화상",
+      "desc": "온열 침투 열화상 비주얼"
+    },
+    {
+      "idx": 26,
+      "file": "26.jpg",
+      "thumb": "26.jpg",
+      "group": "proof",
+      "element": "임상 설명",
+      "desc": "열화상 시험 설명"
+    },
+    {
+      "idx": 27,
+      "file": "27.jpg",
+      "thumb": "27.jpg",
+      "group": "proof",
+      "element": "임상 인트로",
+      "desc": "Change you can measure — 임상 검증"
+    },
+    {
+      "idx": 28,
+      "file": "28.jpg",
+      "thumb": "28.jpg",
+      "group": "proof",
+      "element": "임상 결과",
+      "desc": "Clinically Proven Results, 사례 Amelia 42"
+    },
+    {
+      "idx": 29,
+      "file": "29.jpg",
+      "thumb": "29.jpg",
+      "group": "proof",
+      "element": "임상 before/after",
+      "desc": "숨겨진 바디라인 — 1주/2주/1개월 변화"
+    },
+    {
+      "idx": 30,
+      "file": "30.jpg",
+      "thumb": "30.jpg",
+      "group": "proof",
+      "element": "임상",
+      "desc": "Leg Body Composition — 다리 체성분 변화"
+    },
+    {
+      "idx": 31,
+      "file": "31.gif",
+      "thumb": "31.jpg",
+      "group": "proof",
+      "element": "임상 수치",
+      "desc": "허벅지 탄력 개선 69.8%"
+    },
+    {
+      "idx": 32,
+      "file": "32.gif",
+      "thumb": "32.jpg",
+      "group": "proof",
+      "element": "임상 수치",
+      "desc": "종아리 붓기 17.2%/126.4cc 감소"
+    },
+    {
+      "idx": 33,
+      "file": "33.jpg",
+      "thumb": "33.jpg",
+      "group": "proof",
+      "element": "임상 before/after",
+      "desc": "셀룰라이트 혈류 열화상"
+    },
+    {
+      "idx": 34,
+      "file": "34.gif",
+      "thumb": "34.jpg",
+      "group": "proof",
+      "element": "임상 수치",
+      "desc": "허벅지 라인·피부결 9.29%"
+    },
+    {
+      "idx": 35,
+      "file": "35.jpg",
+      "thumb": "35.jpg",
+      "group": "proof",
+      "element": "임상 before/after",
+      "desc": "셀룰라이트 음파 등급"
+    },
+    {
+      "idx": 36,
+      "file": "36.jpg",
+      "thumb": "36.jpg",
+      "group": "proof",
+      "element": "임상 before/after",
+      "desc": "피부표면·지방층 현미경"
+    },
+    {
+      "idx": 37,
+      "file": "37.gif",
+      "thumb": "37.jpg",
+      "group": "proof",
+      "element": "임상 수치",
+      "desc": "사용 4주/8주 9.269%"
+    },
+    {
+      "idx": 38,
+      "file": "38.jpg",
+      "thumb": "38.jpg",
+      "group": "trust",
+      "element": "품질 기준",
+      "desc": "Meets professional quality standards(임상 정보)"
+    },
+    {
+      "idx": 39,
+      "file": "39.jpg",
+      "thumb": "39.jpg",
+      "group": "trust",
+      "element": "전문가 보증",
+      "desc": "Tech Director 인터뷰, Proven&Trusted"
+    },
+    {
+      "idx": 40,
+      "file": "40.jpg",
+      "thumb": "40.jpg",
+      "group": "trust",
+      "element": "인증서",
+      "desc": "Certified Product Assurance"
+    },
+    {
+      "idx": 41,
+      "file": "41.jpg",
+      "thumb": "41.jpg",
+      "group": "trust",
+      "element": "안전·KC 인증",
+      "desc": "Safety Assured 국내 안정성·KC 인증"
+    },
+    {
+      "idx": 42,
+      "file": "42.gif",
+      "thumb": "42.jpg",
+      "group": "value",
+      "element": "핵심 효과 요약",
+      "desc": "Leg Contour/Cellulite/Calf/Thighs 4대 효과"
+    },
+    {
+      "idx": 43,
+      "file": "43.jpg",
+      "thumb": "43.jpg",
+      "group": "feature",
+      "element": "신/구 비교·개선점",
+      "desc": "4세대 완성 혁신 — 1세대 vs 2세대"
+    },
+    {
+      "idx": 44,
+      "file": "44.gif",
+      "thumb": "44.jpg",
+      "group": "feature",
+      "element": "기술 정리",
+      "desc": "Full-cover EMS technology"
+    },
+    {
+      "idx": 45,
+      "file": "45.gif",
+      "thumb": "45.jpg",
+      "group": "feature",
+      "element": "신/구 비교·개선점",
+      "desc": "4세대 써마드 PLX 2026"
+    },
+    {
+      "idx": 46,
+      "file": "46.jpg",
+      "thumb": "46.jpg",
+      "group": "guide",
+      "element": "사용 TIP",
+      "desc": "Q1 온열 Q2 EMS 전기자극"
+    },
+    {
+      "idx": 47,
+      "file": "47.jpg",
+      "thumb": "47.jpg",
+      "group": "store",
+      "element": "정품 공지",
+      "desc": "NOTICE 정품 판매 안내"
+    },
+    {
+      "idx": 48,
+      "file": "48.jpg",
+      "thumb": "48.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "HOW TO USE"
+    },
+    {
+      "idx": 49,
+      "file": "49.jpg",
+      "thumb": "49.jpg",
+      "group": "guide",
+      "element": "사용법",
+      "desc": "STEP 01~04"
+    },
+    {
+      "idx": 50,
+      "file": "50.jpg",
+      "thumb": "50.jpg",
+      "group": "info",
+      "element": "제품정보 고시",
+      "desc": "상품 정보 고시 사양표"
+    },
+    {
+      "idx": 51,
+      "file": "51.jpg",
+      "thumb": "51.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "FAQs(권장시간/세척/충전 등)"
+    },
+    {
+      "idx": 52,
+      "file": "52.jpg",
+      "thumb": "52.jpg",
+      "group": "info",
+      "element": "주의사항",
+      "desc": "Precautions 제품 사용 시 주의사항"
+    },
+    {
+      "idx": 53,
+      "file": "53.jpg",
+      "thumb": "53.jpg",
+      "group": "store",
+      "element": "저작권 고지",
+      "desc": "COPYRIGHT NOTICE"
+    }
+  ]
+}

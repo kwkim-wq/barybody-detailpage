@@ -1,0 +1,132 @@
+{
+  "product": "생활공작소 대용량 제습제(24개)",
+  "category": "생활용품",
+  "slug": "08_livingcrafts_dehumidifier",
+  "channel": "네이버 브랜드스토어",
+  "url": "https://brand.naver.com/livingcrafts/products/4905164407",
+  "captured": "2026-06-04",
+  "total_images": 15,
+  "excluded": [],
+  "items": [
+    {
+      "idx": 1,
+      "file": "01.jpg",
+      "thumb": "01.jpg",
+      "group": "trust",
+      "element": "검색 랭킹 1위",
+      "desc": "N+ 제습제(용기형) 랭킹 1위"
+    },
+    {
+      "idx": 2,
+      "file": "02.jpg",
+      "thumb": "02.jpg",
+      "group": "trust",
+      "element": "판매 실적",
+      "desc": "천만 제습제 16,190,113개 판매돌파"
+    },
+    {
+      "idx": 3,
+      "file": "03.jpg",
+      "thumb": "03.jpg",
+      "group": "hook",
+      "element": "전환 배경",
+      "desc": "제품 비주얼 전환"
+    },
+    {
+      "idx": 4,
+      "file": "04.gif",
+      "thumb": "04.jpg",
+      "group": "proof",
+      "element": "제품 비주얼",
+      "desc": "제습제 용기 제품컷"
+    },
+    {
+      "idx": 5,
+      "file": "05.gif",
+      "thumb": "05.jpg",
+      "group": "problem",
+      "element": "문제제기",
+      "desc": "습기 = 악취·곰팡이·세균의 원인"
+    },
+    {
+      "idx": 6,
+      "file": "06.gif",
+      "thumb": "06.jpg",
+      "group": "trust",
+      "element": "실사용 후기",
+      "desc": "Real Review"
+    },
+    {
+      "idx": 7,
+      "file": "07.jpg",
+      "thumb": "07.jpg",
+      "group": "hook",
+      "element": "제품 인트로",
+      "desc": "꿉꿉함 없이 사계절 뽀송 — Moisture Absorber"
+    },
+    {
+      "idx": 8,
+      "file": "08.gif",
+      "thumb": "08.jpg",
+      "group": "value",
+      "element": "핵심가치 USP 요약",
+      "desc": "Key Point 4(습기제거/비드형 염화칼슘/방지/디자인)"
+    },
+    {
+      "idx": 9,
+      "file": "09.jpg",
+      "thumb": "09.jpg",
+      "group": "feature",
+      "element": "원리",
+      "desc": "360° 비드형 강력 흡수(일반 vs 비드)"
+    },
+    {
+      "idx": 10,
+      "file": "10.jpg",
+      "thumb": "10.jpg",
+      "group": "feature",
+      "element": "효과",
+      "desc": "습기 미리 방지 — 악취·곰팡이 방지"
+    },
+    {
+      "idx": 11,
+      "file": "11.jpg",
+      "thumb": "11.jpg",
+      "group": "info",
+      "element": "FAQ",
+      "desc": "Q&A(비드타입 차이/효과 기간)"
+    },
+    {
+      "idx": 12,
+      "file": "12.gif",
+      "thumb": "12.jpg",
+      "group": "proof",
+      "element": "제품 비주얼",
+      "desc": "용기 손에 든 컷"
+    },
+    {
+      "idx": 13,
+      "file": "13.jpg",
+      "thumb": "13.jpg",
+      "group": "store",
+      "element": "공지·주의",
+      "desc": "배송/사용 주의, 주문 전 참고"
+    },
+    {
+      "idx": 14,
+      "file": "14.jpg",
+      "thumb": "14.jpg",
+      "group": "info",
+      "element": "제품 스펙",
+      "desc": "제품 디자인 및 크기/사양표"
+    },
+    {
+      "idx": 15,
+      "file": "15.jpg",
+      "thumb": "15.jpg",
+      "group": "store",
+      "element": "공식스토어 공지",
+      "desc": "생활공작소 브랜드스토어 안내"
+    }
+  ]
+}
