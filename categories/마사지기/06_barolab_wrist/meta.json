@@ -14,7 +14,10 @@
       "thumb": "01.jpg",
       "group": "store",
       "element": "쿠폰·혜택 고지",
-      "desc": "네이버 단독 혜택(알림 1000원/포토리뷰 1000원)"
+      "desc": "네이버 단독 혜택(알림 1000원/포토리뷰 1000원)",
+      "mid": "store",
+      "sub": "coupon",
+      "note_cls": "네이버 단독 알림·포토리뷰 적립 쿠폰 고지"
     },
     {
       "idx": 2,
@@ -22,7 +25,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "검색 랭킹 1위",
-      "desc": "네이버쇼핑 손목마사지기 검색어 랭킹 1위"
+      "desc": "네이버쇼핑 손목마사지기 검색어 랭킹 1위",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "네이버쇼핑 손목마사지기 검색 랭킹 1위 수상"
     },
     {
       "idx": 3,
@@ -30,7 +36,10 @@
       "thumb": "03.jpg",
       "group": "trust",
       "element": "유사품 주의·특허",
-      "desc": "유사품 주의 / 특허기술·인증 차별"
+      "desc": "유사품 주의 / 특허기술·인증 차별",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "유사품 주의 및 특허기술·인증 차별 강조"
     },
     {
       "idx": 4,
@@ -38,7 +47,10 @@
       "thumb": "04.jpg",
       "group": "feature",
       "element": "기술 설명",
-      "desc": "검증된 주파수·파형, 국내 유일 특허 TENS"
+      "desc": "검증된 주파수·파형, 국내 유일 특허 TENS",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "검증된 주파수·파형, 국내 유일 특허 TENS 핵심기술 설명"
     },
     {
       "idx": 5,
@@ -46,7 +58,10 @@
       "thumb": "05.jpg",
       "group": "trust",
       "element": "판매 실적",
-      "desc": "‘판매량으로 증명’ 누적 판매량"
+      "desc": "‘판매량으로 증명’ 누적 판매량",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "누적 판매량으로 증명하는 판매 실적"
     },
     {
       "idx": 6,
@@ -54,7 +69,10 @@
       "thumb": "06.jpg",
       "group": "trust",
       "element": "수상·평점",
-      "desc": "Forbes 고객신뢰도 1위 / 만족 4.9·리뷰 11,500"
+      "desc": "Forbes 고객신뢰도 1위 / 만족 4.9·리뷰 11,500",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "Forbes 고객신뢰도 1위, 만족도 4.9, 리뷰 11,500건"
     },
     {
       "idx": 7,
@@ -62,7 +80,10 @@
       "thumb": "07.jpg",
       "group": "feature",
       "element": "활용성",
-      "desc": "손목&발목 겸용 TENS-ON"
+      "desc": "손목&발목 겸용 TENS-ON",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "손목·발목 겸용 활용 시나리오 GIF"
     },
     {
       "idx": 8,
@@ -70,7 +91,10 @@
       "thumb": "08.jpg",
       "group": "problem",
       "element": "문제제기·타겟",
-      "desc": "하루 1만회 혹사되는 손목(스마트폰/사무직/육아)"
+      "desc": "하루 1만회 혹사되는 손목(스마트폰/사무직/육아)",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "하루 1만 회 혹사되는 손목 — 스마트폰·사무직·육아 불편 상황 나열"
     },
     {
       "idx": 9,
@@ -78,7 +102,10 @@
       "thumb": "09.jpg",
       "group": "trust",
       "element": "전문가 보증",
-      "desc": "전문가 인터뷰 — 꾸준한 관리가 핵심"
+      "desc": "전문가 인터뷰 — 꾸준한 관리가 핵심",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "전문가 인터뷰 — 꾸준한 관리가 핵심 GIF"
     },
     {
       "idx": 10,
@@ -86,7 +113,10 @@
       "thumb": "10.jpg",
       "group": "trust",
       "element": "전문가 보증",
-      "desc": "물리치료사 추천, TENS+EMS"
+      "desc": "물리치료사 추천, TENS+EMS",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "물리치료사 추천, TENS+EMS 전문가 보증"
     },
     {
       "idx": 11,
@@ -94,7 +124,10 @@
       "thumb": "11.jpg",
       "group": "problem",
       "element": "경쟁대안 비교",
-      "desc": "기존 관리법 만족? 공기압/젤패드/EMS/물리치료"
+      "desc": "기존 관리법 만족? 공기압/젤패드/EMS/물리치료",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "공기압·젤패드·EMS·물리치료 기존 대안 한계 비교"
     },
     {
       "idx": 12,
@@ -102,7 +135,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "신경+근육 동시 관리(골격 Point)"
+      "desc": "신경+근육 동시 관리(골격 Point)",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "신경+근육 동시 관리 골격 Point 작동 원리 GIF"
     },
     {
       "idx": 13,
@@ -110,7 +146,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "TENS(신경) vs EMS(근육) 전류 자극"
+      "desc": "TENS(신경) vs EMS(근육) 전류 자극",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "TENS(신경) vs EMS(근육) 전류 자극 원리"
     },
     {
       "idx": 14,
@@ -118,7 +157,10 @@
       "thumb": "14.jpg",
       "group": "trust",
       "element": "전문가·연구",
-      "desc": "Development Consulting + 해외 저널 연구결과"
+      "desc": "Development Consulting + 해외 저널 연구결과",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "Development Consulting 및 해외 저널 연구결과 전문가 검증"
     },
     {
       "idx": 15,
@@ -126,7 +168,10 @@
       "thumb": "15.jpg",
       "group": "trust",
       "element": "특허·인증",
-      "desc": "국내 유일 TENS-ON 특허 기술"
+      "desc": "국내 유일 TENS-ON 특허 기술",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "국내 유일 TENS-ON 특허 기술 인증"
     },
     {
       "idx": 16,
@@ -134,7 +179,10 @@
       "thumb": "16.jpg",
       "group": "proof",
       "element": "임상 수치",
-      "desc": "손목 탄력 피로도 64.223% 개선"
+      "desc": "손목 탄력 피로도 64.223% 개선",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "손목 탄력 피로도 64.223% 개선 수치 — 데이터 증명형"
     },
     {
       "idx": 17,
@@ -142,7 +190,10 @@
       "thumb": "17.jpg",
       "group": "trust",
       "element": "품질·KC 인증",
-      "desc": "품질기준 충족 인증서 + KC 인증"
+      "desc": "품질기준 충족 인증서 + KC 인증",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "품질기준 충족 인증서 + KC 인증"
     },
     {
       "idx": 18,
@@ -150,7 +201,10 @@
       "thumb": "18.jpg",
       "group": "proof",
       "element": "임상 설문",
-      "desc": "대상자 100% 개선 응답(임상센터 설문)"
+      "desc": "대상자 100% 개선 응답(임상센터 설문)",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "임상센터 설문 대상자 100% 개선 응답 — 임상 데이터 증명형"
     },
     {
       "idx": 19,
@@ -158,7 +212,10 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "제품 비주얼",
-      "desc": "TENS-ON MASSAGE 착용"
+      "desc": "TENS-ON MASSAGE 착용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "TENS-ON 착용 사용 상황 연출 GIF"
     },
     {
       "idx": 20,
@@ -166,7 +223,10 @@
       "thumb": "20.jpg",
       "group": "feature",
       "element": "테이핑·고정",
-      "desc": "드퀘르뱅 테이핑 방식 보호대"
+      "desc": "드퀘르뱅 테이핑 방식 보호대",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "드퀘르뱅 테이핑 방식 보호대 소재·구조 설명"
     },
     {
       "idx": 21,
@@ -174,7 +234,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "밀착·비교",
-      "desc": "손목 밀착 테이핑(자사 vs 바로랩)"
+      "desc": "손목 밀착 테이핑(자사 vs 바로랩)",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "자사 vs 바로랩 손목 밀착 테이핑 신구 비교 GIF"
     },
     {
       "idx": 22,
@@ -182,7 +245,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "두께·밀착",
-      "desc": "0.5mm 초밀착 스킨핏"
+      "desc": "0.5mm 초밀착 스킨핏",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "0.5mm 초밀착 스킨핏 두께·소재"
     },
     {
       "idx": 23,
@@ -190,7 +256,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "자석 탈착",
-      "desc": "디바이스 자석 부착 1초"
+      "desc": "디바이스 자석 부착 1초",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "디바이스 자석 부착 1초 핵심 기술 데모 GIF"
     },
     {
       "idx": 24,
@@ -198,7 +267,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "활용·전환",
-      "desc": "집에선 마사지기로"
+      "desc": "집에선 마사지기로",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "집에서 마사지기로 전환하는 활용 시나리오"
     },
     {
       "idx": 25,
@@ -206,7 +278,10 @@
       "thumb": "25.jpg",
       "group": "feature",
       "element": "타겟 자극",
-      "desc": "문제 지점 정확히 TENS-ON 마사지"
+      "desc": "문제 지점 정확히 TENS-ON 마사지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "문제 지점 정확히 TENS-ON 마사지 타겟 적용 GIF"
     },
     {
       "idx": 26,
@@ -214,7 +289,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "8가지 마사지 모드(TENS4/EMS2)"
+      "desc": "8가지 마사지 모드(TENS4/EMS2)",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "8가지 마사지 모드(TENS4/EMS2) 설명 GIF"
     },
     {
       "idx": 27,
@@ -222,7 +300,10 @@
       "thumb": "27.jpg",
       "group": "feature",
       "element": "강도 조절",
-      "desc": "맞춤 강도 8단계"
+      "desc": "맞춤 강도 8단계",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "맞춤 강도 8단계 조절 GIF"
     },
     {
       "idx": 28,
@@ -230,7 +311,10 @@
       "thumb": "28.jpg",
       "group": "feature",
       "element": "보호대·활용",
-      "desc": "테이핑 보호대 — 평소 보호대/집에선 마사지기"
+      "desc": "테이핑 보호대 — 평소 보호대/집에선 마사지기",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "평소 보호대 / 집에선 마사지기 겸용 활용 시나리오"
     },
     {
       "idx": 29,
@@ -238,7 +322,10 @@
       "thumb": "29.jpg",
       "group": "feature",
       "element": "휴대성",
-      "desc": "컴팩트 사이즈, 가방에 쏙"
+      "desc": "컴팩트 사이즈, 가방에 쏙",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "컴팩트 사이즈 가방 휴대성 시나리오"
     },
     {
       "idx": 30,
@@ -246,7 +333,10 @@
       "thumb": "30.jpg",
       "group": "info",
       "element": "사이즈 가이드",
-      "desc": "손목 보호대 사이즈 S/L"
+      "desc": "손목 보호대 사이즈 S/L",
+      "mid": "info",
+      "sub": "option",
+      "note_cls": "손목 보호대 사이즈 S/L 옵션·가이드"
     },
     {
       "idx": 31,
@@ -254,7 +344,10 @@
       "thumb": "31.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "사용 방법 1~4"
+      "desc": "사용 방법 1~4",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "사용 방법 1~4단계 STEP 안내"
     },
     {
       "idx": 32,
@@ -262,7 +355,10 @@
       "thumb": "32.jpg",
       "group": "info",
       "element": "구성품",
-      "desc": "제품 구성(TENS+EMS Massager)"
+      "desc": "제품 구성(TENS+EMS Massager)",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "TENS+EMS Massager 제품 구성품 목록"
     },
     {
       "idx": 33,
@@ -270,7 +366,10 @@
       "thumb": "33.jpg",
       "group": "trust",
       "element": "제약사 협업·구성",
-      "desc": "KM제약 협업 — 24년 제약사 개발 마사지겔"
+      "desc": "KM제약 협업 — 24년 제약사 개발 마사지겔",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "KM제약 협업 — 24년 제약사 전문가 개발 마사지겔"
     }
   ]
 }

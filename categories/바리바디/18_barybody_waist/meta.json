@@ -15,7 +15,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "정품·사칭주의",
-      "desc": "사칭채널 주의"
+      "desc": "사칭채널 주의",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "사칭채널 주의 공지 — 정품·공식판매처 경고"
     },
     {
       "idx": 2,
@@ -23,7 +26,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "정품·공식판매",
-      "desc": "본사 공식 판매점"
+      "desc": "본사 공식 판매점",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "본사 공식 판매점 명시"
     },
     {
       "idx": 3,
@@ -31,7 +37,10 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "매장 공통 고지",
-      "desc": "자사몰 구매 혜택"
+      "desc": "자사몰 구매 혜택",
+      "mid": "store",
+      "sub": "coupon",
+      "note_cls": "자사몰 구매 혜택 고지 — 쿠폰·적립 성격"
     },
     {
       "idx": 4,
@@ -39,7 +48,10 @@
       "thumb": "04.jpg",
       "group": "problem",
       "element": "문제제기·타겟",
-      "desc": "이런 경험 있나요?(오래 앉으면 허리 뻐근)"
+      "desc": "이런 경험 있나요?(오래 앉으면 허리 뻐근)",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "오래 앉으면 허리 뻐근 — 불편상황 나열"
     },
     {
       "idx": 5,
@@ -47,7 +59,10 @@
       "thumb": "05.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "허리 착용"
+      "desc": "허리 착용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "허리 착용 gif — 사용상황 연출컷"
     },
     {
       "idx": 6,
@@ -55,7 +70,10 @@
       "thumb": "06.jpg",
       "group": "feature",
       "element": "설계",
-      "desc": "EMS+온열+지지 3중 케어 조합"
+      "desc": "EMS+온열+지지 3중 케어 조합",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "EMS+온열+지지 3중 케어 조합 — 핵심기술 포인트 넘버링"
     },
     {
       "idx": 7,
@@ -63,7 +81,10 @@
       "thumb": "07.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "허리 회복은 속근육 — 물리치료사 신승용"
+      "desc": "허리 회복은 속근육 — 물리치료사 신승용",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "물리치료사 신승용 — 전문가 검증"
     },
     {
       "idx": 8,
@@ -71,7 +92,10 @@
       "thumb": "08.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "국가대표 의무트레이너 인터뷰(온열+EMS)"
+      "desc": "국가대표 의무트레이너 인터뷰(온열+EMS)",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "국가대표 의무트레이너 인터뷰 — 전문가 검증"
     },
     {
       "idx": 9,
@@ -79,7 +103,10 @@
       "thumb": "09.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "하루 20분 — 바리바디 EMS 허리 마사지기"
+      "desc": "하루 20분 — 바리바디 EMS 허리 마사지기",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "하루 20분 — 바리바디 EMS 허리 마사지기 메인 슬로건"
     },
     {
       "idx": 10,
@@ -87,7 +114,10 @@
       "thumb": "10.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "허리 통증 완화에 EMS가 효과적"
+      "desc": "허리 통증 완화에 EMS가 효과적",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "허리 통증 완화에 EMS가 효과적 — 작동원리 설명"
     },
     {
       "idx": 11,
@@ -95,7 +125,10 @@
       "thumb": "11.jpg",
       "group": "feature",
       "element": "차별",
-      "desc": "이런 점이 다릅니다"
+      "desc": "이런 점이 다릅니다",
+      "mid": "value",
+      "sub": "vs_compete",
+      "note_cls": "이런 점이 다릅니다 — 경쟁 비교 우위"
     },
     {
       "idx": 12,
@@ -103,7 +136,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "Check01 어디서나 쉽게 EMS 테라피"
+      "desc": "Check01 어디서나 쉽게 EMS 테라피",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check01 어디서나 쉽게 EMS 테라피 — 핵심기술 넘버링"
     },
     {
       "idx": 13,
@@ -111,7 +147,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "EMS 패드 비주얼"
+      "desc": "EMS 패드 비주얼",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "EMS 패드 비주얼 — 소재·구조 시각화"
     },
     {
       "idx": 14,
@@ -119,7 +158,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "EMS 근육 긴장 이완(단면)"
+      "desc": "EMS 근육 긴장 이완(단면)",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "EMS 근육 긴장 이완 단면 — 작동원리"
     },
     {
       "idx": 15,
@@ -127,7 +169,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "편의·비교",
-      "desc": "EMS 케어 더 쉽게(전문관리 vs 마사지기)"
+      "desc": "EMS 케어 더 쉽게(전문관리 vs 마사지기)",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "전문관리 vs 마사지기 비교 — 신구/대안 비교"
     },
     {
       "idx": 16,
@@ -135,7 +180,10 @@
       "thumb": "16.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "부위별 맞춤 타겟"
+      "desc": "부위별 맞춤 타겟",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "부위별 맞춤 타겟 — 적용 부위·시나리오"
     },
     {
       "idx": 17,
@@ -143,7 +191,10 @@
       "thumb": "17.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "EMS 타겟 비주얼"
+      "desc": "EMS 타겟 비주얼",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "EMS 타겟 비주얼 gif — 작동원리 시각화"
     },
     {
       "idx": 18,
@@ -151,7 +202,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "6가지 모드·16단계 강도(전문 테크닉)"
+      "desc": "6가지 모드·16단계 강도(전문 테크닉)",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "6가지 모드·16단계 강도 — 모드·강도 설명"
     },
     {
       "idx": 19,
@@ -159,7 +213,10 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "온열",
-      "desc": "Check02 최적 온열 온도 제어(3단계)"
+      "desc": "Check02 최적 온열 온도 제어(3단계)",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check02 최적 온열 온도 제어 3단계 — 핵심기술 넘버링"
     },
     {
       "idx": 20,
@@ -167,7 +224,10 @@
       "thumb": "20.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "온열 침투 단면"
+      "desc": "온열 침투 단면",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "온열 침투 단면 gif — 작동원리 시각화"
     },
     {
       "idx": 21,
@@ -175,7 +235,10 @@
       "thumb": "21.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "착용"
+      "desc": "착용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "착용 gif — 사용상황 연출컷"
     },
     {
       "idx": 22,
@@ -183,7 +246,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "온열",
-      "desc": "입체적 발열 — 온도 선택"
+      "desc": "입체적 발열 — 온도 선택",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "입체적 발열 온도 선택 — 모드·강도(온열 단계)"
     },
     {
       "idx": 23,
@@ -191,7 +257,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "1단계 38℃ 부드러운 워밍업"
+      "desc": "1단계 38℃ 부드러운 워밍업",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "1단계 38℃ 부드러운 워밍업 — 온열 강도 단계"
     },
     {
       "idx": 24,
@@ -199,7 +268,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "2단계 42℃ 본격 근육 이완"
+      "desc": "2단계 42℃ 본격 근육 이완",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "2단계 42℃ 본격 근육 이완 — 온열 강도 단계"
     },
     {
       "idx": 25,
@@ -207,7 +279,10 @@
       "thumb": "25.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "3단계 45℃ 깊은 뭉침 완화"
+      "desc": "3단계 45℃ 깊은 뭉침 완화",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "3단계 45℃ 깊은 뭉침 완화 — 온열 강도 단계"
     },
     {
       "idx": 26,
@@ -215,7 +290,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "사용 팁",
-      "desc": "EMS 전 온열 권장 + 저온화상 주의"
+      "desc": "EMS 전 온열 권장 + 저온화상 주의",
+      "mid": "guide",
+      "sub": "care",
+      "note_cls": "EMS 전 온열 권장 + 저온화상 주의 — 조작 팁 및 주의"
     },
     {
       "idx": 27,
@@ -223,7 +301,10 @@
       "thumb": "27.jpg",
       "group": "feature",
       "element": "디자인",
-      "desc": "Check03 초밀착 인체공학 설계(3중 안정)"
+      "desc": "Check03 초밀착 인체공학 설계(3중 안정)",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check03 초밀착 인체공학 설계 3중 안정 — 핵심기술 넘버링"
     },
     {
       "idx": 28,
@@ -231,7 +312,10 @@
       "thumb": "28.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "착용 뒷모습"
+      "desc": "착용 뒷모습",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "착용 뒷모습 — 사용상황 연출컷"
     },
     {
       "idx": 29,
@@ -239,7 +323,10 @@
       "thumb": "29.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "착용 앞모습"
+      "desc": "착용 앞모습",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "착용 앞모습 gif — 사용상황 연출컷"
     },
     {
       "idx": 30,
@@ -247,7 +334,10 @@
       "thumb": "30.jpg",
       "group": "feature",
       "element": "지지구조",
-      "desc": "고탄성 강화 서포트 밴딩(요추 전만)"
+      "desc": "고탄성 강화 서포트 밴딩(요추 전만)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "고탄성 강화 서포트 밴딩 요추 전만 — 소재·구조"
     },
     {
       "idx": 31,
@@ -255,7 +345,10 @@
       "thumb": "31.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "듀얼 스테인리스 지지대"
+      "desc": "듀얼 스테인리스 지지대",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "듀얼 스테인리스 지지대 — 소재·구조"
     },
     {
       "idx": 32,
@@ -263,7 +356,10 @@
       "thumb": "32.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "스테인리스 지지대 26°C커브"
+      "desc": "스테인리스 지지대 26°C커브",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "스테인리스 지지대 26도 커브 — 소재·구조"
     },
     {
       "idx": 33,
@@ -271,7 +367,10 @@
       "thumb": "33.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "착용 측면"
+      "desc": "착용 측면",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "착용 측면 gif — 사용상황 연출컷"
     },
     {
       "idx": 34,
@@ -279,7 +378,10 @@
       "thumb": "34.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "ABS 스파인 패널"
+      "desc": "ABS 스파인 패널",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "ABS 스파인 패널 — 소재·구조"
     },
     {
       "idx": 35,
@@ -287,7 +389,10 @@
       "thumb": "35.jpg",
       "group": "feature",
       "element": "디자인",
-      "desc": "‘딱 좋은 각도’ 인체공학 곡면 구조"
+      "desc": "‘딱 좋은 각도’ 인체공학 곡면 구조",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "딱 좋은 각도 인체공학 곡면 구조 — 소재·구조(설계)"
     },
     {
       "idx": 36,
@@ -295,7 +400,10 @@
       "thumb": "36.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "고탄력 서포트 밴드"
+      "desc": "고탄력 서포트 밴드",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "고탄력 서포트 밴드 gif — 소재·구조"
     },
     {
       "idx": 37,
@@ -303,7 +411,10 @@
       "thumb": "37.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "착용"
+      "desc": "착용",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "착용 gif — 라이프스타일 연출"
     },
     {
       "idx": 38,
@@ -311,7 +422,10 @@
       "thumb": "38.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "안정된 착용감으로 효과 UP"
+      "desc": "안정된 착용감으로 효과 UP",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "안정된 착용감으로 효과 UP — 착용 시나리오·효과 연결"
     },
     {
       "idx": 39,
@@ -319,7 +433,10 @@
       "thumb": "39.jpg",
       "group": "feature",
       "element": "편의",
-      "desc": "Check04 누구나 쉽게 단순한 사용법"
+      "desc": "Check04 누구나 쉽게 단순한 사용법",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check04 누구나 쉽게 단순한 사용법 — 핵심기술 넘버링"
     },
     {
       "idx": 40,
@@ -327,7 +444,10 @@
       "thumb": "40.jpg",
       "group": "feature",
       "element": "편의",
-      "desc": "단순한 버튼 조작"
+      "desc": "단순한 버튼 조작",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "단순한 버튼 조작 — 사용법 STEP"
     },
     {
       "idx": 41,
@@ -335,7 +455,10 @@
       "thumb": "41.jpg",
       "group": "feature",
       "element": "조작",
-      "desc": "제품 + 전원/모드/강도 버튼"
+      "desc": "제품 + 전원/모드/강도 버튼",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "전원/모드/강도 버튼 gif — 사용법 STEP"
     },
     {
       "idx": 42,
@@ -343,7 +466,10 @@
       "thumb": "42.jpg",
       "group": "feature",
       "element": "배터리",
-      "desc": "Check05 고용량 배터리 2500mAh 90분"
+      "desc": "Check05 고용량 배터리 2500mAh 90분",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check05 고용량 배터리 2500mAh 90분 — 핵심기술 넘버링"
     },
     {
       "idx": 43,
@@ -351,7 +477,10 @@
       "thumb": "43.jpg",
       "group": "feature",
       "element": "안전",
-      "desc": "Check06 보호 설계(자동 모니터링/과열 차단)"
+      "desc": "Check06 보호 설계(자동 모니터링/과열 차단)",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check06 보호 설계 자동 모니터링·과열 차단 — 핵심기술 넘버링"
     },
     {
       "idx": 44,
@@ -359,7 +488,10 @@
       "thumb": "44.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "인증받은 품질·기술력 KC 인증"
+      "desc": "인증받은 품질·기술력 KC 인증",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "KC 인증받은 품질·기술력 — 인증·성적서"
     },
     {
       "idx": 45,
@@ -367,7 +499,10 @@
       "thumb": "45.jpg",
       "group": "guide",
       "element": "사용 팁",
-      "desc": "EMS 전극 패드 — 맨살 직접 착용"
+      "desc": "EMS 전극 패드 — 맨살 직접 착용",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "EMS 전극 패드 맨살 직접 착용 팁 — 부위별·테크닉"
     },
     {
       "idx": 46,
@@ -375,7 +510,10 @@
       "thumb": "46.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "착용"
+      "desc": "착용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "착용 — 사용상황 연출컷"
     },
     {
       "idx": 47,
@@ -383,7 +521,10 @@
       "thumb": "47.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "거실 사용"
+      "desc": "거실 사용",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "거실 사용 — 라이프스타일 연출"
     },
     {
       "idx": 48,
@@ -391,7 +532,10 @@
       "thumb": "48.jpg",
       "group": "value",
       "element": "선물 제안",
-      "desc": "소중한 분께 건강한 일상 선물(고급 패키지)"
+      "desc": "소중한 분께 건강한 일상 선물(고급 패키지)",
+      "mid": "value",
+      "sub": "gift",
+      "note_cls": "소중한 분께 건강한 일상 선물 고급 패키지 — 선물 제안"
     },
     {
       "idx": 49,
@@ -399,7 +543,10 @@
       "thumb": "49.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "자주 묻는 질문"
+      "desc": "자주 묻는 질문",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "자주 묻는 질문 — 구매 FAQ"
     },
     {
       "idx": 50,
@@ -407,7 +554,10 @@
       "thumb": "50.jpg",
       "group": "trust",
       "element": "신뢰·AS",
-      "desc": "바리바디 1년 무상 A/S"
+      "desc": "바리바디 1년 무상 A/S",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "바리바디 1년 무상 A/S — AS·환불 보증"
     },
     {
       "idx": 51,
@@ -415,7 +565,10 @@
       "thumb": "51.jpg",
       "group": "info",
       "element": "구매정보",
-      "desc": "배송/교환·반품 정보"
+      "desc": "배송/교환·반품 정보",
+      "mid": "info",
+      "sub": "delivery",
+      "note_cls": "배송/교환·반품 정보 — 배송·교환반품"
     }
   ]
 }

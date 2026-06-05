@@ -15,7 +15,10 @@
       "thumb": "001.jpg",
       "group": "hook",
       "element": "브랜드 헤리티지",
-      "desc": "어머니회 흑백사진(2010)"
+      "desc": "어머니회 흑백사진(2010)",
+      "mid": "hook",
+      "sub": "brand_mood",
+      "note_cls": "어머니회 흑백사진으로 브랜드 헤리티지·무드 연출"
     },
     {
       "idx": 2,
@@ -23,7 +26,10 @@
       "thumb": "002.jpg",
       "group": "trust",
       "element": "정품·공식판매처",
-      "desc": "공식 판매처 / 유사품·불법유통 주의"
+      "desc": "공식 판매처 / 유사품·불법유통 주의",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "공식 판매처 선언 + 유사품 주의 경고"
     },
     {
       "idx": 3,
@@ -31,7 +37,10 @@
       "thumb": "003.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "DIRTY LINEN INDOOR ISSUE"
+      "desc": "DIRTY LINEN INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "DIRTY LINEN INDOOR ISSUE 전환 키비주얼"
     },
     {
       "idx": 4,
@@ -39,7 +48,10 @@
       "thumb": "004.jpg",
       "group": "trust",
       "element": "실적·1위",
-      "desc": "압도적 1위(102주/99주 연속)"
+      "desc": "압도적 1위(102주/99주 연속)",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "102주/99주 연속 압도적 1위 실적"
     },
     {
       "idx": 5,
@@ -47,7 +59,10 @@
       "thumb": "005.jpg",
       "group": "trust",
       "element": "수상",
-      "desc": "포브스 선정 최고의 탈취제 브랜드"
+      "desc": "포브스 선정 최고의 탈취제 브랜드",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "포브스 선정 최고의 탈취제 브랜드 수상"
     },
     {
       "idx": 6,
@@ -55,7 +70,10 @@
       "thumb": "006.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 7,
@@ -63,7 +81,10 @@
       "thumb": "007.jpg",
       "group": "value",
       "element": "USP",
-      "desc": "냄새 제거 딱 30분"
+      "desc": "냄새 제거 딱 30분",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "냄새 제거 딱 30분 — 핵심 차별 한줄 카피"
     },
     {
       "idx": 8,
@@ -71,7 +92,10 @@
       "thumb": "008.jpg",
       "group": "feature",
       "element": "효과 데이터",
-      "desc": "암모니아98/황화수소99/메틸머캅탄98%"
+      "desc": "암모니아98/황화수소99/메틸머캅탄98%",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "group=feature이지만 암모니아98/황화수소99/메틸머캅탄98% 수치 증명"
     },
     {
       "idx": 9,
@@ -79,7 +103,10 @@
       "thumb": "009.jpg",
       "group": "value",
       "element": "USP",
-      "desc": "압도적 탈취력"
+      "desc": "압도적 탈취력",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "압도적 탈취력 단문 USP 카피"
     },
     {
       "idx": 10,
@@ -87,7 +114,10 @@
       "thumb": "010.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "담배/홀애비/음식물/화장실 등 냄새"
+      "desc": "담배/홀애비/음식물/화장실 등 냄새",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "담배/홀애비/음식물/화장실 냄새 등 불편 상황 나열"
     },
     {
       "idx": 11,
@@ -95,7 +125,10 @@
       "thumb": "011.jpg",
       "group": "value",
       "element": "USP",
-      "desc": "안전하고 확실하게 딱 30분"
+      "desc": "안전하고 확실하게 딱 30분",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "안전하고 확실하게 딱 30분 핵심 USP 반복"
     },
     {
       "idx": 12,
@@ -103,7 +136,10 @@
       "thumb": "012.jpg",
       "group": "feature",
       "element": "실험·측정",
-      "desc": "사용 전 냄새 수치"
+      "desc": "사용 전 냄새 수치",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "group=feature이지만 사용 전 냄새 수치 측정 실험 데모"
     },
     {
       "idx": 13,
@@ -111,7 +147,10 @@
       "thumb": "013.jpg",
       "group": "feature",
       "element": "실험·측정",
-      "desc": "사용 후 냄새 수치"
+      "desc": "사용 후 냄새 수치",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "사용 후 냄새 수치 측정 — 전후 실험 데모"
     },
     {
       "idx": 14,
@@ -119,7 +158,10 @@
       "thumb": "014.jpg",
       "group": "trust",
       "element": "실적",
-      "desc": "더현대 팝업 품절 대란"
+      "desc": "더현대 팝업 품절 대란",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "더현대 팝업 품절 대란 판매 실적"
     },
     {
       "idx": 15,
@@ -127,7 +169,10 @@
       "thumb": "015.jpg",
       "group": "trust",
       "element": "실적",
-      "desc": "팝업 현장"
+      "desc": "팝업 현장",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "팝업 현장 사용 상황 컷"
     },
     {
       "idx": 16,
@@ -135,7 +180,10 @@
       "thumb": "016.jpg",
       "group": "trust",
       "element": "유통·입점",
-      "desc": "더현대 서울/판교/천호 + 커넥트 부산"
+      "desc": "더현대 서울/판교/천호 + 커넥트 부산",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "더현대 서울/판교/천호+커넥트부산 입점 공식 유통처"
     },
     {
       "idx": 17,
@@ -143,7 +191,10 @@
       "thumb": "017.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "국내 첫 고체 탈취제 — 인도어이슈"
+      "desc": "국내 첫 고체 탈취제 — 인도어이슈",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "국내 첫 고체 탈취제 — 인도어이슈 메인 슬로건 인트로"
     },
     {
       "idx": 18,
@@ -151,7 +202,10 @@
       "thumb": "018.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 19,
@@ -159,7 +213,10 @@
       "thumb": "019.jpg",
       "group": "trust",
       "element": "보증",
-      "desc": "7일 이내 탈취력 없으면 100%"
+      "desc": "7일 이내 탈취력 없으면 100%",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "7일 이내 탈취력 없으면 100% 환불 보증"
     },
     {
       "idx": 20,
@@ -167,7 +224,10 @@
       "thumb": "020.jpg",
       "group": "trust",
       "element": "보증",
-      "desc": "100% REFUND + 2년 개발 검증"
+      "desc": "100% REFUND + 2년 개발 검증",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "100% REFUND + 2년 개발 검증 환불 보증"
     },
     {
       "idx": 21,
@@ -175,7 +235,10 @@
       "thumb": "021.jpg",
       "group": "value",
       "element": "USP 빌드업",
-      "desc": "'악취제거' 1시간도 아니고"
+      "desc": "'악취제거' 1시간도 아니고",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "악취제거 1시간도 아니고 — 30분 강조 빌드업 카피"
     },
     {
       "idx": 22,
@@ -183,7 +246,10 @@
       "thumb": "022.jpg",
       "group": "trust",
       "element": "시험성적",
-      "desc": "HALF-HOUR 탈취 시간대 성적서"
+      "desc": "HALF-HOUR 탈취 시간대 성적서",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "HALF-HOUR 탈취 시간대 시험성적서 [QA교정]"
     },
     {
       "idx": 23,
@@ -191,7 +257,10 @@
       "thumb": "023.jpg",
       "group": "value",
       "element": "브랜드 스토리",
-      "desc": "찐 홀애비 집 냄새가 증거"
+      "desc": "찐 홀애비 집 냄새가 증거",
+      "mid": "problem",
+      "sub": "brand_story",
+      "note_cls": "찐 홀애비 집 냄새가 증거 — 브랜드 서사 핵심"
     },
     {
       "idx": 24,
@@ -199,7 +268,10 @@
       "thumb": "024.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "남자들 냄새 검색(씻어라/환기/이불)"
+      "desc": "남자들 냄새 검색(씻어라/환기/이불)",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "남자들 냄새 관련 검색어(씻어라/환기/이불) 불편 상황"
     },
     {
       "idx": 25,
@@ -207,7 +279,10 @@
       "thumb": "025.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "씻고 환기·디퓨저 놔도 냄새"
+      "desc": "씻고 환기·디퓨저 놔도 냄새",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "씻고 환기·디퓨저 놔도 냄새 — 기존 대안 한계"
     },
     {
       "idx": 26,
@@ -215,7 +290,10 @@
       "thumb": "026.jpg",
       "group": "value",
       "element": "스토리",
-      "desc": "네, 제가 그랬어요"
+      "desc": "네, 제가 그랬어요",
+      "mid": "problem",
+      "sub": "brand_story",
+      "note_cls": "네, 제가 그랬어요 — 창업자 개인 서사 공감"
     },
     {
       "idx": 27,
@@ -223,7 +301,10 @@
       "thumb": "027.jpg",
       "group": "value",
       "element": "브랜드 스토리",
-      "desc": "더티린넨 만든 홀애비 자식"
+      "desc": "더티린넨 만든 홀애비 자식",
+      "mid": "problem",
+      "sub": "brand_story",
+      "note_cls": "더티린넨 만든 홀애비 자식 — 브랜드 서사"
     },
     {
       "idx": 28,
@@ -231,7 +312,10 @@
       "thumb": "028.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "샤워/환기/세탁해도 냄새"
+      "desc": "샤워/환기/세탁해도 냄새",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "샤워/환기/세탁해도 냄새 — 기존 대안 한계"
     },
     {
       "idx": 29,
@@ -239,7 +323,10 @@
       "thumb": "029.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "뿌리고 피우고 태워도(기존 한계)"
+      "desc": "뿌리고 피우고 태워도(기존 한계)",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "뿌리고 피우고 태워도 안됨 — 기존 대안 한계"
     },
     {
       "idx": 30,
@@ -247,7 +334,10 @@
       "thumb": "030.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "땀냄새 가득한 몸"
+      "desc": "땀냄새 가득한 몸",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "땀냄새 가득한 몸 — 불편 상황 나열"
     },
     {
       "idx": 31,
@@ -255,7 +345,10 @@
       "thumb": "031.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "고기냄새 밴 옷"
+      "desc": "고기냄새 밴 옷",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "고기냄새 밴 옷 — 불편 상황 나열"
     },
     {
       "idx": 32,
@@ -263,7 +356,10 @@
       "thumb": "032.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "입냄새"
+      "desc": "입냄새",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "입냄새 — 불편 상황 나열"
     },
     {
       "idx": 33,
@@ -271,7 +367,10 @@
       "thumb": "033.jpg",
       "group": "problem",
       "element": "문제제기·원리",
-      "desc": "디퓨저=안 씻고 향수 뿌리는 것"
+      "desc": "디퓨저=안 씻고 향수 뿌리는 것",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "디퓨저=안 씻고 향수 뿌리는 것 비유 — 기존 대안 한계"
     },
     {
       "idx": 34,
@@ -279,7 +378,10 @@
       "thumb": "034.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "냄새 근원을 제거해야"
+      "desc": "냄새 근원을 제거해야",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "냄새 근원을 제거해야 한다 — 작동원리 전환"
     },
     {
       "idx": 35,
@@ -287,7 +389,10 @@
       "thumb": "035.jpg",
       "group": "value",
       "element": "브랜드 스토리",
-      "desc": "제 치부 때문에 만들었다"
+      "desc": "제 치부 때문에 만들었다",
+      "mid": "problem",
+      "sub": "brand_story",
+      "note_cls": "제 치부 때문에 만들었다 — 창업자 브랜드 서사"
     },
     {
       "idx": 36,
@@ -295,7 +400,10 @@
       "thumb": "036.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 37,
@@ -303,7 +411,10 @@
       "thumb": "037.jpg",
       "group": "value",
       "element": "브랜드 스토리",
-      "desc": "흑백 아버지 사진"
+      "desc": "흑백 아버지 사진",
+      "mid": "hook",
+      "sub": "brand_mood",
+      "note_cls": "흑백 아버지 사진 — 브랜드 무드·헤리티지 연출"
     },
     {
       "idx": 38,
@@ -311,7 +422,10 @@
       "thumb": "038.jpg",
       "group": "problem",
       "element": "스토리·문제",
-      "desc": "남자 둘 담배/세제 냄새"
+      "desc": "남자 둘 담배/세제 냄새",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "남자 둘 담배/세제 냄새 — 불편 상황 묘사"
     },
     {
       "idx": 39,
@@ -319,7 +433,10 @@
       "thumb": "039.jpg",
       "group": "problem",
       "element": "스토리·문제",
-      "desc": "냄새로 이별 통보"
+      "desc": "냄새로 이별 통보",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "냄새로 이별 통보 — 극단적 불편 상황 서사"
     },
     {
       "idx": 40,
@@ -327,7 +444,10 @@
       "thumb": "040.jpg",
       "group": "problem",
       "element": "스토리·문제",
-      "desc": "현관 여는 순간 익숙한 낯섦"
+      "desc": "현관 여는 순간 익숙한 낯섦",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "현관 여는 순간 익숙한 낯섦 — 냄새 불편 상황"
     },
     {
       "idx": 41,
@@ -335,7 +455,10 @@
       "thumb": "041.jpg",
       "group": "problem",
       "element": "문제·원리",
-      "desc": "제품·옷에 깊이 밴 냄새"
+      "desc": "제품·옷에 깊이 밴 냄새",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "제품·옷에 깊이 밴 냄새 — 불편 상황"
     },
     {
       "idx": 42,
@@ -343,7 +466,10 @@
       "thumb": "042.jpg",
       "group": "problem",
       "element": "문제·원인",
-      "desc": "리얼 '홀애비 냄새'"
+      "desc": "리얼 '홀애비 냄새'",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "리얼 홀애비 냄새 — 핵심 문제 상황"
     },
     {
       "idx": 43,
@@ -351,7 +477,10 @@
       "thumb": "043.jpg",
       "group": "problem",
       "element": "문제 비주얼",
-      "desc": "더러운 바닥"
+      "desc": "더러운 바닥",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "더러운 바닥 비주얼 — 문제 환경 시각화"
     },
     {
       "idx": 44,
@@ -359,7 +488,10 @@
       "thumb": "044.jpg",
       "group": "problem",
       "element": "스토리·문제",
-      "desc": "곰팡이 악취 환경, 악취와의 전쟁"
+      "desc": "곰팡이 악취 환경, 악취와의 전쟁",
+      "mid": "problem",
+      "sub": "brand_story",
+      "note_cls": "곰팡이 악취 환경, 악취와의 전쟁 — 브랜드 서사 배경"
     },
     {
       "idx": 45,
@@ -367,7 +499,10 @@
       "thumb": "045.jpg",
       "group": "value",
       "element": "개발 스토리",
-      "desc": "가리는 게 아닌 제거 제품 결심"
+      "desc": "가리는 게 아닌 제거 제품 결심",
+      "mid": "problem",
+      "sub": "brand_story",
+      "note_cls": "가리는 게 아닌 제거 제품 결심 — 개발 브랜드 서사"
     },
     {
       "idx": 46,
@@ -375,7 +510,10 @@
       "thumb": "046.jpg",
       "group": "trust",
       "element": "전문가·개발",
-      "desc": "30년 탈취 전문가 만나 개발"
+      "desc": "30년 탈취 전문가 만나 개발",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "30년 탈취 전문가 만나 개발 — 전문가 검증"
     },
     {
       "idx": 47,
@@ -383,7 +521,10 @@
       "thumb": "047.jpg",
       "group": "problem",
       "element": "문제·원리",
-      "desc": "악취 근원 못 없애기 때문"
+      "desc": "악취 근원 못 없애기 때문",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "악취 근원 못 없애기 때문 — 기존 대안 한계"
     },
     {
       "idx": 48,
@@ -391,7 +532,10 @@
       "thumb": "048.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "마스킹효과 / 코의 착각"
+      "desc": "마스킹효과 / 코의 착각",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "마스킹효과/코의 착각 원리 설명"
     },
     {
       "idx": 49,
@@ -399,7 +543,10 @@
       "thumb": "049.jpg",
       "group": "value",
       "element": "해결",
-      "desc": "더티린넨, 해결하고 싶습니다"
+      "desc": "더티린넨, 해결하고 싶습니다",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "더티린넨, 해결하고 싶습니다 — 핵심 가치 선언"
     },
     {
       "idx": 50,
@@ -407,7 +554,10 @@
       "thumb": "050.jpg",
       "group": "feature",
       "element": "전환·FAQ",
-      "desc": "이제 궁금한 게 생기실 것"
+      "desc": "이제 궁금한 게 생기실 것",
+      "mid": "guide",
+      "sub": "faq_use",
+      "note_cls": "이제 궁금한 게 생기실 것 — FAQ 사용 전환 브리지"
     },
     {
       "idx": 51,
@@ -415,7 +565,10 @@
       "thumb": "051.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 52,
@@ -423,7 +576,10 @@
       "thumb": "052.jpg",
       "group": "value",
       "element": "USP",
-      "desc": "01 바로 냄새가 없어져?"
+      "desc": "01 바로 냄새가 없어져?",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "01 바로 냄새가 없어져? — N가지 핵심포인트 Q&A 구조"
     },
     {
       "idx": 53,
@@ -431,7 +587,10 @@
       "thumb": "053.jpg",
       "group": "feature",
       "element": "성분",
-      "desc": "3가지 식물 추출물+EM, 4대 악취 제거"
+      "desc": "3가지 식물 추출물+EM, 4대 악취 제거",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "3가지 식물 추출물+EM, 4대 악취 제거 — 소재·구성"
     },
     {
       "idx": 54,
@@ -439,7 +598,10 @@
       "thumb": "054.jpg",
       "group": "feature",
       "element": "성분",
-      "desc": "나무에서 추출한 물질 3가지"
+      "desc": "나무에서 추출한 물질 3가지",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "나무에서 추출한 물질 3가지 — 소재 상세"
     },
     {
       "idx": 55,
@@ -447,7 +609,10 @@
       "thumb": "055.jpg",
       "group": "feature",
       "element": "성분",
-      "desc": "숲속 공기 맑은 이유 3성분"
+      "desc": "숲속 공기 맑은 이유 3성분",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "숲속 공기 맑은 이유 3성분 — 소재 배경"
     },
     {
       "idx": 56,
@@ -455,7 +620,10 @@
       "thumb": "056.jpg",
       "group": "feature",
       "element": "성분",
-      "desc": "EM(식품발효추출물) 더한 이유"
+      "desc": "EM(식품발효추출물) 더한 이유",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "EM(식품발효추출물) 더한 이유 — 소재 설명"
     },
     {
       "idx": 57,
@@ -463,7 +631,10 @@
       "thumb": "057.jpg",
       "group": "feature",
       "element": "성분",
-      "desc": "EM 미생물"
+      "desc": "EM 미생물",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "EM 미생물 소재 상세 설명"
     },
     {
       "idx": 58,
@@ -471,7 +642,10 @@
       "thumb": "058.jpg",
       "group": "value",
       "element": "USP",
-      "desc": "02 바로 냄새가 없어져?"
+      "desc": "02 바로 냄새가 없어져?",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "02 바로 냄새가 없어져? — N가지 핵심포인트 Q&A 구조"
     },
     {
       "idx": 59,
@@ -479,7 +653,10 @@
       "thumb": "059.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "중화 + 분해/산화"
+      "desc": "중화 + 분해/산화",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "중화+분해/산화 탈취 메커니즘 원리"
     },
     {
       "idx": 60,
@@ -487,7 +664,10 @@
       "thumb": "060.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "탈취 메커니즘 화학식"
+      "desc": "탈취 메커니즘 화학식",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "탈취 메커니즘 화학식 — 작동원리"
     },
     {
       "idx": 61,
@@ -495,7 +675,10 @@
       "thumb": "061.jpg",
       "group": "feature",
       "element": "성분 원리",
-      "desc": "INTERACTION(추출물·EM·제올라이트·젤란검)"
+      "desc": "INTERACTION(추출물·EM·제올라이트·젤란검)",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "INTERACTION 추출물·EM·제올라이트·젤란검 핵심 기술"
     },
     {
       "idx": 62,
@@ -503,7 +686,10 @@
       "thumb": "062.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "상호작용으로 악취분자 제거"
+      "desc": "상호작용으로 악취분자 제거",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "상호작용으로 악취분자 제거 원리"
     },
     {
       "idx": 63,
@@ -511,7 +697,10 @@
       "thumb": "063.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "조향사 아닌 탈취전문가 30년"
+      "desc": "조향사 아닌 탈취전문가 30년",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "조향사 아닌 탈취전문가 30년 — 전문가 검증"
     },
     {
       "idx": 64,
@@ -519,7 +708,10 @@
       "thumb": "064.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "시험성적"
+      "desc": "시험성적",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "시험성적 인증 [QA교정]"
     },
     {
       "idx": 65,
@@ -527,7 +719,10 @@
       "thumb": "065.jpg",
       "group": "trust",
       "element": "전문가·개발",
-      "desc": "폐수/음식물/하수/축산 특화"
+      "desc": "폐수/음식물/하수/축산 특화",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "폐수/음식물/하수/축산 특화 전문가 이력"
     },
     {
       "idx": 66,
@@ -535,7 +730,10 @@
       "thumb": "066.jpg",
       "group": "feature",
       "element": "실험 데모",
-      "desc": "탈취 실험"
+      "desc": "탈취 실험",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "group=feature이지만 탈취 실험 데모 영상"
     },
     {
       "idx": 67,
@@ -543,7 +741,10 @@
       "thumb": "067.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "오직 탈취 DIRTY LINEN"
+      "desc": "오직 탈취 DIRTY LINEN",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "오직 탈취 DIRTY LINEN — 브랜드 슬로건 전환"
     },
     {
       "idx": 68,
@@ -551,7 +752,10 @@
       "thumb": "068.jpg",
       "group": "feature",
       "element": "전환",
-      "desc": "핵심 기술 가정용으로 개발"
+      "desc": "핵심 기술 가정용으로 개발",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "핵심 기술 가정용으로 개발 — 기술 적용 설명"
     },
     {
       "idx": 69,
@@ -559,7 +763,10 @@
       "thumb": "069.jpg",
       "group": "trust",
       "element": "안전 시험",
-      "desc": "경구독성/피부자극 이상없음"
+      "desc": "경구독성/피부자극 이상없음",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "경구독성/피부자극 이상없음 안전 시험 인증"
     },
     {
       "idx": 70,
@@ -567,7 +774,10 @@
       "thumb": "070.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 71,
@@ -575,7 +785,10 @@
       "thumb": "071.jpg",
       "group": "feature",
       "element": "검증 인트로",
-      "desc": "핵심 검증 포인트"
+      "desc": "핵심 검증 포인트",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "핵심 검증 포인트 인트로 — POINT 넘버링 구조"
     },
     {
       "idx": 72,
@@ -583,7 +796,10 @@
       "thumb": "072.jpg",
       "group": "feature",
       "element": "검증",
-      "desc": "KEY POINT01 NH 98% 30분 제거"
+      "desc": "KEY POINT01 NH 98% 30분 제거",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "KEY POINT01 NH 98% 30분 제거 수치 증명"
     },
     {
       "idx": 73,
@@ -591,7 +807,10 @@
       "thumb": "073.jpg",
       "group": "trust",
       "element": "시험",
-      "desc": "KCL 30분 악취 제거"
+      "desc": "KCL 30분 악취 제거",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "KCL 30분 악취 제거 시험성적 [QA교정]"
     },
     {
       "idx": 74,
@@ -599,7 +818,10 @@
       "thumb": "074.jpg",
       "group": "trust",
       "element": "시험성적",
-      "desc": "탈취테스트 시간대 성적서"
+      "desc": "탈취테스트 시간대 성적서",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "탈취테스트 시간대 성적서 [QA교정]"
     },
     {
       "idx": 75,
@@ -607,7 +829,10 @@
       "thumb": "075.jpg",
       "group": "trust",
       "element": "시험성적",
-      "desc": "100% 제거 테스트 완료"
+      "desc": "100% 제거 테스트 완료",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "100% 제거 테스트 완료 성적서 [QA교정]"
     },
     {
       "idx": 76,
@@ -615,7 +840,10 @@
       "thumb": "076.jpg",
       "group": "trust",
       "element": "안전",
-      "desc": "KEY POINT02 유해물질 불검출"
+      "desc": "KEY POINT02 유해물질 불검출",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "KEY POINT02 유해물질 불검출 안전 인증"
     },
     {
       "idx": 77,
@@ -623,7 +851,10 @@
       "thumb": "077.jpg",
       "group": "proof",
       "element": "제품컷",
-      "desc": "제품 비주얼"
+      "desc": "제품 비주얼",
+      "mid": "design",
+      "sub": "package",
+      "note_cls": "group=proof이지만 제품 비주얼/패키지 디자인 컷"
     },
     {
       "idx": 78,
@@ -631,7 +862,10 @@
       "thumb": "078.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "경구독성 시험 PASS"
+      "desc": "경구독성 시험 PASS",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "경구독성 시험 PASS 인증 [QA교정]"
     },
     {
       "idx": 79,
@@ -639,7 +873,10 @@
       "thumb": "079.jpg",
       "group": "trust",
       "element": "특허",
-      "desc": "KEY POINT03 국내 독자 기술 특허"
+      "desc": "KEY POINT03 국내 독자 기술 특허",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "KEY POINT03 국내 독자 기술 특허"
     },
     {
       "idx": 80,
@@ -647,7 +884,10 @@
       "thumb": "080.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "시험성적서"
+      "desc": "시험성적서",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "시험성적서 인증 [QA교정]"
     },
     {
       "idx": 81,
@@ -655,7 +895,10 @@
       "thumb": "081.jpg",
       "group": "trust",
       "element": "특허",
-      "desc": "특허/제법 등록번호"
+      "desc": "특허/제법 등록번호",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "특허/제법 등록번호"
     },
     {
       "idx": 82,
@@ -663,7 +906,10 @@
       "thumb": "082.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "TEST REPORT"
+      "desc": "TEST REPORT",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "TEST REPORT 시험성적서 [QA교정]"
     },
     {
       "idx": 83,
@@ -671,7 +917,10 @@
       "thumb": "083.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 84,
@@ -679,7 +928,10 @@
       "thumb": "084.jpg",
       "group": "feature",
       "element": "사용처·활용",
-      "desc": "싫어하는 냄새가 느껴지는 곳에"
+      "desc": "싫어하는 냄새가 느껴지는 곳에",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "싫어하는 냄새가 느껴지는 곳에 — 적용 시나리오"
     },
     {
       "idx": 85,
@@ -687,7 +939,10 @@
       "thumb": "085.jpg",
       "group": "problem",
       "element": "문제제기·적용",
-      "desc": "냄새 종류별 꼭 사용해야 할 분"
+      "desc": "냄새 종류별 꼭 사용해야 할 분",
+      "mid": "problem",
+      "sub": "checklist",
+      "note_cls": "냄새 종류별 꼭 사용해야 할 분 체크리스트"
     },
     {
       "idx": 86,
@@ -695,7 +950,10 @@
       "thumb": "086.jpg",
       "group": "value",
       "element": "스토리",
-      "desc": "굳이... 저는요"
+      "desc": "굳이... 저는요",
+      "mid": "value",
+      "sub": "positioning",
+      "note_cls": "굳이... 저는요 — 포지셔닝 서사"
     },
     {
       "idx": 87,
@@ -703,7 +961,10 @@
       "thumb": "087.jpg",
       "group": "feature",
       "element": "차별·원리",
-      "desc": "이유01 4대 악취 분자 못 없앰"
+      "desc": "이유01 4대 악취 분자 못 없앰",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "이유01 4대 악취 분자 못 없앰 — 차별 원리"
     },
     {
       "idx": 88,
@@ -711,7 +972,10 @@
       "thumb": "088.jpg",
       "group": "trust",
       "element": "R&D·특허 차별",
-      "desc": "이유02 메커니즘 R&D/특허"
+      "desc": "이유02 메커니즘 R&D/특허",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "이유02 메커니즘 R&D/특허 차별"
     },
     {
       "idx": 89,
@@ -719,7 +983,10 @@
       "thumb": "089.jpg",
       "group": "trust",
       "element": "안전·신뢰",
-      "desc": "나·가족이 숨쉬는 공간 — 탈취 전문 기업"
+      "desc": "나·가족이 숨쉬는 공간 — 탈취 전문 기업",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "나·가족이 숨쉬는 공간 탈취 전문 기업 신뢰"
     },
     {
       "idx": 90,
@@ -727,7 +994,10 @@
       "thumb": "090.jpg",
       "group": "feature",
       "element": "차별·원리",
-      "desc": "이유03 마스킹(착각) 효과"
+      "desc": "이유03 마스킹(착각) 효과",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "이유03 마스킹(착각) 효과 원리 차별"
     },
     {
       "idx": 91,
@@ -735,7 +1005,10 @@
       "thumb": "091.jpg",
       "group": "feature",
       "element": "포지셔닝",
-      "desc": "향'만' 원하면 디퓨저"
+      "desc": "향'만' 원하면 디퓨저",
+      "mid": "value",
+      "sub": "positioning",
+      "note_cls": "향만 원하면 디퓨저 — 경쟁 포지셔닝"
     },
     {
       "idx": 92,
@@ -743,7 +1016,10 @@
       "thumb": "092.jpg",
       "group": "value",
       "element": "포지셔닝·USP",
-      "desc": "오직 탈취만 잘합니다"
+      "desc": "오직 탈취만 잘합니다",
+      "mid": "value",
+      "sub": "positioning",
+      "note_cls": "오직 탈취만 잘합니다 — 핵심 포지셔닝 선언"
     },
     {
       "idx": 93,
@@ -751,7 +1027,10 @@
       "thumb": "093.jpg",
       "group": "value",
       "element": "포지셔닝",
-      "desc": "3가지 최소화, 하나에만 집중"
+      "desc": "3가지 최소화, 하나에만 집중",
+      "mid": "value",
+      "sub": "positioning",
+      "note_cls": "3가지 최소화, 하나에만 집중 — 포지셔닝"
     },
     {
       "idx": 94,
@@ -759,7 +1038,10 @@
       "thumb": "094.jpg",
       "group": "value",
       "element": "가성비·차별",
-      "desc": "POINT01 업계 최저가 용기"
+      "desc": "POINT01 업계 최저가 용기",
+      "mid": "value",
+      "sub": "price_value",
+      "note_cls": "POINT01 업계 최저가 용기 — 가성비"
     },
     {
       "idx": 95,
@@ -767,7 +1049,10 @@
       "thumb": "095.jpg",
       "group": "value",
       "element": "가성비·차별",
-      "desc": "단상자 투자 안 함"
+      "desc": "단상자 투자 안 함",
+      "mid": "value",
+      "sub": "price_value",
+      "note_cls": "단상자 투자 안 함 — 가성비 이유 설명"
     },
     {
       "idx": 96,
@@ -775,7 +1060,10 @@
       "thumb": "096.jpg",
       "group": "value",
       "element": "포지셔닝·USP",
-      "desc": "POINT02 향이 아닌 탈취력 본질"
+      "desc": "POINT02 향이 아닌 탈취력 본질",
+      "mid": "value",
+      "sub": "positioning",
+      "note_cls": "POINT02 향이 아닌 탈취력 본질 — 포지셔닝"
     },
     {
       "idx": 97,
@@ -783,7 +1071,10 @@
       "thumb": "097.jpg",
       "group": "trust",
       "element": "전문가·원료",
-      "desc": "POINT03 30년 외길 원료 배합"
+      "desc": "POINT03 30년 외길 원료 배합",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "POINT03 30년 외길 원료 배합 전문가"
     },
     {
       "idx": 98,
@@ -791,7 +1082,10 @@
       "thumb": "098.jpg",
       "group": "trust",
       "element": "보증",
-      "desc": "믿어보세요 — 과감히 권합니다"
+      "desc": "믿어보세요 — 과감히 권합니다",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "믿어보세요 과감히 권합니다 — 환불 보증"
     },
     {
       "idx": 99,
@@ -799,7 +1093,10 @@
       "thumb": "099.jpg",
       "group": "trust",
       "element": "차별·신뢰",
-      "desc": "타사 vs 30년·100% 국내생산"
+      "desc": "타사 vs 30년·100% 국내생산",
+      "mid": "value",
+      "sub": "vs_compete",
+      "note_cls": "타사 vs 30년·100% 국내생산 경쟁 비교우위"
     },
     {
       "idx": 100,
@@ -807,7 +1104,10 @@
       "thumb": "100.jpg",
       "group": "hook",
       "element": "전환",
-      "desc": "INDOOR ISSUE"
+      "desc": "INDOOR ISSUE",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "INDOOR ISSUE 섹션 전환 키비주얼"
     },
     {
       "idx": 101,
@@ -815,7 +1115,10 @@
       "thumb": "101.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "HOW TO USE"
+      "desc": "HOW TO USE",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "HOW TO USE 사용법 STEP"
     },
     {
       "idx": 102,
@@ -823,7 +1126,10 @@
       "thumb": "102.jpg",
       "group": "guide",
       "element": "사용·활용",
-      "desc": "고체 형태 어디든"
+      "desc": "고체 형태 어디든",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "고체 형태 어디든 — 사용법 활용"
     },
     {
       "idx": 103,
@@ -831,7 +1137,10 @@
       "thumb": "103.jpg",
       "group": "info",
       "element": "사용 가이드·스펙",
-      "desc": "지속력 30~60일 / 교체 주기"
+      "desc": "지속력 30~60일 / 교체 주기",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "지속력 30~60일/교체 주기 스펙 정보"
     },
     {
       "idx": 104,
@@ -839,7 +1148,10 @@
       "thumb": "104.jpg",
       "group": "guide",
       "element": "사용 팁",
-      "desc": "작아진 펄 신발장/먼지통 활용"
+      "desc": "작아진 펄 신발장/먼지통 활용",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "작아진 펄 신발장/먼지통 활용 팁 — 테크닉"
     },
     {
       "idx": 105,
@@ -847,7 +1159,10 @@
       "thumb": "105.jpg",
       "group": "info",
       "element": "제품 스펙",
-      "desc": "SPEC 용량 300g"
+      "desc": "SPEC 용량 300g",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "SPEC 용량 300g 스펙표"
     },
     {
       "idx": 106,
@@ -855,7 +1170,10 @@
       "thumb": "106.jpg",
       "group": "info",
       "element": "제품 고시",
-      "desc": "생활화학제품 표시사항"
+      "desc": "생활화학제품 표시사항",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "생활화학제품 표시사항 — 제품 고시"
     },
     {
       "idx": 107,
@@ -863,7 +1181,10 @@
       "thumb": "107.jpg",
       "group": "store",
       "element": "저작권 공지",
-      "desc": "상세페이지 무단 도용 금지"
+      "desc": "상세페이지 무단 도용 금지",
+      "mid": "store",
+      "sub": "notice",
+      "note_cls": "상세페이지 무단 도용 금지 저작권 공지"
     },
     {
       "idx": 108,
@@ -871,7 +1192,10 @@
       "thumb": "108.jpg",
       "group": "info",
       "element": "구매정보",
-      "desc": "배송 안내"
+      "desc": "배송 안내",
+      "mid": "info",
+      "sub": "delivery",
+      "note_cls": "배송 안내 구매 정보"
     }
   ]
 }

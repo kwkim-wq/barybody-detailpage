@@ -14,7 +14,10 @@
       "thumb": "01.jpg",
       "group": "hook",
       "element": "제품 인트로(타이틀)",
-      "desc": "thermard PLX 제품 메인"
+      "desc": "thermard PLX 제품 메인",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "제품 메인 타이틀 비주얼 인트로"
     },
     {
       "idx": 2,
@@ -22,7 +25,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "실적·혜택",
-      "desc": "누적 방문자 1,000만 돌파 / 47% 공식몰 한정"
+      "desc": "누적 방문자 1,000만 돌파 / 47% 공식몰 한정",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "누적 방문자 1,000만 돌파 — 판매량·실적 수치"
     },
     {
       "idx": 3,
@@ -30,7 +36,10 @@
       "thumb": "03.jpg",
       "group": "value",
       "element": "핵심가치 USP",
-      "desc": "2WEEKS 집중케어 — X-TENS 10.0"
+      "desc": "2WEEKS 집중케어 — X-TENS 10.0",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "2WEEKS 집중케어 X-TENS 10.0 핵심 차별 카피"
     },
     {
       "idx": 4,
@@ -38,7 +47,10 @@
       "thumb": "04.jpg",
       "group": "trust",
       "element": "보증·정품",
-      "desc": "GUARANTEE 100% 환불 / 정품 인증"
+      "desc": "GUARANTEE 100% 환불 / 정품 인증",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "100% 환불 보증 + 정품 인증"
     },
     {
       "idx": 5,
@@ -46,7 +58,10 @@
       "thumb": "05.jpg",
       "group": "value",
       "element": "핵심가치 USP",
-      "desc": "국내 유일 X-TENS 10.0 EMS 하체관리"
+      "desc": "국내 유일 X-TENS 10.0 EMS 하체관리",
+      "mid": "value",
+      "sub": "vs_compete",
+      "note_cls": "국내 유일 X-TENS 10.0 — 경쟁 대비 독점 포지셔닝"
     },
     {
       "idx": 6,
@@ -54,7 +69,10 @@
       "thumb": "06.jpg",
       "group": "hook",
       "element": "브랜드 무드",
-      "desc": "thermard PLX 무드 비주얼"
+      "desc": "thermard PLX 무드 비주얼",
+      "mid": "hook",
+      "sub": "brand_mood",
+      "note_cls": "thermard PLX 무드 비주얼 GIF"
     },
     {
       "idx": 7,
@@ -62,7 +80,10 @@
       "thumb": "07.jpg",
       "group": "hook",
       "element": "브랜드 카피",
-      "desc": "Revive energy, rediscover your true shape"
+      "desc": "Revive energy, rediscover your true shape",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "영문 브랜드 슬로건 카피"
     },
     {
       "idx": 8,
@@ -70,7 +91,10 @@
       "thumb": "08.jpg",
       "group": "hook",
       "element": "제품 비주얼",
-      "desc": "제품 비주얼 컷"
+      "desc": "제품 비주얼 컷",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "제품 비주얼 컷 GIF"
     },
     {
       "idx": 9,
@@ -78,7 +102,10 @@
       "thumb": "09.jpg",
       "group": "feature",
       "element": "기술 설명",
-      "desc": "X-TENS 10.0 Technology, 1200Hz"
+      "desc": "X-TENS 10.0 Technology, 1200Hz",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "X-TENS 10.0 Technology 1200Hz 핵심기술 명칭"
     },
     {
       "idx": 10,
@@ -86,7 +113,10 @@
       "thumb": "10.jpg",
       "group": "feature",
       "element": "원리 비주얼",
-      "desc": "다리 EMS 자극 + 파형"
+      "desc": "다리 EMS 자극 + 파형",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "다리 EMS 자극 파형 원리 비주얼"
     },
     {
       "idx": 11,
@@ -94,7 +124,10 @@
       "thumb": "11.jpg",
       "group": "feature",
       "element": "기술 설명",
-      "desc": "1200Hz Pulse Frequency, 속근육·지방 자극"
+      "desc": "1200Hz Pulse Frequency, 속근육·지방 자극",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "1200Hz 펄스 주파수 속근육·지방 자극 원리"
     },
     {
       "idx": 12,
@@ -102,7 +135,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "모드·온열",
-      "desc": "7 펄스 모드 + 3단계 온열"
+      "desc": "7 펄스 모드 + 3단계 온열",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "7 펄스 모드 + 3단계 온열 조합 설명"
     },
     {
       "idx": 13,
@@ -110,7 +146,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "강도 조절",
-      "desc": "50 LEVEL 조절 주파수"
+      "desc": "50 LEVEL 조절 주파수",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "50레벨 강도 조절 주파수"
     },
     {
       "idx": 14,
@@ -118,7 +157,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "원리(침투깊이)",
-      "desc": "주파수별 침투깊이 단면"
+      "desc": "주파수별 침투깊이 단면",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "주파수별 침투깊이 단면 원리"
     },
     {
       "idx": 15,
@@ -126,7 +168,10 @@
       "thumb": "15.jpg",
       "group": "proof",
       "element": "효과 비주얼",
-      "desc": "다리 비교 비주얼"
+      "desc": "다리 비교 비주얼",
+      "mid": "proof_data",
+      "sub": "beforeafter",
+      "note_cls": "다리 비교 비주얼 — 데이터 수치 없이 외형 비교 연출, proof_data의 beforeafter에 가깝지만 비주얼 연출형으로 판단 [QA교정]"
     },
     {
       "idx": 16,
@@ -134,7 +179,10 @@
       "thumb": "16.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "7 Custom Pulse Modes — 하체 7가지 모드"
+      "desc": "7 Custom Pulse Modes — 하체 7가지 모드",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "7 Custom Pulse Modes 하체 모드 목록"
     },
     {
       "idx": 17,
@@ -142,7 +190,10 @@
       "thumb": "17.jpg",
       "group": "feature",
       "element": "모드 상세",
-      "desc": "Custom Settings / MODE 01 순환모드"
+      "desc": "Custom Settings / MODE 01 순환모드",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "MODE 01 순환모드 상세 설명"
     },
     {
       "idx": 18,
@@ -150,7 +201,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "모드 상세",
-      "desc": "MODE 02~07(주무름/두드림/괄사/지압/이완/고강도)"
+      "desc": "MODE 02~07(주무름/두드림/괄사/지압/이완/고강도)",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "MODE 02~07 상세 설명"
     },
     {
       "idx": 19,
@@ -158,7 +212,10 @@
       "thumb": "19.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "7 Targeted Modes 모델 연출"
+      "desc": "7 Targeted Modes 모델 연출",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "7 Targeted Modes 모델 연출 GIF — 사용 상황 컷"
     },
     {
       "idx": 20,
@@ -166,7 +223,10 @@
       "thumb": "20.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "모델 연출 이어짐"
+      "desc": "모델 연출 이어짐",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "모델 연출 이어짐 — 사용 상황 컷"
     },
     {
       "idx": 21,
@@ -174,7 +234,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "온열 인트로",
-      "desc": "Triple Heating System"
+      "desc": "Triple Heating System",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Triple Heating System 기술 인트로 GIF"
     },
     {
       "idx": 22,
@@ -182,7 +245,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "온열",
-      "desc": "Heating System 3단계 온열 탑재"
+      "desc": "Heating System 3단계 온열 탑재",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "Heating System 3단계 온열 탑재 설명"
     },
     {
       "idx": 23,
@@ -190,7 +256,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "1/2/3단계 45·50·55℃"
+      "desc": "1/2/3단계 45·50·55℃",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "1/2/3단계 45·50·55℃ 온열 단계 GIF"
     },
     {
       "idx": 24,
@@ -198,7 +267,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "온열 효과",
-      "desc": "숨겨진 지방층까지 도달"
+      "desc": "숨겨진 지방층까지 도달",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "숨겨진 지방층까지 도달 — 온열 침투 원리"
     },
     {
       "idx": 25,
@@ -206,7 +278,10 @@
       "thumb": "25.jpg",
       "group": "proof",
       "element": "임상·열화상",
-      "desc": "온열 침투 열화상 비주얼"
+      "desc": "온열 침투 열화상 비주얼",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "온열 침투 열화상 비주얼 — 실험 데모"
     },
     {
       "idx": 26,
@@ -214,7 +289,10 @@
       "thumb": "26.jpg",
       "group": "proof",
       "element": "임상 설명",
-      "desc": "열화상 시험 설명"
+      "desc": "열화상 시험 설명",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "열화상 시험 설명 — 임상·시험성적"
     },
     {
       "idx": 27,
@@ -222,7 +300,10 @@
       "thumb": "27.jpg",
       "group": "proof",
       "element": "임상 인트로",
-      "desc": "Change you can measure — 임상 검증"
+      "desc": "Change you can measure — 임상 검증",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "Change you can measure 임상 검증 인트로"
     },
     {
       "idx": 28,
@@ -230,7 +311,10 @@
       "thumb": "28.jpg",
       "group": "proof",
       "element": "임상 결과",
-      "desc": "Clinically Proven Results, 사례 Amelia 42"
+      "desc": "Clinically Proven Results, 사례 Amelia 42",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "Clinically Proven Results 사례 Amelia 42 임상"
     },
     {
       "idx": 29,
@@ -238,7 +322,10 @@
       "thumb": "29.jpg",
       "group": "proof",
       "element": "임상 before/after",
-      "desc": "숨겨진 바디라인 — 1주/2주/1개월 변화"
+      "desc": "숨겨진 바디라인 — 1주/2주/1개월 변화",
+      "mid": "proof_data",
+      "sub": "beforeafter",
+      "note_cls": "1주/2주/1개월 바디라인 변화 전후비교"
     },
     {
       "idx": 30,
@@ -246,7 +333,10 @@
       "thumb": "30.jpg",
       "group": "proof",
       "element": "임상",
-      "desc": "Leg Body Composition — 다리 체성분 변화"
+      "desc": "Leg Body Composition — 다리 체성분 변화",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "Leg Body Composition 다리 체성분 변화 임상"
     },
     {
       "idx": 31,
@@ -254,7 +344,10 @@
       "thumb": "31.jpg",
       "group": "proof",
       "element": "임상 수치",
-      "desc": "허벅지 탄력 개선 69.8%"
+      "desc": "허벅지 탄력 개선 69.8%",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "허벅지 탄력 개선 69.8% 수치"
     },
     {
       "idx": 32,
@@ -262,7 +355,10 @@
       "thumb": "32.jpg",
       "group": "proof",
       "element": "임상 수치",
-      "desc": "종아리 붓기 17.2%/126.4cc 감소"
+      "desc": "종아리 붓기 17.2%/126.4cc 감소",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "종아리 붓기 17.2%/126.4cc 감소 수치"
     },
     {
       "idx": 33,
@@ -270,7 +366,10 @@
       "thumb": "33.jpg",
       "group": "proof",
       "element": "임상 before/after",
-      "desc": "셀룰라이트 혈류 열화상"
+      "desc": "셀룰라이트 혈류 열화상",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "셀룰라이트 혈류 열화상 임상 비교"
     },
     {
       "idx": 34,
@@ -278,7 +377,10 @@
       "thumb": "34.jpg",
       "group": "proof",
       "element": "임상 수치",
-      "desc": "허벅지 라인·피부결 9.29%"
+      "desc": "허벅지 라인·피부결 9.29%",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "허벅지 라인·피부결 9.29% 수치"
     },
     {
       "idx": 35,
@@ -286,7 +388,10 @@
       "thumb": "35.jpg",
       "group": "proof",
       "element": "임상 before/after",
-      "desc": "셀룰라이트 음파 등급"
+      "desc": "셀룰라이트 음파 등급",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "셀룰라이트 음파 등급 임상 전후"
     },
     {
       "idx": 36,
@@ -294,7 +399,10 @@
       "thumb": "36.jpg",
       "group": "proof",
       "element": "임상 before/after",
-      "desc": "피부표면·지방층 현미경"
+      "desc": "피부표면·지방층 현미경",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "피부표면·지방층 현미경 임상 비교"
     },
     {
       "idx": 37,
@@ -302,7 +410,10 @@
       "thumb": "37.jpg",
       "group": "proof",
       "element": "임상 수치",
-      "desc": "사용 4주/8주 9.269%"
+      "desc": "사용 4주/8주 9.269%",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "사용 4주/8주 9.269% 수치 GIF"
     },
     {
       "idx": 38,
@@ -310,7 +421,10 @@
       "thumb": "38.jpg",
       "group": "trust",
       "element": "품질 기준",
-      "desc": "Meets professional quality standards(임상 정보)"
+      "desc": "Meets professional quality standards(임상 정보)",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "Meets professional quality standards 품질 기준 인증"
     },
     {
       "idx": 39,
@@ -318,7 +432,10 @@
       "thumb": "39.jpg",
       "group": "trust",
       "element": "전문가 보증",
-      "desc": "Tech Director 인터뷰, Proven&Trusted"
+      "desc": "Tech Director 인터뷰, Proven&Trusted",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "Tech Director 인터뷰 Proven&Trusted 전문가 검증"
     },
     {
       "idx": 40,
@@ -326,7 +443,10 @@
       "thumb": "40.jpg",
       "group": "trust",
       "element": "인증서",
-      "desc": "Certified Product Assurance"
+      "desc": "Certified Product Assurance",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "Certified Product Assurance 인증서"
     },
     {
       "idx": 41,
@@ -334,7 +454,10 @@
       "thumb": "41.jpg",
       "group": "trust",
       "element": "안전·KC 인증",
-      "desc": "Safety Assured 국내 안정성·KC 인증"
+      "desc": "Safety Assured 국내 안정성·KC 인증",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "Safety Assured 국내 안전성·KC 인증"
     },
     {
       "idx": 42,
@@ -342,7 +465,10 @@
       "thumb": "42.jpg",
       "group": "value",
       "element": "핵심 효과 요약",
-      "desc": "Leg Contour/Cellulite/Calf/Thighs 4대 효과"
+      "desc": "Leg Contour/Cellulite/Calf/Thighs 4대 효과",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "4대 효과(Leg Contour/Cellulite/Calf/Thighs) N가지 핵심 포인트 요약"
     },
     {
       "idx": 43,
@@ -350,7 +476,10 @@
       "thumb": "43.jpg",
       "group": "feature",
       "element": "신/구 비교·개선점",
-      "desc": "4세대 완성 혁신 — 1세대 vs 2세대"
+      "desc": "4세대 완성 혁신 — 1세대 vs 2세대",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "4세대 완성 혁신 — 1세대 vs 2세대 신구 비교"
     },
     {
       "idx": 44,
@@ -358,7 +487,10 @@
       "thumb": "44.jpg",
       "group": "feature",
       "element": "기술 정리",
-      "desc": "Full-cover EMS technology"
+      "desc": "Full-cover EMS technology",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Full-cover EMS technology 기술 정리 GIF"
     },
     {
       "idx": 45,
@@ -366,7 +498,10 @@
       "thumb": "45.jpg",
       "group": "feature",
       "element": "신/구 비교·개선점",
-      "desc": "4세대 써마드 PLX 2026"
+      "desc": "4세대 써마드 PLX 2026",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "4세대 써마드 PLX 2026 신구 비교 GIF"
     },
     {
       "idx": 46,
@@ -374,7 +509,10 @@
       "thumb": "46.jpg",
       "group": "guide",
       "element": "사용 TIP",
-      "desc": "Q1 온열 Q2 EMS 전기자극"
+      "desc": "Q1 온열 Q2 EMS 전기자극",
+      "mid": "guide",
+      "sub": "faq_use",
+      "note_cls": "Q1 온열 Q2 EMS 전기자극 — 사용 FAQ 형식"
     },
     {
       "idx": 47,
@@ -382,7 +520,10 @@
       "thumb": "47.jpg",
       "group": "store",
       "element": "정품 공지",
-      "desc": "NOTICE 정품 판매 안내"
+      "desc": "NOTICE 정품 판매 안내",
+      "mid": "store",
+      "sub": "official",
+      "note_cls": "NOTICE 정품 판매 안내 — 공식 판매처 공지"
     },
     {
       "idx": 48,
@@ -390,7 +531,10 @@
       "thumb": "48.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "HOW TO USE"
+      "desc": "HOW TO USE",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "HOW TO USE 사용법 인트로"
     },
     {
       "idx": 49,
@@ -398,7 +542,10 @@
       "thumb": "49.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "STEP 01~04"
+      "desc": "STEP 01~04",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "STEP 01~04 사용법 단계"
     },
     {
       "idx": 50,
@@ -406,7 +553,10 @@
       "thumb": "50.jpg",
       "group": "info",
       "element": "제품정보 고시",
-      "desc": "상품 정보 고시 사양표"
+      "desc": "상품 정보 고시 사양표",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "상품 정보 고시 사양표"
     },
     {
       "idx": 51,
@@ -414,7 +564,10 @@
       "thumb": "51.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "FAQs(권장시간/세척/충전 등)"
+      "desc": "FAQs(권장시간/세척/충전 등)",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "FAQs 권장시간/세척/충전 — 구매·사용 FAQ"
     },
     {
       "idx": 52,
@@ -422,7 +575,10 @@
       "thumb": "52.jpg",
       "group": "info",
       "element": "주의사항",
-      "desc": "Precautions 제품 사용 시 주의사항"
+      "desc": "Precautions 제품 사용 시 주의사항",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "Precautions 제품 사용 시 주의사항"
     },
     {
       "idx": 53,
@@ -430,7 +586,10 @@
       "thumb": "53.jpg",
       "group": "store",
       "element": "저작권 고지",
-      "desc": "COPYRIGHT NOTICE"
+      "desc": "COPYRIGHT NOTICE",
+      "mid": "store",
+      "sub": "notice",
+      "note_cls": "COPYRIGHT NOTICE 저작권 고지"
     }
   ]
 }

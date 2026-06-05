@@ -10,11 +10,17 @@ h1{font-size:22px;margin:0 0 4px}
 .sub{color:#94a3b8;font-size:13px;margin-bottom:20px}
 .panel{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;margin-bottom:20px}
 .panel h2{font-size:14px;margin:0 0 12px;color:#cbd5e1;letter-spacing:.3px}
-.legend{display:flex;flex-wrap:wrap;gap:8px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.majcluster{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:5px 9px;border:1px dashed #334155;border-radius:10px}
+.majcluster .mjl{font-size:11px;font-weight:800;letter-spacing:.3px;margin-right:2px}
 .lg{display:inline-flex;align-items:center;gap:6px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;
   padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer;transition:.15s}
-.lg:hover{border-color:var(--c)} .lg.off{opacity:.32} .lg b{color:var(--c)}
+.lg:hover{border-color:var(--c)} .lg.off{opacity:.3} .lg b{color:var(--c)}
 .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.majbar{display:flex;height:22px;border-radius:7px;overflow:hidden;border:1px solid #334155;margin-bottom:8px}
+.majbar i{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#0b1220;min-width:0;overflow:hidden;white-space:nowrap}
+.majcap{display:flex;flex-wrap:wrap;gap:10px;color:#94a3b8;font-size:11px}
+.majcap span{display:inline-flex;align-items:center;gap:5px}
 .flow{display:flex;height:34px;border-radius:8px;overflow:hidden;border:1px solid #334155}
 .flow i{flex:1;display:block}
 .flowcap{display:flex;justify-content:space-between;color:#64748b;font-size:11px;margin-top:6px}
@@ -22,14 +28,17 @@ h1{font-size:22px;margin:0 0 4px}
 .card{background:#1e293b;border:1px solid #334155;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
 .imgwrap{background:#0b1220}.imgwrap img{width:100%;display:block}
 .card .meta{padding:10px 12px}
-.num{font-size:12px;color:#64748b;font-weight:700}
-.chip{display:inline-block;color:#fff;font-size:11px;padding:2px 8px;border-radius:6px;margin:6px 0 4px;font-weight:600}
-.el{font-size:13.5px;font-weight:700;color:#f1f5f9;line-height:1.3}
+.num{font-size:12px;color:#64748b;font-weight:700;display:flex;align-items:center;gap:6px}
+.majtag{font-size:10px;font-weight:800;letter-spacing:.2px}
+.chip{display:inline-block;color:#fff;font-size:11px;padding:2px 8px;border-radius:6px;margin:6px 6px 4px 0;font-weight:600}
+.subt{font-size:11px;color:#cbd5e1;background:#0f172a;border:1px solid #334155;padding:1px 7px;border-radius:6px}
+.el{font-size:13.5px;font-weight:700;color:#f1f5f9;line-height:1.3;margin-top:4px}
 .desc{font-size:12px;color:#94a3b8;margin-top:3px;line-height:1.4}
 table{width:100%;border-collapse:collapse;font-size:13px}
 td,th{padding:7px 8px;border-bottom:1px solid #273449;text-align:left}
-.ghead td{background:#0f172a;font-weight:700;color:#cbd5e1}
-.elc{color:#e2e8f0}.cnt{color:#38bdf8;width:48px;font-weight:700}.nums{color:#64748b;font-size:12px}
+.majhead td{background:#0b1220;font-weight:800;color:#f1f5f9;letter-spacing:.3px}
+.midhead td{background:#172033;font-weight:700;color:#cbd5e1}
+.subc{color:#cbd5e1;padding-left:18px}.cnt{color:#38bdf8;width:48px;font-weight:700}.nums{color:#64748b;font-size:12px}
 .hide{display:none!important}
 .minibar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-top:8px}
 .minibar i{display:block}
@@ -41,79 +50,104 @@ td,th{padding:7px 8px;border-bottom:1px solid #273449;text-align:left}
 .pcard .ch{font-size:12px;color:#94a3b8;margin-top:3px}
 .cathead{font-size:16px;font-weight:800;margin:26px 0 12px;color:#f8fafc;display:flex;align-items:center;gap:8px}
 .cathead .badge{font-size:12px;color:#64748b;font-weight:600}
+.nav{display:flex;flex-wrap:wrap;gap:10px}
+.nav a{display:inline-flex;align-items:center;gap:7px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;padding:11px 16px;border-radius:10px;font-size:14px;font-weight:600;transition:.15s}
+.nav a:hover{border-color:#38bdf8;color:#fff}
+.nav a b{color:#38bdf8;font-weight:800}
 </style></head><body><div class="wrap">
 <div class="sub"><a href="../../../index.html">← 전체 목록</a> · <a href="../../../compare.html">비교표</a></div>
 <h1>넥가드닥터 NG100 목 견인기 (현대메디칼)</h1>
 <div class="sub">마사지기 · 네이버 스마트스토어 · 캡처 2026-06-04 · 총 <b>20</b>장(영상 제외) · <a href="https://smartstore.naver.com/gganbufishing/products/10389938338" target="_blank">원본 ↗</a></div>
-<div class="panel"><h2>구성 흐름 (위 → 아래)</h2><div class="flow"><i title="#01 구성 옵션 — 커플" style="background:#0ea5e9"></i><i title="#02 구성 옵션 — 싱글" style="background:#0ea5e9"></i><i title="#03 구성 옵션 — 패밀리" style="background:#0ea5e9"></i><i title="#04 공식 총판 인증" style="background:#14b8a6"></i><i title="#05 배상책임 보험" style="background:#14b8a6"></i><i title="#06 기부·사회공헌 ①" style="background:#14b8a6"></i><i title="#07 기부·사회공헌 ②" style="background:#14b8a6"></i><i title="#08 기부·협찬 ③" style="background:#14b8a6"></i><i title="#09 협찬·노출 ④" style="background:#14b8a6"></i><i title="#10 브랜드 서사 인트로" style="background:#ef4444"></i><i title="#11 히스토리·셀럽 입증" style="background:#14b8a6"></i><i title="#12 제품 히어로 컷" style="background:#ef4444"></i><i title="#13 의료기기 포지셔닝·핵심" style="background:#8b5cf6"></i><i title="#14 4단계 사용 메커니즘" style="background:#3b82f6"></i><i title="#15 작동 원리 상세" style="background:#3b82f6"></i><i title="#16 경추 견인 문제제기" style="background:#f59e0b"></i><i title="#17 소재·구조 상세" style="background:#3b82f6"></i><i title="#18 활용 TIP" style="background:#64748b"></i><i title="#19 의료기기 강조·제품정보" style="background:#0ea5e9"></i><i title="#20 패키지·사이즈" style="background:#0ea5e9"></i></div>
+<div class="panel"><h2>대분류 비중</h2><div class="majbar"><i style="width:15.0%;background:#f97316" title="눈길 끌기 & 공감 3장 (15%)">눈길 끌기 & 공감 3</i><i style="width:5.0%;background:#8b5cf6" title="핵심 차별점 1장 (5%)">1</i><i style="width:50.0%;background:#3b82f6" title="제품력 증명 10장 (50%)">제품력 증명 10</i><i style="width:30.0%;background:#0ea5e9" title="구매 유도 6장 (30%)">구매 유도 6</i></div><div class="majcap"><span><span class="dot" style="background:#f97316"></span>눈길 끌기 & 공감 3</span> <span><span class="dot" style="background:#8b5cf6"></span>핵심 차별점 1</span> <span><span class="dot" style="background:#3b82f6"></span>제품력 증명 10</span> <span><span class="dot" style="background:#0ea5e9"></span>구매 유도 6</span></div></div>
+<div class="panel"><h2>구성 흐름 (위 → 아래 · 색 = 중분류)</h2><div class="flow"><i title="#01 구매정보/스펙/옵션·구성 선택 — 구성 옵션 — 커플" style="background:#0ea5e9"></i><i title="#02 구매정보/스펙/옵션·구성 선택 — 구성 옵션 — 싱글" style="background:#0ea5e9"></i><i title="#03 구매정보/스펙/옵션·구성 선택 — 구성 옵션 — 패밀리" style="background:#0ea5e9"></i><i title="#04 신뢰/정품·총판 — 공식 총판 인증" style="background:#14b8a6"></i><i title="#05 신뢰/인증·특허·성적서 — 배상책임 보험" style="background:#14b8a6"></i><i title="#06 신뢰/CSR·기부 — 기부·사회공헌 ①" style="background:#14b8a6"></i><i title="#07 신뢰/CSR·기부 — 기부·사회공헌 ②" style="background:#14b8a6"></i><i title="#08 신뢰/CSR·기부 — 기부·협찬 ③" style="background:#14b8a6"></i><i title="#09 신뢰/수상·판매량·1위 — 협찬·노출 ④" style="background:#14b8a6"></i><i title="#10 후킹/인트로/브랜드 무드 — 브랜드 서사 인트로" style="background:#ef4444"></i><i title="#11 신뢰/전문가 검증 — 히스토리·셀럽 입증" style="background:#14b8a6"></i><i title="#12 후킹/인트로/키비주얼 — 제품 히어로 컷" style="background:#ef4444"></i><i title="#13 핵심가치/USP/N가지 핵심포인트 — 의료기기 포지셔닝·핵심" style="background:#8b5cf6"></i><i title="#14 사용가이드/사용법 STEP — 4단계 사용 메커니즘" style="background:#64748b"></i><i title="#15 기능/구조/작동원리 — 작동 원리 상세" style="background:#3b82f6"></i><i title="#16 문제제기/타겟/불편상황 나열 — 경추 견인 문제제기" style="background:#f59e0b"></i><i title="#17 기능/구조/소재·구조 — 소재·구조 상세" style="background:#3b82f6"></i><i title="#18 사용가이드/부위별·테크닉 — 활용 TIP" style="background:#64748b"></i><i title="#19 구매정보/스펙/스펙표 — 의료기기 강조·제품정보" style="background:#0ea5e9"></i><i title="#20 디자인/패키지 — 패키지·사이즈" style="background:#ec4899"></i></div>
 <div class="flowcap"><span>상단</span><span>본문</span><span>하단</span></div></div>
-<div class="panel"><h2>요소 분류 (클릭 필터)</h2><div class="legend"><button class="lg" data-g="hook" style="--c:#ef4444"><span class="dot" style="background:#ef4444"></span>후킹/인트로 <b>2</b></button> <button class="lg" data-g="problem" style="--c:#f59e0b"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 <b>1</b></button> <button class="lg" data-g="value" style="--c:#8b5cf6"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP <b>1</b></button> <button class="lg" data-g="feature" style="--c:#3b82f6"><span class="dot" style="background:#3b82f6"></span>기능/구조 상세 <b>3</b></button> <button class="lg" data-g="trust" style="--c:#14b8a6"><span class="dot" style="background:#14b8a6"></span>신뢰(인증/AS) <b>7</b></button> <button class="lg" data-g="guide" style="--c:#64748b"><span class="dot" style="background:#64748b"></span>사용가이드 <b>1</b></button> <button class="lg" data-g="info" style="--c:#0ea5e9"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 <b>5</b></button></div></div>
-<div class="grid" id="grid"><div class="card" data-group="info">
+<div class="panel"><h2>중분류 필터 (클릭)</h2><div class="legend"><div class="majcluster"><span class="mjl" style="color:#f97316">눈길 끌기 & 공감</span><button class="lg" data-g="hook" style="--c:#ef4444"><span class="dot" style="background:#ef4444"></span>후킹/인트로 <b>2</b></button><button class="lg" data-g="problem" style="--c:#f59e0b"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 <b>1</b></button></div><div class="majcluster"><span class="mjl" style="color:#8b5cf6">핵심 차별점</span><button class="lg" data-g="value" style="--c:#8b5cf6"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP <b>1</b></button></div><div class="majcluster"><span class="mjl" style="color:#3b82f6">제품력 증명</span><button class="lg" data-g="feature" style="--c:#3b82f6"><span class="dot" style="background:#3b82f6"></span>기능/구조 <b>2</b></button><button class="lg" data-g="design" style="--c:#ec4899"><span class="dot" style="background:#ec4899"></span>디자인 <b>1</b></button><button class="lg" data-g="trust" style="--c:#14b8a6"><span class="dot" style="background:#14b8a6"></span>신뢰 <b>7</b></button></div><div class="majcluster"><span class="mjl" style="color:#0ea5e9">구매 유도</span><button class="lg" data-g="guide" style="--c:#64748b"><span class="dot" style="background:#64748b"></span>사용가이드 <b>2</b></button><button class="lg" data-g="info" style="--c:#0ea5e9"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 <b>4</b></button></div></div></div>
+<div class="grid" id="grid"><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/01.jpg" alt="#1"></div>
-      <div class="meta"><div class="num">#01</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">구성 옵션 — 커플</div><div class="desc">커플세트(2개) 제품 누끼 옵션컷</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#01 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">옵션·구성 선택</span>
+        <div class="el">구성 옵션 — 커플</div><div class="desc">커플세트(2개) 제품 누끼 옵션컷</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/02.jpg" alt="#2"></div>
-      <div class="meta"><div class="num">#02</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">구성 옵션 — 싱글</div><div class="desc">싱글세트(1개) 옵션컷</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#02 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">옵션·구성 선택</span>
+        <div class="el">구성 옵션 — 싱글</div><div class="desc">싱글세트(1개) 옵션컷</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/03.jpg" alt="#3"></div>
-      <div class="meta"><div class="num">#03</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">구성 옵션 — 패밀리</div><div class="desc">패밀리세트(4개) 옵션컷</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#03 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">옵션·구성 선택</span>
+        <div class="el">구성 옵션 — 패밀리</div><div class="desc">패밀리세트(4개) 옵션컷</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/04.jpg" alt="#4"></div>
-      <div class="meta"><div class="num">#04</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">공식 총판 인증</div><div class="desc">'NeckGuard Dr. 공식 총판' — 발상코퍼레이션이 현대메디칼 협약 공식 총판임을 증명</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#04 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">정품·총판</span>
+        <div class="el">공식 총판 인증</div><div class="desc">'NeckGuard Dr. 공식 총판' — 발상코퍼레이션이 현대메디칼 협약 공식 총판임을 증명</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/05.jpg" alt="#5"></div>
-      <div class="meta"><div class="num">#05</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">배상책임 보험</div><div class="desc">현대해상 1억원 생산물 배상책임 보험 가입</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#05 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">인증·특허·성적서</span>
+        <div class="el">배상책임 보험</div><div class="desc">현대해상 1억원 생산물 배상책임 보험 가입</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/06.jpg" alt="#6"></div>
-      <div class="meta"><div class="num">#06</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">기부·사회공헌 ①</div><div class="desc">'지속적인 기부로 보답' 대한적십자사 햅쌀 100포 기부</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#06 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">CSR·기부</span>
+        <div class="el">기부·사회공헌 ①</div><div class="desc">'지속적인 기부로 보답' 대한적십자사 햅쌀 100포 기부</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/07.jpg" alt="#7"></div>
-      <div class="meta"><div class="num">#07</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">기부·사회공헌 ②</div><div class="desc">사랑의열매·적십자 봉사관 등 기부 활동 사진</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#07 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">CSR·기부</span>
+        <div class="el">기부·사회공헌 ②</div><div class="desc">사랑의열매·적십자 봉사관 등 기부 활동 사진</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/08.jpg" alt="#8"></div>
-      <div class="meta"><div class="num">#08</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">기부·협찬 ③</div><div class="desc">복지관 간식 지원·여성청소년 기부 등 사회공헌</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#08 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">CSR·기부</span>
+        <div class="el">기부·협찬 ③</div><div class="desc">복지관 간식 지원·여성청소년 기부 등 사회공헌</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/09.jpg" alt="#9"></div>
-      <div class="meta"><div class="num">#09</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">협찬·노출 ④</div><div class="desc">명품스토어·방송 협찬 등 외부 노출 실적</div></div></div><div class="card" data-group="hook">
+      <div class="meta"><div class="num">#09 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">수상·판매량·1위</span>
+        <div class="el">협찬·노출 ④</div><div class="desc">명품스토어·방송 협찬 등 외부 노출 실적</div></div></div><div class="card" data-mid="hook">
       <div class="imgwrap"><img loading="lazy" src="thumbs/10.jpg" alt="#10"></div>
-      <div class="meta"><div class="num">#10</div><span class="chip" style="background:#ef4444">후킹/인트로</span>
-        <div class="el">브랜드 서사 인트로</div><div class="desc">'죄송합니다 고객님!' 수요 폭증·예약주문 안내 + '단종·재출시 그동안의 히스토리' 서사 진입</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#10 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#ef4444">후킹/인트로</span><span class="subt">브랜드 무드</span>
+        <div class="el">브랜드 서사 인트로</div><div class="desc">'죄송합니다 고객님!' 수요 폭증·예약주문 안내 + '단종·재출시 그동안의 히스토리' 서사 진입</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/11.jpg" alt="#11"></div>
-      <div class="meta"><div class="num">#11</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">히스토리·셀럽 입증</div><div class="desc">2018 출시→단종→2023 백지영 유튜브 이슈→재생산→백지영 기업인수·투자→2025 쇼츠 조회수 폭발 타임라인</div></div></div><div class="card" data-group="hook">
+      <div class="meta"><div class="num">#11 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">전문가 검증</span>
+        <div class="el">히스토리·셀럽 입증</div><div class="desc">2018 출시→단종→2023 백지영 유튜브 이슈→재생산→백지영 기업인수·투자→2025 쇼츠 조회수 폭발 타임라인</div></div></div><div class="card" data-mid="hook">
       <div class="imgwrap"><img loading="lazy" src="thumbs/12.jpg" alt="#12"></div>
-      <div class="meta"><div class="num">#12</div><span class="chip" style="background:#ef4444">후킹/인트로</span>
-        <div class="el">제품 히어로 컷</div><div class="desc">'추간판 탈출증·퇴행성 협착증 치료 목적 경추 견인 수동식 기구 — 넥가드닥터 NG100' 목 견인 연출 히어로</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#12 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#ef4444">후킹/인트로</span><span class="subt">키비주얼</span>
+        <div class="el">제품 히어로 컷</div><div class="desc">'추간판 탈출증·퇴행성 협착증 치료 목적 경추 견인 수동식 기구 — 넥가드닥터 NG100' 목 견인 연출 히어로</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/13.jpg" alt="#13"></div>
-      <div class="meta"><div class="num">#13</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">의료기기 포지셔닝·핵심</div><div class="desc">'목 디스크 치료목적 견인 의료기기' + 소형(240×240×45)·85g 경량·강한 견인·의료기기 4대 포인트</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#13 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">N가지 핵심포인트</span>
+        <div class="el">의료기기 포지셔닝·핵심</div><div class="desc">'목 디스크 치료목적 견인 의료기기' + 소형(240×240×45)·85g 경량·강한 견인·의료기기 4대 포인트</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/14.jpg" alt="#14"></div>
-      <div class="meta"><div class="num">#14</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">4단계 사용 메커니즘</div><div class="desc">STEP01 목 불편할 때→02 잡기→03 베개처럼 목에 베고→04 5~10분, 목을 위·아래로 견인 + 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#14 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">사용법 STEP</span>
+        <div class="el">4단계 사용 메커니즘</div><div class="desc">STEP01 목 불편할 때→02 잡기→03 베개처럼 목에 베고→04 5~10분, 목을 위·아래로 견인 + 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/15.jpg" alt="#15"></div>
-      <div class="meta"><div class="num">#15</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">작동 원리 상세</div><div class="desc">작동 원리 01~05 — 3종 Layer 구성·접힘·바닥에 눕기·10분 유지·머리 무게로 견인</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#15 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">작동 원리 상세</div><div class="desc">작동 원리 01~05 — 3종 Layer 구성·접힘·바닥에 눕기·10분 유지·머리 무게로 견인</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/16.jpg" alt="#16"></div>
-      <div class="meta"><div class="num">#16</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">경추 견인 문제제기</div><div class="desc">정상 C자 vs 거북목·퇴행성 압력 → 목 디스크 변형·손상·통증 환기</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#16 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">불편상황 나열</span>
+        <div class="el">경추 견인 문제제기</div><div class="desc">정상 C자 vs 거북목·퇴행성 압력 → 목 디스크 변형·손상·통증 환기</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/17.jpg" alt="#17"></div>
-      <div class="meta"><div class="num">#17</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">소재·구조 상세</div><div class="desc">'심플함' — 강한 탄성 Polyethylene 패드 + 복원력 EVA 패드 + 강한 내구성 제조 노하우</div></div></div><div class="card" data-group="guide">
+      <div class="meta"><div class="num">#17 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">소재·구조 상세</div><div class="desc">'심플함' — 강한 탄성 Polyethylene 패드 + 복원력 EVA 패드 + 강한 내구성 제조 노하우</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/18.jpg" alt="#18"></div>
-      <div class="meta"><div class="num">#18</div><span class="chip" style="background:#64748b">사용가이드</span>
-        <div class="el">활용 TIP</div><div class="desc">전면(BLACK) 10분 이내 / 후면(WHITE) 5~7분 권장, 장시간 견인 주의</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#18 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">부위별·테크닉</span>
+        <div class="el">활용 TIP</div><div class="desc">전면(BLACK) 10분 이내 / 후면(WHITE) 5~7분 권장, 장시간 견인 주의</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/19.jpg" alt="#19"></div>
-      <div class="meta"><div class="num">#19</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">의료기기 강조·제품정보</div><div class="desc">'마사지·스트레칭 기구가 아닌 목디스크 치료 견인 의료기기' + Product Info(품목·분류번호·사용목적·제조원·광고심의필)</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#19 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">스펙표</span>
+        <div class="el">의료기기 강조·제품정보</div><div class="desc">'마사지·스트레칭 기구가 아닌 목디스크 치료 견인 의료기기' + Product Info(품목·분류번호·사용목적·제조원·광고심의필)</div></div></div><div class="card" data-mid="design">
       <div class="imgwrap"><img loading="lazy" src="thumbs/20.jpg" alt="#20"></div>
-      <div class="meta"><div class="num">#20</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
+      <div class="meta"><div class="num">#20 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#ec4899">디자인</span><span class="subt">패키지</span>
         <div class="el">패키지·사이즈</div><div class="desc">패키지 박스 245×250×50mm 사이즈 도해</div></div></div></div>
-<div class="panel" style="margin-top:24px"><h2>요소별 집계</h2><table><tbody><tr class="ghead"><td colspan="3"><span class="dot" style="background:#ef4444"></span>후킹/인트로 · 2장</td></tr><tr><td class="elc">브랜드 서사 인트로</td><td class="cnt">1</td><td class="nums">#10</td></tr><tr><td class="elc">제품 히어로 컷</td><td class="cnt">1</td><td class="nums">#12</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 · 1장</td></tr><tr><td class="elc">경추 견인 문제제기</td><td class="cnt">1</td><td class="nums">#16</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP · 1장</td></tr><tr><td class="elc">의료기기 포지셔닝·핵심</td><td class="cnt">1</td><td class="nums">#13</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#3b82f6"></span>기능/구조 상세 · 3장</td></tr><tr><td class="elc">4단계 사용 메커니즘</td><td class="cnt">1</td><td class="nums">#14</td></tr><tr><td class="elc">작동 원리 상세</td><td class="cnt">1</td><td class="nums">#15</td></tr><tr><td class="elc">소재·구조 상세</td><td class="cnt">1</td><td class="nums">#17</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#14b8a6"></span>신뢰(인증/AS) · 7장</td></tr><tr><td class="elc">공식 총판 인증</td><td class="cnt">1</td><td class="nums">#04</td></tr><tr><td class="elc">배상책임 보험</td><td class="cnt">1</td><td class="nums">#05</td></tr><tr><td class="elc">기부·사회공헌 ①</td><td class="cnt">1</td><td class="nums">#06</td></tr><tr><td class="elc">기부·사회공헌 ②</td><td class="cnt">1</td><td class="nums">#07</td></tr><tr><td class="elc">기부·협찬 ③</td><td class="cnt">1</td><td class="nums">#08</td></tr><tr><td class="elc">협찬·노출 ④</td><td class="cnt">1</td><td class="nums">#09</td></tr><tr><td class="elc">히스토리·셀럽 입증</td><td class="cnt">1</td><td class="nums">#11</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#64748b"></span>사용가이드 · 1장</td></tr><tr><td class="elc">활용 TIP</td><td class="cnt">1</td><td class="nums">#18</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 · 5장</td></tr><tr><td class="elc">구성 옵션 — 커플</td><td class="cnt">1</td><td class="nums">#01</td></tr><tr><td class="elc">구성 옵션 — 싱글</td><td class="cnt">1</td><td class="nums">#02</td></tr><tr><td class="elc">구성 옵션 — 패밀리</td><td class="cnt">1</td><td class="nums">#03</td></tr><tr><td class="elc">의료기기 강조·제품정보</td><td class="cnt">1</td><td class="nums">#19</td></tr><tr><td class="elc">패키지·사이즈</td><td class="cnt">1</td><td class="nums">#20</td></tr></tbody></table></div>
+<div class="panel" style="margin-top:24px"><h2>대 › 중 › 소 집계</h2><table><tbody><tr class="majhead"><td colspan="3">눈길 끌기 & 공감 · 3장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#ef4444"></span>후킹/인트로 · 2장</td></tr><tr><td class="subc">└ 브랜드 무드</td><td class="cnt">1</td><td class="nums">#10</td></tr><tr><td class="subc">└ 키비주얼</td><td class="cnt">1</td><td class="nums">#12</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 · 1장</td></tr><tr><td class="subc">└ 불편상황 나열</td><td class="cnt">1</td><td class="nums">#16</td></tr><tr class="majhead"><td colspan="3">핵심 차별점 · 1장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP · 1장</td></tr><tr><td class="subc">└ N가지 핵심포인트</td><td class="cnt">1</td><td class="nums">#13</td></tr><tr class="majhead"><td colspan="3">제품력 증명 · 10장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#3b82f6"></span>기능/구조 · 2장</td></tr><tr><td class="subc">└ 작동원리</td><td class="cnt">1</td><td class="nums">#15</td></tr><tr><td class="subc">└ 소재·구조</td><td class="cnt">1</td><td class="nums">#17</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#ec4899"></span>디자인 · 1장</td></tr><tr><td class="subc">└ 패키지</td><td class="cnt">1</td><td class="nums">#20</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#14b8a6"></span>신뢰 · 7장</td></tr><tr><td class="subc">└ 정품·총판</td><td class="cnt">1</td><td class="nums">#04</td></tr><tr><td class="subc">└ 인증·특허·성적서</td><td class="cnt">1</td><td class="nums">#05</td></tr><tr><td class="subc">└ CSR·기부</td><td class="cnt">3</td><td class="nums">#06, #07, #08</td></tr><tr><td class="subc">└ 수상·판매량·1위</td><td class="cnt">1</td><td class="nums">#09</td></tr><tr><td class="subc">└ 전문가 검증</td><td class="cnt">1</td><td class="nums">#11</td></tr><tr class="majhead"><td colspan="3">구매 유도 · 6장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#64748b"></span>사용가이드 · 2장</td></tr><tr><td class="subc">└ 사용법 STEP</td><td class="cnt">1</td><td class="nums">#14</td></tr><tr><td class="subc">└ 부위별·테크닉</td><td class="cnt">1</td><td class="nums">#18</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 · 4장</td></tr><tr><td class="subc">└ 옵션·구성 선택</td><td class="cnt">3</td><td class="nums">#01, #02, #03</td></tr><tr><td class="subc">└ 스펙표</td><td class="cnt">1</td><td class="nums">#19</td></tr></tbody></table></div>
 </div><script>
 const btns=[...document.querySelectorAll('.lg')];let active=new Set();
 btns.forEach(b=>b.onclick=()=>{const g=b.dataset.g;
  if(active.has(g)){active.delete(g);b.classList.add('off')}else{active.add(g);b.classList.remove('off')}
  if(!active.size)btns.forEach(x=>x.classList.remove('off'));
- document.querySelectorAll('.card').forEach(c=>c.classList.toggle('hide',active.size>0&&!active.has(c.dataset.group)));});
+ document.querySelectorAll('.card').forEach(c=>c.classList.toggle('hide',active.size>0&&!active.has(c.dataset.mid)));});
 </script></body></html>

@@ -16,7 +16,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "브랜드·방송 협찬",
-      "desc": "SBS·KBS·MBC 방송사 공식협찬사 위드웰"
+      "desc": "SBS·KBS·MBC 방송사 공식협찬사 위드웰",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "방송사 공식협찬사 표기 — 브랜드 공신력 증명"
     },
     {
       "idx": 2,
@@ -24,7 +27,9 @@
       "thumb": "02.jpg",
       "group": "store",
       "element": "쿠폰·혜택 고지",
-      "desc": "슈퍼적립 멤버십 10% 적립"
+      "desc": "슈퍼적립 멤버십 10% 적립",
+      "mid": "store",
+      "sub": "coupon"
     },
     {
       "idx": 3,
@@ -32,7 +37,10 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "배송·리뷰 이벤트 고지",
-      "desc": "물량비상 배송안내 + 포토/동영상 리뷰 이벤트"
+      "desc": "물량비상 배송안내 + 포토/동영상 리뷰 이벤트",
+      "mid": "store",
+      "sub": "review_event",
+      "note_cls": "배송안내+리뷰이벤트 두 가지를 함께 담은 복합 고지, 리뷰이벤트가 주요소"
     },
     {
       "idx": 4,
@@ -40,7 +48,10 @@
       "thumb": "04.jpg",
       "group": "trust",
       "element": "브랜드·방송 협찬",
-      "desc": "SBS·KBS 공식협찬 ‘TV에서 봤던 그 진공쌀통’"
+      "desc": "SBS·KBS 공식협찬 ‘TV에서 봤던 그 진공쌀통’",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "TV 방송 협찬 강조 — 브랜드 인지도·공신력"
     },
     {
       "idx": 5,
@@ -48,7 +59,10 @@
       "thumb": "05.jpg",
       "group": "hook",
       "element": "제품 인트로(신제품)",
-      "desc": "미락바이오 항균기능 추가 3세대"
+      "desc": "미락바이오 항균기능 추가 3세대",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "신제품 3세대 인트로 키비주얼"
     },
     {
       "idx": 6,
@@ -56,7 +70,10 @@
       "thumb": "06.jpg",
       "group": "trust",
       "element": "판매 실적",
-      "desc": "30만대 판매돌파"
+      "desc": "30만대 판매돌파",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "30만 대 판매 돌파 수치 — 판매량·1위 범주"
     },
     {
       "idx": 7,
@@ -64,7 +81,10 @@
       "thumb": "07.jpg",
       "group": "trust",
       "element": "수상·랭킹 1위",
-      "desc": "6년연속 브랜드파워·소비자만족 1위"
+      "desc": "6년연속 브랜드파워·소비자만족 1위",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "6년 연속 브랜드파워·소비자만족 1위"
     },
     {
       "idx": 8,
@@ -72,7 +92,10 @@
       "thumb": "08.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "창가 인테리어 연출"
+      "desc": "창가 인테리어 연출",
+      "mid": "design",
+      "sub": "interior",
+      "note_cls": "창가 인테리어 연출컷 — group=proof이고 라이프스타일 연출, mid=design/interior보다 proof_lifestyle/interior가 더 적합 [QA교정]"
     },
     {
       "idx": 9,
@@ -80,7 +103,10 @@
       "thumb": "09.jpg",
       "group": "trust",
       "element": "검색·랭킹 1위",
-      "desc": "N사 포털 인기 브랜드 1위"
+      "desc": "N사 포털 인기 브랜드 1위",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "포털 인기 브랜드 1위 랭킹"
     },
     {
       "idx": 10,
@@ -88,7 +114,10 @@
       "thumb": "10.jpg",
       "group": "trust",
       "element": "외부몰 평점·리뷰",
-      "desc": "쇼핑몰별 구매고객 평점&리뷰(H몰/GS/SSG)"
+      "desc": "쇼핑몰별 구매고객 평점&리뷰(H몰/GS/SSG)",
+      "mid": "trust",
+      "sub": "review",
+      "note_cls": "외부 쇼핑몰 평점·리뷰 캡처"
     },
     {
       "idx": 11,
@@ -96,7 +125,9 @@
       "thumb": "11.jpg",
       "group": "trust",
       "element": "실사용 후기",
-      "desc": "구매자 리뷰 캡처"
+      "desc": "구매자 리뷰 캡처",
+      "mid": "trust",
+      "sub": "review"
     },
     {
       "idx": 12,
@@ -104,7 +135,10 @@
       "thumb": "12.jpg",
       "group": "value",
       "element": "핵심가치 USP",
-      "desc": "4계절 쌀 지킴이 — 4대 차단 요약"
+      "desc": "4계절 쌀 지킴이 — 4대 차단 요약",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "4계절 쌀 지킴이, 4대 차단 핵심포인트 요약"
     },
     {
       "idx": 13,
@@ -112,7 +146,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "기능·원리",
-      "desc": "Vacuum 원천기술, 습한공기 배출"
+      "desc": "Vacuum 원천기술, 습한공기 배출",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "진공 원천기술·습한 공기 배출 원리"
     },
     {
       "idx": 14,
@@ -120,7 +157,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "기능·항균",
-      "desc": "원적외선 항균기능 내피"
+      "desc": "원적외선 항균기능 내피",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "원적외선 항균 내피 소재·구조"
     },
     {
       "idx": 15,
@@ -128,7 +168,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "기능·항균(비주얼)",
-      "desc": "항균 비주얼 연출"
+      "desc": "항균 비주얼 연출",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "항균 비주얼 연출 — 기능 시각화 연출컷, proof_lifestyle/situation이 적합"
     },
     {
       "idx": 16,
@@ -136,7 +179,10 @@
       "thumb": "16.jpg",
       "group": "trust",
       "element": "인증·시험성적",
-      "desc": "원적외선 항균기능 시험성적서"
+      "desc": "원적외선 항균기능 시험성적서",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "원적외선 항균기능 시험성적서"
     },
     {
       "idx": 17,
@@ -144,7 +190,10 @@
       "thumb": "17.jpg",
       "group": "trust",
       "element": "인증·시험성적",
-      "desc": "식품용기 안심소재 중금속·환경호르몬 불검출"
+      "desc": "식품용기 안심소재 중금속·환경호르몬 불검출",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "식품용기 중금속·환경호르몬 불검출 성적서"
     },
     {
       "idx": 18,
@@ -152,7 +201,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "신/구 비교·개선점",
-      "desc": "1세대 vs 3세대 업그레이드"
+      "desc": "1세대 vs 3세대 업그레이드",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "1세대 vs 3세대 업그레이드 비교"
     },
     {
       "idx": 19,
@@ -160,7 +212,10 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "기능·스펙 비교",
-      "desc": "진공능력/용기방식 비교표"
+      "desc": "진공능력/용기방식 비교표",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "진공능력/용기방식 세대간 비교표 — oldnew가 가장 적합"
     },
     {
       "idx": 20,
@@ -168,7 +223,10 @@
       "thumb": "20.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "‘밥이 맛이 없나요?’ 푸석한 밥"
+      "desc": "‘밥이 맛이 없나요?’ 푸석한 밥",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "푸석한 밥 불편상황 제기"
     },
     {
       "idx": 21,
@@ -176,7 +234,10 @@
       "thumb": "21.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "문제는 쌀 보관방법 — 쌀벌레/습기/곰팡이"
+      "desc": "문제는 쌀 보관방법 — 쌀벌레/습기/곰팡이",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "쌀벌레/습기/곰팡이 잘못된 보관 문제 나열"
     },
     {
       "idx": 22,
@@ -184,7 +245,10 @@
       "thumb": "22.jpg",
       "group": "problem",
       "element": "문제→해결 전환",
-      "desc": "여기저기 보관 말고 쌀통을 바꿔보세요"
+      "desc": "여기저기 보관 말고 쌀통을 바꿔보세요",
+      "mid": "problem",
+      "sub": "alt_limit",
+      "note_cls": "기존 보관 방식의 한계를 지적하고 쌀통 교체 유도"
     },
     {
       "idx": 23,
@@ -192,7 +256,10 @@
       "thumb": "23.jpg",
       "group": "value",
       "element": "해결책 제시(제품 등장)",
-      "desc": "미락 진공쌀통 20kg, 오래 신선하게"
+      "desc": "미락 진공쌀통 20kg, 오래 신선하게",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "미락 진공쌀통 해결책 한 줄 제시 — 제품 등장 USP"
     },
     {
       "idx": 24,
@@ -200,7 +267,10 @@
       "thumb": "24.jpg",
       "group": "problem",
       "element": "문제제기(상황 연출)",
-      "desc": "으! 쌀벌레!"
+      "desc": "으! 쌀벌레!",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "쌀벌레 발견 상황 연출 GIF — 불편상황 나열"
     },
     {
       "idx": 25,
@@ -208,7 +278,10 @@
       "thumb": "25.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "우리집은 어디? 잘못된 보관 사례"
+      "desc": "우리집은 어디? 잘못된 보관 사례",
+      "mid": "problem",
+      "sub": "checklist",
+      "note_cls": "잘못된 보관 사례 체크 — '우리집은 어디?' 체크리스트형"
     },
     {
       "idx": 26,
@@ -216,7 +289,10 @@
       "thumb": "26.jpg",
       "group": "value",
       "element": "해결책 제시",
-      "desc": "쌀 보관 혁명, 미락의 기술로"
+      "desc": "쌀 보관 혁명, 미락의 기술로",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "쌀 보관 혁명, 미락의 기술로 — 핵심 한 줄 가치 제시"
     },
     {
       "idx": 27,
@@ -224,7 +300,10 @@
       "thumb": "27.jpg",
       "group": "feature",
       "element": "기능·진공력 인트로",
-      "desc": "공기 쫙 뺀 진공보관, 강력한 진공력"
+      "desc": "공기 쫙 뺀 진공보관, 강력한 진공력",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "강력한 진공력 핵심기술 POINT 인트로"
     },
     {
       "idx": 28,
@@ -232,7 +311,10 @@
       "thumb": "28.jpg",
       "group": "feature",
       "element": "구조 디테일",
-      "desc": "진공밸브 작동 구조"
+      "desc": "진공밸브 작동 구조",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "진공밸브 작동 구조 원리"
     },
     {
       "idx": 29,
@@ -240,7 +322,10 @@
       "thumb": "29.jpg",
       "group": "feature",
       "element": "실험 데모",
-      "desc": "자동 진공압 체크 + 생수통 진공테스트"
+      "desc": "자동 진공압 체크 + 생수통 진공테스트",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "진공압 체크 + 생수통 진공 실험 데모 — group=feature이지만 실험 증명이 주목적"
     },
     {
       "idx": 30,
@@ -248,7 +333,10 @@
       "thumb": "30.jpg",
       "group": "feature",
       "element": "실험 데모",
-      "desc": "35배속 생수통 흡입 데모"
+      "desc": "35배속 생수통 흡입 데모",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "35배속 생수통 흡입 실험 데모 GIF"
     },
     {
       "idx": 31,
@@ -256,7 +344,10 @@
       "thumb": "31.jpg",
       "group": "feature",
       "element": "진공력 시연",
-      "desc": "들어올리기 시연"
+      "desc": "들어올리기 시연",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "들어올리기 시연 — 진공력 실험 증명"
     },
     {
       "idx": 32,
@@ -264,7 +355,10 @@
       "thumb": "32.jpg",
       "group": "feature",
       "element": "기능·진공력",
-      "desc": "20kg 쌀 넣어도 강력한 진공"
+      "desc": "20kg 쌀 넣어도 강력한 진공",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "20kg 쌀 상태에서도 강력한 진공 유지 — 핵심기술 강조"
     },
     {
       "idx": 33,
@@ -272,7 +366,10 @@
       "thumb": "33.jpg",
       "group": "feature",
       "element": "기능·보관성능",
-      "desc": "최적 온도/습도, 수분함량 유지"
+      "desc": "최적 온도/습도, 수분함량 유지",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "최적 온도/습도/수분함량 유지 보관 원리"
     },
     {
       "idx": 34,
@@ -280,7 +377,10 @@
       "thumb": "34.jpg",
       "group": "feature",
       "element": "실험 데모",
-      "desc": "바나나 20일 진공보관 전후 비교"
+      "desc": "바나나 20일 진공보관 전후 비교",
+      "mid": "proof_data",
+      "sub": "beforeafter",
+      "note_cls": "바나나 20일 진공보관 전후 비교 — group=feature이지만 전후비교 증명이 핵심"
     },
     {
       "idx": 35,
@@ -288,7 +388,10 @@
       "thumb": "35.jpg",
       "group": "feature",
       "element": "실험 데모",
-      "desc": "바나나 진공보관 테스트"
+      "desc": "바나나 진공보관 테스트",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "바나나 진공보관 테스트 GIF"
     },
     {
       "idx": 36,
@@ -296,7 +399,10 @@
       "thumb": "36.jpg",
       "group": "value",
       "element": "효과 강조 USP",
-      "desc": "쌀곰팡이·쌀벌레 Out!"
+      "desc": "쌀곰팡이·쌀벌레 Out!",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "쌀곰팡이·쌀벌레 Out! 핵심 효과 강조"
     },
     {
       "idx": 37,
@@ -304,7 +410,10 @@
       "thumb": "37.jpg",
       "group": "feature",
       "element": "기능·편의",
-      "desc": "스마트 진공, 쌀 퍼내기 20초"
+      "desc": "스마트 진공, 쌀 퍼내기 20초",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "스마트 진공, 쌀 퍼내기 20초 — 작동 모드·편의 기능"
     },
     {
       "idx": 38,
@@ -312,7 +421,10 @@
       "thumb": "38.jpg",
       "group": "feature",
       "element": "구조 비교",
-      "desc": "하부진공 시스템 1세대 vs 3세대"
+      "desc": "하부진공 시스템 1세대 vs 3세대",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "하부진공 시스템 1세대 vs 3세대 구조 비교"
     },
     {
       "idx": 39,
@@ -320,7 +432,10 @@
       "thumb": "39.jpg",
       "group": "feature",
       "element": "기능·편의",
-      "desc": "완전 분리형 뚜껑"
+      "desc": "완전 분리형 뚜껑",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "완전 분리형 뚜껑 작동 기능"
     },
     {
       "idx": 40,
@@ -328,7 +443,10 @@
       "thumb": "40.jpg",
       "group": "feature",
       "element": "기능·편의",
-      "desc": "뚜껑 전기장치 없어 가벼움"
+      "desc": "뚜껑 전기장치 없어 가벼움",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "뚜껑 전기장치 없는 경량 구조"
     },
     {
       "idx": 41,
@@ -336,7 +454,10 @@
       "thumb": "41.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "2중 용기(외피/내피)"
+      "desc": "2중 용기(외피/내피)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "2중 용기 외피/내피 구조"
     },
     {
       "idx": 42,
@@ -344,7 +465,10 @@
       "thumb": "42.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "2중 날개 패킹"
+      "desc": "2중 날개 패킹",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "2중 날개 패킹 소재·구조"
     },
     {
       "idx": 43,
@@ -352,7 +476,9 @@
       "thumb": "43.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "손쉬운 작동방법 — 처음 작동"
+      "desc": "손쉬운 작동방법 — 처음 작동",
+      "mid": "guide",
+      "sub": "howto"
     },
     {
       "idx": 44,
@@ -360,7 +486,10 @@
       "thumb": "44.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "설치/진공해제 방법"
+      "desc": "설치/진공해제 방법",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "설치/진공해제 방법 STEP"
     },
     {
       "idx": 45,
@@ -368,7 +497,10 @@
       "thumb": "45.jpg",
       "group": "feature",
       "element": "차별점",
-      "desc": "유선 선택 이유 — 보조배터리 충전 NO"
+      "desc": "유선 선택 이유 — 보조배터리 충전 NO",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "유선 방식 선택 이유 — 핵심 차별점 기술"
     },
     {
       "idx": 46,
@@ -376,7 +508,10 @@
       "thumb": "46.jpg",
       "group": "feature",
       "element": "유지비·차별점",
-      "desc": "배터리 교체 NO, 전기요금 걱정 NO"
+      "desc": "배터리 교체 NO, 전기요금 걱정 NO",
+      "mid": "value",
+      "sub": "price_value",
+      "note_cls": "배터리 교체 NO, 전기요금 NO — 유지비 관련 가성비 강조"
     },
     {
       "idx": 47,
@@ -384,7 +519,10 @@
       "thumb": "47.jpg",
       "group": "feature",
       "element": "기능·저소음",
-      "desc": "40dB 이하(37.9dB) 저소음"
+      "desc": "40dB 이하(37.9dB) 저소음",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "40dB 이하 저소음 수치 — 핵심기술 수치"
     },
     {
       "idx": 48,
@@ -392,7 +530,10 @@
       "thumb": "48.jpg",
       "group": "feature",
       "element": "기능·자외선 차단",
-      "desc": "외·내피 2중 자외선 차단(+성적서)"
+      "desc": "외·내피 2중 자외선 차단(+성적서)",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "2중 자외선 차단 + 성적서 — 인증·시험성적"
     },
     {
       "idx": 49,
@@ -400,7 +541,10 @@
       "thumb": "49.jpg",
       "group": "feature",
       "element": "기능·활용성",
-      "desc": "다목적 보관(잡곡/시리얼/빵)"
+      "desc": "다목적 보관(잡곡/시리얼/빵)",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "잡곡/시리얼/빵 다목적 보관 활용 시나리오"
     },
     {
       "idx": 50,
@@ -408,7 +552,10 @@
       "thumb": "50.jpg",
       "group": "feature",
       "element": "기능·제습",
-      "desc": "제습 기능 추가"
+      "desc": "제습 기능 추가",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "제습 기능 추가 — 3세대 신기능"
     },
     {
       "idx": 51,
@@ -416,7 +563,10 @@
       "thumb": "51.jpg",
       "group": "feature",
       "element": "기능·편의",
-      "desc": "하부 이동바퀴"
+      "desc": "하부 이동바퀴",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "하부 이동바퀴 편의 기능"
     },
     {
       "idx": 52,
@@ -424,7 +574,10 @@
       "thumb": "52.jpg",
       "group": "feature",
       "element": "기능·용량",
-      "desc": "넉넉한 대용량"
+      "desc": "넉넉한 대용량",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "넉넉한 대용량 — 용량 핵심 스펙"
     },
     {
       "idx": 53,
@@ -432,7 +585,10 @@
       "thumb": "53.jpg",
       "group": "design",
       "element": "디자인",
-      "desc": "심플 깔끔한 화이트 디자인"
+      "desc": "심플 깔끔한 화이트 디자인",
+      "mid": "design",
+      "sub": "color",
+      "note_cls": "심플 화이트 디자인 외관 컬러"
     },
     {
       "idx": 54,
@@ -440,7 +596,10 @@
       "thumb": "54.jpg",
       "group": "design",
       "element": "디자인 연출컷",
-      "desc": "디자인 연출"
+      "desc": "디자인 연출",
+      "mid": "design",
+      "sub": "interior",
+      "note_cls": "디자인 인테리어 연출컷"
     },
     {
       "idx": 55,
@@ -448,7 +607,10 @@
       "thumb": "55.jpg",
       "group": "info",
       "element": "제품 스펙(사이즈)",
-      "desc": "사이즈 도면 20/15Kg"
+      "desc": "사이즈 도면 20/15Kg",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "사이즈 도면 스펙"
     },
     {
       "idx": 56,
@@ -456,7 +618,9 @@
       "thumb": "56.jpg",
       "group": "info",
       "element": "제품 스펙표",
-      "desc": "제품 정보 사양표"
+      "desc": "제품 정보 사양표",
+      "mid": "info",
+      "sub": "spec"
     },
     {
       "idx": 57,
@@ -464,7 +628,10 @@
       "thumb": "57.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "자주하는 질문"
+      "desc": "자주하는 질문",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "자주 하는 질문 FAQ — 구매 관련 포함"
     },
     {
       "idx": 58,
@@ -472,7 +639,10 @@
       "thumb": "58.jpg",
       "group": "trust",
       "element": "브랜드 가치·사회공헌",
-      "desc": "위드웰 사회공헌 프로젝트"
+      "desc": "위드웰 사회공헌 프로젝트",
+      "mid": "trust",
+      "sub": "csr",
+      "note_cls": "위드웰 사회공헌 프로젝트"
     }
   ]
 }

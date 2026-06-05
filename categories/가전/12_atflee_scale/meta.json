@@ -14,7 +14,10 @@
       "thumb": "01.jpg",
       "group": "store",
       "element": "매장 공통 고지",
-      "desc": "앳플리 특별 혜택(N페이/배송/무료교환/도서산간)"
+      "desc": "앳플리 특별 혜택(N페이/배송/무료교환/도서산간)",
+      "mid": "store",
+      "sub": "shipping",
+      "note_cls": "N페이 적립·배송·무료교환·도서산간 등 매장 공통 혜택 고지"
     },
     {
       "idx": 2,
@@ -22,7 +25,10 @@
       "thumb": "02.jpg",
       "group": "store",
       "element": "이벤트·콜라보",
-      "desc": "WHERE'S WALLY 월리 에디션 + 트래커 증정"
+      "desc": "WHERE'S WALLY 월리 에디션 + 트래커 증정",
+      "mid": "store",
+      "sub": "crosssell",
+      "note_cls": "월리 에디션 콜라보 + 트래커 증정 — 번들/이벤트 성격의 크로스셀"
     },
     {
       "idx": 3,
@@ -30,7 +36,10 @@
       "thumb": "03.jpg",
       "group": "hook",
       "element": "브랜드 무드",
-      "desc": "atflee 에브리데이(컬러 라인업)"
+      "desc": "atflee 에브리데이(컬러 라인업)",
+      "mid": "hook",
+      "sub": "brand_mood",
+      "note_cls": "에브리데이 컬러 라인업으로 브랜드 무드 연출"
     },
     {
       "idx": 4,
@@ -38,7 +47,10 @@
       "thumb": "04.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "앳플리 T8 지금 만나보세요"
+      "desc": "앳플리 T8 지금 만나보세요",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "T8 제품 인트로 키비주얼 컷"
     },
     {
       "idx": 5,
@@ -46,7 +58,10 @@
       "thumb": "05.jpg",
       "group": "value",
       "element": "USP 인트로",
-      "desc": "체중계가 가진 놀라운 기록"
+      "desc": "체중계가 가진 놀라운 기록",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "'체중계가 가진 놀라운 기록' — USP 한 줄 차별 카피 인트로"
     },
     {
       "idx": 6,
@@ -54,7 +69,10 @@
       "thumb": "06.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "몸무게보다 체성분 — 체지방/골격근 관리"
+      "desc": "몸무게보다 체성분 — 체지방/골격근 관리",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "몸무게만 보는 것의 한계를 지적, 체지방·골격근 관리 필요성 불편 상황 제기"
     },
     {
       "idx": 7,
@@ -62,7 +80,10 @@
       "thumb": "07.jpg",
       "group": "trust",
       "element": "국산·신뢰",
-      "desc": "Made in KOREA — 앱·데이터 국내 제작/운영"
+      "desc": "Made in KOREA — 앱·데이터 국내 제작/운영",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "Made in KOREA 앱·데이터 국내 제작·운영 — 국산 신뢰 인증 강조"
     },
     {
       "idx": 8,
@@ -70,7 +91,10 @@
       "thumb": "08.jpg",
       "group": "feature",
       "element": "앱·기능",
-      "desc": "POINT01 앱으로 더 똑똑한 건강관리"
+      "desc": "POINT01 앱으로 더 똑똑한 건강관리",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT01 앱 기능 — 핵심기술 넘버링 포인트 구조"
     },
     {
       "idx": 9,
@@ -78,7 +102,10 @@
       "thumb": "09.jpg",
       "group": "feature",
       "element": "앱·기록",
-      "desc": "변화의 시작 — 앱 기록 화면"
+      "desc": "변화의 시작 — 앱 기록 화면",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "앱 기록 화면 시나리오 — 변화의 시작 활용 장면"
     },
     {
       "idx": 10,
@@ -86,7 +113,10 @@
       "thumb": "10.jpg",
       "group": "feature",
       "element": "앱·맞춤 추천",
-      "desc": "개인 맞춤형 활동 제안"
+      "desc": "개인 맞춤형 활동 제안",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "개인 맞춤형 활동 제안 — 기능별 맞춤 모드·추천 설명"
     },
     {
       "idx": 11,
@@ -94,7 +124,10 @@
       "thumb": "11.jpg",
       "group": "feature",
       "element": "앱·종합기록",
-      "desc": "POINT02 종합 기록 관리/운동 루틴"
+      "desc": "POINT02 종합 기록 관리/운동 루틴",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT02 종합 기록 관리·운동 루틴 — 핵심기술 넘버링 포인트"
     },
     {
       "idx": 12,
@@ -102,7 +135,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "앱·습관",
-      "desc": "POINT03 건강 습관 만들기"
+      "desc": "POINT03 건강 습관 만들기",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT03 건강 습관 만들기 — 핵심기술 넘버링 포인트"
     },
     {
       "idx": 13,
@@ -110,7 +146,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "정확도",
-      "desc": "정확도 탐구 — BIA 기술"
+      "desc": "정확도 탐구 — BIA 기술",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "BIA 기술 기반 정확도 탐구 — 작동 원리 설명"
     },
     {
       "idx": 14,
@@ -118,7 +157,10 @@
       "thumb": "14.jpg",
       "group": "design",
       "element": "디자인",
-      "desc": "체중계 디자인(매일 쓰니까)"
+      "desc": "체중계 디자인(매일 쓰니까)",
+      "mid": "design",
+      "sub": "color",
+      "note_cls": "매일 쓰는 체중계 디자인·외관 강조"
     },
     {
       "idx": 15,
@@ -126,7 +168,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "배터리",
-      "desc": "초절전 AAA 3개 195일"
+      "desc": "초절전 AAA 3개 195일",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "초절전 AAA 3개 195일 — 배터리 기술 스펙 포인트"
     }
   ]
 }

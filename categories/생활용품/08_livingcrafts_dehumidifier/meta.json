@@ -14,7 +14,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "검색 랭킹 1위",
-      "desc": "N+ 제습제(용기형) 랭킹 1위"
+      "desc": "N+ 제습제(용기형) 랭킹 1위",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "네이버 제습제(용기형) 검색 랭킹 1위 배지 — 판매순위/1위 인증"
     },
     {
       "idx": 2,
@@ -22,7 +25,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "판매 실적",
-      "desc": "천만 제습제 16,190,113개 판매돌파"
+      "desc": "천만 제습제 16,190,113개 판매돌파",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "1619만 개 판매돌파 수치 — 판매량 수상·1위 근거"
     },
     {
       "idx": 3,
@@ -30,7 +36,10 @@
       "thumb": "03.jpg",
       "group": "hook",
       "element": "전환 배경",
-      "desc": "제품 비주얼 전환"
+      "desc": "제품 비주얼 전환",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "제품 비주얼 전환 배경 컷 — 인트로 키비주얼"
     },
     {
       "idx": 4,
@@ -38,7 +47,10 @@
       "thumb": "04.jpg",
       "group": "proof",
       "element": "제품 비주얼",
-      "desc": "제습제 용기 제품컷"
+      "desc": "제습제 용기 제품컷",
+      "mid": "design",
+      "sub": "color",
+      "note_cls": "group=proof이나 내용이 제품 외관·용기 비주얼컷이므로 design>color로 override"
     },
     {
       "idx": 5,
@@ -46,7 +58,10 @@
       "thumb": "05.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "습기 = 악취·곰팡이·세균의 원인"
+      "desc": "습기 = 악취·곰팡이·세균의 원인",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "습기 = 악취·곰팡이·세균 유발 불편상황 나열"
     },
     {
       "idx": 6,
@@ -54,7 +69,10 @@
       "thumb": "06.jpg",
       "group": "trust",
       "element": "실사용 후기",
-      "desc": "Real Review"
+      "desc": "Real Review",
+      "mid": "trust",
+      "sub": "review",
+      "note_cls": "Real Review — 실사용 후기 섹션"
     },
     {
       "idx": 7,
@@ -62,7 +80,10 @@
       "thumb": "07.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "꿉꿉함 없이 사계절 뽀송 — Moisture Absorber"
+      "desc": "꿉꿉함 없이 사계절 뽀송 — Moisture Absorber",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "꿉꿉함 없이 사계절 뽀송 — 제품 인트로 메인슬로건"
     },
     {
       "idx": 8,
@@ -70,7 +91,10 @@
       "thumb": "08.jpg",
       "group": "value",
       "element": "핵심가치 USP 요약",
-      "desc": "Key Point 4(습기제거/비드형 염화칼슘/방지/디자인)"
+      "desc": "Key Point 4(습기제거/비드형 염화칼슘/방지/디자인)",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "Key Point 4가지 핵심포인트 요약(습기제거/비드형/방지/디자인)"
     },
     {
       "idx": 9,
@@ -78,7 +102,10 @@
       "thumb": "09.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "360° 비드형 강력 흡수(일반 vs 비드)"
+      "desc": "360° 비드형 강력 흡수(일반 vs 비드)",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "360° 비드형 vs 일반 타입 비교 — 신구/방식 비교"
     },
     {
       "idx": 10,
@@ -86,7 +113,10 @@
       "thumb": "10.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "습기 미리 방지 — 악취·곰팡이 방지"
+      "desc": "습기 미리 방지 — 악취·곰팡이 방지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "습기 미리 방지 → 악취·곰팡이 방지 시나리오 설명"
     },
     {
       "idx": 11,
@@ -94,7 +124,10 @@
       "thumb": "11.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "Q&A(비드타입 차이/효과 기간)"
+      "desc": "Q&A(비드타입 차이/효과 기간)",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "비드타입 차이·효과 기간 Q&A — 구매 전 FAQ"
     },
     {
       "idx": 12,
@@ -102,7 +135,10 @@
       "thumb": "12.jpg",
       "group": "proof",
       "element": "제품 비주얼",
-      "desc": "용기 손에 든 컷"
+      "desc": "용기 손에 든 컷",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "group=proof, 용기를 손에 든 컷 — 제품 사용상황 연출"
     },
     {
       "idx": 13,
@@ -110,7 +146,10 @@
       "thumb": "13.jpg",
       "group": "store",
       "element": "공지·주의",
-      "desc": "배송/사용 주의, 주문 전 참고"
+      "desc": "배송/사용 주의, 주문 전 참고",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "배송/사용 주의사항, 주문 전 참고 공지"
     },
     {
       "idx": 14,
@@ -118,7 +157,10 @@
       "thumb": "14.jpg",
       "group": "info",
       "element": "제품 스펙",
-      "desc": "제품 디자인 및 크기/사양표"
+      "desc": "제품 디자인 및 크기/사양표",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "제품 디자인·크기·사양표"
     },
     {
       "idx": 15,
@@ -126,7 +168,10 @@
       "thumb": "15.jpg",
       "group": "store",
       "element": "공식스토어 공지",
-      "desc": "생활공작소 브랜드스토어 안내"
+      "desc": "생활공작소 브랜드스토어 안내",
+      "mid": "store",
+      "sub": "official",
+      "note_cls": "생활공작소 브랜드스토어 공식 안내"
     }
   ]
 }

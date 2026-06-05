@@ -15,7 +15,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "정품·사칭주의",
-      "desc": "사칭채널 주의"
+      "desc": "사칭채널 주의",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "사칭 채널 주의 공지 — 정품·총판 신뢰 소구"
     },
     {
       "idx": 2,
@@ -23,7 +26,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "정품·공식판매",
-      "desc": "본사 공식 판매점"
+      "desc": "본사 공식 판매점",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "본사 공식 판매점 명시"
     },
     {
       "idx": 3,
@@ -31,7 +37,10 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "매장 공통 고지",
-      "desc": "자사몰 구매 혜택"
+      "desc": "자사몰 구매 혜택",
+      "mid": "store",
+      "sub": "coupon",
+      "note_cls": "자사몰 구매 혜택 안내"
     },
     {
       "idx": 4,
@@ -39,7 +48,10 @@
       "thumb": "04.jpg",
       "group": "trust",
       "element": "실적",
-      "desc": "출시 2개월 만에 3차 리오더"
+      "desc": "출시 2개월 만에 3차 리오더",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "출시 2개월 만에 3차 리오더 — 판매 실적 증명"
     },
     {
       "idx": 5,
@@ -47,7 +59,10 @@
       "thumb": "05.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "당신의 손목은 안녕하신가요?(손목피로 만성)"
+      "desc": "당신의 손목은 안녕하신가요?(손목피로 만성)",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "손목 피로 만성 문제 제기"
     },
     {
       "idx": 6,
@@ -55,7 +70,10 @@
       "thumb": "06.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "물리치료사가 직접 검증한 손목 관리템"
+      "desc": "물리치료사가 직접 검증한 손목 관리템",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "물리치료사 직접 검증"
     },
     {
       "idx": 7,
@@ -63,7 +81,10 @@
       "thumb": "07.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "다각적 케어 필요(물리치료사 정수진)"
+      "desc": "다각적 케어 필요(물리치료사 정수진)",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "물리치료사 정수진 인터뷰 — 다각적 케어 필요성"
     },
     {
       "idx": 8,
@@ -71,7 +92,10 @@
       "thumb": "08.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "인터뷰 — 신경+근육+혈류 동시 케어"
+      "desc": "인터뷰 — 신경+근육+혈류 동시 케어",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "물리치료사 인터뷰 — 신경+근육+혈류 동시 케어"
     },
     {
       "idx": 9,
@@ -79,7 +103,10 @@
       "thumb": "09.jpg",
       "group": "value",
       "element": "핵심가치·USP",
-      "desc": "관리의 핵심은 3중 설계(신경·근육·혈류 동시 케어) — 사실상 USP. 단 기능 설명조로 묻혀 한 줄로 안 박힘"
+      "desc": "관리의 핵심은 3중 설계(신경·근육·혈류 동시 케어) — 사실상 USP. 단 기능 설명조로 묻혀 한 줄로 안 박힘",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "3중 설계(신경·근육·혈류) 핵심 포인트 요약"
     },
     {
       "idx": 10,
@@ -87,7 +114,10 @@
       "thumb": "10.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "3중 작동 — TENS/EMS/온열"
+      "desc": "3중 작동 — TENS/EMS/온열",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "TENS/EMS/온열 3중 작동 원리 설명"
     },
     {
       "idx": 11,
@@ -95,7 +125,10 @@
       "thumb": "11.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "바리바디 EMS 손목 마사지기"
+      "desc": "바리바디 EMS 손목 마사지기",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "제품 인트로 키비주얼"
     },
     {
       "idx": 12,
@@ -103,7 +136,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "Check01 TENS·EMS·온열 3중 자극 시너지"
+      "desc": "Check01 TENS·EMS·온열 3중 자극 시너지",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check01 TENS·EMS·온열 3중 자극 시너지 — 넘버링 기술 포인트"
     },
     {
       "idx": 13,
@@ -111,7 +147,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "원리",
-      "desc": "손 EMS 비주얼"
+      "desc": "손 EMS 비주얼",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "손 EMS 작동 비주얼 GIF"
     },
     {
       "idx": 14,
@@ -119,7 +158,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "EMS 근육 긴장 이완"
+      "desc": "EMS 근육 긴장 이완",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "EMS 근육 긴장 이완 원리"
     },
     {
       "idx": 15,
@@ -127,7 +169,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "신경 자극 완화"
+      "desc": "신경 자극 완화",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "TENS 신경 자극 완화 원리"
     },
     {
       "idx": 16,
@@ -135,7 +180,10 @@
       "thumb": "16.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "HEAT 혈류 순환 촉진"
+      "desc": "HEAT 혈류 순환 촉진",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "HEAT 혈류 순환 촉진 원리"
     },
     {
       "idx": 17,
@@ -143,7 +191,10 @@
       "thumb": "17.jpg",
       "group": "proof",
       "element": "연구 검증",
-      "desc": "과학으로 검증한 3중 케어 시너지(해외 저널)"
+      "desc": "과학으로 검증한 3중 케어 시너지(해외 저널)",
+      "mid": "proof_data",
+      "sub": "clinical",
+      "note_cls": "해외 저널 기반 과학 검증 — 임상·연구 증명형"
     },
     {
       "idx": 18,
@@ -151,7 +202,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "온열",
-      "desc": "Check02 3단계 온열 모드"
+      "desc": "Check02 3단계 온열 모드",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "Check02 3단계 온열 모드"
     },
     {
       "idx": 19,
@@ -159,7 +213,10 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "1단계 부드러운 이완"
+      "desc": "1단계 부드러운 이완",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "온열 1단계 부드러운 이완"
     },
     {
       "idx": 20,
@@ -167,7 +224,10 @@
       "thumb": "20.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "2단계 순환 활성"
+      "desc": "2단계 순환 활성",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "온열 2단계 순환 활성"
     },
     {
       "idx": 21,
@@ -175,7 +235,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "온열 단계",
-      "desc": "3단계 집중 안정"
+      "desc": "3단계 집중 안정",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "온열 3단계 집중 안정"
     },
     {
       "idx": 22,
@@ -183,7 +246,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "디자인",
-      "desc": "Check03 손목 인체공학 디자인"
+      "desc": "Check03 손목 인체공학 디자인",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "Check03 손목 인체공학 디자인 — 구조·소재 관련"
     },
     {
       "idx": 23,
@@ -191,7 +257,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "Check04 8가지 모드·15단계 강도"
+      "desc": "Check04 8가지 모드·15단계 강도",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "Check04 8가지 모드·15단계 강도"
     },
     {
       "idx": 24,
@@ -199,7 +268,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "모드 상세",
-      "desc": "TENS/EMS 모드(이완/완화/활력/유연/회복/리듬)"
+      "desc": "TENS/EMS 모드(이완/완화/활력/유연/회복/리듬)",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "TENS/EMS 세부 모드 목록"
     },
     {
       "idx": 25,
@@ -207,7 +279,10 @@
       "thumb": "25.jpg",
       "group": "feature",
       "element": "강도",
-      "desc": "15단계 강도 조절"
+      "desc": "15단계 강도 조절",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "15단계 강도 조절 상세"
     },
     {
       "idx": 26,
@@ -215,7 +290,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "휴대",
-      "desc": "Check05 초슬림·초경량 컴팩트"
+      "desc": "Check05 초슬림·초경량 컴팩트",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "Check05 초슬림·초경량 컴팩트 — 물성·구조 특성"
     },
     {
       "idx": 27,
@@ -223,7 +301,10 @@
       "thumb": "27.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "들고 있는 연출"
+      "desc": "들고 있는 연출",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "제품 들고 있는 라이프스타일 연출컷"
     },
     {
       "idx": 28,
@@ -231,7 +312,10 @@
       "thumb": "28.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "인증받은 품질·기술력 KC 인증"
+      "desc": "인증받은 품질·기술력 KC 인증",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "KC 인증 품질·기술력"
     },
     {
       "idx": 29,
@@ -239,7 +323,10 @@
       "thumb": "29.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "베개 안고 사용"
+      "desc": "베개 안고 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "베개 안고 사용하는 상황 연출"
     },
     {
       "idx": 30,
@@ -247,7 +334,10 @@
       "thumb": "30.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "손목 착용/사용"
+      "desc": "손목 착용/사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "손목 착용·사용 상황 연출"
     },
     {
       "idx": 31,
@@ -255,7 +345,10 @@
       "thumb": "31.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "제품 사용 방법 STEP1/2"
+      "desc": "제품 사용 방법 STEP1/2",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "사용법 STEP1/2"
     },
     {
       "idx": 32,
@@ -263,7 +356,10 @@
       "thumb": "32.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "손목 착용"
+      "desc": "손목 착용",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "손목 착용 GIF 라이프스타일 연출"
     },
     {
       "idx": 33,
@@ -271,7 +367,10 @@
       "thumb": "33.jpg",
       "group": "guide",
       "element": "충전법",
-      "desc": "충전 안내(C타입)"
+      "desc": "충전 안내(C타입)",
+      "mid": "guide",
+      "sub": "care",
+      "note_cls": "C타입 충전 안내"
     },
     {
       "idx": 34,
@@ -279,7 +378,10 @@
       "thumb": "34.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "자주 묻는 질문"
+      "desc": "자주 묻는 질문",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "자주 묻는 질문"
     },
     {
       "idx": 35,
@@ -287,7 +389,10 @@
       "thumb": "35.jpg",
       "group": "trust",
       "element": "신뢰·AS",
-      "desc": "바리바디 1년 무상 A/S"
+      "desc": "바리바디 1년 무상 A/S",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "1년 무상 A/S 보증"
     }
   ]
 }

@@ -16,7 +16,10 @@
       "thumb": "01.jpg",
       "group": "store",
       "element": "매장 공통 고지",
-      "desc": "공식판매처/오늘출발/리뷰이벤트 배너"
+      "desc": "공식판매처/오늘출발/리뷰이벤트 배너",
+      "mid": "store",
+      "sub": "official",
+      "note_cls": "공식판매처·오늘출발·리뷰이벤트 3종 배너 묶음"
     },
     {
       "idx": 2,
@@ -24,7 +27,10 @@
       "thumb": "02.jpg",
       "group": "store",
       "element": "이벤트·혜택",
-      "desc": "6월 리뷰 이벤트 — 네이버포인트 2만원"
+      "desc": "6월 리뷰 이벤트 — 네이버포인트 2만원",
+      "mid": "store",
+      "sub": "review_event",
+      "note_cls": "6월 리뷰 이벤트 — 네이버포인트 2만원 지급"
     },
     {
       "idx": 3,
@@ -32,7 +38,10 @@
       "thumb": "03.jpg",
       "group": "hook",
       "element": "제품 인트로(메인)",
-      "desc": "Max Compact·Max Strong, 큐폴드 카트 MAX"
+      "desc": "Max Compact·Max Strong, 큐폴드 카트 MAX",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "제품명+라인업 강조하는 메인 인트로 키비주얼"
     },
     {
       "idx": 4,
@@ -40,7 +49,10 @@
       "thumb": "04.jpg",
       "group": "proof",
       "element": "사용 연출",
-      "desc": "차 트렁크에서 꺼내는 장면"
+      "desc": "차 트렁크에서 꺼내는 장면",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "차 트렁크에서 꺼내는 실사용 상황 연출 GIF"
     },
     {
       "idx": 5,
@@ -48,7 +60,10 @@
       "thumb": "05.jpg",
       "group": "feature",
       "element": "접이·수납",
-      "desc": "반으로 접혀 어디든 쏙(셀프 스탠딩/바퀴 수납)"
+      "desc": "반으로 접혀 어디든 쏙(셀프 스탠딩/바퀴 수납)",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "반으로 접히는 폴딩 구조 원리 설명"
     },
     {
       "idx": 6,
@@ -56,7 +71,10 @@
       "thumb": "06.jpg",
       "group": "proof",
       "element": "수납 연출",
-      "desc": "접어 세워둔 모습"
+      "desc": "접어 세워둔 모습",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "접어 세워둔 수납 상황 연출 GIF"
     },
     {
       "idx": 7,
@@ -64,7 +82,10 @@
       "thumb": "07.jpg",
       "group": "feature",
       "element": "변형·활용",
-      "desc": "달리/웨건으로 변형"
+      "desc": "달리/웨건으로 변형",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "달리/웨건 두 가지 변형 모드 소개"
     },
     {
       "idx": 8,
@@ -72,7 +93,10 @@
       "thumb": "08.jpg",
       "group": "feature",
       "element": "바퀴 구조",
-      "desc": "바퀴 디테일"
+      "desc": "바퀴 디테일",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "바퀴 구조 디테일 클로즈업 GIF"
     },
     {
       "idx": 9,
@@ -80,7 +104,10 @@
       "thumb": "09.jpg",
       "group": "feature",
       "element": "바퀴·주행",
-      "desc": "고급 베어링+우레탄 바퀴(조용/부드럽게)"
+      "desc": "고급 베어링+우레탄 바퀴(조용/부드럽게)",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "고급 베어링+우레탄 바퀴 기술 설명"
     },
     {
       "idx": 10,
@@ -88,7 +115,10 @@
       "thumb": "10.jpg",
       "group": "value",
       "element": "핵심가치 USP 요약",
-      "desc": "보관성·확장성·내구성 다 갖춤"
+      "desc": "보관성·확장성·내구성 다 갖춤",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "보관성·확장성·내구성 핵심가치 3가지 요약"
     },
     {
       "idx": 11,
@@ -96,7 +126,10 @@
       "thumb": "11.jpg",
       "group": "trust",
       "element": "국산·특허",
-      "desc": "메이드 인 코리아 / 특허·디자인·상표 30건+"
+      "desc": "메이드 인 코리아 / 특허·디자인·상표 30건+",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "메이드 인 코리아·특허·디자인·상표 30건+ 인증"
     },
     {
       "idx": 12,
@@ -104,7 +137,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "폴딩 인트로",
-      "desc": "POINT01 반으로 접히는 진짜 폴딩"
+      "desc": "POINT01 반으로 접히는 진짜 폴딩",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT01 반으로 접히는 진짜 폴딩 기술 소개"
     },
     {
       "idx": 13,
@@ -112,7 +148,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "폴딩 시연",
-      "desc": "반으로 접힌 모습"
+      "desc": "반으로 접힌 모습",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "폴딩 동작 원리 시연 GIF"
     },
     {
       "idx": 14,
@@ -120,7 +159,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "원터치 폴딩",
-      "desc": "버튼 하나로 원터치 폴딩"
+      "desc": "버튼 하나로 원터치 폴딩",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "원터치 버튼 폴딩 작동 방식 설명"
     },
     {
       "idx": 15,
@@ -128,7 +170,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "활용 시나리오",
-      "desc": "분리수거/큰짐/장보기/캠핑"
+      "desc": "분리수거/큰짐/장보기/캠핑",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "분리수거·큰짐·장보기·캠핑 4가지 적용 시나리오"
     },
     {
       "idx": 16,
@@ -136,7 +181,10 @@
       "thumb": "16.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "큐폴드 박스 장착 방법 TIP"
+      "desc": "큐폴드 박스 장착 방법 TIP",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "큐폴드 박스 장착 방법 TIP STEP 가이드"
     },
     {
       "idx": 17,
@@ -144,7 +192,10 @@
       "thumb": "17.jpg",
       "group": "feature",
       "element": "박스 고정 시연",
-      "desc": "박스 장착 카트"
+      "desc": "박스 장착 카트",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "박스 장착 카트 사용 상황 연출 GIF"
     },
     {
       "idx": 18,
@@ -152,7 +203,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "박스 고정",
-      "desc": "브라켓 박스 고리 고정(연결고리 별매)"
+      "desc": "브라켓 박스 고리 고정(연결고리 별매)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "브라켓 박스 고리 고정 구조·연결고리 별매 안내"
     },
     {
       "idx": 19,
@@ -160,7 +214,10 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "연결고리·안정",
-      "desc": "연결고리 장착, 노면 안정"
+      "desc": "연결고리 장착, 노면 안정",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "연결고리 장착 및 노면 안정 작동 원리 GIF"
     },
     {
       "idx": 20,
@@ -168,7 +225,10 @@
       "thumb": "20.jpg",
       "group": "feature",
       "element": "프리미엄 로프",
-      "desc": "POINT03 프리미엄 로프 포함(2.6m)"
+      "desc": "POINT03 프리미엄 로프 포함(2.6m)",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT03 프리미엄 로프 포함(2.6m) 기술 포인트"
     },
     {
       "idx": 21,
@@ -176,7 +236,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "로프 고정 시연",
-      "desc": "박스 싣고 로프 고정"
+      "desc": "박스 싣고 로프 고정",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "박스 싣고 로프 고정하는 사용 상황 GIF"
     },
     {
       "idx": 22,
@@ -184,7 +247,10 @@
       "thumb": "22.jpg",
       "group": "guide",
       "element": "로프 사용법",
-      "desc": "로프 사용 방법(벨크로 업그레이드)"
+      "desc": "로프 사용 방법(벨크로 업그레이드)",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "로프 사용 방법 — 벨크로 업그레이드 포함 STEP"
     },
     {
       "idx": 23,
@@ -192,7 +258,10 @@
       "thumb": "23.jpg",
       "group": "guide",
       "element": "로프 보관",
-      "desc": "로프 보관 연출"
+      "desc": "로프 보관 연출",
+      "mid": "guide",
+      "sub": "care",
+      "note_cls": "로프 보관 연출 GIF — 조작·보관 방법 안내"
     },
     {
       "idx": 24,
@@ -200,7 +269,10 @@
       "thumb": "24.jpg",
       "group": "guide",
       "element": "로프 보관법",
-      "desc": "로프 보관 방법"
+      "desc": "로프 보관 방법",
+      "mid": "guide",
+      "sub": "care",
+      "note_cls": "로프 보관 방법 상세 가이드"
     },
     {
       "idx": 25,
@@ -208,7 +280,10 @@
       "thumb": "25.jpg",
       "group": "feature",
       "element": "바퀴",
-      "desc": "POINT04 고급 우레탄 바퀴"
+      "desc": "POINT04 고급 우레탄 바퀴",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT04 고급 우레탄 바퀴 기술 포인트"
     },
     {
       "idx": 26,
@@ -216,7 +291,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "바퀴 디테일",
-      "desc": "바퀴 클로즈업"
+      "desc": "바퀴 클로즈업",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "바퀴 소재 클로즈업 디테일 GIF"
     },
     {
       "idx": 27,
@@ -224,7 +302,10 @@
       "thumb": "27.jpg",
       "group": "feature",
       "element": "바퀴",
-      "desc": "4인치 폴리우레탄 바퀴 핸들링"
+      "desc": "4인치 폴리우레탄 바퀴 핸들링",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "4인치 폴리우레탄 바퀴 핸들링 소재 설명"
     },
     {
       "idx": 28,
@@ -232,7 +313,10 @@
       "thumb": "28.jpg",
       "group": "proof",
       "element": "사용 연출",
-      "desc": "생수 싣고 끌고 가는 모습"
+      "desc": "생수 싣고 끌고 가는 모습",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "생수 싣고 끌고 가는 실사용 상황 연출 GIF"
     },
     {
       "idx": 29,
@@ -240,7 +324,10 @@
       "thumb": "29.jpg",
       "group": "feature",
       "element": "적재·주행 구조",
-      "desc": "최대적재 150kg, 끌차, 고정/방향회전 바퀴"
+      "desc": "최대적재 150kg, 끌차, 고정/방향회전 바퀴",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "최대적재 150kg, 고정/방향회전 바퀴 구조 기술 설명"
     },
     {
       "idx": 30,
@@ -248,7 +335,10 @@
       "thumb": "30.jpg",
       "group": "feature",
       "element": "내구성 시연",
-      "desc": "발로 밟고 서있는 모습"
+      "desc": "발로 밟고 서있는 모습",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "발로 밟고 서있는 내구성 실험 데모 GIF"
     },
     {
       "idx": 31,
@@ -256,7 +346,10 @@
       "thumb": "31.jpg",
       "group": "feature",
       "element": "내구·손잡이",
-      "desc": "금속 부품 튼튼 / POINT07 기능성 손잡이"
+      "desc": "금속 부품 튼튼 / POINT07 기능성 손잡이",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "금속 부품 내구성·POINT07 기능성 손잡이 소재·구조"
     },
     {
       "idx": 32,
@@ -264,7 +357,10 @@
       "thumb": "32.jpg",
       "group": "store",
       "element": "크로스셀",
-      "desc": "큐폴드 박스 45L 보러가기"
+      "desc": "큐폴드 박스 45L 보러가기",
+      "mid": "store",
+      "sub": "crosssell",
+      "note_cls": "큐폴드 박스 45L 크로스셀 배너"
     },
     {
       "idx": 33,
@@ -272,7 +368,10 @@
       "thumb": "33.jpg",
       "group": "store",
       "element": "크로스셀",
-      "desc": "큐폴드 박스 뚜껑 보러가기"
+      "desc": "큐폴드 박스 뚜껑 보러가기",
+      "mid": "store",
+      "sub": "crosssell",
+      "note_cls": "큐폴드 박스 뚜껑 크로스셀 배너"
     },
     {
       "idx": 34,
@@ -280,7 +379,10 @@
       "thumb": "34.jpg",
       "group": "store",
       "element": "크로스셀",
-      "desc": "박스 연결 고리 보러가기"
+      "desc": "박스 연결 고리 보러가기",
+      "mid": "store",
+      "sub": "crosssell",
+      "note_cls": "박스 연결 고리 크로스셀 배너"
     },
     {
       "idx": 35,
@@ -288,7 +390,10 @@
       "thumb": "35.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "자주 묻는 질문"
+      "desc": "자주 묻는 질문",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "자주 묻는 질문 FAQ 구매 정보"
     },
     {
       "idx": 36,
@@ -296,7 +401,10 @@
       "thumb": "36.jpg",
       "group": "info",
       "element": "구매정보·지재권",
-      "desc": "지재권/배송/교환·반품 안내"
+      "desc": "지재권/배송/교환·반품 안내",
+      "mid": "info",
+      "sub": "delivery",
+      "note_cls": "지재권·배송·교환반품 구매 안내"
     }
   ]
 }

@@ -15,7 +15,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "정품·사칭주의",
-      "desc": "바리바디 사칭채널 주의"
+      "desc": "바리바디 사칭채널 주의",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "사칭채널 주의 — 정품·공식판매처 경고"
     },
     {
       "idx": 2,
@@ -23,7 +26,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "정품·공식판매",
-      "desc": "본사 공식 판매점"
+      "desc": "본사 공식 판매점",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "본사 공식 판매점 안내"
     },
     {
       "idx": 3,
@@ -31,7 +37,10 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "매장 공통 고지",
-      "desc": "자사몰 구매 혜택(오늘출발/1년AS/쿠폰)"
+      "desc": "자사몰 구매 혜택(오늘출발/1년AS/쿠폰)",
+      "mid": "store",
+      "sub": "shipping",
+      "note_cls": "오늘출발/1년AS/쿠폰 복합 혜택, 대표 요소는 오늘출발 배송 혜택"
     },
     {
       "idx": 4,
@@ -39,7 +48,10 @@
       "thumb": "04.jpg",
       "group": "trust",
       "element": "전문가",
-      "desc": "국대 트레이너가 직접 검증"
+      "desc": "국대 트레이너가 직접 검증",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "국대 트레이너가 직접 검증한 전문가 인증"
     },
     {
       "idx": 5,
@@ -47,7 +59,10 @@
       "thumb": "05.jpg",
       "group": "feature",
       "element": "소재",
-      "desc": "스틸 소재의 깊이가 다른 압력(트레이너)"
+      "desc": "스틸 소재의 깊이가 다른 압력(트레이너)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "스틸 소재 기반 깊은 압력 — 소재·구조 설명"
     },
     {
       "idx": 6,
@@ -55,7 +70,10 @@
       "thumb": "06.jpg",
       "group": "value",
       "element": "효과·USP",
-      "desc": "피로&근육 뭉침 삭제 — 연예인 일상 관리템"
+      "desc": "피로&근육 뭉침 삭제 — 연예인 일상 관리템",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "피로&근육 뭉침 삭제, 연예인 일상 관리템 — 한 줄 USP 카피"
     },
     {
       "idx": 7,
@@ -63,7 +81,10 @@
       "thumb": "07.jpg",
       "group": "hook",
       "element": "셀럽 PICK",
-      "desc": "나은/소유/지혜 PICK"
+      "desc": "나은/소유/지혜 PICK",
+      "mid": "hook",
+      "sub": "model_celeb",
+      "note_cls": "나은/소유/지혜 셀럽 PICK 컷"
     },
     {
       "idx": 8,
@@ -71,7 +92,10 @@
       "thumb": "08.jpg",
       "group": "trust",
       "element": "실적·1위",
-      "desc": "‘써보면 압니다 왜 1위인지’ 대한민국 1등"
+      "desc": "‘써보면 압니다 왜 1위인지’ 대한민국 1등",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "'왜 1위인지' 대한민국 1등 — 판매량·순위 신뢰"
     },
     {
       "idx": 9,
@@ -79,7 +103,10 @@
       "thumb": "09.jpg",
       "group": "trust",
       "element": "실적·입점",
-      "desc": "압도적 시원함 — 현대/AK/롯데백화점"
+      "desc": "압도적 시원함 — 현대/AK/롯데백화점",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "현대/AK/롯데백화점 입점 실적"
     },
     {
       "idx": 10,
@@ -87,7 +114,10 @@
       "thumb": "10.jpg",
       "group": "trust",
       "element": "실적",
-      "desc": "현대백화점 팝업 오픈"
+      "desc": "현대백화점 팝업 오픈",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "현대백화점 팝업 오픈 실적"
     },
     {
       "idx": 11,
@@ -95,7 +125,10 @@
       "thumb": "11.jpg",
       "group": "trust",
       "element": "실적·입점",
-      "desc": "올리브영 입점"
+      "desc": "올리브영 입점",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "올리브영 입점 실적"
     },
     {
       "idx": 12,
@@ -103,7 +136,10 @@
       "thumb": "12.jpg",
       "group": "hook",
       "element": "후킹 카피",
-      "desc": "이거 진짜 시원한데? 얕보지 마세요"
+      "desc": "이거 진짜 시원한데? 얕보지 마세요",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "이거 진짜 시원한데? 얕보지 마세요 — 후킹 메인 슬로건"
     },
     {
       "idx": 13,
@@ -111,7 +147,10 @@
       "thumb": "13.jpg",
       "group": "value",
       "element": "효과·USP",
-      "desc": "짜릿한 시원함 1초면 충분(목/종아리/허벅지)"
+      "desc": "짜릿한 시원함 1초면 충분(목/종아리/허벅지)",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "1초면 충분 짜릿한 시원함(목/종아리/허벅지) — 핵심 효과+적용부위 USP, feature의 usecase보다 value 맥락 [QA교정]"
     },
     {
       "idx": 14,
@@ -119,7 +158,10 @@
       "thumb": "14.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "피곤하고 뻐근했던 하루"
+      "desc": "피곤하고 뻐근했던 하루",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "피곤하고 뻐근했던 하루 — 불편 상황 제기"
     },
     {
       "idx": 15,
@@ -127,7 +169,10 @@
       "thumb": "15.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "1초면 느껴지는 짜릿한 시원함 릴렉스틱"
+      "desc": "1초면 느껴지는 짜릿한 시원함 릴렉스틱",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "1초면 느껴지는 짜릿한 시원함 릴렉스틱 — 제품 인트로 키비주얼"
     },
     {
       "idx": 16,
@@ -135,7 +180,10 @@
       "thumb": "16.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "등 사용"
+      "desc": "등 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "등 사용 연출컷 — 상황 묘사"
     },
     {
       "idx": 17,
@@ -143,7 +191,10 @@
       "thumb": "17.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "어깨 사용"
+      "desc": "어깨 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "어깨 사용 연출컷"
     },
     {
       "idx": 18,
@@ -151,7 +202,10 @@
       "thumb": "18.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "다리 사용"
+      "desc": "다리 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "다리 사용 연출컷"
     },
     {
       "idx": 19,
@@ -159,7 +213,10 @@
       "thumb": "19.jpg",
       "group": "value",
       "element": "효과",
-      "desc": "풀리는 순간 라인이 바뀜(승모근 변화)"
+      "desc": "풀리는 순간 라인이 바뀜(승모근 변화)",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "풀리는 순간 라인이 바뀜(승모근 변화) — 라이프스타일 연출로 효과 시각화"
     },
     {
       "idx": 20,
@@ -167,7 +224,10 @@
       "thumb": "20.jpg",
       "group": "problem",
       "element": "타겟 페르소나",
-      "desc": "직장인/반복업무/자세/운동부족"
+      "desc": "직장인/반복업무/자세/운동부족",
+      "mid": "problem",
+      "sub": "persona",
+      "note_cls": "직장인/반복업무/자세/운동부족 — 타겟 페르소나"
     },
     {
       "idx": 21,
@@ -175,7 +235,10 @@
       "thumb": "21.jpg",
       "group": "trust",
       "element": "전문가 인정",
-      "desc": "전문가들도 인정한 제품력"
+      "desc": "전문가들도 인정한 제품력",
+      "mid": "trust",
+      "sub": "expert",
+      "note_cls": "전문가들도 인정한 제품력"
     },
     {
       "idx": 22,
@@ -183,7 +246,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "휴대·편의",
-      "desc": "작아도 짜릿, 언제 어디서나 간편"
+      "desc": "작아도 짜릿, 언제 어디서나 간편",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "작아도 짜릿, 언제 어디서나 간편 — 휴대 편의 시나리오"
     },
     {
       "idx": 23,
@@ -191,7 +257,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "활용 시나리오",
-      "desc": "WHERE 집/회사/헬스장/여행지"
+      "desc": "WHERE 집/회사/헬스장/여행지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "WHERE 집/회사/헬스장/여행지 활용 시나리오"
     },
     {
       "idx": 24,
@@ -199,7 +268,10 @@
       "thumb": "24.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "침대 사용"
+      "desc": "침대 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "침대 사용 연출컷"
     },
     {
       "idx": 25,
@@ -207,7 +279,10 @@
       "thumb": "25.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "등 사용"
+      "desc": "등 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "등 사용 연출컷"
     },
     {
       "idx": 26,
@@ -215,7 +290,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "휴대",
-      "desc": "캐리어에 쏙"
+      "desc": "캐리어에 쏙",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "캐리어에 쏙 — 휴대 시나리오"
     },
     {
       "idx": 27,
@@ -223,7 +301,10 @@
       "thumb": "27.jpg",
       "group": "value",
       "element": "선택 이유",
-      "desc": "릴렉스틱을 선택하는 이유"
+      "desc": "릴렉스틱을 선택하는 이유",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "릴렉스틱을 선택하는 이유 — N가지 핵심 포인트 요약"
     },
     {
       "idx": 28,
@@ -231,7 +312,10 @@
       "thumb": "28.jpg",
       "group": "feature",
       "element": "기능",
-      "desc": "Check01 손으로 롤링 초간단 셀프 마사지"
+      "desc": "Check01 손으로 롤링 초간단 셀프 마사지",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "Check01 손으로 롤링 초간단 셀프 마사지 — 작동 원리"
     },
     {
       "idx": 29,
@@ -239,7 +323,10 @@
       "thumb": "29.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "손잡이 롤러 구조"
+      "desc": "손잡이 롤러 구조",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "손잡이 롤러 구조 — 구조 설명"
     },
     {
       "idx": 30,
@@ -247,7 +334,10 @@
       "thumb": "30.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "종아리 롤링"
+      "desc": "종아리 롤링",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "종아리 롤링 연출컷"
     },
     {
       "idx": 31,
@@ -255,7 +345,10 @@
       "thumb": "31.jpg",
       "group": "feature",
       "element": "비교",
-      "desc": "폼롤러 vs 릴렉스틱 하나면"
+      "desc": "폼롤러 vs 릴렉스틱 하나면",
+      "mid": "feature",
+      "sub": "oldnew",
+      "note_cls": "폼롤러 vs 릴렉스틱 — 신구·경쟁 도구 비교"
     },
     {
       "idx": 32,
@@ -263,7 +356,10 @@
       "thumb": "32.jpg",
       "group": "feature",
       "element": "소재",
-      "desc": "Check02 깊숙이 스며드는 묵직한 시원함(스틸)"
+      "desc": "Check02 깊숙이 스며드는 묵직한 시원함(스틸)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "Check02 스틸 깊숙이 스며드는 묵직한 시원함 — 소재 특성"
     },
     {
       "idx": 33,
@@ -271,7 +367,10 @@
       "thumb": "33.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "스틸 봉 구조"
+      "desc": "스틸 봉 구조",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "스틸 봉 구조 상세 — 소재·구조"
     },
     {
       "idx": 34,
@@ -279,7 +378,10 @@
       "thumb": "34.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "굳어진 근막도 빠르고 시원하게"
+      "desc": "굳어진 근막도 빠르고 시원하게",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "굳어진 근막도 빠르고 시원하게 — 작동 원리/효과"
     },
     {
       "idx": 35,
@@ -287,7 +389,10 @@
       "thumb": "35.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "종아리 롤링 디테일"
+      "desc": "종아리 롤링 디테일",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "종아리 롤링 디테일 연출컷"
     },
     {
       "idx": 36,
@@ -295,7 +400,10 @@
       "thumb": "36.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "릴렉스틱 압력 확인"
+      "desc": "릴렉스틱 압력 확인",
+      "mid": "proof_data",
+      "sub": "experiment",
+      "note_cls": "릴렉스틱 압력 확인 — 실험 데모 형식"
     },
     {
       "idx": 37,
@@ -303,7 +411,10 @@
       "thumb": "37.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "무릎 롤링"
+      "desc": "무릎 롤링",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "무릎 롤링 연출컷"
     },
     {
       "idx": 38,
@@ -311,7 +422,10 @@
       "thumb": "38.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "운동으로 달아오른 근육 풀기"
+      "desc": "운동으로 달아오른 근육 풀기",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "운동으로 달아오른 근육 풀기 — 사용 시나리오"
     },
     {
       "idx": 39,
@@ -319,7 +433,10 @@
       "thumb": "39.jpg",
       "group": "feature",
       "element": "활용",
-      "desc": "Check03 한 손에 담긴 전신 근막 케어"
+      "desc": "Check03 한 손에 담긴 전신 근막 케어",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "Check03 한 손에 담긴 전신 근막 케어 — 활용 범위"
     },
     {
       "idx": 40,
@@ -327,7 +444,10 @@
       "thumb": "40.jpg",
       "group": "feature",
       "element": "활용 부위",
-      "desc": "목/어깨, 등"
+      "desc": "목/어깨, 등",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "목/어깨·등 부위별 사용 — 부위별 테크닉"
     },
     {
       "idx": 41,
@@ -335,7 +455,10 @@
       "thumb": "41.jpg",
       "group": "feature",
       "element": "활용 부위",
-      "desc": "허리, 종아리/정강이"
+      "desc": "허리, 종아리/정강이",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "허리·종아리/정강이 부위별 사용"
     },
     {
       "idx": 42,
@@ -343,7 +466,10 @@
       "thumb": "42.jpg",
       "group": "feature",
       "element": "활용 부위",
-      "desc": "허벅지, 발바닥"
+      "desc": "허벅지, 발바닥",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "허벅지·발바닥 부위별 사용"
     },
     {
       "idx": 43,
@@ -351,7 +477,10 @@
       "thumb": "43.jpg",
       "group": "value",
       "element": "효과·USP",
-      "desc": "고민있는 바디라인도 해결"
+      "desc": "고민있는 바디라인도 해결",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "고민있는 바디라인도 해결 — 핵심 가치 한 줄 카피"
     },
     {
       "idx": 44,
@@ -359,7 +488,10 @@
       "thumb": "44.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "승모근 긴장 풀어 목/어깨라인"
+      "desc": "승모근 긴장 풀어 목/어깨라인",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "승모근 긴장 풀어 목/어깨라인 — 적용 부위 시나리오"
     },
     {
       "idx": 45,
@@ -367,7 +499,10 @@
       "thumb": "45.jpg",
       "group": "guide",
       "element": "사용가이드",
-      "desc": "초보자를 위한 마사지 가이드"
+      "desc": "초보자를 위한 마사지 가이드",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "초보자를 위한 마사지 가이드 — 사용법 STEP"
     },
     {
       "idx": 46,
@@ -375,7 +510,10 @@
       "thumb": "46.jpg",
       "group": "feature",
       "element": "사용법",
-      "desc": "Check04 롤링&압력 조절 3가지 테크닉"
+      "desc": "Check04 롤링&압력 조절 3가지 테크닉",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "Check04 롤링&압력 조절 3가지 테크닉 — 핵심 기술 POINT 넘버링"
     },
     {
       "idx": 47,
@@ -383,7 +521,10 @@
       "thumb": "47.jpg",
       "group": "guide",
       "element": "테크닉",
-      "desc": "POINT RELEASE 압박 마사지"
+      "desc": "POINT RELEASE 압박 마사지",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "POINT RELEASE 압박 마사지 테크닉"
     },
     {
       "idx": 48,
@@ -391,7 +532,10 @@
       "thumb": "48.jpg",
       "group": "guide",
       "element": "테크닉",
-      "desc": "FLUSHING 플러싱 마사지"
+      "desc": "FLUSHING 플러싱 마사지",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "FLUSHING 플러싱 마사지 테크닉"
     },
     {
       "idx": 49,
@@ -399,7 +543,10 @@
       "thumb": "49.jpg",
       "group": "guide",
       "element": "테크닉",
-      "desc": "ROLLING 롤링 마사지"
+      "desc": "ROLLING 롤링 마사지",
+      "mid": "guide",
+      "sub": "technique",
+      "note_cls": "ROLLING 롤링 마사지 테크닉"
     },
     {
       "idx": 50,
@@ -407,7 +554,10 @@
       "thumb": "50.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "Check05 단순함 속 견고함(21.5mm)"
+      "desc": "Check05 단순함 속 견고함(21.5mm)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "Check05 단순함 속 견고함 21.5mm — 구조·소재 스펙"
     },
     {
       "idx": 51,
@@ -415,7 +565,10 @@
       "thumb": "51.jpg",
       "group": "feature",
       "element": "구조",
-      "desc": "손잡이 디테일"
+      "desc": "손잡이 디테일",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "손잡이 디테일 — 구조 상세"
     },
     {
       "idx": 52,
@@ -423,7 +576,10 @@
       "thumb": "52.jpg",
       "group": "feature",
       "element": "활용",
-      "desc": "소근육 부위도 OK"
+      "desc": "소근육 부위도 OK",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "소근육 부위도 OK — 활용 시나리오"
     },
     {
       "idx": 53,
@@ -431,7 +587,10 @@
       "thumb": "53.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "팔 사용"
+      "desc": "팔 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "팔 사용 연출컷"
     },
     {
       "idx": 54,
@@ -439,7 +598,10 @@
       "thumb": "54.jpg",
       "group": "feature",
       "element": "휴대",
-      "desc": "Check06 공간 안 가리는 셀프케어"
+      "desc": "Check06 공간 안 가리는 셀프케어",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "Check06 공간 안 가리는 셀프케어 — 휴대 활용"
     },
     {
       "idx": 55,
@@ -447,7 +609,10 @@
       "thumb": "55.jpg",
       "group": "feature",
       "element": "휴대·편의",
-      "desc": "컴팩트, 원하는 곳 어디든"
+      "desc": "컴팩트, 원하는 곳 어디든",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "컴팩트, 원하는 곳 어디든 — 휴대 편의 시나리오"
     },
     {
       "idx": 56,
@@ -455,7 +620,10 @@
       "thumb": "56.jpg",
       "group": "feature",
       "element": "옵션",
-      "desc": "3가지 사이즈 635/535/435mm"
+      "desc": "3가지 사이즈 635/535/435mm",
+      "mid": "info",
+      "sub": "option",
+      "note_cls": "3가지 사이즈 635/535/435mm — 옵션 구성"
     },
     {
       "idx": 57,
@@ -463,7 +631,10 @@
       "thumb": "57.jpg",
       "group": "feature",
       "element": "옵션",
-      "desc": "숏&롱 버전(SHORT)"
+      "desc": "숏&롱 버전(SHORT)",
+      "mid": "info",
+      "sub": "option",
+      "note_cls": "숏&롱 버전(SHORT) — 옵션 선택"
     },
     {
       "idx": 58,
@@ -471,7 +642,10 @@
       "thumb": "58.jpg",
       "group": "feature",
       "element": "안전",
-      "desc": "Check07 BPA&LATEX FREE 실리콘"
+      "desc": "Check07 BPA&LATEX FREE 실리콘",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "Check07 BPA&LATEX FREE 실리콘 — 소재 안전성"
     },
     {
       "idx": 59,
@@ -479,7 +653,10 @@
       "thumb": "59.jpg",
       "group": "feature",
       "element": "부속",
-      "desc": "릴렉스틱 포인트 링(2중 돌출 스틸/실리콘)"
+      "desc": "릴렉스틱 포인트 링(2중 돌출 스틸/실리콘)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "포인트 링 2중 돌출 스틸/실리콘 부속 소재"
     },
     {
       "idx": 60,
@@ -487,7 +664,10 @@
       "thumb": "60.jpg",
       "group": "feature",
       "element": "부속",
-      "desc": "포인트 링 — 압력효과 POWER UP"
+      "desc": "포인트 링 — 압력효과 POWER UP",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "포인트 링 압력효과 POWER UP — 핵심 기술 액세서리"
     },
     {
       "idx": 61,
@@ -495,7 +675,10 @@
       "thumb": "61.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "대퇴근 마사지"
+      "desc": "대퇴근 마사지",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "대퇴근 마사지 연출컷"
     },
     {
       "idx": 62,
@@ -503,7 +686,10 @@
       "thumb": "62.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "종아리 마사지"
+      "desc": "종아리 마사지",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "종아리 마사지 연출컷"
     },
     {
       "idx": 63,
@@ -511,7 +697,10 @@
       "thumb": "63.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "포인트 링 사용법 STEP"
+      "desc": "포인트 링 사용법 STEP",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "포인트 링 사용법 STEP"
     },
     {
       "idx": 64,
@@ -519,7 +708,10 @@
       "thumb": "64.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "목 마사지"
+      "desc": "목 마사지",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "목 마사지 연출컷"
     },
     {
       "idx": 65,
@@ -527,7 +719,10 @@
       "thumb": "65.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "소파 사용"
+      "desc": "소파 사용",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "소파 사용 — 라이프스타일 연출"
     },
     {
       "idx": 66,
@@ -535,7 +730,10 @@
       "thumb": "66.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "책상에서 사용"
+      "desc": "책상에서 사용",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "책상에서 사용 — 라이프스타일 연출"
     },
     {
       "idx": 67,
@@ -543,7 +741,10 @@
       "thumb": "67.jpg",
       "group": "value",
       "element": "선물 제안",
-      "desc": "소중한 분께 — 선물용"
+      "desc": "소중한 분께 — 선물용",
+      "mid": "value",
+      "sub": "gift",
+      "note_cls": "소중한 분께 선물용 — 선물 제안"
     },
     {
       "idx": 68,
@@ -551,7 +752,10 @@
       "thumb": "68.jpg",
       "group": "trust",
       "element": "유사품 주의",
-      "desc": "저가 유사품/도용 제품 유의"
+      "desc": "저가 유사품/도용 제품 유의",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "저가 유사품/도용 제품 유의 — 정품 공식판매처 신뢰"
     },
     {
       "idx": 69,
@@ -559,7 +763,10 @@
       "thumb": "69.jpg",
       "group": "info",
       "element": "주의사항",
-      "desc": "제품 사용 시 주의사항"
+      "desc": "제품 사용 시 주의사항",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "제품 사용 시 주의사항"
     },
     {
       "idx": 70,
@@ -567,7 +774,10 @@
       "thumb": "70.jpg",
       "group": "trust",
       "element": "신뢰·AS",
-      "desc": "바리바디 1년 무상 A/S"
+      "desc": "바리바디 1년 무상 A/S",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "바리바디 1년 무상 A/S — AS·환불 보증"
     },
     {
       "idx": 71,
@@ -575,7 +785,10 @@
       "thumb": "71.jpg",
       "group": "info",
       "element": "구매정보",
-      "desc": "배송/교환·반품 정보"
+      "desc": "배송/교환·반품 정보",
+      "mid": "info",
+      "sub": "delivery",
+      "note_cls": "배송/교환·반품 정보"
     }
   ]
 }

@@ -14,7 +14,10 @@
       "thumb": "01.jpg",
       "group": "store",
       "element": "프로모션·이벤트 배너",
-      "desc": "디지털/가전 페스타 행사 후킹 배너"
+      "desc": "디지털/가전 페스타 행사 후킹 배너",
+      "mid": "store",
+      "sub": "coupon",
+      "note_cls": "디지털/가전 페스타 행사 배너 — 프로모션 이벤트 고지"
     },
     {
       "idx": 2,
@@ -22,7 +25,10 @@
       "thumb": "02.jpg",
       "group": "store",
       "element": "행사 링크 배너",
-      "desc": "풀리오 행사상품 보러가기"
+      "desc": "풀리오 행사상품 보러가기",
+      "mid": "store",
+      "sub": "crosssell",
+      "note_cls": "풀리오 행사상품 보러가기 링크 배너 — 타 상품 유도"
     },
     {
       "idx": 3,
@@ -30,7 +36,9 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "쿠폰·혜택 고지",
-      "desc": "5% 할인쿠폰 발급 안내"
+      "desc": "5% 할인쿠폰 발급 안내",
+      "mid": "store",
+      "sub": "coupon"
     },
     {
       "idx": 4,
@@ -38,7 +46,9 @@
       "thumb": "04.jpg",
       "group": "store",
       "element": "배송 안내",
-      "desc": "네이버 오늘배송/내일배송 안내"
+      "desc": "네이버 오늘배송/내일배송 안내",
+      "mid": "store",
+      "sub": "shipping"
     },
     {
       "idx": 5,
@@ -46,7 +56,9 @@
       "thumb": "05.jpg",
       "group": "store",
       "element": "구매 전 공지",
-      "desc": "출고·구성 변동 관련 안내"
+      "desc": "출고·구성 변동 관련 안내",
+      "mid": "store",
+      "sub": "notice"
     },
     {
       "idx": 6,
@@ -54,7 +66,9 @@
       "thumb": "06.jpg",
       "group": "trust",
       "element": "브랜드·정품 인증",
-      "desc": "풀리오 공식 스토어 정품 인증"
+      "desc": "풀리오 공식 스토어 정품 인증",
+      "mid": "trust",
+      "sub": "official_dist"
     },
     {
       "idx": 7,
@@ -62,7 +76,9 @@
       "thumb": "07.jpg",
       "group": "hook",
       "element": "제품 인트로(메인 카피)",
-      "desc": "‘새로운 두드림, 더 넓어진 안마 범위’ V3"
+      "desc": "‘새로운 두드림, 더 넓어진 안마 범위’ V3",
+      "mid": "hook",
+      "sub": "slogan"
     },
     {
       "idx": 8,
@@ -70,7 +86,10 @@
       "thumb": "08.jpg",
       "group": "hook",
       "element": "라인업·모델 선택 가이드",
-      "desc": "제품 라인업 비교(탭탭/두드림 N003)"
+      "desc": "제품 라인업 비교(탭탭/두드림 N003)",
+      "mid": "value",
+      "sub": "vs_compete",
+      "note_cls": "라인업 비교 가이드 — 경쟁(자사 라인) 대비 포지셔닝 설명"
     },
     {
       "idx": 9,
@@ -78,7 +97,9 @@
       "thumb": "09.jpg",
       "group": "problem",
       "element": "문제제기·타겟 페르소나",
-      "desc": "목·어깨 뭉친 직장인 등 타겟 체크리스트"
+      "desc": "목·어깨 뭉친 직장인 등 타겟 체크리스트",
+      "mid": "problem",
+      "sub": "checklist"
     },
     {
       "idx": 10,
@@ -86,7 +107,10 @@
       "thumb": "10.jpg",
       "group": "value",
       "element": "핵심가치 USP(+모델컷)",
-      "desc": "‘넓게 깊게 섬세하게’ 모델 비주얼"
+      "desc": "‘넓게 깊게 섬세하게’ 모델 비주얼",
+      "mid": "hook",
+      "sub": "keyvisual",
+      "note_cls": "모델 비주얼 + 핵심 카피 — 키비주얼 인트로"
     },
     {
       "idx": 11,
@@ -94,7 +118,10 @@
       "thumb": "11.jpg",
       "group": "feature",
       "element": "기능 인트로",
-      "desc": "01 Combo Mode 두드림 새로운 기준"
+      "desc": "01 Combo Mode 두드림 새로운 기준",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "01 Combo Mode POINT 넘버링 기능 인트로"
     },
     {
       "idx": 12,
@@ -102,7 +129,9 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "기능 상세·작동",
-      "desc": "두드리는/꾹꾹 눌러주는 모드"
+      "desc": "두드리는/꾹꾹 눌러주는 모드",
+      "mid": "feature",
+      "sub": "principle"
     },
     {
       "idx": 13,
@@ -110,7 +139,9 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "기능 상세·모드",
-      "desc": "인터벌 모드(주무름&두드림 반복)"
+      "desc": "인터벌 모드(주무름&두드림 반복)",
+      "mid": "feature",
+      "sub": "mode"
     },
     {
       "idx": 14,
@@ -118,7 +149,9 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "기능 상세·모드",
-      "desc": "싱글 모드(넓은 범위 주무름)"
+      "desc": "싱글 모드(넓은 범위 주무름)",
+      "mid": "feature",
+      "sub": "mode"
     },
     {
       "idx": 15,
@@ -126,7 +159,9 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "기능 상세·모드",
-      "desc": "듀얼 모드(지속 반복)"
+      "desc": "듀얼 모드(지속 반복)",
+      "mid": "feature",
+      "sub": "mode"
     },
     {
       "idx": 16,
@@ -134,7 +169,10 @@
       "thumb": "16.jpg",
       "group": "feature",
       "element": "기능 포인트 인트로",
-      "desc": "02 Wide Cover 빈틈없는 안마 범위"
+      "desc": "02 Wide Cover 빈틈없는 안마 범위",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "02 Wide Cover POINT 넘버링 기능 인트로"
     },
     {
       "idx": 17,
@@ -142,7 +180,10 @@
       "thumb": "17.jpg",
       "group": "feature",
       "element": "구조·설계 디테일",
-      "desc": "3개의 안마볼 구조 설명"
+      "desc": "3개의 안마볼 구조 설명",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "안마볼 3개 구조 설명 — 소재·구조"
     },
     {
       "idx": 18,
@@ -150,7 +191,9 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "신/구 비교·개선점",
-      "desc": "POINT1 더 커진 안마볼 V2 vs V3"
+      "desc": "POINT1 더 커진 안마볼 V2 vs V3",
+      "mid": "feature",
+      "sub": "oldnew"
     },
     {
       "idx": 19,
@@ -158,7 +201,9 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "신/구 비교·개선점",
-      "desc": "POINT2 마사지볼 면적 V2 vs V3"
+      "desc": "POINT2 마사지볼 면적 V2 vs V3",
+      "mid": "feature",
+      "sub": "oldnew"
     },
     {
       "idx": 20,
@@ -166,7 +211,10 @@
       "thumb": "20.jpg",
       "group": "proof",
       "element": "사용 효과·연출컷",
-      "desc": "‘더 넓게’ 착용 장면"
+      "desc": "‘더 넓게’ 착용 장면",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "group=proof, 모델 착용 연출컷 — 라이프스타일 상황"
     },
     {
       "idx": 21,
@@ -174,7 +222,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "기능 포인트",
-      "desc": "03 Point Focus 어깨라인 집중 안마"
+      "desc": "03 Point Focus 어깨라인 집중 안마",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "03 Point Focus POINT 넘버링 기능 인트로"
     },
     {
       "idx": 22,
@@ -182,7 +233,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "구조·설계 디테일",
-      "desc": "상부 마사지볼 설계"
+      "desc": "상부 마사지볼 설계",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "상부 마사지볼 설계 — 구조·소재"
     },
     {
       "idx": 23,
@@ -190,7 +244,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "기능 포인트",
-      "desc": "04 UX Design 온열 ON/OFF"
+      "desc": "04 UX Design 온열 ON/OFF",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "04 UX Design POINT 넘버링 온열 기능"
     },
     {
       "idx": 24,
@@ -198,7 +255,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "제품 구조·내부",
-      "desc": "내부 구동 구조 컷"
+      "desc": "내부 구동 구조 컷",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "내부 구동 구조 컷 — 작동원리"
     },
     {
       "idx": 25,
@@ -206,7 +266,10 @@
       "thumb": "25.jpg",
       "group": "proof",
       "element": "사용 효과·연출컷",
-      "desc": "38℃ 온열감 착용 장면"
+      "desc": "38℃ 온열감 착용 장면",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "group=proof, 38℃ 온열 착용 연출컷 — 사용상황"
     },
     {
       "idx": 26,
@@ -214,7 +277,9 @@
       "thumb": "26.jpg",
       "group": "design",
       "element": "디자인·컬러",
-      "desc": "다크 퍼플 컬러/스타일"
+      "desc": "다크 퍼플 컬러/스타일",
+      "mid": "design",
+      "sub": "color"
     },
     {
       "idx": 27,
@@ -222,7 +287,9 @@
       "thumb": "27.jpg",
       "group": "trust",
       "element": "신뢰·A/S 보증",
-      "desc": "품질보증 365일 무상 A/S"
+      "desc": "품질보증 365일 무상 A/S",
+      "mid": "trust",
+      "sub": "as"
     },
     {
       "idx": 28,
@@ -230,7 +297,9 @@
       "thumb": "28.jpg",
       "group": "trust",
       "element": "신뢰·안전 인증",
-      "desc": "KC 안전 인증 완료"
+      "desc": "KC 안전 인증 완료",
+      "mid": "trust",
+      "sub": "cert"
     },
     {
       "idx": 29,
@@ -238,7 +307,9 @@
       "thumb": "29.jpg",
       "group": "guide",
       "element": "사용 가이드(How to)",
-      "desc": "제품 사용·착용 방법"
+      "desc": "제품 사용·착용 방법",
+      "mid": "guide",
+      "sub": "howto"
     },
     {
       "idx": 30,
@@ -246,7 +317,9 @@
       "thumb": "30.jpg",
       "group": "guide",
       "element": "사용 가이드(조작)",
-      "desc": "컨트롤러 조작 방법"
+      "desc": "컨트롤러 조작 방법",
+      "mid": "guide",
+      "sub": "care"
     },
     {
       "idx": 31,
@@ -254,7 +327,10 @@
       "thumb": "31.jpg",
       "group": "guide",
       "element": "사용 가이드(충전/보관)",
-      "desc": "충전 및 보관 안내"
+      "desc": "충전 및 보관 안내",
+      "mid": "guide",
+      "sub": "care",
+      "note_cls": "충전·보관 안내 — 조작·충전·세척 범주"
     },
     {
       "idx": 32,
@@ -262,7 +338,9 @@
       "thumb": "32.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "자주 묻는 질문 Q&A"
+      "desc": "자주 묻는 질문 Q&A",
+      "mid": "info",
+      "sub": "faq_buy"
     },
     {
       "idx": 33,
@@ -270,7 +348,9 @@
       "thumb": "33.jpg",
       "group": "info",
       "element": "제품 스펙표",
-      "desc": "제품 상세 정보/사양표"
+      "desc": "제품 상세 정보/사양표",
+      "mid": "info",
+      "sub": "spec"
     },
     {
       "idx": 34,
@@ -278,7 +358,9 @@
       "thumb": "34.jpg",
       "group": "info",
       "element": "주의사항·안전",
-      "desc": "사용 주의사항"
+      "desc": "사용 주의사항",
+      "mid": "info",
+      "sub": "caution"
     }
   ],
   "category": "마사지기",

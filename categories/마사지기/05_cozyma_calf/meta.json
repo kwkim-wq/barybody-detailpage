@@ -14,7 +14,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "브랜드·정품 인증",
-      "desc": "COZYMA 온라인 공식 판매처 인증"
+      "desc": "COZYMA 온라인 공식 판매처 인증",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "COZYMA 온라인 공식 판매처 인증 — 정품·총판 신뢰 요소"
     },
     {
       "idx": 2,
@@ -22,7 +25,10 @@
       "thumb": "02.jpg",
       "group": "store",
       "element": "공지",
-      "desc": "포토리뷰 공지사항"
+      "desc": "포토리뷰 공지사항",
+      "mid": "store",
+      "sub": "review_event",
+      "note_cls": "포토리뷰 공지사항 — 리뷰 이벤트 안내"
     },
     {
       "idx": 3,
@@ -30,7 +36,10 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "공지",
-      "desc": "마사지기 공지사항(배송/포장)"
+      "desc": "마사지기 공지사항(배송/포장)",
+      "mid": "store",
+      "sub": "notice",
+      "note_cls": "배송/포장 공지사항"
     },
     {
       "idx": 4,
@@ -38,7 +47,10 @@
       "thumb": "04.jpg",
       "group": "store",
       "element": "A/S 공지",
-      "desc": "마사지기 A/S 공지사항"
+      "desc": "마사지기 A/S 공지사항",
+      "mid": "store",
+      "sub": "notice",
+      "note_cls": "A/S 공지사항 — store 공지 범주"
     },
     {
       "idx": 5,
@@ -46,7 +58,10 @@
       "thumb": "05.jpg",
       "group": "store",
       "element": "배송 안내",
-      "desc": "네이버 도착보장 — N Pay 1천원 보상"
+      "desc": "네이버 도착보장 — N Pay 1천원 보상",
+      "mid": "store",
+      "sub": "shipping",
+      "note_cls": "네이버 도착보장 배송 안내"
     },
     {
       "idx": 6,
@@ -54,7 +69,10 @@
       "thumb": "06.jpg",
       "group": "hook",
       "element": "브랜드 무드",
-      "desc": "섹션 전환 배경"
+      "desc": "섹션 전환 배경",
+      "mid": "hook",
+      "sub": "brand_mood",
+      "note_cls": "섹션 전환 배경 GIF — 브랜드 무드컷"
     },
     {
       "idx": 7,
@@ -62,7 +80,10 @@
       "thumb": "07.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "저품질 마사지기로 인한 소비자의 불편"
+      "desc": "저품질 마사지기로 인한 소비자의 불편",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "저품질 마사지기로 인한 소비자 불편 나열"
     },
     {
       "idx": 8,
@@ -70,7 +91,10 @@
       "thumb": "08.jpg",
       "group": "trust",
       "element": "실적·수상",
-      "desc": "1년 판매량 돌파 / 2025 고객충성도 대상·8년 연속 수상"
+      "desc": "1년 판매량 돌파 / 2025 고객충성도 대상·8년 연속 수상",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "1년 판매량 돌파 / 2025 고객충성도 대상 8년 연속 수상"
     },
     {
       "idx": 9,
@@ -78,7 +102,10 @@
       "thumb": "09.jpg",
       "group": "value",
       "element": "핵심가치 USP 요약",
-      "desc": "3가지 핵심 포인트(밀착/온열 5단계/3.5L)"
+      "desc": "3가지 핵심 포인트(밀착/온열 5단계/3.5L)",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "3가지 핵심 포인트(밀착/온열 5단계/3.5L) 요약"
     },
     {
       "idx": 10,
@@ -86,7 +113,10 @@
       "thumb": "10.jpg",
       "group": "value",
       "element": "핵심가치",
-      "desc": "필요 기능 다 담았다(+모델)"
+      "desc": "필요 기능 다 담았다(+모델)",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "필요 기능 다 담았다 + 모델컷 — 한줄 차별 카피"
     },
     {
       "idx": 11,
@@ -94,7 +124,10 @@
       "thumb": "11.jpg",
       "group": "feature",
       "element": "밀착 마사지",
-      "desc": "왜 유일한지 / 완벽한 밀착 마사지"
+      "desc": "왜 유일한지 / 완벽한 밀착 마사지",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "완벽한 밀착 마사지 — 작동 원리·유일성 설명"
     },
     {
       "idx": 12,
@@ -102,7 +135,10 @@
       "thumb": "12.jpg",
       "group": "feature",
       "element": "온열",
-      "desc": "무릎 온열 찜질 최대 50도"
+      "desc": "무릎 온열 찜질 최대 50도",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "무릎 온열 찜질 최대 50도 — 핵심 기술 포인트"
     },
     {
       "idx": 13,
@@ -110,7 +146,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "에어펌프",
-      "desc": "대용량 에어펌프 3.5L"
+      "desc": "대용량 에어펌프 3.5L",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "대용량 에어펌프 3.5L — 핵심 기술 수치"
     },
     {
       "idx": 14,
@@ -118,7 +157,10 @@
       "thumb": "14.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "완벽한 힐링 파트너 연출"
+      "desc": "완벽한 힐링 파트너 연출",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "group=proof, 힐링 파트너 연출컷 — 라이프스타일 연출"
     },
     {
       "idx": 15,
@@ -126,7 +168,10 @@
       "thumb": "15.jpg",
       "group": "trust",
       "element": "안전 인증",
-      "desc": "안전 인증 완료"
+      "desc": "안전 인증 완료",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "안전 인증 완료"
     },
     {
       "idx": 16,
@@ -134,7 +179,10 @@
       "thumb": "16.jpg",
       "group": "feature",
       "element": "섹션 인트로",
-      "desc": "리에너의 핵심 포인트"
+      "desc": "리에너의 핵심 포인트",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "리에너 핵심 포인트 섹션 인트로 — 기능 기술 개요"
     },
     {
       "idx": 17,
@@ -142,7 +190,10 @@
       "thumb": "17.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "5가지 자동 케어 모드"
+      "desc": "5가지 자동 케어 모드",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "5가지 자동 케어 모드"
     },
     {
       "idx": 18,
@@ -150,7 +201,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "강도 조절",
-      "desc": "에어 강도 5단계"
+      "desc": "에어 강도 5단계",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "에어 강도 5단계 조절"
     },
     {
       "idx": 19,
@@ -158,7 +212,10 @@
       "thumb": "19.jpg",
       "group": "feature",
       "element": "배터리",
-      "desc": "충전 시 120분 사용"
+      "desc": "충전 시 120분 사용",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "충전 후 120분 사용 — 배터리 핵심 기술"
     },
     {
       "idx": 20,
@@ -166,7 +223,10 @@
       "thumb": "20.jpg",
       "group": "trust",
       "element": "안전 인증",
-      "desc": "안전 인증 완료(재강조)"
+      "desc": "안전 인증 완료(재강조)",
+      "mid": "trust",
+      "sub": "cert",
+      "note_cls": "안전 인증 재강조"
     },
     {
       "idx": 21,
@@ -174,7 +234,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "배터리 표시",
-      "desc": "배터리 잔량 표시바"
+      "desc": "배터리 잔량 표시바",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "배터리 잔량 표시바 — 편의 기능"
     },
     {
       "idx": 22,
@@ -182,7 +245,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "타이머",
-      "desc": "스마트 안심 타이머"
+      "desc": "스마트 안심 타이머",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "스마트 안심 타이머"
     },
     {
       "idx": 23,
@@ -190,7 +256,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "조작·편의",
-      "desc": "직관적인 조작부"
+      "desc": "직관적인 조작부",
+      "mid": "guide",
+      "sub": "care",
+      "note_cls": "직관적인 조작부 — 조작 안내"
     },
     {
       "idx": 24,
@@ -198,7 +267,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "무선·편의",
-      "desc": "충전식 무선 간편 사용"
+      "desc": "충전식 무선 간편 사용",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "충전식 무선 간편 사용"
     },
     {
       "idx": 25,
@@ -206,7 +278,10 @@
       "thumb": "25.jpg",
       "group": "info",
       "element": "사이즈·착용",
-      "desc": "누구나 사용 가능한 사이즈"
+      "desc": "누구나 사용 가능한 사이즈",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "누구나 사용 가능한 사이즈 — 스펙·착용 규격"
     },
     {
       "idx": 26,
@@ -214,7 +289,10 @@
       "thumb": "26.jpg",
       "group": "design",
       "element": "디자인·벨크로",
-      "desc": "모던 그레이 디자인 / 고밀도 3중 벨크로"
+      "desc": "모던 그레이 디자인 / 고밀도 3중 벨크로",
+      "mid": "design",
+      "sub": "color",
+      "note_cls": "모던 그레이 디자인 / 고밀도 3중 벨크로 외관"
     },
     {
       "idx": 27,
@@ -222,7 +300,10 @@
       "thumb": "27.jpg",
       "group": "feature",
       "element": "벨크로·안전",
-      "desc": "벨크로 안전(날카롭지 않음)"
+      "desc": "벨크로 안전(날카롭지 않음)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "벨크로 안전(날카롭지 않음) — 소재·구조 안전성"
     },
     {
       "idx": 28,
@@ -230,7 +311,10 @@
       "thumb": "28.jpg",
       "group": "feature",
       "element": "벨크로 조절",
-      "desc": "벨크로 조임 정도 조절"
+      "desc": "벨크로 조임 정도 조절",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "벨크로 조임 정도 조절 — 조절 기능"
     },
     {
       "idx": 29,
@@ -238,7 +322,10 @@
       "thumb": "29.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "리에너 사용 방법"
+      "desc": "리에너 사용 방법",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "리에너 사용 방법 STEP"
     },
     {
       "idx": 30,
@@ -246,7 +333,10 @@
       "thumb": "30.jpg",
       "group": "info",
       "element": "구성품",
-      "desc": "리에너 제품 구성"
+      "desc": "리에너 제품 구성",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "리에너 제품 구성품"
     },
     {
       "idx": 31,
@@ -254,7 +344,10 @@
       "thumb": "31.jpg",
       "group": "info",
       "element": "구성품·액세서리",
-      "desc": "코지마 전용 파우치"
+      "desc": "코지마 전용 파우치",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "코지마 전용 파우치 — 액세서리 구성품"
     },
     {
       "idx": 32,
@@ -262,7 +355,10 @@
       "thumb": "32.jpg",
       "group": "info",
       "element": "주의사항",
-      "desc": "온열 마사지기 사용 시 주의사항"
+      "desc": "온열 마사지기 사용 시 주의사항",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "온열 마사지기 사용 시 주의사항"
     },
     {
       "idx": 33,
@@ -270,7 +366,10 @@
       "thumb": "33.jpg",
       "group": "info",
       "element": "주의사항·공지",
-      "desc": "주의사항 + 공지사항"
+      "desc": "주의사항 + 공지사항",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "주의사항 + 공지사항"
     }
   ]
 }

@@ -15,7 +15,9 @@
       "thumb": "01.jpg",
       "group": "store",
       "element": "프로모션·혜택",
-      "desc": "N+ 6월 라이프위크 쿠폰"
+      "desc": "N+ 6월 라이프위크 쿠폰",
+      "mid": "store",
+      "sub": "coupon"
     },
     {
       "idx": 2,
@@ -23,7 +25,9 @@
       "thumb": "02.jpg",
       "group": "store",
       "element": "프로모션·혜택",
-      "desc": "디지털/가전 페스타 쿠폰"
+      "desc": "디지털/가전 페스타 쿠폰",
+      "mid": "store",
+      "sub": "coupon"
     },
     {
       "idx": 3,
@@ -31,7 +35,9 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "배송 안내",
-      "desc": "주말에도 빠른 N배송"
+      "desc": "주말에도 빠른 N배송",
+      "mid": "store",
+      "sub": "shipping"
     },
     {
       "idx": 4,
@@ -39,7 +45,9 @@
       "thumb": "04.jpg",
       "group": "store",
       "element": "리뷰 이벤트",
-      "desc": "SNS REVIEW EVENT 사은품"
+      "desc": "SNS REVIEW EVENT 사은품",
+      "mid": "store",
+      "sub": "review_event"
     },
     {
       "idx": 5,
@@ -47,7 +55,10 @@
       "thumb": "05.jpg",
       "group": "store",
       "element": "특가·혜택",
-      "desc": "한정특가 47% + 청소기 노즐"
+      "desc": "한정특가 47% + 청소기 노즐",
+      "mid": "store",
+      "sub": "coupon",
+      "note_cls": "한정특가+노즐 증정 묶음 혜택으로 쿠폰·적립 성격"
     },
     {
       "idx": 6,
@@ -55,7 +66,10 @@
       "thumb": "06.jpg",
       "group": "hook",
       "element": "라인업·모델 선택 가이드",
-      "desc": "MACH1/MACH2/SURGE 선택 가이드"
+      "desc": "MACH1/MACH2/SURGE 선택 가이드",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "라인업별 선택 가이드 — 핵심 포인트 요약/포지셔닝에 가깝지만 3모델 비교 선택 가이드이므로 points"
     },
     {
       "idx": 7,
@@ -63,7 +77,9 @@
       "thumb": "07.jpg",
       "group": "trust",
       "element": "신뢰·AS+혜택",
-      "desc": "VENDICT BENEFIT(당일발송/100%환불/1년AS)+1만P"
+      "desc": "VENDICT BENEFIT(당일발송/100%환불/1년AS)+1만P",
+      "mid": "trust",
+      "sub": "as"
     },
     {
       "idx": 8,
@@ -71,7 +87,9 @@
       "thumb": "08.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "PREMIUM AIR GUN MACH1"
+      "desc": "PREMIUM AIR GUN MACH1",
+      "mid": "hook",
+      "sub": "keyvisual"
     },
     {
       "idx": 9,
@@ -79,7 +97,9 @@
       "thumb": "09.jpg",
       "group": "trust",
       "element": "신뢰·보증",
-      "desc": "VENDICT CARE+ 워런티카드/AS"
+      "desc": "VENDICT CARE+ 워런티카드/AS",
+      "mid": "trust",
+      "sub": "as"
     },
     {
       "idx": 10,
@@ -87,7 +107,10 @@
       "thumb": "10.jpg",
       "group": "guide",
       "element": "사용가이드",
-      "desc": "E-MANUAL 사용설명서"
+      "desc": "E-MANUAL 사용설명서",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "E-MANUAL 사용설명서 — 가이드 howto"
     },
     {
       "idx": 11,
@@ -95,7 +118,9 @@
       "thumb": "11.jpg",
       "group": "trust",
       "element": "실적·1위",
-      "desc": "압도적 1위 / 리뷰 12,000개"
+      "desc": "압도적 1위 / 리뷰 12,000개",
+      "mid": "trust",
+      "sub": "award"
     },
     {
       "idx": 12,
@@ -103,7 +128,9 @@
       "thumb": "12.jpg",
       "group": "hook",
       "element": "제품 인트로",
-      "desc": "WIRELESS AIR GUN MACH 마하1"
+      "desc": "WIRELESS AIR GUN MACH 마하1",
+      "mid": "hook",
+      "sub": "keyvisual"
     },
     {
       "idx": 13,
@@ -111,7 +138,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "성능",
-      "desc": "출력·안정성 160W 4셀"
+      "desc": "출력·안정성 160W 4셀",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "160W 4셀 출력·안정성 — 핵심 기술 수치"
     },
     {
       "idx": 14,
@@ -119,7 +149,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "배터리",
-      "desc": "4셀 배터리 시스템"
+      "desc": "4셀 배터리 시스템",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "4셀 배터리 시스템 구조 설명"
     },
     {
       "idx": 15,
@@ -127,7 +160,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "경량 설계",
-      "desc": "180g 고전압 설계"
+      "desc": "180g 고전압 설계",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "180g 고전압 경량 설계 — 핵심 기술 포인트"
     },
     {
       "idx": 16,
@@ -135,7 +171,10 @@
       "thumb": "16.jpg",
       "group": "feature",
       "element": "성능",
-      "desc": "거리별 성능"
+      "desc": "거리별 성능",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "거리별 성능 — 작동/분사 원리 시각화"
     },
     {
       "idx": 17,
@@ -143,7 +182,10 @@
       "thumb": "17.jpg",
       "group": "feature",
       "element": "성능 비교",
-      "desc": "거리별 바람 힘(400/250/180/150g)"
+      "desc": "거리별 바람 힘(400/250/180/150g)",
+      "mid": "proof_data",
+      "sub": "number",
+      "note_cls": "거리별 바람 힘 수치(400/250/180/150g) 데이터 제시"
     },
     {
       "idx": 18,
@@ -151,7 +193,10 @@
       "thumb": "18.jpg",
       "group": "feature",
       "element": "경쟁 비교",
-      "desc": "마스크 제품 vs 벤딕트 비교표"
+      "desc": "마스크 제품 vs 벤딕트 비교표",
+      "mid": "value",
+      "sub": "vs_compete",
+      "note_cls": "마스크 제품 vs 벤딕트 비교표 — 경쟁 비교"
     },
     {
       "idx": 19,
@@ -159,7 +204,10 @@
       "thumb": "19.jpg",
       "group": "value",
       "element": "USP",
-      "desc": "MACH1 lightest in class(타이틀+태그라인)"
+      "desc": "MACH1 lightest in class(타이틀+태그라인)",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "lightest in class 타이틀+태그라인 — 한줄 USP"
     },
     {
       "idx": 20,
@@ -167,7 +215,9 @@
       "thumb": "20.jpg",
       "group": "feature",
       "element": "소재",
-      "desc": "항공우주 6061 알루미늄 바디"
+      "desc": "항공우주 6061 알루미늄 바디",
+      "mid": "feature",
+      "sub": "material"
     },
     {
       "idx": 21,
@@ -175,7 +225,9 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "소재",
-      "desc": "Aerospace-grade 6061 Signature body"
+      "desc": "Aerospace-grade 6061 Signature body",
+      "mid": "feature",
+      "sub": "material"
     },
     {
       "idx": 22,
@@ -183,7 +235,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "성능",
-      "desc": "130,000RPM·160W 흔들림 없는 퍼포먼스"
+      "desc": "130,000RPM·160W 흔들림 없는 퍼포먼스",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "130,000RPM·160W 퍼포먼스 — 핵심 기술 수치"
     },
     {
       "idx": 23,
@@ -191,7 +246,10 @@
       "thumb": "23.jpg",
       "group": "feature",
       "element": "경량",
-      "desc": "초경량 밸런스 약 400g"
+      "desc": "초경량 밸런스 약 400g",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "초경량 약 400g 밸런스 — 소재·구조 설계"
     },
     {
       "idx": 24,
@@ -199,7 +257,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "2IN1",
-      "desc": "송풍·흡입 양방향 2IN1 설계"
+      "desc": "송풍·흡입 양방향 2IN1 설계",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "송풍·흡입 양방향 2IN1 — 모드·방향 전환"
     },
     {
       "idx": 25,
@@ -207,7 +268,10 @@
       "thumb": "25.jpg",
       "group": "proof",
       "element": "사용 연출",
-      "desc": "캠핑 불씨 송풍"
+      "desc": "캠핑 불씨 송풍",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "캠핑 불씨 송풍 사용 상황 연출"
     },
     {
       "idx": 26,
@@ -215,7 +279,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "모터",
-      "desc": "자체 BLDC 항공 모터 160W"
+      "desc": "자체 BLDC 항공 모터 160W",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "자체 BLDC 항공 모터 160W — 핵심 기술"
     },
     {
       "idx": 27,
@@ -223,7 +290,10 @@
       "thumb": "27.jpg",
       "group": "feature",
       "element": "저소음",
-      "desc": "FOC 저소음 퍼포먼스"
+      "desc": "FOC 저소음 퍼포먼스",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "FOC 저소음 퍼포먼스 — 핵심 기술"
     },
     {
       "idx": 28,
@@ -231,7 +301,10 @@
       "thumb": "28.jpg",
       "group": "feature",
       "element": "안정성",
-      "desc": "발열 최소화 MCU FULL BMS"
+      "desc": "발열 최소화 MCU FULL BMS",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "MCU FULL BMS 발열 최소화 — 핵심 기술"
     },
     {
       "idx": 29,
@@ -239,7 +312,10 @@
       "thumb": "29.jpg",
       "group": "feature",
       "element": "전력제어",
-      "desc": "대형 카패시터 정밀 전력 제어"
+      "desc": "대형 카패시터 정밀 전력 제어",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "대형 커패시터 정밀 전력 제어 — 핵심 기술"
     },
     {
       "idx": 30,
@@ -247,7 +323,10 @@
       "thumb": "30.jpg",
       "group": "feature",
       "element": "전력",
-      "desc": "차폐형 인버터 + FULL BMS 배터리 수명"
+      "desc": "차폐형 인버터 + FULL BMS 배터리 수명",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "차폐형 인버터 + FULL BMS 배터리 수명 — 핵심 기술"
     },
     {
       "idx": 31,
@@ -255,7 +334,10 @@
       "thumb": "31.jpg",
       "group": "feature",
       "element": "방열",
-      "desc": "단열 하우징 발열 제어"
+      "desc": "단열 하우징 발열 제어",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "단열 하우징 발열 제어 — 소재·구조"
     },
     {
       "idx": 32,
@@ -263,7 +345,9 @@
       "thumb": "32.jpg",
       "group": "hook",
       "element": "제품 비주얼",
-      "desc": "VENDICT MACH 비주얼"
+      "desc": "VENDICT MACH 비주얼",
+      "mid": "hook",
+      "sub": "keyvisual"
     },
     {
       "idx": 33,
@@ -271,7 +355,10 @@
       "thumb": "33.jpg",
       "group": "feature",
       "element": "노즐 구성",
-      "desc": "7종 노즐 활용성"
+      "desc": "7종 노즐 활용성",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "7종 노즐 활용성 — 적용 시나리오 소개"
     },
     {
       "idx": 34,
@@ -279,7 +366,10 @@
       "thumb": "34.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "기본 노즐"
+      "desc": "기본 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "기본 노즐 — 모드별 노즐 구분"
     },
     {
       "idx": 35,
@@ -287,7 +377,10 @@
       "thumb": "35.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "솔 브러시 노즐"
+      "desc": "솔 브러시 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "솔 브러시 노즐"
     },
     {
       "idx": 36,
@@ -295,7 +388,10 @@
       "thumb": "36.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "실리콘 노즐"
+      "desc": "실리콘 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "실리콘 노즐"
     },
     {
       "idx": 37,
@@ -303,7 +399,10 @@
       "thumb": "37.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "튜브 전용 노즐"
+      "desc": "튜브 전용 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "튜브 전용 노즐"
     },
     {
       "idx": 38,
@@ -311,7 +410,10 @@
       "thumb": "38.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "연장 노즐"
+      "desc": "연장 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "연장 노즐"
     },
     {
       "idx": 39,
@@ -319,7 +421,10 @@
       "thumb": "39.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "비상 망치 노즐"
+      "desc": "비상 망치 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "비상 망치 노즐"
     },
     {
       "idx": 40,
@@ -327,7 +432,10 @@
       "thumb": "40.jpg",
       "group": "feature",
       "element": "노즐",
-      "desc": "청소 노즐"
+      "desc": "청소 노즐",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "청소 노즐"
     },
     {
       "idx": 41,
@@ -335,7 +443,10 @@
       "thumb": "41.jpg",
       "group": "feature",
       "element": "충전",
-      "desc": "PD 25W 충전"
+      "desc": "PD 25W 충전",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "PD 25W 충전 방식 — 구조·충전 스펙"
     },
     {
       "idx": 42,
@@ -343,7 +454,10 @@
       "thumb": "42.jpg",
       "group": "feature",
       "element": "보조배터리",
-      "desc": "보조배터리 활용"
+      "desc": "보조배터리 활용",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "보조배터리 활용 — 사용 시나리오"
     },
     {
       "idx": 43,
@@ -351,7 +465,10 @@
       "thumb": "43.jpg",
       "group": "feature",
       "element": "제어",
-      "desc": "바람세기 컨트롤"
+      "desc": "바람세기 컨트롤",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "바람세기 컨트롤 — 모드·강도 조절"
     },
     {
       "idx": 44,
@@ -359,7 +476,10 @@
       "thumb": "44.jpg",
       "group": "feature",
       "element": "세기 단계",
-      "desc": "바람세기 단계"
+      "desc": "바람세기 단계",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "바람세기 단계 — 강도 단계"
     },
     {
       "idx": 45,
@@ -367,7 +487,10 @@
       "thumb": "45.jpg",
       "group": "feature",
       "element": "배터리",
-      "desc": "14V 전용 배터리(발열 최소화)"
+      "desc": "14V 전용 배터리(발열 최소화)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "14V 전용 배터리 발열 최소화 — 소재·구조"
     },
     {
       "idx": 46,
@@ -375,7 +498,10 @@
       "thumb": "46.jpg",
       "group": "store",
       "element": "증정",
-      "desc": "한정수량 하드케이스 무료증정"
+      "desc": "한정수량 하드케이스 무료증정",
+      "mid": "store",
+      "sub": "crosssell",
+      "note_cls": "한정수량 하드케이스 무료증정 — 크로스셀·번들 증정"
     },
     {
       "idx": 47,
@@ -383,7 +509,9 @@
       "thumb": "47.jpg",
       "group": "trust",
       "element": "인증",
-      "desc": "KC 인증 + 생산물 배상책임보험"
+      "desc": "KC 인증 + 생산물 배상책임보험",
+      "mid": "trust",
+      "sub": "cert"
     },
     {
       "idx": 48,
@@ -391,7 +519,9 @@
       "thumb": "48.jpg",
       "group": "guide",
       "element": "사용법",
-      "desc": "사용방법 STEP"
+      "desc": "사용방법 STEP",
+      "mid": "guide",
+      "sub": "howto"
     },
     {
       "idx": 49,
@@ -399,7 +529,9 @@
       "thumb": "49.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "QNA"
+      "desc": "QNA",
+      "mid": "info",
+      "sub": "faq_buy"
     },
     {
       "idx": 50,
@@ -407,7 +539,9 @@
       "thumb": "50.jpg",
       "group": "info",
       "element": "주의사항",
-      "desc": "CAUTIONS"
+      "desc": "CAUTIONS",
+      "mid": "info",
+      "sub": "caution"
     },
     {
       "idx": 51,
@@ -415,7 +549,9 @@
       "thumb": "51.jpg",
       "group": "info",
       "element": "제품정보",
-      "desc": "PRODUCT INFO(80x190mm)"
+      "desc": "PRODUCT INFO(80x190mm)",
+      "mid": "info",
+      "sub": "spec"
     },
     {
       "idx": 52,
@@ -423,7 +559,9 @@
       "thumb": "52.jpg",
       "group": "info",
       "element": "구성품",
-      "desc": "COMPONENT 목록"
+      "desc": "COMPONENT 목록",
+      "mid": "info",
+      "sub": "components"
     },
     {
       "idx": 53,
@@ -431,7 +569,9 @@
       "thumb": "53.jpg",
       "group": "info",
       "element": "제품 스펙",
-      "desc": "제품정보 사양표"
+      "desc": "제품정보 사양표",
+      "mid": "info",
+      "sub": "spec"
     },
     {
       "idx": 54,
@@ -439,7 +579,10 @@
       "thumb": "54.jpg",
       "group": "info",
       "element": "제조 정보",
-      "desc": "Designed in Korea / Made in China"
+      "desc": "Designed in Korea / Made in China",
+      "mid": "info",
+      "sub": "caution",
+      "note_cls": "Designed in Korea / Made in China — 제조 출처 고시 정보"
     },
     {
       "idx": 55,
@@ -447,7 +590,10 @@
       "thumb": "55.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "EXCLUSIVE EVA CASE"
+      "desc": "EXCLUSIVE EVA CASE",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "EXCLUSIVE EVA CASE — 구성품 케이스 소개"
     },
     {
       "idx": 56,
@@ -455,7 +601,10 @@
       "thumb": "56.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "고밀도 옥스포드 원단"
+      "desc": "고밀도 옥스포드 원단",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "고밀도 옥스포드 원단 — 케이스 소재 구성품 설명"
     },
     {
       "idx": 57,
@@ -463,7 +612,10 @@
       "thumb": "57.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "더 가볍고 편리한 케이스"
+      "desc": "더 가볍고 편리한 케이스",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "더 가볍고 편리한 케이스 — 케이스 특징"
     },
     {
       "idx": 58,
@@ -471,7 +623,10 @@
       "thumb": "58.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "케이스 내부"
+      "desc": "케이스 내부",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "케이스 내부 구성"
     },
     {
       "idx": 59,
@@ -479,7 +634,10 @@
       "thumb": "59.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "청소기 노즐 파우치"
+      "desc": "청소기 노즐 파우치",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "청소기 노즐 파우치 — 구성품"
     },
     {
       "idx": 60,
@@ -487,7 +645,10 @@
       "thumb": "60.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "케이스 사이즈"
+      "desc": "케이스 사이즈",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "케이스 사이즈 — 구성품 스펙"
     },
     {
       "idx": 61,
@@ -495,7 +656,10 @@
       "thumb": "61.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "케이스 COMPONENTS"
+      "desc": "케이스 COMPONENTS",
+      "mid": "info",
+      "sub": "components",
+      "note_cls": "케이스 COMPONENTS 목록"
     },
     {
       "idx": 62,
@@ -503,7 +667,10 @@
       "thumb": "62.jpg",
       "group": "info",
       "element": "구성품(케이스)",
-      "desc": "케이스 제품정보"
+      "desc": "케이스 제품정보",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "케이스 제품정보 — 스펙 고시"
     },
     {
       "idx": 63,
@@ -511,7 +678,9 @@
       "thumb": "63.jpg",
       "group": "store",
       "element": "공지",
-      "desc": "카카오채널 공식 인증 / 사칭 주의"
+      "desc": "카카오채널 공식 인증 / 사칭 주의",
+      "mid": "store",
+      "sub": "notice"
     }
   ]
 }

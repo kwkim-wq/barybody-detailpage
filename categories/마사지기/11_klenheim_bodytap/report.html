@@ -10,11 +10,17 @@ h1{font-size:22px;margin:0 0 4px}
 .sub{color:#94a3b8;font-size:13px;margin-bottom:20px}
 .panel{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;margin-bottom:20px}
 .panel h2{font-size:14px;margin:0 0 12px;color:#cbd5e1;letter-spacing:.3px}
-.legend{display:flex;flex-wrap:wrap;gap:8px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.majcluster{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:5px 9px;border:1px dashed #334155;border-radius:10px}
+.majcluster .mjl{font-size:11px;font-weight:800;letter-spacing:.3px;margin-right:2px}
 .lg{display:inline-flex;align-items:center;gap:6px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;
   padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer;transition:.15s}
-.lg:hover{border-color:var(--c)} .lg.off{opacity:.32} .lg b{color:var(--c)}
+.lg:hover{border-color:var(--c)} .lg.off{opacity:.3} .lg b{color:var(--c)}
 .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.majbar{display:flex;height:22px;border-radius:7px;overflow:hidden;border:1px solid #334155;margin-bottom:8px}
+.majbar i{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#0b1220;min-width:0;overflow:hidden;white-space:nowrap}
+.majcap{display:flex;flex-wrap:wrap;gap:10px;color:#94a3b8;font-size:11px}
+.majcap span{display:inline-flex;align-items:center;gap:5px}
 .flow{display:flex;height:34px;border-radius:8px;overflow:hidden;border:1px solid #334155}
 .flow i{flex:1;display:block}
 .flowcap{display:flex;justify-content:space-between;color:#64748b;font-size:11px;margin-top:6px}
@@ -22,14 +28,17 @@ h1{font-size:22px;margin:0 0 4px}
 .card{background:#1e293b;border:1px solid #334155;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
 .imgwrap{background:#0b1220}.imgwrap img{width:100%;display:block}
 .card .meta{padding:10px 12px}
-.num{font-size:12px;color:#64748b;font-weight:700}
-.chip{display:inline-block;color:#fff;font-size:11px;padding:2px 8px;border-radius:6px;margin:6px 0 4px;font-weight:600}
-.el{font-size:13.5px;font-weight:700;color:#f1f5f9;line-height:1.3}
+.num{font-size:12px;color:#64748b;font-weight:700;display:flex;align-items:center;gap:6px}
+.majtag{font-size:10px;font-weight:800;letter-spacing:.2px}
+.chip{display:inline-block;color:#fff;font-size:11px;padding:2px 8px;border-radius:6px;margin:6px 6px 4px 0;font-weight:600}
+.subt{font-size:11px;color:#cbd5e1;background:#0f172a;border:1px solid #334155;padding:1px 7px;border-radius:6px}
+.el{font-size:13.5px;font-weight:700;color:#f1f5f9;line-height:1.3;margin-top:4px}
 .desc{font-size:12px;color:#94a3b8;margin-top:3px;line-height:1.4}
 table{width:100%;border-collapse:collapse;font-size:13px}
 td,th{padding:7px 8px;border-bottom:1px solid #273449;text-align:left}
-.ghead td{background:#0f172a;font-weight:700;color:#cbd5e1}
-.elc{color:#e2e8f0}.cnt{color:#38bdf8;width:48px;font-weight:700}.nums{color:#64748b;font-size:12px}
+.majhead td{background:#0b1220;font-weight:800;color:#f1f5f9;letter-spacing:.3px}
+.midhead td{background:#172033;font-weight:700;color:#cbd5e1}
+.subc{color:#cbd5e1;padding-left:18px}.cnt{color:#38bdf8;width:48px;font-weight:700}.nums{color:#64748b;font-size:12px}
 .hide{display:none!important}
 .minibar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-top:8px}
 .minibar i{display:block}
@@ -41,358 +50,476 @@ td,th{padding:7px 8px;border-bottom:1px solid #273449;text-align:left}
 .pcard .ch{font-size:12px;color:#94a3b8;margin-top:3px}
 .cathead{font-size:16px;font-weight:800;margin:26px 0 12px;color:#f8fafc;display:flex;align-items:center;gap:8px}
 .cathead .badge{font-size:12px;color:#64748b;font-weight:600}
+.nav{display:flex;flex-wrap:wrap;gap:10px}
+.nav a{display:inline-flex;align-items:center;gap:7px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;padding:11px 16px;border-radius:10px;font-size:14px;font-weight:600;transition:.15s}
+.nav a:hover{border-color:#38bdf8;color:#fff}
+.nav a b{color:#38bdf8;font-weight:800}
 </style></head><body><div class="wrap">
 <div class="sub"><a href="../../../index.html">← 전체 목록</a> · <a href="../../../compare.html">비교표</a></div>
 <h1>클렌하임 바디탭 라인 마사지기</h1>
 <div class="sub">마사지기 · 네이버 스마트스토어 · 캡처 2026-06-04 · 총 <b>113</b>장(영상 제외) · <a href="https://smartstore.naver.com/klenheim/products/10588075764" target="_blank">원본 ↗</a></div>
-<div class="panel"><h2>구성 흐름 (위 → 아래)</h2><div class="flow"><i title="#01 정품·공식판매처" style="background:#14b8a6"></i><i title="#02 품절·배송 공지" style="background:#94a3b8"></i><i title="#03 화제성 후킹" style="background:#ef4444"></i><i title="#04 유통 신뢰" style="background:#14b8a6"></i><i title="#05 매장 공통 고지" style="background:#94a3b8"></i><i title="#06 문제제기" style="background:#f59e0b"></i><i title="#07 연출컷" style="background:#10b981"></i><i title="#08 문제제기" style="background:#f59e0b"></i><i title="#09 연출컷" style="background:#10b981"></i><i title="#10 효과·USP" style="background:#8b5cf6"></i><i title="#11 후킹 카피" style="background:#ef4444"></i><i title="#12 연출컷" style="background:#10b981"></i><i title="#13 USP·인트로" style="background:#8b5cf6"></i><i title="#14 활용 부위" style="background:#3b82f6"></i><i title="#15 연출컷" style="background:#10b981"></i><i title="#16 문제제기" style="background:#f59e0b"></i><i title="#17 연출컷" style="background:#10b981"></i><i title="#18 문제제기" style="background:#f59e0b"></i><i title="#19 연출컷" style="background:#10b981"></i><i title="#20 문제제기·원리" style="background:#f59e0b"></i><i title="#21 연출컷" style="background:#10b981"></i><i title="#22 문제제기·원리" style="background:#f59e0b"></i><i title="#23 연출컷" style="background:#10b981"></i><i title="#24 원리·효과" style="background:#3b82f6"></i><i title="#25 원리" style="background:#3b82f6"></i><i title="#26 원리" style="background:#3b82f6"></i><i title="#27 연출컷" style="background:#10b981"></i><i title="#28 제품 인트로" style="background:#ef4444"></i><i title="#29 인플루언서 리뷰" style="background:#14b8a6"></i><i title="#30 효과·체험" style="background:#10b981"></i><i title="#31 스펙 요약 인트로" style="background:#8b5cf6"></i><i title="#32 핵심 스펙 요약" style="background:#8b5cf6"></i><i title="#33 리얼 리뷰" style="background:#14b8a6"></i><i title="#34 USP·POINT01" style="background:#8b5cf6"></i><i title="#35 차별" style="background:#3b82f6"></i><i title="#36 비교" style="background:#3b82f6"></i><i title="#37 차별" style="background:#3b82f6"></i><i title="#38 연출컷" style="background:#10b981"></i><i title="#39 설계·비교" style="background:#3b82f6"></i><i title="#40 원리 비교" style="background:#3b82f6"></i><i title="#41 원리" style="background:#3b82f6"></i><i title="#42 연출컷" style="background:#10b981"></i><i title="#43 파장" style="background:#3b82f6"></i><i title="#44 연출컷" style="background:#10b981"></i><i title="#45 디자인" style="background:#3b82f6"></i><i title="#46 활용 인트로" style="background:#3b82f6"></i><i title="#47 활용" style="background:#3b82f6"></i><i title="#48 연출컷" style="background:#10b981"></i><i title="#49 활용 부위" style="background:#3b82f6"></i><i title="#50 연출컷" style="background:#10b981"></i><i title="#51 활용 부위" style="background:#3b82f6"></i><i title="#52 연출컷" style="background:#10b981"></i><i title="#53 활용 부위" style="background:#3b82f6"></i><i title="#54 연출컷" style="background:#10b981"></i><i title="#55 활용 부위" style="background:#3b82f6"></i><i title="#56 연출컷" style="background:#10b981"></i><i title="#57 활용 부위" style="background:#3b82f6"></i><i title="#58 관리 컨셉" style="background:#3b82f6"></i><i title="#59 효과" style="background:#3b82f6"></i><i title="#60 핵심기술" style="background:#3b82f6"></i><i title="#61 스펙" style="background:#3b82f6"></i><i title="#62 스펙" style="background:#3b82f6"></i><i title="#63 제품컷" style="background:#10b981"></i><i title="#64 원리" style="background:#3b82f6"></i><i title="#65 원리 비교" style="background:#3b82f6"></i><i title="#66 비교" style="background:#3b82f6"></i><i title="#67 원리" style="background:#3b82f6"></i><i title="#68 파워모드" style="background:#3b82f6"></i><i title="#69 연출컷" style="background:#10b981"></i><i title="#70 강도" style="background:#3b82f6"></i><i title="#71 파워 데모" style="background:#3b82f6"></i><i title="#72 효과" style="background:#3b82f6"></i><i title="#73 헤드" style="background:#3b82f6"></i><i title="#74 헤드" style="background:#3b82f6"></i><i title="#75 헤드" style="background:#3b82f6"></i><i title="#76 헤드" style="background:#3b82f6"></i><i title="#77 헤드" style="background:#3b82f6"></i><i title="#78 안전" style="background:#3b82f6"></i><i title="#79 연출컷" style="background:#10b981"></i><i title="#80 안전" style="background:#3b82f6"></i><i title="#81 안전" style="background:#3b82f6"></i><i title="#82 연출컷" style="background:#10b981"></i><i title="#83 사용 팁" style="background:#3b82f6"></i><i title="#84 LED" style="background:#3b82f6"></i><i title="#85 LED" style="background:#3b82f6"></i><i title="#86 LED" style="background:#3b82f6"></i><i title="#87 배터리" style="background:#3b82f6"></i><i title="#88 충전" style="background:#3b82f6"></i><i title="#89 배터리" style="background:#3b82f6"></i><i title="#90 휴대성" style="background:#3b82f6"></i><i title="#91 휴대성" style="background:#3b82f6"></i><i title="#92 디테일 인트로" style="background:#ec4899"></i><i title="#93 연출컷" style="background:#10b981"></i><i title="#94 문제제기" style="background:#f59e0b"></i><i title="#95 보관·거치" style="background:#ec4899"></i><i title="#96 편의" style="background:#3b82f6"></i><i title="#97 연출컷" style="background:#10b981"></i><i title="#98 세척" style="background:#3b82f6"></i><i title="#99 연출컷" style="background:#10b981"></i><i title="#100 세척" style="background:#3b82f6"></i><i title="#101 세척" style="background:#3b82f6"></i><i title="#102 연출컷" style="background:#10b981"></i><i title="#103 감성" style="background:#8b5cf6"></i><i title="#104 저소음" style="background:#3b82f6"></i><i title="#105 그립" style="background:#3b82f6"></i><i title="#106 증정" style="background:#94a3b8"></i><i title="#107 인증" style="background:#14b8a6"></i><i title="#108 사용법" style="background:#64748b"></i><i title="#109 사용법" style="background:#64748b"></i><i title="#110 구성품" style="background:#0ea5e9"></i><i title="#111 FAQ" style="background:#0ea5e9"></i><i title="#112 제품 스펙" style="background:#0ea5e9"></i><i title="#113 구매정보·AS" style="background:#0ea5e9"></i></div>
+<div class="panel"><h2>대분류 비중</h2><div class="majbar"><i style="width:2.7%;background:#94a3b8" title="쇼핑 혜택·안내 3장 (3%)"></i><i style="width:9.7%;background:#f97316" title="눈길 끌기 & 공감 11장 (10%)">11</i><i style="width:5.3%;background:#8b5cf6" title="핵심 차별점 6장 (5%)">6</i><i style="width:74.3%;background:#3b82f6" title="제품력 증명 84장 (74%)">제품력 증명 84</i><i style="width:8.0%;background:#0ea5e9" title="구매 유도 9장 (8%)">9</i></div><div class="majcap"><span><span class="dot" style="background:#94a3b8"></span>쇼핑 혜택·안내 3</span> <span><span class="dot" style="background:#f97316"></span>눈길 끌기 & 공감 11</span> <span><span class="dot" style="background:#8b5cf6"></span>핵심 차별점 6</span> <span><span class="dot" style="background:#3b82f6"></span>제품력 증명 84</span> <span><span class="dot" style="background:#0ea5e9"></span>구매 유도 9</span></div></div>
+<div class="panel"><h2>구성 흐름 (위 → 아래 · 색 = 중분류)</h2><div class="flow"><i title="#01 신뢰/정품·총판 — 정품·공식판매처" style="background:#14b8a6"></i><i title="#02 매장공통/고지/배송·오늘출발 — 품절·배송 공지" style="background:#94a3b8"></i><i title="#03 후킹/인트로/화제성·내돈내산 — 화제성 후킹" style="background:#ef4444"></i><i title="#04 신뢰/수상·판매량·1위 — 유통 신뢰" style="background:#14b8a6"></i><i title="#05 매장공통/고지/공지사항 — 매장 공통 고지" style="background:#94a3b8"></i><i title="#06 문제제기/타겟/불편상황 나열 — 문제제기" style="background:#f59e0b"></i><i title="#07 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#08 문제제기/타겟/불편상황 나열 — 문제제기" style="background:#f59e0b"></i><i title="#09 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#10 핵심가치/USP/한 줄 차별카피 — 효과·USP" style="background:#8b5cf6"></i><i title="#11 후킹/인트로/메인 슬로건 — 후킹 카피" style="background:#ef4444"></i><i title="#12 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#13 후킹/인트로/키비주얼 — USP·인트로" style="background:#ef4444"></i><i title="#14 기능/구조/적용부위·시나리오 — 활용 부위" style="background:#3b82f6"></i><i title="#15 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#16 문제제기/타겟/불편상황 나열 — 문제제기" style="background:#f59e0b"></i><i title="#17 효과-연출형/라이프스타일 연출 — 연출컷" style="background:#34d399"></i><i title="#18 문제제기/타겟/불편상황 나열 — 문제제기" style="background:#f59e0b"></i><i title="#19 효과-연출형/라이프스타일 연출 — 연출컷" style="background:#34d399"></i><i title="#20 문제제기/타겟/기존 대안의 한계 — 문제제기·원리" style="background:#f59e0b"></i><i title="#21 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#22 문제제기/타겟/기존 대안의 한계 — 문제제기·원리" style="background:#f59e0b"></i><i title="#23 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#24 기능/구조/작동원리 — 원리·효과" style="background:#3b82f6"></i><i title="#25 기능/구조/작동원리 — 원리" style="background:#3b82f6"></i><i title="#26 기능/구조/작동원리 — 원리" style="background:#3b82f6"></i><i title="#27 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#28 후킹/인트로/브랜드 무드 — 제품 인트로" style="background:#ef4444"></i><i title="#29 신뢰/후기·평점 — 인플루언서 리뷰" style="background:#14b8a6"></i><i title="#30 효과-증명형/before/after — 효과·체험" style="background:#059669"></i><i title="#31 핵심가치/USP/N가지 핵심포인트 — 스펙 요약 인트로" style="background:#8b5cf6"></i><i title="#32 핵심가치/USP/N가지 핵심포인트 — 핵심 스펙 요약" style="background:#8b5cf6"></i><i title="#33 신뢰/후기·평점 — 리얼 리뷰" style="background:#14b8a6"></i><i title="#34 핵심가치/USP/포지셔닝 — USP·POINT01" style="background:#8b5cf6"></i><i title="#35 핵심가치/USP/경쟁비교 우위 — 차별" style="background:#8b5cf6"></i><i title="#36 기능/구조/신·구 비교 — 비교" style="background:#3b82f6"></i><i title="#37 핵심가치/USP/경쟁비교 우위 — 차별" style="background:#8b5cf6"></i><i title="#38 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#39 기능/구조/소재·구조 — 설계·비교" style="background:#3b82f6"></i><i title="#40 기능/구조/작동원리 — 원리 비교" style="background:#3b82f6"></i><i title="#41 기능/구조/작동원리 — 원리" style="background:#3b82f6"></i><i title="#42 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#43 기능/구조/핵심기술(POINT넘버링) — 파장" style="background:#3b82f6"></i><i title="#44 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#45 기능/구조/소재·구조 — 디자인" style="background:#3b82f6"></i><i title="#46 기능/구조/적용부위·시나리오 — 활용 인트로" style="background:#3b82f6"></i><i title="#47 기능/구조/적용부위·시나리오 — 활용" style="background:#3b82f6"></i><i title="#48 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#49 기능/구조/적용부위·시나리오 — 활용 부위" style="background:#3b82f6"></i><i title="#50 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#51 기능/구조/적용부위·시나리오 — 활용 부위" style="background:#3b82f6"></i><i title="#52 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#53 기능/구조/적용부위·시나리오 — 활용 부위" style="background:#3b82f6"></i><i title="#54 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#55 기능/구조/적용부위·시나리오 — 활용 부위" style="background:#3b82f6"></i><i title="#56 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#57 기능/구조/적용부위·시나리오 — 활용 부위" style="background:#3b82f6"></i><i title="#58 기능/구조/핵심기술(POINT넘버링) — 관리 컨셉" style="background:#3b82f6"></i><i title="#59 기능/구조/적용부위·시나리오 — 효과" style="background:#3b82f6"></i><i title="#60 기능/구조/핵심기술(POINT넘버링) — 핵심기술" style="background:#3b82f6"></i><i title="#61 기능/구조/모드·강도 — 스펙" style="background:#3b82f6"></i><i title="#62 기능/구조/모드·강도 — 스펙" style="background:#3b82f6"></i><i title="#63 효과-연출형/스케일감 — 제품컷" style="background:#34d399"></i><i title="#64 기능/구조/작동원리 — 원리" style="background:#3b82f6"></i><i title="#65 기능/구조/작동원리 — 원리 비교" style="background:#3b82f6"></i><i title="#66 기능/구조/신·구 비교 — 비교" style="background:#3b82f6"></i><i title="#67 기능/구조/작동원리 — 원리" style="background:#3b82f6"></i><i title="#68 기능/구조/모드·강도 — 파워모드" style="background:#3b82f6"></i><i title="#69 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#70 기능/구조/모드·강도 — 강도" style="background:#3b82f6"></i><i title="#71 효과-증명형/실험 데모 — 파워 데모" style="background:#059669"></i><i title="#72 기능/구조/작동원리 — 효과" style="background:#3b82f6"></i><i title="#73 기능/구조/핵심기술(POINT넘버링) — 헤드" style="background:#3b82f6"></i><i title="#74 기능/구조/모드·강도 — 헤드" style="background:#3b82f6"></i><i title="#75 기능/구조/모드·강도 — 헤드" style="background:#3b82f6"></i><i title="#76 기능/구조/모드·강도 — 헤드" style="background:#3b82f6"></i><i title="#77 기능/구조/모드·강도 — 헤드" style="background:#3b82f6"></i><i title="#78 기능/구조/소재·구조 — 안전" style="background:#3b82f6"></i><i title="#79 효과-연출형/라이프스타일 연출 — 연출컷" style="background:#34d399"></i><i title="#80 기능/구조/소재·구조 — 안전" style="background:#3b82f6"></i><i title="#81 기능/구조/소재·구조 — 안전" style="background:#3b82f6"></i><i title="#82 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#83 사용가이드/부위별·테크닉 — 사용 팁" style="background:#64748b"></i><i title="#84 기능/구조/핵심기술(POINT넘버링) — LED" style="background:#3b82f6"></i><i title="#85 기능/구조/모드·강도 — LED" style="background:#3b82f6"></i><i title="#86 기능/구조/모드·강도 — LED" style="background:#3b82f6"></i><i title="#87 기능/구조/핵심기술(POINT넘버링) — 배터리" style="background:#3b82f6"></i><i title="#88 기능/구조/소재·구조 — 충전" style="background:#3b82f6"></i><i title="#89 기능/구조/모드·강도 — 배터리" style="background:#3b82f6"></i><i title="#90 기능/구조/적용부위·시나리오 — 휴대성" style="background:#3b82f6"></i><i title="#91 기능/구조/적용부위·시나리오 — 휴대성" style="background:#3b82f6"></i><i title="#92 디자인/컬러·외관 — 디테일 인트로" style="background:#ec4899"></i><i title="#93 효과-연출형/라이프스타일 연출 — 연출컷" style="background:#34d399"></i><i title="#94 문제제기/타겟/불편상황 나열 — 문제제기" style="background:#f59e0b"></i><i title="#95 디자인/인테리어 어울림 — 보관·거치" style="background:#ec4899"></i><i title="#96 기능/구조/적용부위·시나리오 — 편의" style="background:#3b82f6"></i><i title="#97 효과-연출형/라이프스타일 연출 — 연출컷" style="background:#34d399"></i><i title="#98 기능/구조/소재·구조 — 세척" style="background:#3b82f6"></i><i title="#99 효과-연출형/라이프스타일 연출 — 연출컷" style="background:#34d399"></i><i title="#100 사용가이드/조작·충전·세척 — 세척" style="background:#64748b"></i><i title="#101 사용가이드/조작·충전·세척 — 세척" style="background:#64748b"></i><i title="#102 효과-연출형/사용 상황컷 — 연출컷" style="background:#34d399"></i><i title="#103 효과-연출형/라이프스타일 연출 — 감성" style="background:#34d399"></i><i title="#104 기능/구조/소재·구조 — 저소음" style="background:#3b82f6"></i><i title="#105 기능/구조/소재·구조 — 그립" style="background:#3b82f6"></i><i title="#106 매장공통/고지/크로스셀·번들 — 증정" style="background:#94a3b8"></i><i title="#107 신뢰/인증·특허·성적서 — 인증" style="background:#14b8a6"></i><i title="#108 사용가이드/사용법 STEP — 사용법" style="background:#64748b"></i><i title="#109 사용가이드/사용법 STEP — 사용법" style="background:#64748b"></i><i title="#110 구매정보/스펙/구성품 — 구성품" style="background:#0ea5e9"></i><i title="#111 구매정보/스펙/구매 FAQ — FAQ" style="background:#0ea5e9"></i><i title="#112 구매정보/스펙/스펙표 — 제품 스펙" style="background:#0ea5e9"></i><i title="#113 구매정보/스펙/배송·교환반품 — 구매정보·AS" style="background:#0ea5e9"></i></div>
 <div class="flowcap"><span>상단</span><span>본문</span><span>하단</span></div></div>
-<div class="panel"><h2>요소 분류 (클릭 필터)</h2><div class="legend"><button class="lg" data-g="store" style="--c:#94a3b8"><span class="dot" style="background:#94a3b8"></span>매장 공통/고지 <b>3</b></button> <button class="lg" data-g="hook" style="--c:#ef4444"><span class="dot" style="background:#ef4444"></span>후킹/인트로 <b>3</b></button> <button class="lg" data-g="problem" style="--c:#f59e0b"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 <b>7</b></button> <button class="lg" data-g="value" style="--c:#8b5cf6"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP <b>6</b></button> <button class="lg" data-g="feature" style="--c:#3b82f6"><span class="dot" style="background:#3b82f6"></span>기능/구조 상세 <b>55</b></button> <button class="lg" data-g="proof" style="--c:#10b981"><span class="dot" style="background:#10b981"></span>효과/연출컷 <b>26</b></button> <button class="lg" data-g="design" style="--c:#ec4899"><span class="dot" style="background:#ec4899"></span>디자인 <b>2</b></button> <button class="lg" data-g="trust" style="--c:#14b8a6"><span class="dot" style="background:#14b8a6"></span>신뢰(인증/AS) <b>5</b></button> <button class="lg" data-g="guide" style="--c:#64748b"><span class="dot" style="background:#64748b"></span>사용가이드 <b>2</b></button> <button class="lg" data-g="info" style="--c:#0ea5e9"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 <b>4</b></button></div></div>
-<div class="grid" id="grid"><div class="card" data-group="trust">
+<div class="panel"><h2>중분류 필터 (클릭)</h2><div class="legend"><div class="majcluster"><span class="mjl" style="color:#94a3b8">쇼핑 혜택·안내</span><button class="lg" data-g="store" style="--c:#94a3b8"><span class="dot" style="background:#94a3b8"></span>매장공통/고지 <b>3</b></button></div><div class="majcluster"><span class="mjl" style="color:#f97316">눈길 끌기 & 공감</span><button class="lg" data-g="hook" style="--c:#ef4444"><span class="dot" style="background:#ef4444"></span>후킹/인트로 <b>4</b></button><button class="lg" data-g="problem" style="--c:#f59e0b"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 <b>7</b></button></div><div class="majcluster"><span class="mjl" style="color:#8b5cf6">핵심 차별점</span><button class="lg" data-g="value" style="--c:#8b5cf6"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP <b>6</b></button></div><div class="majcluster"><span class="mjl" style="color:#3b82f6">제품력 증명</span><button class="lg" data-g="feature" style="--c:#3b82f6"><span class="dot" style="background:#3b82f6"></span>기능/구조 <b>49</b></button><button class="lg" data-g="proof_data" style="--c:#059669"><span class="dot" style="background:#059669"></span>효과-증명형 <b>2</b></button><button class="lg" data-g="proof_lifestyle" style="--c:#34d399"><span class="dot" style="background:#34d399"></span>효과-연출형 <b>26</b></button><button class="lg" data-g="design" style="--c:#ec4899"><span class="dot" style="background:#ec4899"></span>디자인 <b>2</b></button><button class="lg" data-g="trust" style="--c:#14b8a6"><span class="dot" style="background:#14b8a6"></span>신뢰 <b>5</b></button></div><div class="majcluster"><span class="mjl" style="color:#0ea5e9">구매 유도</span><button class="lg" data-g="guide" style="--c:#64748b"><span class="dot" style="background:#64748b"></span>사용가이드 <b>5</b></button><button class="lg" data-g="info" style="--c:#0ea5e9"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 <b>4</b></button></div></div></div>
+<div class="grid" id="grid"><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/001.jpg" alt="#1"></div>
-      <div class="meta"><div class="num">#01</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">정품·공식판매처</div><div class="desc">클렌하임 온라인 공식 판매처</div></div></div><div class="card" data-group="store">
+      <div class="meta"><div class="num">#01 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">정품·총판</span>
+        <div class="el">정품·공식판매처</div><div class="desc">클렌하임 온라인 공식 판매처</div></div></div><div class="card" data-mid="store">
       <div class="imgwrap"><img loading="lazy" src="thumbs/002.jpg" alt="#2"></div>
-      <div class="meta"><div class="num">#02</div><span class="chip" style="background:#94a3b8">매장 공통/고지</span>
-        <div class="el">품절·배송 공지</div><div class="desc">3차 품절 + 추가주문 배송 안내</div></div></div><div class="card" data-group="hook">
+      <div class="meta"><div class="num">#02 <span class="majtag" style="color:#94a3b8">쇼핑 혜택·안내</span></div>
+        <span class="chip" style="background:#94a3b8">매장공통/고지</span><span class="subt">배송·오늘출발</span>
+        <div class="el">품절·배송 공지</div><div class="desc">3차 품절 + 추가주문 배송 안내</div></div></div><div class="card" data-mid="hook">
       <div class="imgwrap"><img loading="lazy" src="thumbs/003.jpg" alt="#3"></div>
-      <div class="meta"><div class="num">#03</div><span class="chip" style="background:#ef4444">후킹/인트로</span>
-        <div class="el">화제성 후킹</div><div class="desc">연예인 유튜브 내돈내산 / 유사품 주의</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#03 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#ef4444">후킹/인트로</span><span class="subt">화제성·내돈내산</span>
+        <div class="el">화제성 후킹</div><div class="desc">연예인 유튜브 내돈내산 / 유사품 주의</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/004.jpg" alt="#4"></div>
-      <div class="meta"><div class="num">#04</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">유통 신뢰</div><div class="desc">홈쇼핑·백화점·코스트코 인정</div></div></div><div class="card" data-group="store">
+      <div class="meta"><div class="num">#04 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">수상·판매량·1위</span>
+        <div class="el">유통 신뢰</div><div class="desc">홈쇼핑·백화점·코스트코 인정</div></div></div><div class="card" data-mid="store">
       <div class="imgwrap"><img loading="lazy" src="thumbs/005.jpg" alt="#5"></div>
-      <div class="meta"><div class="num">#05</div><span class="chip" style="background:#94a3b8">매장 공통/고지</span>
-        <div class="el">매장 공통 고지</div><div class="desc">공식몰 혜택 모아보기(당일발송/AS/전화주문)</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#05 <span class="majtag" style="color:#94a3b8">쇼핑 혜택·안내</span></div>
+        <span class="chip" style="background:#94a3b8">매장공통/고지</span><span class="subt">공지사항</span>
+        <div class="el">매장 공통 고지</div><div class="desc">공식몰 혜택 모아보기(당일발송/AS/전화주문)</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/006.jpg" alt="#6"></div>
-      <div class="meta"><div class="num">#06</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기</div><div class="desc">왜 겨드랑이·부유방 케어가 중요할까</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#06 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">불편상황 나열</span>
+        <div class="el">문제제기</div><div class="desc">왜 겨드랑이·부유방 케어가 중요할까</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/007.jpg" alt="#7"></div>
-      <div class="meta"><div class="num">#07</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">팔뚝 마사지 연출</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#07 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">팔뚝 마사지 연출</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/008.jpg" alt="#8"></div>
-      <div class="meta"><div class="num">#08</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기</div><div class="desc">상체 붓기·뭉침 쌓이는 부위</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#08 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">불편상황 나열</span>
+        <div class="el">문제제기</div><div class="desc">상체 붓기·뭉침 쌓이는 부위</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/009.jpg" alt="#9"></div>
-      <div class="meta"><div class="num">#09</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">겨드랑이 마사지 연출</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#09 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">겨드랑이 마사지 연출</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/010.jpg" alt="#10"></div>
-      <div class="meta"><div class="num">#10</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">효과·USP</div><div class="desc">꾸준히 마사지 → 매끈한 바디라인</div></div></div><div class="card" data-group="hook">
+      <div class="meta"><div class="num">#10 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">한 줄 차별카피</span>
+        <div class="el">효과·USP</div><div class="desc">꾸준히 마사지 → 매끈한 바디라인</div></div></div><div class="card" data-mid="hook">
       <div class="imgwrap"><img loading="lazy" src="thumbs/011.jpg" alt="#11"></div>
-      <div class="meta"><div class="num">#11</div><span class="chip" style="background:#ef4444">후킹/인트로</span>
-        <div class="el">후킹 카피</div><div class="desc">완벽한 바디라인? 그녀들의 비밀템</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#11 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#ef4444">후킹/인트로</span><span class="subt">메인 슬로건</span>
+        <div class="el">후킹 카피</div><div class="desc">완벽한 바디라인? 그녀들의 비밀템</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/012.jpg" alt="#12"></div>
-      <div class="meta"><div class="num">#12</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">쇄골 마사지 연출</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#12 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">쇄골 마사지 연출</div></div></div><div class="card" data-mid="hook">
       <div class="imgwrap"><img loading="lazy" src="thumbs/013.jpg" alt="#13"></div>
-      <div class="meta"><div class="num">#13</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">USP·인트로</div><div class="desc">프리미엄 라인 케어 솔루션 BODY TAP</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#13 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#ef4444">후킹/인트로</span><span class="subt">키비주얼</span>
+        <div class="el">USP·인트로</div><div class="desc">프리미엄 라인 케어 솔루션 BODY TAP</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/014.jpg" alt="#14"></div>
-      <div class="meta"><div class="num">#14</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 부위</div><div class="desc">팔뚝/허벅지/복부</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#14 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 부위</div><div class="desc">팔뚝/허벅지/복부</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/015.jpg" alt="#15"></div>
-      <div class="meta"><div class="num">#15</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#15 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/016.jpg" alt="#16"></div>
-      <div class="meta"><div class="num">#16</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기</div><div class="desc">아직도 힘들게 다이어트?</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#16 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">불편상황 나열</span>
+        <div class="el">문제제기</div><div class="desc">아직도 힘들게 다이어트?</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/017.jpg" alt="#17"></div>
-      <div class="meta"><div class="num">#17</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#17 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/018.jpg" alt="#18"></div>
-      <div class="meta"><div class="num">#18</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기</div><div class="desc">뱃살</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#18 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">불편상황 나열</span>
+        <div class="el">문제제기</div><div class="desc">뱃살</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/019.jpg" alt="#19"></div>
-      <div class="meta"><div class="num">#19</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#19 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/020.jpg" alt="#20"></div>
-      <div class="meta"><div class="num">#20</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기·원리</div><div class="desc">운동·식단만으론 살 빼기 힘든 이유(피부 단면)</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#20 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">기존 대안의 한계</span>
+        <div class="el">문제제기·원리</div><div class="desc">운동·식단만으론 살 빼기 힘든 이유(피부 단면)</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/021.jpg" alt="#21"></div>
-      <div class="meta"><div class="num">#21</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">어깨 마사지 연출</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#21 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">어깨 마사지 연출</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/022.jpg" alt="#22"></div>
-      <div class="meta"><div class="num">#22</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기·원리</div><div class="desc">혈액순환과 다이어트 관계(불균형 라인/유착)</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#22 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">기존 대안의 한계</span>
+        <div class="el">문제제기·원리</div><div class="desc">혈액순환과 다이어트 관계(불균형 라인/유착)</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/023.jpg" alt="#23"></div>
-      <div class="meta"><div class="num">#23</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">다리 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#23 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">다리 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/024.jpg" alt="#24"></div>
-      <div class="meta"><div class="num">#24</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리·효과</div><div class="desc">밸런스 라인 생기는 이유(셀룰라이트)</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#24 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리·효과</div><div class="desc">밸런스 라인 생기는 이유(셀룰라이트)</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/025.jpg" alt="#25"></div>
-      <div class="meta"><div class="num">#25</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리</div><div class="desc">혈관·셀룰라이트 비주얼</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#25 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리</div><div class="desc">혈관·셀룰라이트 비주얼</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/026.jpg" alt="#26"></div>
-      <div class="meta"><div class="num">#26</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리</div><div class="desc">더블롤링 회전 시스템 — 전신 바디케어</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#26 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리</div><div class="desc">더블롤링 회전 시스템 — 전신 바디케어</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/027.jpg" alt="#27"></div>
-      <div class="meta"><div class="num">#27</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">허리 마사지 연출</div></div></div><div class="card" data-group="hook">
+      <div class="meta"><div class="num">#27 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">허리 마사지 연출</div></div></div><div class="card" data-mid="hook">
       <div class="imgwrap"><img loading="lazy" src="thumbs/028.jpg" alt="#28"></div>
-      <div class="meta"><div class="num">#28</div><span class="chip" style="background:#ef4444">후킹/인트로</span>
-        <div class="el">제품 인트로</div><div class="desc">아름다움을 두드리다 — 클렌하임 바디탭</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#28 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#ef4444">후킹/인트로</span><span class="subt">브랜드 무드</span>
+        <div class="el">제품 인트로</div><div class="desc">아름다움을 두드리다 — 클렌하임 바디탭</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/029.jpg" alt="#29"></div>
-      <div class="meta"><div class="num">#29</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">인플루언서 리뷰</div><div class="desc">인스타 소문난 필수템</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#29 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">후기·평점</span>
+        <div class="el">인플루언서 리뷰</div><div class="desc">인스타 소문난 필수템</div></div></div><div class="card" data-mid="proof_data">
       <div class="imgwrap"><img loading="lazy" src="thumbs/030.jpg" alt="#30"></div>
-      <div class="meta"><div class="num">#30</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">효과·체험</div><div class="desc">일주일 사용 Before/After</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#30 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#059669">효과-증명형</span><span class="subt">before/after</span>
+        <div class="el">효과·체험</div><div class="desc">일주일 사용 Before/After</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/031.jpg" alt="#31"></div>
-      <div class="meta"><div class="num">#31</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">스펙 요약 인트로</div><div class="desc">당신을 바꿔줄 8가지 스펙</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#31 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">N가지 핵심포인트</span>
+        <div class="el">스펙 요약 인트로</div><div class="desc">당신을 바꿔줄 8가지 스펙</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/032.jpg" alt="#32"></div>
-      <div class="meta"><div class="num">#32</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">핵심 스펙 요약</div><div class="desc">8가지 스펙 아이콘</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#32 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">N가지 핵심포인트</span>
+        <div class="el">핵심 스펙 요약</div><div class="desc">8가지 스펙 아이콘</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/033.jpg" alt="#33"></div>
-      <div class="meta"><div class="num">#33</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">리얼 리뷰</div><div class="desc">거짓없는 리얼 리뷰</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#33 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">후기·평점</span>
+        <div class="el">리얼 리뷰</div><div class="desc">거짓없는 리얼 리뷰</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/034.jpg" alt="#34"></div>
-      <div class="meta"><div class="num">#34</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">USP·POINT01</div><div class="desc">프리미엄 라인 마사지기</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#34 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">포지셔닝</span>
+        <div class="el">USP·POINT01</div><div class="desc">프리미엄 라인 마사지기</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/035.jpg" alt="#35"></div>
-      <div class="meta"><div class="num">#35</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">차별</div><div class="desc">왜 바디탭일까?</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#35 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">경쟁비교 우위</span>
+        <div class="el">차별</div><div class="desc">왜 바디탭일까?</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/036.jpg" alt="#36"></div>
-      <div class="meta"><div class="num">#36</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">비교</div><div class="desc">일반 마사지건 비교</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#36 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">신·구 비교</span>
+        <div class="el">비교</div><div class="desc">일반 마사지건 비교</div></div></div><div class="card" data-mid="value">
       <div class="imgwrap"><img loading="lazy" src="thumbs/037.jpg" alt="#37"></div>
-      <div class="meta"><div class="num">#37</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">차별</div><div class="desc">라인 관리 위해 탄생</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#37 <span class="majtag" style="color:#8b5cf6">핵심 차별점</span></div>
+        <span class="chip" style="background:#8b5cf6">핵심가치/USP</span><span class="subt">경쟁비교 우위</span>
+        <div class="el">차별</div><div class="desc">라인 관리 위해 탄생</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/038.jpg" alt="#38"></div>
-      <div class="meta"><div class="num">#38</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">목/머리 마사지 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#38 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">목/머리 마사지 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/039.jpg" alt="#39"></div>
-      <div class="meta"><div class="num">#39</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">설계·비교</div><div class="desc">곡선형 인체공학 / 완벽한 차이</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#39 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">설계·비교</div><div class="desc">곡선형 인체공학 / 완벽한 차이</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/040.jpg" alt="#40"></div>
-      <div class="meta"><div class="num">#40</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리 비교</div><div class="desc">수직 자극 vs 원형 회전 자극</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#40 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리 비교</div><div class="desc">수직 자극 vs 원형 회전 자극</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/041.jpg" alt="#41"></div>
-      <div class="meta"><div class="num">#41</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리</div><div class="desc">원형 회전 자극</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#41 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리</div><div class="desc">원형 회전 자극</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/042.jpg" alt="#42"></div>
-      <div class="meta"><div class="num">#42</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">팔뚝 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#42 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">팔뚝 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/043.jpg" alt="#43"></div>
-      <div class="meta"><div class="num">#43</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">파장</div><div class="desc">좁은 vs 넓은 파장</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#43 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">핵심기술(POINT넘버링)</span>
+        <div class="el">파장</div><div class="desc">좁은 vs 넓은 파장</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/044.jpg" alt="#44"></div>
-      <div class="meta"><div class="num">#44</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">머리/팔 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#44 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">머리/팔 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/045.jpg" alt="#45"></div>
-      <div class="meta"><div class="num">#45</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">디자인</div><div class="desc">손목 무리없는 곡선형</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#45 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">디자인</div><div class="desc">손목 무리없는 곡선형</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/046.jpg" alt="#46"></div>
-      <div class="meta"><div class="num">#46</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 인트로</div><div class="desc">POINT02 올인원 전신 관리템</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#46 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 인트로</div><div class="desc">POINT02 올인원 전신 관리템</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/047.jpg" alt="#47"></div>
-      <div class="meta"><div class="num">#47</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용</div><div class="desc">원하는 곳 어디든 활용도</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#47 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용</div><div class="desc">원하는 곳 어디든 활용도</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/048.jpg" alt="#48"></div>
-      <div class="meta"><div class="num">#48</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">어깨/겨드랑이 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#48 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">어깨/겨드랑이 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/049.jpg" alt="#49"></div>
-      <div class="meta"><div class="num">#49</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 부위</div><div class="desc">승모근/겨드랑이</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#49 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 부위</div><div class="desc">승모근/겨드랑이</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/050.jpg" alt="#50"></div>
-      <div class="meta"><div class="num">#50</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">무릎/허벅지 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#50 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">무릎/허벅지 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/051.jpg" alt="#51"></div>
-      <div class="meta"><div class="num">#51</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 부위</div><div class="desc">오금/서혜부</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#51 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 부위</div><div class="desc">오금/서혜부</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/052.jpg" alt="#52"></div>
-      <div class="meta"><div class="num">#52</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#52 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/053.jpg" alt="#53"></div>
-      <div class="meta"><div class="num">#53</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 부위</div><div class="desc">허벅지/복부</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#53 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 부위</div><div class="desc">허벅지/복부</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/054.jpg" alt="#54"></div>
-      <div class="meta"><div class="num">#54</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">팔뚝 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#54 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">팔뚝 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/055.jpg" alt="#55"></div>
-      <div class="meta"><div class="num">#55</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 부위</div><div class="desc">팔뚝/종아리</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#55 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 부위</div><div class="desc">팔뚝/종아리</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/056.jpg" alt="#56"></div>
-      <div class="meta"><div class="num">#56</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">겨드랑이/엉덩이 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#56 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">겨드랑이/엉덩이 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/057.jpg" alt="#57"></div>
-      <div class="meta"><div class="num">#57</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">활용 부위</div><div class="desc">어깨/엉덩이</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#57 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">활용 부위</div><div class="desc">어깨/엉덩이</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/058.jpg" alt="#58"></div>
-      <div class="meta"><div class="num">#58</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">관리 컨셉</div><div class="desc">POINT03 트라이앵글 멀티 케어</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#58 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">핵심기술(POINT넘버링)</span>
+        <div class="el">관리 컨셉</div><div class="desc">POINT03 트라이앵글 멀티 케어</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/059.jpg" alt="#59"></div>
-      <div class="meta"><div class="num">#59</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">효과</div><div class="desc">바디라인+마사지+순환</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#59 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">효과</div><div class="desc">바디라인+마사지+순환</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/060.jpg" alt="#60"></div>
-      <div class="meta"><div class="num">#60</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">핵심기술</div><div class="desc">POINT04 더블 롤링 테크닉(인체공학)</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#60 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">핵심기술(POINT넘버링)</span>
+        <div class="el">핵심기술</div><div class="desc">POINT04 더블 롤링 테크닉(인체공학)</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/061.jpg" alt="#61"></div>
-      <div class="meta"><div class="num">#61</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">스펙</div><div class="desc">회전수(173회)</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#61 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">스펙</div><div class="desc">회전수(173회)</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/062.jpg" alt="#62"></div>
-      <div class="meta"><div class="num">#62</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">스펙</div><div class="desc">1분 4,500번 회전</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#62 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">스펙</div><div class="desc">1분 4,500번 회전</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/063.jpg" alt="#63"></div>
-      <div class="meta"><div class="num">#63</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">제품컷</div><div class="desc">제품 비주얼</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#63 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">스케일감</span>
+        <div class="el">제품컷</div><div class="desc">제품 비주얼</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/064.jpg" alt="#64"></div>
-      <div class="meta"><div class="num">#64</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리</div><div class="desc">이중 회전 — 원형 회전 자극</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#64 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리</div><div class="desc">이중 회전 — 원형 회전 자극</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/065.jpg" alt="#65"></div>
-      <div class="meta"><div class="num">#65</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리 비교</div><div class="desc">수직 vs 원형 회전 단면</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#65 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리 비교</div><div class="desc">수직 vs 원형 회전 단면</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/066.jpg" alt="#66"></div>
-      <div class="meta"><div class="num">#66</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">비교</div><div class="desc">타사 수직 vs 바디탭 원형(조직 손상)</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#66 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">신·구 비교</span>
+        <div class="el">비교</div><div class="desc">타사 수직 vs 바디탭 원형(조직 손상)</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/067.jpg" alt="#67"></div>
-      <div class="meta"><div class="num">#67</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">원리</div><div class="desc">피하지방 단면</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#67 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">원리</div><div class="desc">피하지방 단면</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/068.jpg" alt="#68"></div>
-      <div class="meta"><div class="num">#68</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">파워모드</div><div class="desc">POINT05 6단계 파워모드</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#68 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">파워모드</div><div class="desc">POINT05 6단계 파워모드</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/069.jpg" alt="#69"></div>
-      <div class="meta"><div class="num">#69</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#69 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/070.jpg" alt="#70"></div>
-      <div class="meta"><div class="num">#70</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">강도</div><div class="desc">파워 1단/6단</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#70 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">강도</div><div class="desc">파워 1단/6단</div></div></div><div class="card" data-mid="proof_data">
       <div class="imgwrap"><img loading="lazy" src="thumbs/071.jpg" alt="#71"></div>
-      <div class="meta"><div class="num">#71</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">파워 데모</div><div class="desc">물잔 진동 데모</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#71 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#059669">효과-증명형</span><span class="subt">실험 데모</span>
+        <div class="el">파워 데모</div><div class="desc">물잔 진동 데모</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/072.jpg" alt="#72"></div>
-      <div class="meta"><div class="num">#72</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">효과</div><div class="desc">피하지방 정확한 타격</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#72 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">작동원리</span>
+        <div class="el">효과</div><div class="desc">피하지방 정확한 타격</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/073.jpg" alt="#73"></div>
-      <div class="meta"><div class="num">#73</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">헤드</div><div class="desc">POINT06 4종 마사지 헤드</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#73 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">핵심기술(POINT넘버링)</span>
+        <div class="el">헤드</div><div class="desc">POINT06 4종 마사지 헤드</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/074.jpg" alt="#74"></div>
-      <div class="meta"><div class="num">#74</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">헤드</div><div class="desc">Type1 베이직 타입</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#74 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">헤드</div><div class="desc">Type1 베이직 타입</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/075.jpg" alt="#75"></div>
-      <div class="meta"><div class="num">#75</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">헤드</div><div class="desc">Type2 라운드 타입</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#75 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">헤드</div><div class="desc">Type2 라운드 타입</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/076.jpg" alt="#76"></div>
-      <div class="meta"><div class="num">#76</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">헤드</div><div class="desc">Type3 웨이브 타입</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#76 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">헤드</div><div class="desc">Type3 웨이브 타입</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/077.jpg" alt="#77"></div>
-      <div class="meta"><div class="num">#77</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">헤드</div><div class="desc">Type4 핑거 타입</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#77 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">헤드</div><div class="desc">Type4 핑거 타입</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/078.jpg" alt="#78"></div>
-      <div class="meta"><div class="num">#78</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">안전</div><div class="desc">메쉬 커버</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#78 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">안전</div><div class="desc">메쉬 커버</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/079.jpg" alt="#79"></div>
-      <div class="meta"><div class="num">#79</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#79 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/080.jpg" alt="#80"></div>
-      <div class="meta"><div class="num">#80</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">안전</div><div class="desc">메쉬커버 결합</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#80 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">안전</div><div class="desc">메쉬커버 결합</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/081.jpg" alt="#81"></div>
-      <div class="meta"><div class="num">#81</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">안전</div><div class="desc">결합으로 피부자극 감소</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#81 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">안전</div><div class="desc">결합으로 피부자극 감소</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/082.jpg" alt="#82"></div>
-      <div class="meta"><div class="num">#82</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#82 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">복부 연출</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/083.jpg" alt="#83"></div>
-      <div class="meta"><div class="num">#83</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">사용 팁</div><div class="desc">사용시간 늘려 빠른 효과</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#83 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">부위별·테크닉</span>
+        <div class="el">사용 팁</div><div class="desc">사용시간 늘려 빠른 효과</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/084.jpg" alt="#84"></div>
-      <div class="meta"><div class="num">#84</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">LED</div><div class="desc">POINT07 LED 디스플레이</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#84 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">핵심기술(POINT넘버링)</span>
+        <div class="el">LED</div><div class="desc">POINT07 LED 디스플레이</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/085.jpg" alt="#85"></div>
-      <div class="meta"><div class="num">#85</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">LED</div><div class="desc">LED 버튼</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#85 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">LED</div><div class="desc">LED 버튼</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/086.jpg" alt="#86"></div>
-      <div class="meta"><div class="num">#86</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">LED</div><div class="desc">강도/배터리 확인</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#86 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">LED</div><div class="desc">강도/배터리 확인</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/087.jpg" alt="#87"></div>
-      <div class="meta"><div class="num">#87</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">배터리</div><div class="desc">POINT08 대용량 무선 작동</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#87 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">핵심기술(POINT넘버링)</span>
+        <div class="el">배터리</div><div class="desc">POINT08 대용량 무선 작동</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/088.jpg" alt="#88"></div>
-      <div class="meta"><div class="num">#88</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">충전</div><div class="desc">충전부 디테일</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#88 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">충전</div><div class="desc">충전부 디테일</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/089.jpg" alt="#89"></div>
-      <div class="meta"><div class="num">#89</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">배터리</div><div class="desc">C타입 충전 최대 90분</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#89 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">모드·강도</span>
+        <div class="el">배터리</div><div class="desc">C타입 충전 최대 90분</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/090.jpg" alt="#90"></div>
-      <div class="meta"><div class="num">#90</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">휴대성</div><div class="desc">가방에 쏙</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#90 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">휴대성</div><div class="desc">가방에 쏙</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/091.jpg" alt="#91"></div>
-      <div class="meta"><div class="num">#91</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">휴대성</div><div class="desc">무선 사무실/야외 이동</div></div></div><div class="card" data-group="design">
+      <div class="meta"><div class="num">#91 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">휴대성</div><div class="desc">무선 사무실/야외 이동</div></div></div><div class="card" data-mid="design">
       <div class="imgwrap"><img loading="lazy" src="thumbs/092.jpg" alt="#92"></div>
-      <div class="meta"><div class="num">#92</div><span class="chip" style="background:#ec4899">디자인</span>
-        <div class="el">디테일 인트로</div><div class="desc">작은 곳까지 섬세한 디테일</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#92 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#ec4899">디자인</span><span class="subt">컬러·외관</span>
+        <div class="el">디테일 인트로</div><div class="desc">작은 곳까지 섬세한 디테일</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/093.jpg" alt="#93"></div>
-      <div class="meta"><div class="num">#93</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">노트북 옆 사용 연출</div></div></div><div class="card" data-group="problem">
+      <div class="meta"><div class="num">#93 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">연출컷</div><div class="desc">노트북 옆 사용 연출</div></div></div><div class="card" data-mid="problem">
       <div class="imgwrap"><img loading="lazy" src="thumbs/094.jpg" alt="#94"></div>
-      <div class="meta"><div class="num">#94</div><span class="chip" style="background:#f59e0b">문제제기/타겟</span>
-        <div class="el">문제제기</div><div class="desc">방치하는 마사지기 / 깔끔한 보관</div></div></div><div class="card" data-group="design">
+      <div class="meta"><div class="num">#94 <span class="majtag" style="color:#f97316">눈길 끌기 & 공감</span></div>
+        <span class="chip" style="background:#f59e0b">문제제기/타겟</span><span class="subt">불편상황 나열</span>
+        <div class="el">문제제기</div><div class="desc">방치하는 마사지기 / 깔끔한 보관</div></div></div><div class="card" data-mid="design">
       <div class="imgwrap"><img loading="lazy" src="thumbs/095.jpg" alt="#95"></div>
-      <div class="meta"><div class="num">#95</div><span class="chip" style="background:#ec4899">디자인</span>
-        <div class="el">보관·거치</div><div class="desc">책상 위 거치</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#95 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#ec4899">디자인</span><span class="subt">인테리어 어울림</span>
+        <div class="el">보관·거치</div><div class="desc">책상 위 거치</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/096.jpg" alt="#96"></div>
-      <div class="meta"><div class="num">#96</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">편의</div><div class="desc">손 가는 위치에 신속한 사용</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#96 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">적용부위·시나리오</span>
+        <div class="el">편의</div><div class="desc">손 가는 위치에 신속한 사용</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/097.jpg" alt="#97"></div>
-      <div class="meta"><div class="num">#97</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">노트북 옆 거치 연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#97 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">연출컷</div><div class="desc">노트북 옆 거치 연출</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/098.jpg" alt="#98"></div>
-      <div class="meta"><div class="num">#98</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">세척</div><div class="desc">워셔블 분리 세척 구조</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#98 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">세척</div><div class="desc">워셔블 분리 세척 구조</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/099.jpg" alt="#99"></div>
-      <div class="meta"><div class="num">#99</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#99 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">연출컷</div><div class="desc">연출</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/100.jpg" alt="#100"></div>
-      <div class="meta"><div class="num">#100</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">세척</div><div class="desc">크림/오일 펌핑</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#100 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">조작·충전·세척</span>
+        <div class="el">세척</div><div class="desc">크림/오일 펌핑</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/101.jpg" alt="#101"></div>
-      <div class="meta"><div class="num">#101</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">세척</div><div class="desc">물세척 — 부드러운 마사지</div></div></div><div class="card" data-group="proof">
+      <div class="meta"><div class="num">#101 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">조작·충전·세척</span>
+        <div class="el">세척</div><div class="desc">물세척 — 부드러운 마사지</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/102.jpg" alt="#102"></div>
-      <div class="meta"><div class="num">#102</div><span class="chip" style="background:#10b981">효과/연출컷</span>
-        <div class="el">연출컷</div><div class="desc">무릎 크림 연출</div></div></div><div class="card" data-group="value">
+      <div class="meta"><div class="num">#102 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">사용 상황컷</span>
+        <div class="el">연출컷</div><div class="desc">무릎 크림 연출</div></div></div><div class="card" data-mid="proof_lifestyle">
       <div class="imgwrap"><img loading="lazy" src="thumbs/103.jpg" alt="#103"></div>
-      <div class="meta"><div class="num">#103</div><span class="chip" style="background:#8b5cf6">핵심가치/USP</span>
-        <div class="el">감성</div><div class="desc">좋은 향기·촉감 릴렉싱</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#103 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#34d399">효과-연출형</span><span class="subt">라이프스타일 연출</span>
+        <div class="el">감성</div><div class="desc">좋은 향기·촉감 릴렉싱</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/104.jpg" alt="#104"></div>
-      <div class="meta"><div class="num">#104</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">저소음</div><div class="desc">저소음 설계 45-50dB</div></div></div><div class="card" data-group="feature">
+      <div class="meta"><div class="num">#104 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">저소음</div><div class="desc">저소음 설계 45-50dB</div></div></div><div class="card" data-mid="feature">
       <div class="imgwrap"><img loading="lazy" src="thumbs/105.jpg" alt="#105"></div>
-      <div class="meta"><div class="num">#105</div><span class="chip" style="background:#3b82f6">기능/구조 상세</span>
-        <div class="el">그립</div><div class="desc">미끄러짐 없는 논슬립 핸들 그립</div></div></div><div class="card" data-group="store">
+      <div class="meta"><div class="num">#105 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#3b82f6">기능/구조</span><span class="subt">소재·구조</span>
+        <div class="el">그립</div><div class="desc">미끄러짐 없는 논슬립 핸들 그립</div></div></div><div class="card" data-mid="store">
       <div class="imgwrap"><img loading="lazy" src="thumbs/106.jpg" alt="#106"></div>
-      <div class="meta"><div class="num">#106</div><span class="chip" style="background:#94a3b8">매장 공통/고지</span>
-        <div class="el">증정</div><div class="desc">구매자 전원 전용 파우치 무료증정</div></div></div><div class="card" data-group="trust">
+      <div class="meta"><div class="num">#106 <span class="majtag" style="color:#94a3b8">쇼핑 혜택·안내</span></div>
+        <span class="chip" style="background:#94a3b8">매장공통/고지</span><span class="subt">크로스셀·번들</span>
+        <div class="el">증정</div><div class="desc">구매자 전원 전용 파우치 무료증정</div></div></div><div class="card" data-mid="trust">
       <div class="imgwrap"><img loading="lazy" src="thumbs/107.jpg" alt="#107"></div>
-      <div class="meta"><div class="num">#107</div><span class="chip" style="background:#14b8a6">신뢰(인증/AS)</span>
-        <div class="el">인증</div><div class="desc">KC 안전 테스트 통과(인증서)</div></div></div><div class="card" data-group="guide">
+      <div class="meta"><div class="num">#107 <span class="majtag" style="color:#3b82f6">제품력 증명</span></div>
+        <span class="chip" style="background:#14b8a6">신뢰</span><span class="subt">인증·특허·성적서</span>
+        <div class="el">인증</div><div class="desc">KC 안전 테스트 통과(인증서)</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/108.jpg" alt="#108"></div>
-      <div class="meta"><div class="num">#108</div><span class="chip" style="background:#64748b">사용가이드</span>
-        <div class="el">사용법</div><div class="desc">헤드 교체 방법</div></div></div><div class="card" data-group="guide">
+      <div class="meta"><div class="num">#108 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">사용법 STEP</span>
+        <div class="el">사용법</div><div class="desc">헤드 교체 방법</div></div></div><div class="card" data-mid="guide">
       <div class="imgwrap"><img loading="lazy" src="thumbs/109.jpg" alt="#109"></div>
-      <div class="meta"><div class="num">#109</div><span class="chip" style="background:#64748b">사용가이드</span>
-        <div class="el">사용법</div><div class="desc">바디탭 작동 방법</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#109 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#64748b">사용가이드</span><span class="subt">사용법 STEP</span>
+        <div class="el">사용법</div><div class="desc">바디탭 작동 방법</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/110.jpg" alt="#110"></div>
-      <div class="meta"><div class="num">#110</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">구성품</div><div class="desc">제품 구성(본품/헤드4종/메쉬커버)</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#110 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">구성품</span>
+        <div class="el">구성품</div><div class="desc">제품 구성(본품/헤드4종/메쉬커버)</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/111.jpg" alt="#111"></div>
-      <div class="meta"><div class="num">#111</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">FAQ</div><div class="desc">자주 묻는 질문</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#111 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">구매 FAQ</span>
+        <div class="el">FAQ</div><div class="desc">자주 묻는 질문</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/112.jpg" alt="#112"></div>
-      <div class="meta"><div class="num">#112</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
-        <div class="el">제품 스펙</div><div class="desc">제품 정보 사양표</div></div></div><div class="card" data-group="info">
+      <div class="meta"><div class="num">#112 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">스펙표</span>
+        <div class="el">제품 스펙</div><div class="desc">제품 정보 사양표</div></div></div><div class="card" data-mid="info">
       <div class="imgwrap"><img loading="lazy" src="thumbs/113.jpg" alt="#113"></div>
-      <div class="meta"><div class="num">#113</div><span class="chip" style="background:#0ea5e9">구매정보/스펙</span>
+      <div class="meta"><div class="num">#113 <span class="majtag" style="color:#0ea5e9">구매 유도</span></div>
+        <span class="chip" style="background:#0ea5e9">구매정보/스펙</span><span class="subt">배송·교환반품</span>
         <div class="el">구매정보·AS</div><div class="desc">WARRANTY/CS/교환·반품</div></div></div></div>
-<div class="panel" style="margin-top:24px"><h2>요소별 집계</h2><table><tbody><tr class="ghead"><td colspan="3"><span class="dot" style="background:#94a3b8"></span>매장 공통/고지 · 3장</td></tr><tr><td class="elc">품절·배송 공지</td><td class="cnt">1</td><td class="nums">#02</td></tr><tr><td class="elc">매장 공통 고지</td><td class="cnt">1</td><td class="nums">#05</td></tr><tr><td class="elc">증정</td><td class="cnt">1</td><td class="nums">#106</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#ef4444"></span>후킹/인트로 · 3장</td></tr><tr><td class="elc">화제성 후킹</td><td class="cnt">1</td><td class="nums">#03</td></tr><tr><td class="elc">후킹 카피</td><td class="cnt">1</td><td class="nums">#11</td></tr><tr><td class="elc">제품 인트로</td><td class="cnt">1</td><td class="nums">#28</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 · 7장</td></tr><tr><td class="elc">문제제기</td><td class="cnt">5</td><td class="nums">#06, #08, #16, #18, #94</td></tr><tr><td class="elc">문제제기·원리</td><td class="cnt">2</td><td class="nums">#20, #22</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP · 6장</td></tr><tr><td class="elc">효과·USP</td><td class="cnt">1</td><td class="nums">#10</td></tr><tr><td class="elc">USP·인트로</td><td class="cnt">1</td><td class="nums">#13</td></tr><tr><td class="elc">스펙 요약 인트로</td><td class="cnt">1</td><td class="nums">#31</td></tr><tr><td class="elc">핵심 스펙 요약</td><td class="cnt">1</td><td class="nums">#32</td></tr><tr><td class="elc">USP·POINT01</td><td class="cnt">1</td><td class="nums">#34</td></tr><tr><td class="elc">감성</td><td class="cnt">1</td><td class="nums">#103</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#3b82f6"></span>기능/구조 상세 · 55장</td></tr><tr><td class="elc">활용 부위</td><td class="cnt">6</td><td class="nums">#14, #49, #51, #53, #55, #57</td></tr><tr><td class="elc">원리·효과</td><td class="cnt">1</td><td class="nums">#24</td></tr><tr><td class="elc">원리</td><td class="cnt">5</td><td class="nums">#25, #26, #41, #64, #67</td></tr><tr><td class="elc">차별</td><td class="cnt">2</td><td class="nums">#35, #37</td></tr><tr><td class="elc">비교</td><td class="cnt">2</td><td class="nums">#36, #66</td></tr><tr><td class="elc">설계·비교</td><td class="cnt">1</td><td class="nums">#39</td></tr><tr><td class="elc">원리 비교</td><td class="cnt">2</td><td class="nums">#40, #65</td></tr><tr><td class="elc">파장</td><td class="cnt">1</td><td class="nums">#43</td></tr><tr><td class="elc">디자인</td><td class="cnt">1</td><td class="nums">#45</td></tr><tr><td class="elc">활용 인트로</td><td class="cnt">1</td><td class="nums">#46</td></tr><tr><td class="elc">활용</td><td class="cnt">1</td><td class="nums">#47</td></tr><tr><td class="elc">관리 컨셉</td><td class="cnt">1</td><td class="nums">#58</td></tr><tr><td class="elc">효과</td><td class="cnt">2</td><td class="nums">#59, #72</td></tr><tr><td class="elc">핵심기술</td><td class="cnt">1</td><td class="nums">#60</td></tr><tr><td class="elc">스펙</td><td class="cnt">2</td><td class="nums">#61, #62</td></tr><tr><td class="elc">파워모드</td><td class="cnt">1</td><td class="nums">#68</td></tr><tr><td class="elc">강도</td><td class="cnt">1</td><td class="nums">#70</td></tr><tr><td class="elc">파워 데모</td><td class="cnt">1</td><td class="nums">#71</td></tr><tr><td class="elc">헤드</td><td class="cnt">5</td><td class="nums">#73, #74, #75, #76, #77</td></tr><tr><td class="elc">안전</td><td class="cnt">3</td><td class="nums">#78, #80, #81</td></tr><tr><td class="elc">사용 팁</td><td class="cnt">1</td><td class="nums">#83</td></tr><tr><td class="elc">LED</td><td class="cnt">3</td><td class="nums">#84, #85, #86</td></tr><tr><td class="elc">배터리</td><td class="cnt">2</td><td class="nums">#87, #89</td></tr><tr><td class="elc">충전</td><td class="cnt">1</td><td class="nums">#88</td></tr><tr><td class="elc">휴대성</td><td class="cnt">2</td><td class="nums">#90, #91</td></tr><tr><td class="elc">편의</td><td class="cnt">1</td><td class="nums">#96</td></tr><tr><td class="elc">세척</td><td class="cnt">3</td><td class="nums">#98, #100, #101</td></tr><tr><td class="elc">저소음</td><td class="cnt">1</td><td class="nums">#104</td></tr><tr><td class="elc">그립</td><td class="cnt">1</td><td class="nums">#105</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#10b981"></span>효과/연출컷 · 26장</td></tr><tr><td class="elc">연출컷</td><td class="cnt">24</td><td class="nums">#07, #09, #12, #15, #17, #19, #21, #23, #27, #38, #42, #44, #48, #50, #52, #54, #56, #69, #79, #82, #93, #97, #99, #102</td></tr><tr><td class="elc">효과·체험</td><td class="cnt">1</td><td class="nums">#30</td></tr><tr><td class="elc">제품컷</td><td class="cnt">1</td><td class="nums">#63</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#ec4899"></span>디자인 · 2장</td></tr><tr><td class="elc">디테일 인트로</td><td class="cnt">1</td><td class="nums">#92</td></tr><tr><td class="elc">보관·거치</td><td class="cnt">1</td><td class="nums">#95</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#14b8a6"></span>신뢰(인증/AS) · 5장</td></tr><tr><td class="elc">정품·공식판매처</td><td class="cnt">1</td><td class="nums">#01</td></tr><tr><td class="elc">유통 신뢰</td><td class="cnt">1</td><td class="nums">#04</td></tr><tr><td class="elc">인플루언서 리뷰</td><td class="cnt">1</td><td class="nums">#29</td></tr><tr><td class="elc">리얼 리뷰</td><td class="cnt">1</td><td class="nums">#33</td></tr><tr><td class="elc">인증</td><td class="cnt">1</td><td class="nums">#107</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#64748b"></span>사용가이드 · 2장</td></tr><tr><td class="elc">사용법</td><td class="cnt">2</td><td class="nums">#108, #109</td></tr><tr class="ghead"><td colspan="3"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 · 4장</td></tr><tr><td class="elc">구성품</td><td class="cnt">1</td><td class="nums">#110</td></tr><tr><td class="elc">FAQ</td><td class="cnt">1</td><td class="nums">#111</td></tr><tr><td class="elc">제품 스펙</td><td class="cnt">1</td><td class="nums">#112</td></tr><tr><td class="elc">구매정보·AS</td><td class="cnt">1</td><td class="nums">#113</td></tr></tbody></table></div>
+<div class="panel" style="margin-top:24px"><h2>대 › 중 › 소 집계</h2><table><tbody><tr class="majhead"><td colspan="3">쇼핑 혜택·안내 · 3장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#94a3b8"></span>매장공통/고지 · 3장</td></tr><tr><td class="subc">└ 배송·오늘출발</td><td class="cnt">1</td><td class="nums">#02</td></tr><tr><td class="subc">└ 공지사항</td><td class="cnt">1</td><td class="nums">#05</td></tr><tr><td class="subc">└ 크로스셀·번들</td><td class="cnt">1</td><td class="nums">#106</td></tr><tr class="majhead"><td colspan="3">눈길 끌기 & 공감 · 11장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#ef4444"></span>후킹/인트로 · 4장</td></tr><tr><td class="subc">└ 화제성·내돈내산</td><td class="cnt">1</td><td class="nums">#03</td></tr><tr><td class="subc">└ 메인 슬로건</td><td class="cnt">1</td><td class="nums">#11</td></tr><tr><td class="subc">└ 키비주얼</td><td class="cnt">1</td><td class="nums">#13</td></tr><tr><td class="subc">└ 브랜드 무드</td><td class="cnt">1</td><td class="nums">#28</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 · 7장</td></tr><tr><td class="subc">└ 불편상황 나열</td><td class="cnt">5</td><td class="nums">#06, #08, #16, #18, #94</td></tr><tr><td class="subc">└ 기존 대안의 한계</td><td class="cnt">2</td><td class="nums">#20, #22</td></tr><tr class="majhead"><td colspan="3">핵심 차별점 · 6장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP · 6장</td></tr><tr><td class="subc">└ 한 줄 차별카피</td><td class="cnt">1</td><td class="nums">#10</td></tr><tr><td class="subc">└ N가지 핵심포인트</td><td class="cnt">2</td><td class="nums">#31, #32</td></tr><tr><td class="subc">└ 포지셔닝</td><td class="cnt">1</td><td class="nums">#34</td></tr><tr><td class="subc">└ 경쟁비교 우위</td><td class="cnt">2</td><td class="nums">#35, #37</td></tr><tr class="majhead"><td colspan="3">제품력 증명 · 84장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#3b82f6"></span>기능/구조 · 49장</td></tr><tr><td class="subc">└ 적용부위·시나리오</td><td class="cnt">12</td><td class="nums">#14, #46, #47, #49, #51, #53, #55, #57, #59, #90, #91, #96</td></tr><tr><td class="subc">└ 작동원리</td><td class="cnt">9</td><td class="nums">#24, #25, #26, #40, #41, #64, #65, #67, #72</td></tr><tr><td class="subc">└ 신·구 비교</td><td class="cnt">2</td><td class="nums">#36, #66</td></tr><tr><td class="subc">└ 소재·구조</td><td class="cnt">9</td><td class="nums">#39, #45, #78, #80, #81, #88, #98, #104, #105</td></tr><tr><td class="subc">└ 핵심기술(POINT넘버링)</td><td class="cnt">6</td><td class="nums">#43, #58, #60, #73, #84, #87</td></tr><tr><td class="subc">└ 모드·강도</td><td class="cnt">11</td><td class="nums">#61, #62, #68, #70, #74, #75, #76, #77, #85, #86, #89</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#059669"></span>효과-증명형 · 2장</td></tr><tr><td class="subc">└ before/after</td><td class="cnt">1</td><td class="nums">#30</td></tr><tr><td class="subc">└ 실험 데모</td><td class="cnt">1</td><td class="nums">#71</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#34d399"></span>효과-연출형 · 26장</td></tr><tr><td class="subc">└ 사용 상황컷</td><td class="cnt">18</td><td class="nums">#07, #09, #12, #15, #21, #23, #27, #38, #42, #44, #48, #50, #52, #54, #56, #69, #82, #102</td></tr><tr><td class="subc">└ 라이프스타일 연출</td><td class="cnt">7</td><td class="nums">#17, #19, #79, #93, #97, #99, #103</td></tr><tr><td class="subc">└ 스케일감</td><td class="cnt">1</td><td class="nums">#63</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#ec4899"></span>디자인 · 2장</td></tr><tr><td class="subc">└ 컬러·외관</td><td class="cnt">1</td><td class="nums">#92</td></tr><tr><td class="subc">└ 인테리어 어울림</td><td class="cnt">1</td><td class="nums">#95</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#14b8a6"></span>신뢰 · 5장</td></tr><tr><td class="subc">└ 정품·총판</td><td class="cnt">1</td><td class="nums">#01</td></tr><tr><td class="subc">└ 수상·판매량·1위</td><td class="cnt">1</td><td class="nums">#04</td></tr><tr><td class="subc">└ 후기·평점</td><td class="cnt">2</td><td class="nums">#29, #33</td></tr><tr><td class="subc">└ 인증·특허·성적서</td><td class="cnt">1</td><td class="nums">#107</td></tr><tr class="majhead"><td colspan="3">구매 유도 · 9장</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#64748b"></span>사용가이드 · 5장</td></tr><tr><td class="subc">└ 부위별·테크닉</td><td class="cnt">1</td><td class="nums">#83</td></tr><tr><td class="subc">└ 조작·충전·세척</td><td class="cnt">2</td><td class="nums">#100, #101</td></tr><tr><td class="subc">└ 사용법 STEP</td><td class="cnt">2</td><td class="nums">#108, #109</td></tr><tr class="midhead"><td colspan="3"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 · 4장</td></tr><tr><td class="subc">└ 구성품</td><td class="cnt">1</td><td class="nums">#110</td></tr><tr><td class="subc">└ 구매 FAQ</td><td class="cnt">1</td><td class="nums">#111</td></tr><tr><td class="subc">└ 스펙표</td><td class="cnt">1</td><td class="nums">#112</td></tr><tr><td class="subc">└ 배송·교환반품</td><td class="cnt">1</td><td class="nums">#113</td></tr></tbody></table></div>
 </div><script>
 const btns=[...document.querySelectorAll('.lg')];let active=new Set();
 btns.forEach(b=>b.onclick=()=>{const g=b.dataset.g;
  if(active.has(g)){active.delete(g);b.classList.add('off')}else{active.add(g);b.classList.remove('off')}
  if(!active.size)btns.forEach(x=>x.classList.remove('off'));
- document.querySelectorAll('.card').forEach(c=>c.classList.toggle('hide',active.size>0&&!active.has(c.dataset.group)));});
+ document.querySelectorAll('.card').forEach(c=>c.classList.toggle('hide',active.size>0&&!active.has(c.dataset.mid)));});
 </script></body></html>

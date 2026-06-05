@@ -15,7 +15,10 @@
       "thumb": "01.jpg",
       "group": "trust",
       "element": "정품·사칭주의",
-      "desc": "사칭채널 주의"
+      "desc": "사칭채널 주의",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "사칭채널 주의 — 정품·공식판매처 경고 성격"
     },
     {
       "idx": 2,
@@ -23,7 +26,10 @@
       "thumb": "02.jpg",
       "group": "trust",
       "element": "정품·공식판매",
-      "desc": "본사 공식 판매점"
+      "desc": "본사 공식 판매점",
+      "mid": "trust",
+      "sub": "official_dist",
+      "note_cls": "본사 공식 판매점 고지"
     },
     {
       "idx": 3,
@@ -31,7 +37,10 @@
       "thumb": "03.jpg",
       "group": "store",
       "element": "매장 공통 고지",
-      "desc": "자사몰 구매 혜택"
+      "desc": "자사몰 구매 혜택",
+      "mid": "store",
+      "sub": "coupon",
+      "note_cls": "자사몰 구매 혜택 — 쿠폰·적립 성격"
     },
     {
       "idx": 4,
@@ -39,7 +48,10 @@
       "thumb": "04.jpg",
       "group": "hook",
       "element": "셀럽 PICK",
-      "desc": "트렌드쇼퍼 조권 PICK — 누워서 푸는 피로회복"
+      "desc": "트렌드쇼퍼 조권 PICK — 누워서 푸는 피로회복",
+      "mid": "hook",
+      "sub": "model_celeb",
+      "note_cls": "트렌드쇼퍼 조권 PICK — 셀럽 모델컷"
     },
     {
       "idx": 5,
@@ -47,7 +59,10 @@
       "thumb": "05.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "누워서 사용"
+      "desc": "누워서 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "누워서 사용하는 사용 상황 연출 GIF"
     },
     {
       "idx": 6,
@@ -55,7 +70,10 @@
       "thumb": "06.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "누워서 사용"
+      "desc": "누워서 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "누워서 사용하는 사용 상황 연출 GIF (반복)"
     },
     {
       "idx": 7,
@@ -63,7 +81,10 @@
       "thumb": "07.jpg",
       "group": "value",
       "element": "효과·USP",
-      "desc": "목/어깨/등/허리/골반 — 올인원 10분"
+      "desc": "목/어깨/등/허리/골반 — 올인원 10분",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "목/어깨/등/허리/골반 올인원 10분 — N가지 핵심포인트 요약"
     },
     {
       "idx": 8,
@@ -71,7 +92,10 @@
       "thumb": "08.jpg",
       "group": "guide",
       "element": "사용가이드",
-      "desc": "올인원 사용 가이드"
+      "desc": "올인원 사용 가이드",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "올인원 사용 가이드 STEP"
     },
     {
       "idx": 9,
@@ -79,7 +103,10 @@
       "thumb": "09.jpg",
       "group": "trust",
       "element": "실적·입점",
-      "desc": "현장 증명 — 현대/스타필드/IPARK/AK"
+      "desc": "현장 증명 — 현대/스타필드/IPARK/AK",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "현대/스타필드/IPARK/AK 현장 입점 증명 — 판매량·입점 실적"
     },
     {
       "idx": 10,
@@ -87,7 +114,10 @@
       "thumb": "10.jpg",
       "group": "trust",
       "element": "실적·입점",
-      "desc": "올리브영 입점"
+      "desc": "올리브영 입점",
+      "mid": "trust",
+      "sub": "award",
+      "note_cls": "올리브영 입점 — 유통 채널 실적"
     },
     {
       "idx": 11,
@@ -95,7 +125,10 @@
       "thumb": "11.jpg",
       "group": "hook",
       "element": "후킹 카피",
-      "desc": "누워만 있어도 시원합니다"
+      "desc": "누워만 있어도 시원합니다",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "누워만 있어도 시원합니다 — 메인 후킹 카피"
     },
     {
       "idx": 12,
@@ -103,7 +136,10 @@
       "thumb": "12.jpg",
       "group": "value",
       "element": "제품 인트로·USP",
-      "desc": "하루 10분 올인원 바디케어"
+      "desc": "하루 10분 올인원 바디케어",
+      "mid": "value",
+      "sub": "oneline",
+      "note_cls": "하루 10분 올인원 바디케어 — 한줄 차별 카피"
     },
     {
       "idx": 13,
@@ -111,7 +147,10 @@
       "thumb": "13.jpg",
       "group": "feature",
       "element": "동작",
-      "desc": "대표동작01 A타입 경추 마사지"
+      "desc": "대표동작01 A타입 경추 마사지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "대표동작01 A타입 경추 마사지 — 적용 부위 시나리오"
     },
     {
       "idx": 14,
@@ -119,7 +158,10 @@
       "thumb": "14.jpg",
       "group": "feature",
       "element": "동작",
-      "desc": "대표동작02 B타입 요추 마사지"
+      "desc": "대표동작02 B타입 요추 마사지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "대표동작02 B타입 요추 마사지 — 적용 부위 시나리오"
     },
     {
       "idx": 15,
@@ -127,7 +169,10 @@
       "thumb": "15.jpg",
       "group": "feature",
       "element": "동작",
-      "desc": "대표동작03 C타입 림프절 마사지"
+      "desc": "대표동작03 C타입 림프절 마사지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "대표동작03 C타입 림프절 마사지 — 적용 부위 시나리오"
     },
     {
       "idx": 16,
@@ -135,7 +180,10 @@
       "thumb": "16.jpg",
       "group": "problem",
       "element": "문제제기",
-      "desc": "왜 필요할까 — 묵직한 피로감"
+      "desc": "왜 필요할까 — 묵직한 피로감",
+      "mid": "problem",
+      "sub": "pain",
+      "note_cls": "묵직한 피로감 — 불편 상황 나열"
     },
     {
       "idx": 17,
@@ -143,7 +191,10 @@
       "thumb": "17.jpg",
       "group": "value",
       "element": "효과·USP",
-      "desc": "누워서 딱 10분 근막/자세 교정"
+      "desc": "누워서 딱 10분 근막/자세 교정",
+      "mid": "value",
+      "sub": "points",
+      "note_cls": "누워서 10분 근막/자세 교정 — 핵심 가치 포인트"
     },
     {
       "idx": 18,
@@ -151,7 +202,10 @@
       "thumb": "18.jpg",
       "group": "trust",
       "element": "리뷰",
-      "desc": "리얼 후기 4.9/5"
+      "desc": "리얼 후기 4.9/5",
+      "mid": "trust",
+      "sub": "review",
+      "note_cls": "리얼 후기 4.9/5 — 후기·평점"
     },
     {
       "idx": 19,
@@ -159,7 +213,10 @@
       "thumb": "19.jpg",
       "group": "value",
       "element": "제품 인트로",
-      "desc": "뭉친 피로 이거 하나로 끝"
+      "desc": "뭉친 피로 이거 하나로 끝",
+      "mid": "hook",
+      "sub": "slogan",
+      "note_cls": "뭉친 피로 이거 하나로 끝 — 후킹 슬로건"
     },
     {
       "idx": 20,
@@ -167,7 +224,10 @@
       "thumb": "20.jpg",
       "group": "problem",
       "element": "타겟 페르소나",
-      "desc": "이런 분들이라면 꼭 필요"
+      "desc": "이런 분들이라면 꼭 필요",
+      "mid": "problem",
+      "sub": "persona",
+      "note_cls": "이런 분들이라면 꼭 필요 — 타겟 페르소나"
     },
     {
       "idx": 21,
@@ -175,7 +235,10 @@
       "thumb": "21.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "POINT01 부위/강도 3WAY 마사지"
+      "desc": "POINT01 부위/강도 3WAY 마사지",
+      "mid": "feature",
+      "sub": "mode",
+      "note_cls": "POINT01 부위/강도 3WAY 마사지 — 모드·강도"
     },
     {
       "idx": 22,
@@ -183,7 +246,10 @@
       "thumb": "22.jpg",
       "group": "feature",
       "element": "모드",
-      "desc": "POINT02 온몸 구석구석 3쉐입 돌기"
+      "desc": "POINT02 온몸 구석구석 3쉐입 돌기",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT02 3쉐입 돌기 — POINT 넘버링 핵심기술"
     },
     {
       "idx": 23,
@@ -191,7 +257,10 @@
       "thumb": "23.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "누워서 사용"
+      "desc": "누워서 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "누워서 사용 연출 GIF — 사용 상황컷"
     },
     {
       "idx": 24,
@@ -199,7 +268,10 @@
       "thumb": "24.jpg",
       "group": "feature",
       "element": "활용",
-      "desc": "관자놀이 괄사 마사지"
+      "desc": "관자놀이 괄사 마사지",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "관자놀이 괄사 마사지 — 적용 부위·시나리오"
     },
     {
       "idx": 25,
@@ -207,7 +279,10 @@
       "thumb": "25.jpg",
       "group": "feature",
       "element": "활용",
-      "desc": "5분 종아리 마사지(붓기)"
+      "desc": "5분 종아리 마사지(붓기)",
+      "mid": "feature",
+      "sub": "usecase",
+      "note_cls": "5분 종아리 마사지(붓기) — 적용 부위·시나리오"
     },
     {
       "idx": 26,
@@ -215,7 +290,10 @@
       "thumb": "26.jpg",
       "group": "feature",
       "element": "효과",
-      "desc": "눕기만 해도 경추~요추 집중"
+      "desc": "눕기만 해도 경추~요추 집중",
+      "mid": "feature",
+      "sub": "principle",
+      "note_cls": "눕기만 해도 경추~요추 집중 — 작동 원리 설명"
     },
     {
       "idx": 27,
@@ -223,7 +301,10 @@
       "thumb": "27.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "흉추"
+      "desc": "흉추",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "흉추 사용 연출 GIF — 부위별 사용 상황컷"
     },
     {
       "idx": 28,
@@ -231,7 +312,10 @@
       "thumb": "28.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "경추"
+      "desc": "경추",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "경추 사용 연출 GIF — 부위별 사용 상황컷"
     },
     {
       "idx": 29,
@@ -239,7 +323,10 @@
       "thumb": "29.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "요추"
+      "desc": "요추",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "요추 사용 연출 GIF — 부위별 사용 상황컷"
     },
     {
       "idx": 30,
@@ -247,7 +334,10 @@
       "thumb": "30.jpg",
       "group": "guide",
       "element": "사용가이드",
-      "desc": "사용 가이드"
+      "desc": "사용 가이드",
+      "mid": "guide",
+      "sub": "howto",
+      "note_cls": "사용 가이드 — STEP형 사용법"
     },
     {
       "idx": 31,
@@ -255,7 +345,10 @@
       "thumb": "31.jpg",
       "group": "feature",
       "element": "휴대",
-      "desc": "POINT03 포켓 사이즈 언제 어디서나"
+      "desc": "POINT03 포켓 사이즈 언제 어디서나",
+      "mid": "feature",
+      "sub": "tech",
+      "note_cls": "POINT03 포켓 사이즈 — POINT 넘버링 휴대성 기술 특징"
     },
     {
       "idx": 32,
@@ -263,7 +356,10 @@
       "thumb": "32.jpg",
       "group": "feature",
       "element": "활용",
-      "desc": "200% 활용 — 회사에서 틈틈이"
+      "desc": "200% 활용 — 회사에서 틈틈이",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "200% 활용 회사에서 틈틈이 — 라이프스타일 연출"
     },
     {
       "idx": 33,
@@ -271,7 +367,10 @@
       "thumb": "33.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "벽 활용"
+      "desc": "벽 활용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "벽 활용 사용 GIF — 사용 상황 연출"
     },
     {
       "idx": 34,
@@ -279,7 +378,10 @@
       "thumb": "34.jpg",
       "group": "feature",
       "element": "활용",
-      "desc": "헬스장 운동 후"
+      "desc": "헬스장 운동 후",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "헬스장 운동 후 사용 — 라이프스타일 연출"
     },
     {
       "idx": 35,
@@ -287,7 +389,10 @@
       "thumb": "35.jpg",
       "group": "feature",
       "element": "안전",
-      "desc": "POINT04 무해한 친환경 실리콘(안전성 테스트)"
+      "desc": "POINT04 무해한 친환경 실리콘(안전성 테스트)",
+      "mid": "feature",
+      "sub": "material",
+      "note_cls": "POINT04 친환경 실리콘 안전성 테스트 — 소재·구조"
     },
     {
       "idx": 36,
@@ -295,7 +400,10 @@
       "thumb": "36.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "머리 위 사용"
+      "desc": "머리 위 사용",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "머리 위 사용 — 사용 상황컷"
     },
     {
       "idx": 37,
@@ -303,7 +411,10 @@
       "thumb": "37.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "어깨/겨드랑이"
+      "desc": "어깨/겨드랑이",
+      "mid": "proof_lifestyle",
+      "sub": "situation",
+      "note_cls": "어깨/겨드랑이 사용 — 사용 상황컷"
     },
     {
       "idx": 38,
@@ -311,7 +422,10 @@
       "thumb": "38.jpg",
       "group": "proof",
       "element": "연출컷",
-      "desc": "연출"
+      "desc": "연출",
+      "mid": "proof_lifestyle",
+      "sub": "lifestyle",
+      "note_cls": "전반적 연출 — 라이프스타일 연출컷"
     },
     {
       "idx": 39,
@@ -319,7 +433,10 @@
       "thumb": "39.jpg",
       "group": "trust",
       "element": "보증",
-      "desc": "불만족 시 100% 환불"
+      "desc": "불만족 시 100% 환불",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "불만족 시 100% 환불 보증"
     },
     {
       "idx": 40,
@@ -327,7 +444,10 @@
       "thumb": "40.jpg",
       "group": "info",
       "element": "FAQ",
-      "desc": "자주 묻는 질문"
+      "desc": "자주 묻는 질문",
+      "mid": "info",
+      "sub": "faq_buy",
+      "note_cls": "자주 묻는 질문 — 구매 FAQ"
     },
     {
       "idx": 41,
@@ -335,7 +455,10 @@
       "thumb": "41.jpg",
       "group": "info",
       "element": "제품 스펙",
-      "desc": "제품 상세 정보(사이즈/무게/소재)"
+      "desc": "제품 상세 정보(사이즈/무게/소재)",
+      "mid": "info",
+      "sub": "spec",
+      "note_cls": "제품 상세 정보 사이즈/무게/소재 — 스펙표"
     },
     {
       "idx": 42,
@@ -343,7 +466,10 @@
       "thumb": "42.jpg",
       "group": "trust",
       "element": "신뢰·AS",
-      "desc": "바리바디 1년 무상 A/S"
+      "desc": "바리바디 1년 무상 A/S",
+      "mid": "trust",
+      "sub": "as",
+      "note_cls": "바리바디 1년 무상 A/S 보증"
     }
   ]
 }
