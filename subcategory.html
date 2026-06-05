@@ -1,0 +1,299 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>소분류 전체 집계</title><style>
+:root{font-family:-apple-system,'Apple SD Gothic Neo',sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:#0f172a;color:#e2e8f0}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
+a{color:#38bdf8;text-decoration:none}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:#94a3b8;font-size:13px;margin-bottom:20px}
+.panel{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;margin-bottom:20px}
+.panel h2{font-size:14px;margin:0 0 12px;color:#cbd5e1;letter-spacing:.3px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.majcluster{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:5px 9px;border:1px dashed #334155;border-radius:10px}
+.majcluster .mjl{font-size:11px;font-weight:800;letter-spacing:.3px;margin-right:2px}
+.lg{display:inline-flex;align-items:center;gap:6px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;
+  padding:6px 12px;border-radius:999px;font-size:12px;cursor:pointer;transition:.15s}
+.lg:hover{border-color:var(--c)} .lg.off{opacity:.3} .lg b{color:var(--c)}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.majbar{display:flex;height:22px;border-radius:7px;overflow:hidden;border:1px solid #334155;margin-bottom:8px}
+.majbar i{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#0b1220;min-width:0;overflow:hidden;white-space:nowrap}
+.majcap{display:flex;flex-wrap:wrap;gap:10px;color:#94a3b8;font-size:11px}
+.majcap span{display:inline-flex;align-items:center;gap:5px}
+.flow{display:flex;height:34px;border-radius:8px;overflow:hidden;border:1px solid #334155}
+.flow i{flex:1;display:block}
+.flowcap{display:flex;justify-content:space-between;color:#64748b;font-size:11px;margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.imgwrap{background:#0b1220}.imgwrap img{width:100%;display:block}
+.card .meta{padding:10px 12px}
+.num{font-size:12px;color:#64748b;font-weight:700;display:flex;align-items:center;gap:6px}
+.majtag{font-size:10px;font-weight:800;letter-spacing:.2px}
+.chip{display:inline-block;color:#fff;font-size:11px;padding:2px 8px;border-radius:6px;margin:6px 6px 4px 0;font-weight:600}
+.subt{font-size:11px;color:#cbd5e1;background:#0f172a;border:1px solid #334155;padding:1px 7px;border-radius:6px}
+.el{font-size:13.5px;font-weight:700;color:#f1f5f9;line-height:1.3;margin-top:4px}
+.desc{font-size:12px;color:#94a3b8;margin-top:3px;line-height:1.4}
+table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:7px 8px;border-bottom:1px solid #273449;text-align:left}
+.majhead td{background:#0b1220;font-weight:800;color:#f1f5f9;letter-spacing:.3px}
+.midhead td{background:#172033;font-weight:700;color:#cbd5e1}
+.subc{color:#cbd5e1;padding-left:18px}.cnt{color:#38bdf8;width:48px;font-weight:700}.nums{color:#64748b;font-size:12px}
+.hide{display:none!important}
+.minibar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-top:8px}
+.minibar i{display:block}
+.pcard{background:#1e293b;border:1px solid #334155;border-radius:12px;overflow:hidden}
+.pcard .cover{aspect-ratio:1/1;background:#0b1220;overflow:hidden}
+.pcard .cover img{width:100%;height:100%;object-fit:cover;display:block}
+.pcard .body{padding:12px 14px}
+.pcard .ttl{font-size:14px;font-weight:700;color:#f1f5f9;line-height:1.35}
+.pcard .ch{font-size:12px;color:#94a3b8;margin-top:3px}
+.cathead{font-size:16px;font-weight:800;margin:26px 0 12px;color:#f8fafc;display:flex;align-items:center;gap:8px}
+.cathead .badge{font-size:12px;color:#64748b;font-weight:600}
+.nav{display:flex;flex-wrap:wrap;gap:10px}
+.nav a{display:inline-flex;align-items:center;gap:7px;background:#0f172a;border:1px solid #334155;color:#e2e8f0;padding:11px 16px;border-radius:10px;font-size:14px;font-weight:600;transition:.15s}
+.nav a:hover{border-color:#38bdf8;color:#fff}
+.nav a b{color:#38bdf8;font-weight:800}
+
+.majh{font-size:16px;padding:4px 0 4px 12px;margin-bottom:8px}
+.midh{font-size:13.5px;font-weight:700;color:#cbd5e1;margin:14px 0 6px;display:flex;align-items:center;gap:7px}
+.subrow{display:grid;grid-template-columns:160px 130px 36px 1fr;align-items:center;gap:10px;padding:5px 6px;border-bottom:1px solid #273449}
+.subrow.zero{opacity:.4}
+.sname{font-size:12.5px;color:#e2e8f0}
+.sbar{height:10px;background:#0f172a;border-radius:5px;overflow:hidden} .sbar i{display:block;height:100%}
+.scnt{font-size:13px;font-weight:800;color:#38bdf8;text-align:right}
+.sprod{display:flex;flex-wrap:wrap;gap:5px}
+.pchip{font-size:11px;color:#cbd5e1;background:#0f172a;border:1px solid #334155;padding:1px 7px;border-radius:6px} .pchip b{color:#38bdf8}
+.pmore{font-size:11px;color:#64748b}
+.toprow{display:flex;align-items:center;gap:9px;padding:5px 0}
+.rk{width:20px;text-align:center;font-weight:800;color:#64748b;font-size:12px}
+.toprow .tn{font-size:13px;color:#f1f5f9} .tbar{flex:1;height:9px;background:#0f172a;border-radius:5px;overflow:hidden;max-width:280px} .tbar i{display:block;height:100%}
+.tcnt{font-size:12px;font-weight:700;color:#38bdf8;width:42px;text-align:right}
+@media(max-width:680px){.subrow{grid-template-columns:120px 1fr 30px;}.sprod{grid-column:1/-1}}
+</style></head><body><div class="wrap">
+<div class="sub"><a href="index.html">← 전체 목록</a> · <a href="compare.html">중분류 비교표</a></div>
+<h1>소분류 전체 집계 <span style="font-size:13px;color:#94a3b8">· 22개 제품 1033장 가로질러</span></h1>
+<div class="sub">소분류 55종 중 <b>55종</b> 사용됨. 막대 = 전체 등장 수, 칩 = 어느 제품이 몇 장 썼는지.</div>
+<div class="panel"><h2>🏆 가장 많이 쓰인 소분류 TOP 12</h2><div class="toprow"><span class="rk">1</span><span class="chip" style="background:#3b82f6">기능/구조</span><b class="tn">핵심기술(POINT넘버링)</b><span class="tbar"><i style="width:100%;background:#3b82f6"></i></span><span class="tcnt">88장</span></div><div class="toprow"><span class="rk">2</span><span class="chip" style="background:#3b82f6">기능/구조</span><b class="tn">작동원리</b><span class="tbar"><i style="width:84%;background:#3b82f6"></i></span><span class="tcnt">74장</span></div><div class="toprow"><span class="rk">3</span><span class="chip" style="background:#3b82f6">기능/구조</span><b class="tn">소재·구조</b><span class="tbar"><i style="width:78%;background:#3b82f6"></i></span><span class="tcnt">69장</span></div><div class="toprow"><span class="rk">4</span><span class="chip" style="background:#34d399">효과-연출형</span><b class="tn">사용 상황컷</b><span class="tbar"><i style="width:77%;background:#34d399"></i></span><span class="tcnt">68장</span></div><div class="toprow"><span class="rk">5</span><span class="chip" style="background:#3b82f6">기능/구조</span><b class="tn">모드·강도</b><span class="tbar"><i style="width:70%;background:#3b82f6"></i></span><span class="tcnt">62장</span></div><div class="toprow"><span class="rk">6</span><span class="chip" style="background:#14b8a6">신뢰</span><b class="tn">인증·특허·성적서</b><span class="tbar"><i style="width:53%;background:#14b8a6"></i></span><span class="tcnt">47장</span></div><div class="toprow"><span class="rk">7</span><span class="chip" style="background:#3b82f6">기능/구조</span><b class="tn">적용부위·시나리오</b><span class="tbar"><i style="width:51%;background:#3b82f6"></i></span><span class="tcnt">45장</span></div><div class="toprow"><span class="rk">8</span><span class="chip" style="background:#f59e0b">문제제기/타겟</span><b class="tn">불편상황 나열</b><span class="tbar"><i style="width:40%;background:#f59e0b"></i></span><span class="tcnt">35장</span></div><div class="toprow"><span class="rk">9</span><span class="chip" style="background:#64748b">사용가이드</span><b class="tn">사용법 STEP</b><span class="tbar"><i style="width:36%;background:#64748b"></i></span><span class="tcnt">32장</span></div><div class="toprow"><span class="rk">10</span><span class="chip" style="background:#14b8a6">신뢰</span><b class="tn">수상·판매량·1위</b><span class="tbar"><i style="width:35%;background:#14b8a6"></i></span><span class="tcnt">31장</span></div><div class="toprow"><span class="rk">11</span><span class="chip" style="background:#ef4444">후킹/인트로</span><b class="tn">키비주얼</b><span class="tbar"><i style="width:34%;background:#ef4444"></i></span><span class="tcnt">30장</span></div><div class="toprow"><span class="rk">12</span><span class="chip" style="background:#8b5cf6">핵심가치/USP</span><b class="tn">한 줄 차별카피</b><span class="tbar"><i style="width:26%;background:#8b5cf6"></i></span><span class="tcnt">23장</span></div></div>
+<div class="panel"><div class="majh" style="border-left:5px solid #94a3b8"><b style="color:#94a3b8">쇼핑 혜택·안내</b> · 63장</div><div class="midh"><span class="dot" style="background:#94a3b8"></span>매장공통/고지 · <b>63</b>장</div><div class="subrow">
+<div class="sname">└ 크로스셀·번들</div>
+<div class="sbar"><i style="width:21.6%;background:#94a3b8"></i></div>
+<div class="scnt">19</div>
+<div class="sprod"><span class="pchip">살림백서 세탁조클리너 <b>10</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>3</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 쿠폰·적립</div>
+<div class="sbar"><i style="width:15.9%;background:#94a3b8"></i></div>
+<div class="scnt">14</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>3</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>2</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>2</b></span> <span class="pchip">살림백서 세탁조클리너 <b>2</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>1</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span> <span class="pmore">외 1개</span></div></div><div class="subrow">
+<div class="sname">└ 공지사항</div>
+<div class="sbar"><i style="width:13.6%;background:#94a3b8"></i></div>
+<div class="scnt">12</div>
+<div class="sprod"><span class="pchip">풀리오 종아리 마사지기 V3 <b>2</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>2</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pmore">외 2개</span></div></div><div class="subrow">
+<div class="sname">└ 배송·오늘출발</div>
+<div class="sbar"><i style="width:11.4%;background:#94a3b8"></i></div>
+<div class="scnt">10</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pchip">닥터웰 에어웨이브 공기압 다리 마사지기 DR-5180 <b>1</b></span> <span class="pmore">외 2개</span></div></div><div class="subrow">
+<div class="sname">└ 리뷰 이벤트</div>
+<div class="sbar"><i style="width:5.7%;background:#94a3b8"></i></div>
+<div class="scnt">5</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>1</b></span> <span class="pchip">살림백서 세탁조클리너 <b>1</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 정품·공식판매처</div>
+<div class="sbar"><i style="width:3.4%;background:#94a3b8"></i></div>
+<div class="scnt">3</div>
+<div class="sprod"><span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>1</b></span> <span class="pchip">생활공작소 대용량 제습제(24개) <b>1</b></span></div></div></div><div class="panel"><div class="majh" style="border-left:5px solid #f97316"><b style="color:#f97316">눈길 끌기 & 공감</b> · 117장</div><div class="midh"><span class="dot" style="background:#ef4444"></span>후킹/인트로 · <b>56</b>장</div><div class="subrow">
+<div class="sname">└ 키비주얼</div>
+<div class="sbar"><i style="width:34.1%;background:#ef4444"></i></div>
+<div class="scnt">30</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>8</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>5</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>3</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>2</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pmore">외 8개</span></div></div><div class="subrow">
+<div class="sname">└ 메인 슬로건</div>
+<div class="sbar"><i style="width:15.9%;background:#ef4444"></i></div>
+<div class="scnt">14</div>
+<div class="sprod"><span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>3</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>2</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span> <span class="pmore">외 2개</span></div></div><div class="subrow">
+<div class="sname">└ 브랜드 무드</div>
+<div class="sbar"><i style="width:9.1%;background:#ef4444"></i></div>
+<div class="scnt">8</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">닥터웰 에어웨이브 공기압 다리 마사지기 DR-5180 <b>1</b></span> <span class="pchip">넥가드닥터 NG100 목 견인기 (현대메디칼) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 모델·셀럽컷</div>
+<div class="sbar"><i style="width:3.4%;background:#ef4444"></i></div>
+<div class="scnt">3</div>
+<div class="sprod"><span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 화제성·내돈내산</div>
+<div class="sbar"><i style="width:1.1%;background:#ef4444"></i></div>
+<div class="scnt">1</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span></div></div><div class="midh"><span class="dot" style="background:#f59e0b"></span>문제제기/타겟 · <b>61</b>장</div><div class="subrow">
+<div class="sname">└ 불편상황 나열</div>
+<div class="sbar"><i style="width:39.8%;background:#f59e0b"></i></div>
+<div class="scnt">35</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>11</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>5</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>3</b></span> <span class="pchip">살림백서 세탁조클리너 <b>2</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>2</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pmore">외 9개</span></div></div><div class="subrow">
+<div class="sname">└ 기존 대안의 한계</div>
+<div class="sbar"><i style="width:10.2%;background:#f59e0b"></i></div>
+<div class="scnt">9</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>5</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 브랜드 서사</div>
+<div class="sbar"><i style="width:9.1%;background:#f59e0b"></i></div>
+<div class="scnt">8</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>6</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 이런 분께 체크</div>
+<div class="sbar"><i style="width:6.8%;background:#f59e0b"></i></div>
+<div class="scnt">6</div>
+<div class="sprod"><span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>1</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>1</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 타겟 페르소나</div>
+<div class="sbar"><i style="width:3.4%;background:#f59e0b"></i></div>
+<div class="scnt">3</div>
+<div class="sprod"><span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>1</b></span></div></div></div><div class="panel"><div class="majh" style="border-left:5px solid #8b5cf6"><b style="color:#8b5cf6">핵심 차별점</b> · 70장</div><div class="midh"><span class="dot" style="background:#8b5cf6"></span>핵심가치/USP · <b>70</b>장</div><div class="subrow">
+<div class="sname">└ 한 줄 차별카피</div>
+<div class="sbar"><i style="width:26.1%;background:#8b5cf6"></i></div>
+<div class="scnt">23</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>5</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>3</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>3</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>2</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>2</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pmore">외 5개</span></div></div><div class="subrow">
+<div class="sname">└ N가지 핵심포인트</div>
+<div class="sbar"><i style="width:23.9%;background:#8b5cf6"></i></div>
+<div class="scnt">21</div>
+<div class="sprod"><span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>3</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>2</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>2</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pmore">외 7개</span></div></div><div class="subrow">
+<div class="sname">└ 경쟁비교 우위</div>
+<div class="sbar"><i style="width:12.5%;background:#8b5cf6"></i></div>
+<div class="scnt">11</div>
+<div class="sprod"><span class="pchip">밸롭 칼로링 지압슬리퍼 <b>3</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 포지셔닝</div>
+<div class="sbar"><i style="width:9.1%;background:#8b5cf6"></i></div>
+<div class="scnt">8</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>5</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 가성비</div>
+<div class="sbar"><i style="width:5.7%;background:#8b5cf6"></i></div>
+<div class="scnt">5</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">살림백서 세탁조클리너 <b>1</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 선물 제안</div>
+<div class="sbar"><i style="width:2.3%;background:#8b5cf6"></i></div>
+<div class="scnt">2</div>
+<div class="sprod"><span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span></div></div></div><div class="panel"><div class="majh" style="border-left:5px solid #3b82f6"><b style="color:#3b82f6">제품력 증명</b> · 643장</div><div class="midh"><span class="dot" style="background:#3b82f6"></span>기능/구조 · <b>354</b>장</div><div class="subrow">
+<div class="sname">└ 핵심기술(POINT넘버링)</div>
+<div class="sbar"><i style="width:100.0%;background:#3b82f6"></i></div>
+<div class="scnt">88</div>
+<div class="sprod"><span class="pchip">풀리오 종아리 마사지기 V3 <b>11</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>9</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>8</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>7</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>7</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>6</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>6</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>5</b></span> <span class="pmore">외 12개</span></div></div><div class="subrow">
+<div class="sname">└ 작동원리</div>
+<div class="sbar"><i style="width:84.1%;background:#3b82f6"></i></div>
+<div class="scnt">74</div>
+<div class="sprod"><span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>17</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>9</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>7</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>6</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>5</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>4</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>4</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>4</b></span> <span class="pmore">외 13개</span></div></div><div class="subrow">
+<div class="sname">└ 소재·구조</div>
+<div class="sbar"><i style="width:78.4%;background:#3b82f6"></i></div>
+<div class="scnt">69</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>9</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>8</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>7</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>7</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>5</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>5</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>4</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>4</b></span> <span class="pmore">외 11개</span></div></div><div class="subrow">
+<div class="sname">└ 모드·강도</div>
+<div class="sbar"><i style="width:70.5%;background:#3b82f6"></i></div>
+<div class="scnt">62</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>11</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>10</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>7</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>7</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>5</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>3</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>3</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>3</b></span> <span class="pmore">외 7개</span></div></div><div class="subrow">
+<div class="sname">└ 적용부위·시나리오</div>
+<div class="sbar"><i style="width:51.1%;background:#3b82f6"></i></div>
+<div class="scnt">45</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>12</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>9</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>5</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>5</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>2</b></span> <span class="pchip">닥터웰 에어웨이브 공기압 다리 마사지기 DR-5180 <b>2</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>2</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pmore">외 7개</span></div></div><div class="subrow">
+<div class="sname">└ 신·구 비교</div>
+<div class="sbar"><i style="width:18.2%;background:#3b82f6"></i></div>
+<div class="scnt">16</div>
+<div class="sprod"><span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>3</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>2</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>2</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>2</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pmore">외 2개</span></div></div><div class="midh"><span class="dot" style="background:#059669"></span>효과-증명형 · <b>37</b>장</div><div class="subrow">
+<div class="sname">└ 실험 데모</div>
+<div class="sbar"><i style="width:13.6%;background:#059669"></i></div>
+<div class="scnt">12</div>
+<div class="sprod"><span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>4</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>3</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>1</b></span> <span class="pchip">살림백서 세탁조클리너 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 임상·시험성적</div>
+<div class="sbar"><i style="width:10.2%;background:#059669"></i></div>
+<div class="scnt">9</div>
+<div class="sprod"><span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>7</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ before/after</div>
+<div class="sbar"><i style="width:9.1%;background:#059669"></i></div>
+<div class="scnt">8</div>
+<div class="sprod"><span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>4</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>2</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 수치·통계</div>
+<div class="sbar"><i style="width:9.1%;background:#059669"></i></div>
+<div class="scnt">8</div>
+<div class="sprod"><span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>4</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span></div></div><div class="midh"><span class="dot" style="background:#34d399"></span>효과-연출형 · <b>92</b>장</div><div class="subrow">
+<div class="sname">└ 사용 상황컷</div>
+<div class="sbar"><i style="width:77.3%;background:#34d399"></i></div>
+<div class="scnt">68</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>18</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>12</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>9</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>6</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>5</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>2</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>2</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>2</b></span> <span class="pmore">외 10개</span></div></div><div class="subrow">
+<div class="sname">└ 라이프스타일 연출</div>
+<div class="sbar"><i style="width:25.0%;background:#34d399"></i></div>
+<div class="scnt">22</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>7</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>3</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>3</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>2</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>2</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pmore">외 2개</span></div></div><div class="subrow">
+<div class="sname">└ 스케일감</div>
+<div class="sbar"><i style="width:2.3%;background:#34d399"></i></div>
+<div class="scnt">2</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>1</b></span></div></div><div class="midh"><span class="dot" style="background:#ec4899"></span>디자인 · <b>20</b>장</div><div class="subrow">
+<div class="sname">└ 컬러·외관</div>
+<div class="sbar"><i style="width:15.9%;background:#ec4899"></i></div>
+<div class="scnt">14</div>
+<div class="sprod"><span class="pchip">밸롭 칼로링 지압슬리퍼 <b>6</b></span> <span class="pchip">앳플리 T8 스마트 체성분 체중계 <b>1</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">닥터웰 에어웨이브 공기압 다리 마사지기 DR-5180 <b>1</b></span> <span class="pchip">생활공작소 대용량 제습제(24개) <b>1</b></span> <span class="pmore">외 1개</span></div></div><div class="subrow">
+<div class="sname">└ 인테리어 어울림</div>
+<div class="sbar"><i style="width:3.4%;background:#ec4899"></i></div>
+<div class="scnt">3</div>
+<div class="sprod"><span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>2</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 패키지</div>
+<div class="sbar"><i style="width:3.4%;background:#ec4899"></i></div>
+<div class="scnt">3</div>
+<div class="sprod"><span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pchip">넥가드닥터 NG100 목 견인기 (현대메디칼) <b>1</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>1</b></span></div></div><div class="midh"><span class="dot" style="background:#14b8a6"></span>신뢰 · <b>140</b>장</div><div class="subrow">
+<div class="sname">└ 인증·특허·성적서</div>
+<div class="sbar"><i style="width:53.4%;background:#14b8a6"></i></div>
+<div class="scnt">47</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>13</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>7</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>3</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>3</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>3</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>3</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>3</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>2</b></span> <span class="pmore">외 10개</span></div></div><div class="subrow">
+<div class="sname">└ 수상·판매량·1위</div>
+<div class="sbar"><i style="width:35.2%;background:#14b8a6"></i></div>
+<div class="scnt">31</div>
+<div class="sprod"><span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>5</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>4</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>3</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>3</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>3</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>2</b></span> <span class="pchip">생활공작소 대용량 제습제(24개) <b>2</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pmore">외 8개</span></div></div><div class="subrow">
+<div class="sname">└ 전문가 검증</div>
+<div class="sbar"><i style="width:21.6%;background:#14b8a6"></i></div>
+<div class="scnt">19</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>5</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>4</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>3</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>2</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>2</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">넥가드닥터 NG100 목 견인기 (현대메디칼) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 정품·총판</div>
+<div class="sbar"><i style="width:19.3%;background:#14b8a6"></i></div>
+<div class="scnt">17</div>
+<div class="sprod"><span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>3</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>2</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>2</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>2</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pmore">외 3개</span></div></div><div class="subrow">
+<div class="sname">└ A/S·환불 보증</div>
+<div class="sbar"><i style="width:13.6%;background:#14b8a6"></i></div>
+<div class="scnt">12</div>
+<div class="sprod"><span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>3</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>2</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>2</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 후기·평점</div>
+<div class="sbar"><i style="width:11.4%;background:#14b8a6"></i></div>
+<div class="scnt">10</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">살림백서 세탁조클리너 <b>2</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>2</b></span> <span class="pchip">닥터웰 에어웨이브 공기압 다리 마사지기 DR-5180 <b>1</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>1</b></span> <span class="pchip">생활공작소 대용량 제습제(24개) <b>1</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ CSR·기부</div>
+<div class="sbar"><i style="width:4.5%;background:#14b8a6"></i></div>
+<div class="scnt">4</div>
+<div class="sprod"><span class="pchip">넥가드닥터 NG100 목 견인기 (현대메디칼) <b>3</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>1</b></span></div></div></div><div class="panel"><div class="majh" style="border-left:5px solid #0ea5e9"><b style="color:#0ea5e9">구매 유도</b> · 140장</div><div class="midh"><span class="dot" style="background:#64748b"></span>사용가이드 · <b>58</b>장</div><div class="subrow">
+<div class="sname">└ 사용법 STEP</div>
+<div class="sbar"><i style="width:36.4%;background:#64748b"></i></div>
+<div class="scnt">32</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>2</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>2</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>2</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>2</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>2</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>2</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>2</b></span> <span class="pmore">외 12개</span></div></div><div class="subrow">
+<div class="sname">└ 조작·충전·세척</div>
+<div class="sbar"><i style="width:12.5%;background:#64748b"></i></div>
+<div class="scnt">11</div>
+<div class="sprod"><span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>2</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>2</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>2</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>1</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>1</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 부위별·테크닉</div>
+<div class="sbar"><i style="width:11.4%;background:#64748b"></i></div>
+<div class="scnt">10</div>
+<div class="sprod"><span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>6</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">넥가드닥터 NG100 목 견인기 (현대메디칼) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 사용 FAQ</div>
+<div class="sbar"><i style="width:5.7%;background:#64748b"></i></div>
+<div class="scnt">5</div>
+<div class="sprod"><span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>2</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>1</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>1</b></span></div></div><div class="midh"><span class="dot" style="background:#0ea5e9"></span>구매정보/스펙 · <b>82</b>장</div><div class="subrow">
+<div class="sname">└ 스펙표</div>
+<div class="sbar"><i style="width:25.0%;background:#0ea5e9"></i></div>
+<div class="scnt">22</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>3</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>3</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>2</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>2</b></span> <span class="pchip">미락 진공쌀통 (3세대, 집들이선물) <b>2</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pmore">외 7개</span></div></div><div class="subrow">
+<div class="sname">└ 주의사항·고시</div>
+<div class="sbar"><i style="width:20.5%;background:#0ea5e9"></i></div>
+<div class="scnt">18</div>
+<div class="sprod"><span class="pchip">밸롭 칼로링 지압슬리퍼 <b>3</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>3</b></span> <span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>2</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>2</b></span> <span class="pchip">살림백서 세탁조클리너 <b>2</b></span> <span class="pchip">한일 LED 회전형 원버튼 전기모기채 V2 <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pmore">외 3개</span></div></div><div class="subrow">
+<div class="sname">└ 구매 FAQ</div>
+<div class="sbar"><i style="width:14.8%;background:#0ea5e9"></i></div>
+<div class="scnt">13</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>1</b></span> <span class="pchip">풀리오 목어깨 두드림 마사지기 V3 (선물SET) <b>1</b></span> <span class="pchip">리칼지메디 써마드PLX 발 마사지기 <b>1</b></span> <span class="pchip">풀리오 종아리 마사지기 V3 <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">바리바디 올인원 마사지기 <b>1</b></span> <span class="pchip">바리바디 손목 마사지기 (EMS/TENS/온열) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span> <span class="pmore">외 5개</span></div></div><div class="subrow">
+<div class="sname">└ 구성품</div>
+<div class="sbar"><i style="width:13.6%;background:#0ea5e9"></i></div>
+<div class="scnt">12</div>
+<div class="sprod"><span class="pchip">벤딕트 무선 에어건 마하1 (송풍기) <b>8</b></span> <span class="pchip">코지마 종아리 다리마사지기 리에너 CML-102WL <b>2</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span> <span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 옵션·구성 선택</div>
+<div class="sbar"><i style="width:12.5%;background:#0ea5e9"></i></div>
+<div class="scnt">11</div>
+<div class="sprod"><span class="pchip">닥터웰 에어웨이브 공기압 다리 마사지기 DR-5180 <b>3</b></span> <span class="pchip">넥가드닥터 NG100 목 견인기 (현대메디칼) <b>3</b></span> <span class="pchip">밸롭 칼로링 지압슬리퍼 <b>2</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>2</b></span> <span class="pchip">바로랩 텐스온 손목 마사지기 (TENS+EMS) <b>1</b></span></div></div><div class="subrow">
+<div class="sname">└ 배송·교환반품</div>
+<div class="sbar"><i style="width:6.8%;background:#0ea5e9"></i></div>
+<div class="scnt">6</div>
+<div class="sprod"><span class="pchip">클렌하임 바디탭 라인 마사지기 <b>1</b></span> <span class="pchip">바리바디 릴렉스틱 (마사지 롤러) <b>1</b></span> <span class="pchip">바리바디 허리 마사지기 (EMS 벨트) <b>1</b></span> <span class="pchip">큐폴드 접이식 카트 맥스(폴딩 손수레) <b>1</b></span> <span class="pchip">더티린넨 인도어이슈 고체 탈취제 <b>1</b></span> <span class="pchip">유로블루플러스 차량용 요소수 10L (+워셔액 번들) <b>1</b></span></div></div></div>
+</div></body></html>
